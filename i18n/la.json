@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "lang": "la",
+    "dir": "ltr",
+    "title": "Missiones Expeditae | IzignaMX",
+    "description": "Missiones SOS ad Shopify, BigCommerce, WordPress intra 24-72 horas excolendas. Facies futuristicae ad veras conversiones directa cura.",
+    "ogTitle": "Missiones Expeditae | IzignaMX",
+    "ogDescription": "Mercatum tuum ad futurum impelle: emendationes celeres, augmentum celeritatis, checkout perfectum infra 72 horas."
+  },
+  "header": {
+    "badge": "72h aut minus",
+    "message": "Missiones expeditae pro tabernis Shopify, BigCommerce, WordPress • Praelatio ad lancementa et venditiones urgentes"
+  },
+  "nav": {
+    "services": "Ministeria",
+    "process": "Processus",
+    "impact": "Effectus",
+    "faq": "FAQ",
+    "contact": "Scribe mihi",
+    "book": "Reserva intra 24h",
+    "languageLabel": "Linguam selige"
+  },
+  "hero": {
+    "kicker": "Missiones eCommerce expeditae",
+    "title": "Remedia futuristica quae vectigalia celeriter restituunt.",
+    "lead": "Shopify, BigCommerce, WordPress in performantia, checkout, UX expolio, ut conversiones redeant sine interminis sprintibus. Traditio intra 24-72 horas cum cura chirurgica et relationibus exsequendis.",
+    "bullets": [
+      "Designatio immersiva et microanimationes fiduciam retinentiamque augent.",
+      "Auditio et roadmap visualis includuntur: indices ante/post et consilium conservationis.",
+      "Commercium directum mecum per WhatsApp et Notion Liveboard — nulli mediarii."
+    ],
+    "primaryCta": "Missionem reserva",
+    "secondaryCta": "Paccata inspice",
+    "metrics": {
+      "delivery": "Medium tempus",
+      "checkout": "Checkout emendati",
+      "satisfaction": "Satisfactio clientium"
+    },
+    "panel": {
+      "title": "Tabula missionis in actu",
+      "subtitle": "Recognitio in ROI versa et puncta critica soluta:",
+      "items": [
+        { "label": "Core Web Vitals", "status": "+42%" },
+        { "label": "Attritus checkout", "status": "-65%" },
+        { "label": "Fiducia visualis", "status": "Gradus A+" }
+      ]
+    },
+    "chips": {
+      "launch": { "title": "Modus lancementi", "body": "Parata in 36h" },
+      "ai": { "title": "UX ope AI", "body": "Argumenta agenda + copia" }
+    }
+  },
+  "services": {
+    "sectionLabel": "Ministeria expedita",
+    "sectionTitle": "Elige missionem aptissimam necessitati tuae.",
+    "sectionDescription": "Quisque paccatum fert roadmap visualem, probationem securitatis et sessionem traditionis. Mixturam vis? Deliverabilia sine occultis sumptibus compono.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "SOS de perfomantia + UI",
+        "summary": "Velocitas subtiliter curatur, conflictus app dissolvuntur, experientia emptionis reficitur. Inclusa est species responsiva futuristica.",
+        "bullets": [
+          "Diagnostica Lighthouse cum commentariis",
+          "Refactor levis sectionum criticorum et hero animatus",
+          "Insignia fiduciae et moduli nativi instalantur"
+        ],
+        "price": "Ab 1 200 MXN",
+        "duration": "Traditio 24-48h",
+        "cta": "Reserva"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Hardening + purgatio futuristica",
+        "summary": "Securitas roboratur, plugin deterguntur, landing princeps cum elementis glow confidens redesignatur.",
+        "bullets": [
+          "Scrutinium malware, backup, reinstallatio tuta",
+          "Hero et formae cum probationibus UX refinguntur",
+          "Tabula visualis ad gubernationem renovationum"
+        ],
+        "price": "Ab 1 500 MXN",
+        "duration": "Traditio 48-72h",
+        "cta": "Reserva"
+      },
+      "audit": {
+        "tag": "UX + Celeritas",
+        "title": "Auditio Flash 360°",
+        "summary": "Paginam clavem per chartas caloris simulatas, indicem Core Web Vitals et prototypum interactivum cum motibus suggerendis exploramus.",
+        "bullets": [
+          "Checklist praeferentialis (impactus vs labor)",
+          "Mockup Figma cum animationibus commendatis",
+          "Consilium experimentorum A/B et scriptum paratum"
+        ],
+        "price": "Ab 1 200 MXN",
+        "duration": "Traditio 48h",
+        "cta": "Reserva"
+      },
+      "checkout": {
+        "tag": "Checkout",
+        "title": "Checkout Review + Fixes",
+        "summary": "Puncta dispersionis reperiuntur et usque ad tres celeres emendationes applicantur: microcopy, probationes, status oneris genere fintech.",
+        "bullets": [
+          "Sessio observandi et mapa frictionis in tempore reali",
+          "Loader futuristica et UI fiduciae",
+          "Probationes campi in desktop et mobili"
+        ],
+        "price": "Ab 1 800 MXN",
+        "duration": "Traditio 48-72h",
+        "cta": "Reserva"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Effectus tangibiles",
+    "sectionTitle": "Forma sola non sufficit: singula traditio metricas et experimenta affert.",
+    "sectionDescription": "Cruscina velocitatis conecto, comparationes ante/post colligo et automatismos relinquo ad regressionem deprehendendam. Clientes discrimen sentiunt ab initio scrolli.",
+    "stats": [
+      { "description": "Tabernae ultimo anno elevatae cum meliorationibus manifestis in checkout et narratione." },
+      { "description": "Numerus mediocris frictionum per propositum solvitarum; relatio video-walkthrough includit." },
+      { "description": "Experimenta A/B statim parata; hypotheses, materia et dux validationis traduntur." },
+      { "description": "Clientes qui missionem repetunt aut servitium UX menstruum seligunt." }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Modus operandi",
+    "sectionTitle": "Processus fulmineus sine bureaucratia, ad urgentia factus.",
+    "sectionDescription": "Tractos UX/UI, performantiam, communicationem parallelos ago. In tabula viva Notion statum et metrics cotidie renovantur.",
+    "steps": [
+      {
+        "title": "Brevis tacticus intra 20 minuta",
+        "description": "Vocatio vel nota vocis; hypotheses, accessus, indices criticos definimus. Nulla slide — statim ad mapam operis."
+      },
+      {
+        "title": "Scansio + protoboard futuristica",
+        "description": "Auditio technica, benchmark visuale, prototypum Figma cliccabile cum motibus suadendis."
+      },
+      {
+        "title": "Executio modularis",
+        "description": "Componentes codifico, assetas glow effectu optimizo, microinteractiones et probationes configuro."
+      },
+      {
+        "title": "Handoff + consilium incrementi",
+        "description": "Relatio ante/post, videos Loom, checklist conservandi et experimenta sequentia.
+"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Testimonia",
+    "sectionTitle": "Qui modum SOS elegerunt nunc interfaciem gradus superioris ostendunt.",
+    "sectionDescription": "Singula missio cum sequela septem dierum datur ut indices stabiles maneant.",
+    "quotes": [
+      {
+        "text": "“Binnen 48 horis checkout noster e canaliculo asperitati ad experientiam curatam transiit. Animationes fiduciam pepererunt et conversiones mobiles 23% creverunt.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Relatio ante/post convincens fuit: velocitas, securitas, narratio visualis. Edgar omnia per Notion et Slack sine strepitu moderatus est. Singulis trimestribus redibimus.”",
+        "author": "Angelus G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Tractus sustentationis"
+      },
+      {
+        "text": "“Auditio Flash statim claritatem attulit. Animationes cum scriptis praeparatis accepimus; minus quam uno sprinte deploy fecimus. Nunc fluxum toti loco replicamus.”",
+        "author": "Maria P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ futuristica",
+    "sectionTitle": "Quid ante missionem scire oporteat.",
+    "sectionDescription": "Si quaestio restat, vocem WhatsApp mitte et statim respondebo.",
+    "items": [
+      {
+        "question": "Quid requiritur ut infra 24 horas incipiam?",
+        "answer": "Accessus temporarius ad admin, analytics, locum una cum finibus claris (venditiones, leads, stabilitas). Ex his mapam operum paro et tempus traditionis confirmo."
+      },
+      {
+        "question": "Inclusa est executio an tantum consilia?",
+        "answer": "Singulum paccatum intra ambitum fixas includit. Si maior campus appareat, add-on expeditum cum horis certis propono — nullae insidiae."
+      },
+      {
+        "question": "Quomodo augmentum conversionum probatur?",
+        "answer": "Tabulas cum eventibus clavibus comparo, KPI definio et scripts pro testibus A/B trado. Adest etiam sequela septem dierum cum subtili adaptatione si opus est."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Paratusne es ut eCommerce tuus futurum referat — et convertat?",
+    "body": "Communica quid sit tua urgentia et tempus mecum reserva. Gratis video-diagnosin cum ideis immediatis accipies.",
+    "primary": "Diagnosin pete",
+    "secondary": "Breviarium per email mitte"
+  },
+  "footer": {
+    "note": "IzignaMX · Missiones expeditae 24-72h · Factum in Civitate Mexici • Lata ministeria LATAM / USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Colloquere cum Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Missiones%20expeditae%20-%20petitio",
+    "navWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20missionem%20SOS%20incipere%20cupio%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20hac%20hebdomade%20missionem%20expeditam%20reservare%20volo%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20SOS%20pro%20Shopify%20vel%20BigCommerce%20indigeo%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20hardening%20futuristicum%20pro%20WordPress%20cupio%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20Flash%20Audit%20360%20desidero%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20Checkout%20Review%20cum%20fixis%20quaeso%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20diagnosin%20futuristicam%20mitte%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Missiones%20expeditae%20-%20breviter",
+    "floatingWa": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20ex%20pagina%20tua%20futuristica%20SOS%20venio%2E"
+  }
+}

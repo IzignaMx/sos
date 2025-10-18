@@ -207,6 +207,17 @@
     .lang-flag--zh::after{content:\"\";position:absolute;left:18%;top:32%;width:0;height:0;border-style:solid;border-width:3.5px 3.5px 3.5px 0;border-color:transparent #ffde00 transparent transparent;}
     .lang-flag--ar{background-image:linear-gradient(180deg,#007a3d 0 33%,#fff 33% 66%,#000 66%);}
     .lang-flag--ar::before{content:\"\";position:absolute;left:-2px;top:50%;transform:translateY(-50%);border-style:solid;border-width:7px 8px 7px 0;border-color:transparent #ce1126 transparent transparent;}
+    .lang-flag--ru{background-image:linear-gradient(180deg,#fff 0 33%,#0039a6 33% 66%,#d52b1e 66%);}
+    .lang-flag--tr{background:#e30a17;}
+    .lang-flag--tr::before{content:"";position:absolute;left:5px;top:50%;transform:translateY(-50%);width:8px;height:8px;border-radius:50%;background:#fff;}
+    .lang-flag--tr::after{content:"";position:absolute;left:7px;top:50%;transform:translateY(-50%);width:8px;height:8px;border-radius:50%;background:#e30a17;box-shadow:-4px 0 0 0 #fff;}
+    .lang-flag--hi{background-image:linear-gradient(180deg,#ff9933 0 33%,#fff 33% 66%,#138808 66%);}
+    .lang-flag--hi::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:6px;height:6px;border:1px solid #1a4ba0;border-radius:50%;}
+    .lang-flag--ko{background:#fff;}
+    .lang-flag--ko::before{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:12px;height:12px;border-radius:50%;background:linear-gradient(180deg,#cd2e3a 0 50%,#0047a0 50%);}
+    .lang-flag--la{background-image:linear-gradient(90deg,#ffd100 0 50%,#ffffff 50%);}
+    .lang-flag--eo{background:#009b48;}
+    .lang-flag--eo::before{content:"";position:absolute;left:3px;top:3px;width:6px;height:6px;background:#fff;clip-path:polygon(50% 0%,63% 35%,100% 38%,71% 60%,82% 100%,50% 78%,18% 100%,29% 60%,0% 38%,37% 35%);}
     .lang-selector__label{font-size:13px;font-weight:600;color:var(--txt);}
     .lang-selector__text{font-size:13px;font-weight:600;}
     .sr-only{
@@ -663,6 +674,12 @@
             <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="ja" tabindex="-1" lang="ja"><span class="lang-flag lang-flag--ja" aria-hidden="true"></span><span class="lang-selector__text">日本語</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
             <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="zh" tabindex="-1" lang="zh"><span class="lang-flag lang-flag--zh" aria-hidden="true"></span><span class="lang-selector__text">中文</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
             <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="ar" tabindex="-1" lang="ar" dir="rtl"><span class="lang-flag lang-flag--ar" aria-hidden="true"></span><span class="lang-selector__text">العربية</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
+            <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="ru" tabindex="-1" lang="ru"><span class="lang-flag lang-flag--ru" aria-hidden="true"></span><span class="lang-selector__text">Русский</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
+            <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="tr" tabindex="-1" lang="tr"><span class="lang-flag lang-flag--tr" aria-hidden="true"></span><span class="lang-selector__text">Türkçe</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
+            <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="hi" tabindex="-1" lang="hi"><span class="lang-flag lang-flag--hi" aria-hidden="true"></span><span class="lang-selector__text">हिन्दी</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
+            <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="ko" tabindex="-1" lang="ko"><span class="lang-flag lang-flag--ko" aria-hidden="true"></span><span class="lang-selector__text">한국어</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
+            <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="la" tabindex="-1" lang="la"><span class="lang-flag lang-flag--la" aria-hidden="true"></span><span class="lang-selector__text">Latina</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
+            <li><button type="button" role="menuitemradio" aria-checked="false" class="lang-selector__option" data-lang-option="eo" tabindex="-1" lang="eo"><span class="lang-flag lang-flag--eo" aria-hidden="true"></span><span class="lang-selector__text">Esperanto</span><span class="lang-selector__check" aria-hidden="true">●</span></button></li>
           </ul>
           <select id="lang-switch" class="lang-switch sr-only" aria-hidden="true" tabindex="-1" data-language aria-label="Selecciona idioma" title="Selecciona idioma" data-i18n-attrs="aria-label:nav.languageLabel,title:nav.languageLabel">
             <option value="es">es</option>
@@ -674,6 +691,12 @@
             <option value="ja">ja</option>
             <option value="zh">zh</option>
             <option value="ar">ar</option>
+            <option value="ru">ru</option>
+            <option value="tr">tr</option>
+            <option value="hi">hi</option>
+            <option value="ko">ko</option>
+            <option value="la">la</option>
+            <option value="eo">eo</option>
           </select>
         </div>
         <div class="nav__cta">
@@ -957,7 +980,13 @@
         it: { label: 'Italiano', flagClass: 'lang-flag--it' },
         ja: { label: '日本語', flagClass: 'lang-flag--ja' },
         zh: { label: '中文', flagClass: 'lang-flag--zh' },
-        ar: { label: 'العربية', flagClass: 'lang-flag--ar' }
+        ar: { label: 'العربية', flagClass: 'lang-flag--ar' },
+        ru: { label: 'Русский', flagClass: 'lang-flag--ru' },
+        tr: { label: 'Türkçe', flagClass: 'lang-flag--tr' },
+        hi: { label: 'हिन्दी', flagClass: 'lang-flag--hi' },
+        ko: { label: '한국어', flagClass: 'lang-flag--ko' },
+        la: { label: 'Latina', flagClass: 'lang-flag--la' },
+        eo: { label: 'Esperanto', flagClass: 'lang-flag--eo' }
       };
       const supportedLangs = Object.keys(languageMap);
       const storageKey = 'sos-lang';

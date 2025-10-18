@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "lang": "tr",
+    "dir": "ltr",
+    "title": "Ekspres Görevler | IzignaMX",
+    "description": "Shopify, BigCommerce ve WordPress'i 24-72 saatte optimize eden SOS görevleri. Gerçek dönüşümleri hedefleyen futuristik arayüzler.",
+    "ogTitle": "Ekspres Görevler | IzignaMX",
+    "ogDescription": "Mağazanızı 72 saatten kısa sürede geleceğe taşıyın: ekspres düzeltmeler, performans artışı ve optimize checkout deneyimleri."
+  },
+  "header": {
+    "badge": "72 saat veya daha az",
+    "message": "Shopify, BigCommerce ve WordPress mağazaları için ekspres görevler • Lansmanlar ve acil kampanyalara öncelik"
+  },
+  "nav": {
+    "services": "Hizmetler",
+    "process": "Süreç",
+    "impact": "Sonuçlar",
+    "faq": "SSS",
+    "contact": "E-posta gönder",
+    "book": "24 saatte rezervasyon",
+    "languageLabel": "Dil seçin"
+  },
+  "hero": {
+    "kicker": "Ekspres e-ticaret görevleri",
+    "title": "Satışları rekor sürede kurtaran futuristik çözümler.",
+    "lead": "Shopify, BigCommerce ve WordPress üzerinde performans, checkout ve UX'i optimize ediyorum; uzun sprintler olmadan dönüşümlerin geri gelmesini sağlıyorum. 24-72 saat içinde teslim, cerrahi odak ve uygulanabilir raporlarla.",
+    "bullets": [
+      "Güveni ve elde tutmayı artıran immersif tasarım ve mikro animasyonlar.",
+      "Denetim ve görsel yol haritası dahildir: önce/sonra metrikleri ve bakım planı.",
+      "WhatsApp ve Notion Liveboard üzerinden doğrudan benimle iletişim — aracı yok."
+    ],
+    "primaryCta": "Görev ayır",
+    "secondaryCta": "Paketleri gör",
+    "metrics": {
+      "delivery": "Ortalama teslim",
+      "checkout": "Optimize checkout sayısı",
+      "satisfaction": "Müşteri memnuniyeti"
+    },
+    "panel": {
+      "title": "Aktif görev paneli",
+      "subtitle": "ROI odaklı inceleme ve kapatılan kritik noktalar:",
+      "items": [
+        { "label": "Core Web Vitals", "status": "+42%" },
+        { "label": "Checkout sürtünmesi", "status": "-65%" },
+        { "label": "Görsel güven", "status": "A+ seviyesi" }
+      ]
+    },
+    "chips": {
+      "launch": { "title": "Lansman modu", "body": "36 saatte yayına hazır" },
+      "ai": { "title": "Yapay zekâ destekli UX", "body": "Aksiyon alınabilir içgörüler + metin" }
+    }
+  },
+  "services": {
+    "sectionLabel": "Ekspres hizmetler",
+    "sectionTitle": "Aciliyetinize en uygun görevi seçin.",
+    "sectionDescription": "Her paket görsel yol haritası, güvenlik kontrolü ve handoff oturumu ile gelir. Hibrit bir kurguya mı ihtiyacınız var? Teslim kalemlerini sürpriz ücret olmadan birleştiririm.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Performans + UI SOS",
+        "summary": "Hız optimizasyonu, uygulama çatışmalarının çözümü ve alışveriş deneyimi yenilemesi. Gelecek tonunda responsive bir görünüm içerir.",
+        "bullets": [
+          "Notlu Lighthouse raporu",
+          "Kritik bölümlerin hafif refaktörü ve animasyonlu hero",
+          "Güven rozeti ve yerel modallerin uygulanması"
+        ],
+        "price": "1.200 MXN'den itibaren",
+        "duration": "Teslim 24-48h",
+        "cta": "Rezervasyon yap"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Futuristik hardening + temizlik",
+        "summary": "Güvenlik güçlendirme, eklenti temizliği ve güven uyandıran glow bileşenleriyle ana landing yeniden tasarımı.",
+        "bullets": [
+          "Kötü amaçlı kod taraması, yedek alma ve güvenli kurulum",
+          "Hero ve formların UX doğrulamalı yeniden kablolaması",
+          "Güncellemeler için görsel kontrol paneli"
+        ],
+        "price": "1.500 MXN'den itibaren",
+        "duration": "Teslim 48-72h",
+        "cta": "Rezervasyon yap"
+      },
+      "audit": {
+        "tag": "UX + hız",
+        "summary": "Simüle ısı haritaları, Core Web Vitals kontrol listesi ve önerilen mikro animasyonlara sahip etkileşimli prototiple kritik sayfayı derinlemesine inceliyorum.",
+        "title": "Flash Denetim 360°",
+        "bullets": [
+          "Önceliklendirilmiş checklist (etki / çaba)",
+          "Önerilen animasyonlu Figma mockup'ları",
+          "A/B deneyi planı ve hazır scriptler"
+        ],
+        "price": "1.200 MXN'den itibaren",
+        "duration": "Teslim 48h",
+        "cta": "Rezervasyon yap"
+      },
+      "checkout": {
+        "tag": "Checkout",
+        "title": "Checkout Review + Fixes",
+        "summary": "Kaçış noktalarını tespit eder ve üç hızlı iyileştirme uygularım: mikro metinler, doğrulamalar ve fintech esintili yüklenme durumları.",
+        "bullets": [
+          "Canlı friction haritası ile watching oturumu",
+          "Futuristik loader ve güven UI'ı",
+          "Masaüstü ve mobil saha testleri"
+        ],
+        "price": "1.800 MXN'den itibaren",
+        "duration": "Teslim 48-72h",
+        "cta": "Rezervasyon yap"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Somut sonuçlar",
+    "sectionTitle": "Havalı görünüm yetmez: her teslim metrikler ve deney önerileriyle gelir.",
+    "sectionDescription": "Hız panellerini bağlar, önce/sonra karşılaştırmaları kaydeder ve regresyonları yakalamak için otomasyonlar bırakırım. Fark ilk scroll'da hissedilir.",
+    "stats": [
+      { "description": "Son 12 ayda checkout ve hikaye anlatımında gözle görülür artış yaşayan mağaza sayısı." },
+      { "description": "Proje başına ortalama giderilen sürtünme noktası; raporda video walkthrough mevcut." },
+      { "description": "Lansmana hazır A/B deneyleri. Hipotez, asset ve doğrulama rehberi sunulur." },
+      { "description": "Görevi tekrarlayan ya da aylık UX bakımına geçen müşterilerin oranı." }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Nasıl çalışıyorum",
+    "sectionTitle": "Acil durumlar için tasarlanan lightning süreç — bürokrasi yok.",
+    "sectionDescription": "UX/UI, performans ve iletişimi paralel yürütüyorum. Notion canlı panosu ile görev durumlarını ve metrikleri anlık görüyorsunuz.",
+    "steps": [
+      {
+        "title": "20 dakikalık taktik brifing",
+        "description": "Arama veya sesli mesajla hipotez, erişimler ve kritik göstergeleri netleştiriyoruz. Sunum yok, direkt aksiyon haritası."
+      },
+      {
+        "title": "Futuristik tarama + protoboard",
+        "description": "Teknik audit, görsel benchmark ve önerilen animasyonlarla tıklanabilir Figma prototipi."
+      },
+      {
+        "title": "Modüler uygulama",
+        "description": "Bileşenleri kodlar, glow efektlerle assetleri optimize eder, mikro etkileşim ve doğrulamaları yapılandırırım."
+      },
+      {
+        "title": "Handoff + büyüme planı",
+        "description": "Önce/sonra raporu, Loom videoları, bakım checklist'i ve sonraki deney fikirleri."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Başarı öyküleri",
+    "sectionTitle": "SOS modunu kullanan ekipler artık bir seviye ileride.",
+    "sectionDescription": "Her görevde metriklerin stabil kaldığından emin olmak için 7 günlük takip bulunur.",
+    "quotes": [
+      {
+        "text": "“48 saat içinde checkout'umuz sürtünme tünelinden özenli bir deneyime dönüştü. Animasyonlar güven verdi ve mobil dönüşümler %23 arttı.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Önce/sonra raporu ikna ediciydi: hız, güvenlik, görsel anlatı. Edgar her şeyi Notion ve Slack üzerinden gürültüsüz yönetti. Her çeyrekte yeniden çalışacağız.”",
+        "author": "Angel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Bakım trafiği"
+      },
+      {
+        "text": "“Flash Audit bize anında netlik sağladı. Animasyonlu mockup'lar ve hazır scriptlerle bir sprintten kısa sürede yayına çıktık. Şimdi akışı tüm siteye yayıyoruz.”",
+        "author": "Maria P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Gelecek tarzı SSS",
+    "sectionTitle": "Görevi başlatmadan önce bilmeniz gerekenler.",
+    "sectionDescription": "Sorunuz mu var? WhatsApp'tan sesli mesaj gönderin, hemen çözelim.",
+    "items": [
+      {
+        "question": "24 saatten kısa sürede başlamak için ne gerekiyor?",
+        "answer": "Admin, analytics ve siteye geçici erişim ile net hedefler (satış, lead, istikrar). Bunlarla planı hazırlayıp teslim penceresini teyit ediyorum."
+      },
+      {
+        "question": "Uygulama dahil mi yoksa sadece öneri mi?",
+        "answer": "Her paket kapsam dahilindeki düzeltmeleri içerir. Daha büyük bir şey çıkarsa, net saatli ekspres ek paket teklif ederim — sürpriz yok." 
+      },
+      {
+        "question": "Dönüşüm artışını nasıl doğruluyorsunuz?",
+        "answer": "Ana olay karşılaştırmalarıyla paneller kuruyor, KPI'ları tanımlıyor ve A/B test scriptleri veriyorum. 7 günlük takip ve gerekirse ince ayar da dahil."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "e-ticaretinizin gelecekten gelmiş gibi görünmeye ve dönüştürmeye hazır mı?",
+    "body": "Acil durumunuzu paylaşın ve benimle bir slot ayarlayın. Hemen uygulanabilir fikirlerle ücretsiz video mini-diagnostik alın.",
+    "primary": "Diagnostik iste",
+    "secondary": "Brifi e-postayla gönder"
+  },
+  "footer": {
+    "note": "IzignaMX · Ekspres düzeltmeler 24-72h · Meksika Şehri'nde üretildi • LATAM / USA hizmetinde · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Edgar ile konuş"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Ekspres%20g%C3%B6revler%20-%20talep",
+    "navWhatsApp": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20bir%20SOS%20g%C3%B6revi%20ba%C5%9Flatmak%20istiyorum%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20bu%20hafta%20ekspres%20g%C3%B6rev%20rezervasyonu%20yapmak%20istiyorum%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20Shopify%20veya%20BigCommerce%20i%C3%A7in%20SOS%20paketine%20ihtiyac%C4%B1m%20var%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20WordPress%20i%C3%A7in%20futuristik%20hardening%20paketini%20istiyorum%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20Flash%20Audit%20360%20talep%20ediyorum%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20Checkout%20Review%20ve%20fix%20paketini%20rezervasyon%20yapmak%20istiyorum%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20l%C3%BCtfen%20futuristik%20mini%20diagnosti%C4%9Fi%20payla%C5%9F%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Ekspres%20g%C3%B6revler%20-%20h%C4%B1zl%C4%B1%20brif",
+    "floatingWa": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20futuristik%20SOS%20sayfandan%20geldim%2E"
+  }
+}
