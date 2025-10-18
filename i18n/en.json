@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "title": "Express Missions | IzignaMX",
+    "description": "SOS missions to optimize Shopify, BigCommerce, and WordPress in 24-72h. Futuristic interfaces obsessed with real conversions.",
+    "ogTitle": "Express Missions | IzignaMX",
+    "ogDescription": "Bring your eCommerce into the future with express fixes, performance boosts, and checkout upgrades in under 72h."
+  },
+  "header": {
+    "badge": "72h or less",
+    "message": "Express missions for Shopify, BigCommerce, and WordPress stores • Priority for launches and urgent sales"
+  },
+  "nav": {
+    "services": "Services",
+    "process": "Process",
+    "impact": "Impact",
+    "faq": "FAQ",
+    "contact": "Email me",
+    "book": "Book 24h",
+    "languageLabel": "Choose language"
+  },
+  "hero": {
+    "kicker": "Express eCommerce missions",
+    "title": "Futuristic fixes that rescue revenue in record time.",
+    "lead": "I optimize Shopify, BigCommerce, and WordPress performance, checkout, and UX so you recover conversions without endless sprints. Delivery in 24-72h with surgical focus and actionable reports.",
+    "bullets": [
+      "Immersive design with micro-animations that boost trust and retention.",
+      "Includes audit and visual roadmap: before/after metrics plus maintenance plan.",
+      "Direct access to me via WhatsApp and Notion Liveboard—no middlemen."
+    ],
+    "primaryCta": "Book a mission",
+    "secondaryCta": "See available packages",
+    "metrics": {
+      "delivery": "Average delivery",
+      "checkout": "Checkouts optimized",
+      "satisfaction": "Client satisfaction"
+    },
+    "panel": {
+      "title": "Mission control in progress",
+      "subtitle": "ROI-focused review + critical fixes:",
+      "items": [
+        { "label": "Core Web Vitals", "status": "+42%" },
+        { "label": "Checkout friction", "status": "-65%" },
+        { "label": "Visual trust", "status": "Grade A+" }
+      ]
+    },
+    "chips": {
+      "launch": { "title": "Launch mode", "body": "Go-live ready in 36h" },
+      "ai": { "title": "AI-assisted UX", "body": "Actionable insights + copy" }
+    }
+  },
+  "services": {
+    "sectionLabel": "Express Services",
+    "sectionTitle": "Choose the mission that matches your urgency.",
+    "sectionDescription": "Each package ships with a visual roadmap, vulnerability check, and handoff session. Need a hybrid? I'll blend deliverables with zero surprise fees.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Performance + UI SOS",
+        "summary": "Surgical speed tune-up, app conflict cleanup, and checkout experience refresh. Includes a responsive futuristic look & feel.",
+        "bullets": [
+          "Lighthouse diagnosis with annotated report",
+          "Light refactor of critical sections and animated hero",
+          "Trust badges and native modals implemented"
+        ],
+        "price": "From $1,200 MXN",
+        "duration": "Delivery 24-48h",
+        "cta": "Reserve"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Futuristic hardening + cleanup",
+        "summary": "Security hardening, plugin cleanup, and hero redesign with glow components that build instant trust.",
+        "bullets": [
+          "Malware scan, backup, and safe reinstall",
+          "Hero and forms rewired with UX validations",
+          "Visual control panel for future updates"
+        ],
+        "price": "From $1,500 MXN",
+        "duration": "Delivery 48-72h",
+        "cta": "Reserve"
+      },
+      "audit": {
+        "tag": "UX + Speed",
+        "title": "Flash Audit 360°",
+        "summary": "Deep-dive one key page with simulated heatmaps, Core Web Vitals checklist, and interactive motion prototype.",
+        "bullets": [
+          "Prioritized checklist (impact vs effort)",
+          "Figma mockups with suggested animations",
+          "A/B experiment plan and ready-to-run scripts"
+        ],
+        "price": "From $1,200 MXN",
+        "duration": "Delivery 48h",
+        "cta": "Reserve"
+      },
+      "checkout": {
+        "tag": "Checkout",
+        "title": "Checkout Review + Fixes",
+        "summary": "Spot leakage points and ship up to three instant upgrades: microcopy, validations, and fintech-inspired loading states.",
+        "bullets": [
+          "Watching session + live friction map",
+          "Futuristic loader and trust UI implementation",
+          "Field-tested on desktop and mobile"
+        ],
+        "price": "From $1,800 MXN",
+        "duration": "Delivery 48-72h",
+        "cta": "Reserve"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Tangible Results",
+    "sectionTitle": "A cool aesthetic alone is not enough—every delivery ships with metrics and experiments.",
+    "sectionDescription": "I connect speed dashboards, capture before/after comparisons, and leave automations ready to detect regressions. Your leads feel it from the first scroll.",
+    "stats": [
+      { "description": "Stores boosted over the last 12 months with visible checkout and storytelling gains." },
+      { "description": "Average friction points removed per project. Report includes a video walkthrough." },
+      { "description": "A/B experiments ready to launch. You get hypotheses, assets, and validation guide." },
+      { "description": "Clients that repeat the mission or upgrade to monthly UX support." }
+    ]
+  },
+  "process": {
+    "sectionLabel": "How I Operate",
+    "sectionTitle": "Lightning process built for emergencies, zero bureaucracy.",
+    "sectionDescription": "I run parallel tracks for UX/UI, performance, and comms. You get a live board with next steps and metrics.",
+    "steps": [
+      {
+        "title": "Tactical brief in 20 minutes",
+        "description": "Call or voice note to lock hypotheses, access, and critical indicators. No slides—straight to the map."
+      },
+      {
+        "title": "Futuristic scan + protoboard",
+        "description": "Technical audit, visual benchmark, and clickable Figma prototype with suggested motion."
+      },
+      {
+        "title": "Modular implementation",
+        "description": "Code components, optimize assets with glow effects, configure micro-interactions and validations."
+      },
+      {
+        "title": "Handoff + growth plan",
+        "description": "Before/after report, Loom videos, maintenance checklist, and next experiments."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Real Stories",
+    "sectionTitle": "Clients that trusted SOS mode now look next-level.",
+    "sectionDescription": "Every mission includes a 7-day follow-up to ensure metrics stay on track.",
+    "quotes": [
+      {
+        "text": "“In 48 hours our checkout went from a friction tunnel to a polished experience. The animations build trust and mobile conversions climbed 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“The before/after report was decisive: speed, security, and visual narrative. Edgar orchestrated everything via Notion and Slack without noise. We'll be back every quarter.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Maintenance track"
+      },
+      {
+        "text": "“The Flash Audit gave us instant clarity. He delivered animated mockups and ready-to-run scripts; we deployed in under a sprint. Now we're cloning the flows sitewide.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Futuristic FAQ",
+    "sectionTitle": "Everything you need before launching the mission.",
+    "sectionDescription": "Need something else? Drop me a WhatsApp voice note and we solve it on the spot.",
+    "items": [
+      {
+        "question": "What do I need to kick off in under 24h?",
+        "answer": "Temporary admin, analytics, and site access plus clear goals (sales, leads, stability). With that I prep the work map and confirm delivery window."
+      },
+      {
+        "question": "Does it include implementation or just recommendations?",
+        "answer": "Every package includes fixes within scope. If something bigger appears, I quote an express add-on with precise hours—no surprises."
+      },
+      {
+        "question": "How do you validate conversion lift?",
+        "answer": "I activate dashboards with key event comparisons, define KPIs, and hand over scripts for A/B tests. I also follow up for 7 days and fine-tune if needed."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Ready for your eCommerce to look—and convert—like it came from the future?",
+    "body": "Reply to this CTA with your current urgency and book time with me. You'll get a free video mini-diagnosis with immediate ideas.",
+    "primary": "Request diagnosis",
+    "secondary": "Send brief by email"
+  },
+  "footer": {
+    "note": "IzignaMX · Express Fixes 24-72h · Built in CDMX • Serving LATAM / USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Chat with Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Express%20Missions%20-%20Inquiry",
+    "navWhatsApp": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20I%20want%20to%20start%20an%20SOS%20mission%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20I%20want%20to%20book%20an%20express%20mission%20this%20week%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20I%20need%20the%20Shopify%20or%20BigCommerce%20SOS%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20I%20need%20the%20futuristic%20hardening%20for%20WordPress%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20I%20want%20the%20Flash%20Audit%20360%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20please%20run%20the%20Checkout%20Review%20with%20fixes%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20send%20me%20the%20futuristic%20mini%20diagnosis%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Express%20Missions%20-%20Quick%20Brief",
+    "floatingWa": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20I%20just%20visited%20the%20futuristic%20SOS%20site%2E"
+  }
+}

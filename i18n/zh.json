@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "lang": "zh-CN",
+    "dir": "ltr",
+    "title": "极速修复 | IzignaMX",
+    "description": "24-72 小时内优化 Shopify、BigCommerce、WordPress 的 SOS 任务。以转化为核心的未来感界面。",
+    "ogTitle": "极速修复 | IzignaMX",
+    "ogDescription": "72 小时内完成性能提升、结账优化与视觉升级，让你的电商站点焕然一新。"
+  },
+  "header": {
+    "badge": "72 小时以内",
+    "message": "面向 Shopify、BigCommerce、WordPress 的极速任务 • 优先处理上线与紧急营销"
+  },
+  "nav": {
+    "services": "服务",
+    "process": "流程",
+    "impact": "成果",
+    "faq": "FAQ",
+    "contact": "发送邮件",
+    "book": "24 小时预约",
+    "languageLabel": "选择语言"
+  },
+  "hero": {
+    "kicker": "电商 SOS 任务",
+    "title": "未来感修复，极速挽回营收。",
+    "lead": "我在 24-72 小时内优化 Shopify、BigCommerce、WordPress 的性能、结账与体验，让你无需漫长迭代就能恢复转化。交付包含可执行报告。",
+    "bullets": [
+      "沉浸式设计与微动画，提升信任与留存。",
+      "包含审计与可视化路线图：前后对比指标与维护计划。",
+      "通过 WhatsApp 与 Notion Liveboard 直接沟通，无需中间人。"
+    ],
+    "primaryCta": "预约任务",
+    "secondaryCta": "查看全部套餐",
+    "metrics": {
+      "delivery": "平均交付",
+      "checkout": "已优化结账",
+      "satisfaction": "客户满意度"
+    },
+    "panel": {
+      "title": "任务控制面板",
+      "subtitle": "聚焦 ROI 的审计与关键项修复：",
+      "items": [
+        { "label": "核心网页指标", "status": "+42%" },
+        { "label": "结账摩擦", "status": "-65%" },
+        { "label": "视觉信任度", "status": "A+ 等级" }
+      ]
+    },
+    "chips": {
+      "launch": { "title": "上线模式", "body": "36 小时即可投入使用" },
+      "ai": { "title": "AI 辅助 UX", "body": "可执行洞察 + 文案" }
+    }
+  },
+  "services": {
+    "sectionLabel": "极速服务",
+    "sectionTitle": "根据紧急程度选择合适的任务。",
+    "sectionDescription": "每个套餐都附带可视化路线图、安全检查与交接会议。如需混合交付，可灵活组合且无额外费用。",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "性能 + UI SOS",
+        "summary": "精准调校速度，清理冲突应用并重塑购买体验，包含未来感响应式界面。",
+        "bullets": [
+          "Lighthouse 诊断与点评报告",
+          "关键区块轻量重构 + 动态首屏",
+          "信任徽章与原生模态实现"
+        ],
+        "price": "¥1,200 MXN 起",
+        "duration": "交付 24-48h",
+        "cta": "立即预约"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "加固 + 未来感清理",
+        "summary": "强化安全、清理插件，重塑核心页面的 glow 元素，瞬间建立信任。",
+        "bullets": [
+          "恶意代码扫描、备份与安全重装",
+          "带 UX 校验的首屏与表单重构",
+          "更新可视化控制面板"
+        ],
+        "price": "¥1,500 MXN 起",
+        "duration": "交付 48-72h",
+        "cta": "立即预约"
+      },
+      "audit": {
+        "tag": "UX + 速度",
+        "title": "Flash 审计 360°",
+        "summary": "使用模拟热图、Core Web Vitals 清单与互动原型深度分析核心页面，给出动画建议。",
+        "bullets": [
+          "按影响与工作量排序的清单",
+          "Figma 动效原型",
+          "A/B 测试计划与现成脚本"
+        ],
+        "price": "¥1,200 MXN 起",
+        "duration": "交付 48h",
+        "cta": "立即预约"
+      },
+      "checkout": {
+        "tag": "结账",
+        "title": "Checkout Review + Fixes",
+        "summary": "定位流失点，快速实施最多三项优化：微文案、校验逻辑、Fintech 风格加载状态。",
+        "bullets": [
+          "真人观看会话 + 实时摩擦地图",
+          "未来感加载动画与信任 UI",
+          "桌面与移动端现场测试"
+        ],
+        "price": "¥1,800 MXN 起",
+        "duration": "交付 48-72h",
+        "cta": "立即预约"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "可量化成果",
+    "sectionTitle": "颜值不是全部：每次交付都附带指标与实验建议。",
+    "sectionDescription": "接入速度仪表盘、记录前后对比，并预置回归监控自动化。从第一屏开始就能感知变化。",
+    "stats": [
+      { "description": "过去 12 个月中完成升级的店铺数量，结账与叙事显著提升。" },
+      { "description": "平均每个项目解决的摩擦点数量，报告附带视频讲解。" },
+      { "description": "可立即上线的 A/B 实验数量，提供假设、素材与验证指南。" },
+      { "description": "再次预约或签约 UX 维护的客户比例。" }
+    ]
+  },
+  "process": {
+    "sectionLabel": "服务流程",
+    "sectionTitle": "为紧急项目设计的闪电流程，无繁文缛节。",
+    "sectionDescription": "UX/UI、性能、沟通三线并行。在 Notion 实时看板中透明展示任务与指标。",
+    "steps": [
+      {
+        "title": "20 分钟战术简报",
+        "description": "电话或语音快速确认假设、访问权限与关键指标。无需 PPT，直接生成行动地图。"
+      },
+      {
+        "title": "未来感扫描 + 原型板",
+        "description": "技术审计、视觉对标，并在 Figma 提供可点击动画原型。"
+      },
+      {
+        "title": "模块化实施",
+        "description": "编写组件，使用 glow 效果优化素材，并配置微交互与校验。"
+      },
+      {
+        "title": "交接 + 增长计划",
+        "description": "Before/After 报告、Loom 视频、维护清单与下一步实验建议一次性交付。"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "客户反馈",
+    "sectionTitle": "激活 SOS 模式的客户，界面和转化都更上一层楼。",
+    "sectionDescription": "每次任务都包含 7 天跟进，确保指标稳定。",
+    "quotes": [
+      {
+        "text": "“48 小时内，我们的结账流程从卡顿的漏斗变成顺滑体验。动画建立了信任，移动端转化提升 23%。”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Before/After 报告一目了然：速度、安全、视觉叙事全面升级。Edgar 全程用 Notion 和 Slack 协调，没有噪音。我们将按季度复用。”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · 维护套餐"
+      },
+      {
+        "text": "“Flash Audit 让我们瞬间看清问题。交付动画稿和脚本，部署不到一个冲刺。现在我们把这些流程复制到全站。”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "未来式 FAQ",
+    "sectionTitle": "启动任务前你需要知道的。",
+    "sectionDescription": "还有疑问？直接发 WhatsApp 语音给我，当场解决。",
+    "items": [
+      {
+        "question": "如何在 24 小时内启动？",
+        "answer": "提供临时后台、分析与站点访问权限，并明确目标（销量、线索、稳定性）。随即制定路线并确认交付窗口。"
+      },
+      {
+        "question": "包含实施还是仅提供建议？",
+        "answer": "套餐范围内的优化由我直接落地。如果出现超出范围的需求，会提供精准工时的加急报价，透明可选。"
+      },
+      {
+        "question": "如何验证转化提升？",
+        "answer": "搭建关键事件对比仪表盘，定义 KPI，并提供 A/B 测试脚本。另有 7 天跟进和必要的微调。"
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "准备让你的电商看起来——也转化——像来自未来吗？",
+    "body": "告诉我你当前的紧急事项并预约通话。我会赠送一段带即时建议的免费视频诊断。",
+    "primary": "申请诊断",
+    "secondary": "邮件发送简报"
+  },
+  "footer": {
+    "note": "IzignaMX · 极速修复 24-72h · 驻墨西哥城 • 服务 LATAM / USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "联系 Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=%E6%80%A5%E9%80%9F%E4%BF%AE%E5%A4%8D%20-%20%E5%95%86%E5%8A%A1%E5%92%A8%E8%AF%A2",
+    "navWhatsApp": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E5%BC%80%E5%A7%8BSOS%E4%BB%BB%E5%8A%A1%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E6%8F%90%E5%89%8D%E9%A2%84%E7%BA%A6%E4%B8%80%E4%B8%AA%E6%9E%81%E9%80%9F%E4%BB%BB%E5%8A%A1%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E8%AF%B7%E5%90%91%E6%88%91%E6%8F%90%E4%BE%9BShopify%E6%88%96BigCommerce%E7%9A%84SOS%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E4%B8%BAWordPress%E5%81%9A%E6%9C%AA%E6%9D%A5%E6%84%9F%E5%8A%A0%E5%9B%BA%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E9%A2%84%E7%BA%A6Flash%20Audit%20360%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E5%AE%9E%E6%96%BDCheckout%20Review%20%2B%20Fixes%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E8%AF%B7%E5%8F%91%E7%BB%99%E6%88%91%E6%9C%AA%E6%9D%A5%E6%84%9F%E5%B0%8F%E8%AF%8A%E6%96%AD%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=%E6%80%A5%E9%80%9F%E4%BF%AE%E5%A4%8D%20-%20%E5%BF%AB%E9%80%9F%E7%AE%80%E4%BB%8B",
+    "floatingWa": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E6%88%91%E6%98%AF%E4%BB%8E%E4%BD%A0%E7%9A%84%E6%9C%AA%E6%9D%A5%E6%84%9F%E9%A1%B5%E9%9D%A2%E6%9D%A5%E7%9A%84%2E"
+  }
+}
