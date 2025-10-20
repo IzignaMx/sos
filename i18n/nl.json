@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "lang": "nl",
+    "dir": "ltr",
+    "title": "Expressmissies | IzignaMX",
+    "description": "SOS-missies om Shopify, BigCommerce en WordPress in 24-72 uur te optimaliseren. Futuristische interfaces geobsedeerd door échte conversies.",
+    "ogTitle": "Expressmissies | IzignaMX",
+    "ogDescription": "Breng je e-commerce naar de toekomst met snelle fixes, performance-boosts en een vernieuwde checkout in minder dan 72 uur."
+  },
+  "header": {
+    "badge": "72u of minder",
+    "message": "Expressmissies voor Shopify-, BigCommerce- en WordPress-shops • Prioriteit voor launches en urgente sales"
+  },
+  "nav": {
+    "services": "Services",
+    "process": "Proces",
+    "impact": "Impact",
+    "faq": "FAQ",
+    "contact": "Mail mij",
+    "book": "Boek 24u",
+    "languageLabel": "Kies taal"
+  },
+  "hero": {
+    "kicker": "Express e-commerce missies",
+    "title": "Futuristische fixes die omzet razendsnel redden.",
+    "lead": "Ik optimaliseer Shopify, BigCommerce en WordPress voor performance, checkout en UX zodat je conversies terugkeren zonder eindeloze sprints. Levering in 24-72 uur met chirurgische focus en bruikbare rapporten.",
+    "bullets": [
+      "Immersive design met micro-animaties die vertrouwen en retentie verhogen.",
+      "Inclusief audit en visuele roadmap: metrics voor/na plus onderhoudsplan.",
+      "Direct contact met mij via WhatsApp en een live Notion-board—geen tussenpersonen."
+    ],
+    "primaryCta": "Boek een missie",
+    "secondaryCta": "Bekijk pakketten",
+    "metrics": {
+      "delivery": "Gemiddelde oplevering",
+      "checkout": "Checkouts geoptimaliseerd",
+      "satisfaction": "Klanttevredenheid"
+    },
+    "panel": {
+      "title": "Mission control in uitvoering",
+      "subtitle": "ROI-gericht overzicht + opgeloste knelpunten:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Checkout-frictie",
+          "status": "-65%"
+        },
+        {
+          "label": "Visueel vertrouwen",
+          "status": "Score A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Launchmodus",
+        "body": "Live-klaar in 36u"
+      },
+      "ai": {
+        "title": "AI-ondersteunde UX",
+        "body": "Directe inzichten + copy"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "Express services",
+    "sectionTitle": "Kies de missie die past bij je urgentie.",
+    "sectionDescription": "Elk pakket bevat een visuele roadmap, security-check en hand-off sessie. Mix nodig? Ik combineer deliverables zonder verrassingskosten.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Performance + UI SOS",
+        "summary": "Precisie-tuning voor snelheid, oplossen van app-conflicten en een verfriste checkout-ervaring. Inclusief futuristische responsive look & feel.",
+        "bullets": [
+          "Lighthouse-diagnose met geannoteerd rapport",
+          "Lichte refactor van kritieke secties en geanimeerde hero",
+          "Trust badges en native modals geïmplementeerd"
+        ],
+        "price": "Vanaf $1.200 MXN",
+        "duration": "Oplevering 24-48u",
+        "cta": "Reserveer"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Futuristische hardening + opschoning",
+        "summary": "Security-hardening, plugin-opschoning en hero-redesign met glow-componenten die direct vertrouwen wekken.",
+        "bullets": [
+          "Malwarescan, backup en veilige herinstallatie",
+          "Hero en formulieren opnieuw opgebouwd met UX-validaties",
+          "Visueel controlepaneel voor toekomstige updates"
+        ],
+        "price": "Vanaf $1.500 MXN",
+        "duration": "Oplevering 48-72u",
+        "cta": "Reserveer"
+      },
+      "audit": {
+        "tag": "UX + Snelheid",
+        "title": "Flash Audit 360°",
+        "summary": "Verdiep één kernpagina met gesimuleerde heatmaps, Core Web Vitals-checklist en interactief motion-prototype.",
+        "bullets": [
+          "Geprioriteerde checklist (impact vs. inspanning)",
+          "Figma-mockups met aanbevolen animaties",
+          "A/B-experimentplan en kant-en-klare scripts"
+        ],
+        "price": "Vanaf $1.200 MXN",
+        "duration": "Oplevering 48u",
+        "cta": "Reserveer"
+      },
+      "checkout": {
+        "tag": "Checkout",
+        "title": "Checkout review + fixes",
+        "summary": "Identificeer lekkages en lever tot drie directe upgrades: microcopy, validaties en fintech-waardige loading states.",
+        "bullets": [
+          "Kijksessie + live frictiekaart",
+          "Futuristische loader en trust-UI",
+          "Field-tested op desktop en mobiel"
+        ],
+        "price": "Vanaf $1.800 MXN",
+        "duration": "Oplevering 48-72u",
+        "cta": "Reserveer"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Tastbare resultaten",
+    "sectionTitle": "Alleen een mooi uiterlijk is niet genoeg—elke oplevering komt met metrics en experimenten.",
+    "sectionDescription": "Ik koppel snelheid-dashboards, leg voor/na-vergelijkingen vast en laat automatiseringen achter om regressies te vangen. Leads voelen het vanaf de eerste scroll.",
+    "stats": [
+      {
+        "description": "Shops die de afgelopen 12 maanden zijn geboost met zichtbare verbeteringen in checkout en storytelling."
+      },
+      {
+        "description": "Gemiddeld aantal weggenomen fricties per project; inclusief video-walkthrough met actielijst."
+      },
+      {
+        "description": "A/B-experimenten klaar om te draaien; hypotheses, assets en validatiegids inbegrepen."
+      },
+      {
+        "description": "Klanten die de missie herhalen of kiezen voor een doorlopende UX-retainer."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Werkwijze",
+    "sectionTitle": "Bliksemsnel proces zonder bureaucratie, gebouwd voor urgentie.",
+    "sectionDescription": "Ik beheer UX/UI-, performance- en communicatietracks parallel. Je ziet elke mijlpaal op een live Notion-board met emoji-statussen.",
+    "steps": [
+      {
+        "title": "Tactische intake in 20 minuten",
+        "description": "Call of voice-note; we bepalen hypotheses, toegang en kritieke indicatoren. Geen slides—direct naar de werkmap."
+      },
+      {
+        "title": "Futuristische scan + protoboard",
+        "description": "Technische audit, visuele benchmark en klikbaar Figma-prototype met voorgestelde motion."
+      },
+      {
+        "title": "Modulaire implementatie",
+        "description": "Ik codeer componenten, optimaliseer glow-assets, stel micro-interacties en validaties in."
+      },
+      {
+        "title": "Handoff + groeiplan",
+        "description": "Voor/na-rapport, Loom-video's, onderhoudschecklist en volgende experimenten."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Ervaringen",
+    "sectionTitle": "Teams die SOS kozen tonen nu een next-level interface.",
+    "sectionDescription": "Elke missie bevat een follow-up van 7 dagen zodat de metrics op koers blijven.",
+    "quotes": [
+      {
+        "text": "“Binnen 48 uur transformeerde onze checkout van stroperige funnel naar gepolijste ervaring. De animaties bouwden vertrouwen en mobiele conversies stegen 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Het voor/na-rapport was doorslaggevend: snelheid, security, visuele storytelling. Edgar regelde alles via Notion en Slack zonder ruis. We komen ieder kwartaal terug.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Onderhoudstraject"
+      },
+      {
+        "text": "“De Flash Audit gaf meteen helderheid. We kregen geanimeerde mockups en kant-en-klare scripts; binnen één sprint live. Nu rollen we de flow uit over de hele site.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Futuristische FAQ",
+    "sectionTitle": "Wat je moet weten voor de missie start.",
+    "sectionDescription": "Nog een vraag? Stuur me een voice-note via WhatsApp en ik antwoord direct.",
+    "items": [
+      {
+        "question": "Wat heb ik nodig om binnen 24 uur te starten?",
+        "answer": "Tijdelijke toegang tot admin, analytics en site plus heldere doelen (sales, leads, stabiliteit). Daarmee maak ik de werkmap en bevestig ik het oplevervenster."
+      },
+      {
+        "question": "Zit implementatie inbegrepen of alleen advies?",
+        "answer": "Elk pakket bevat fixes binnen scope. Verschijnt er iets groters, dan stel ik een express add-on voor met duidelijke uren—geen verrassingen."
+      },
+      {
+        "question": "Hoe meet je conversiestijging?",
+        "answer": "Ik activeer dashboards met key event-vergelijkingen, definieer KPI's en lever scripts voor A/B-tests. Daarna volgt 7 dagen opvolging voor fine-tuning."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Klaar om jouw e-commerce futuristisch te laten ogen—én converteren?",
+    "body": "Laat je urgentie weten en plan tijd met mij. Je ontvangt een gratis video-diagnose met directe ideeën.",
+    "primary": "Vraag een diagnose aan",
+    "secondary": "Stuur briefing per e-mail"
+  },
+  "footer": {
+    "note": "IzignaMX · Express fixes 24-72u · Gebouwd in CDMX • Service LATAM / USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Chat met Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Expressmissies%20-%20aanvraag",
+    "navWhatsApp": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20wil%20een%20SOS-missie%20starten%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20wil%20deze%20week%20een%20express-missie%20boeken%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20heb%20de%20Shopify%20of%20BigCommerce%20SOS%20nodig%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20wil%20de%20futuristische%20WordPress-hardening%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20vraag%20de%20Flash%20Audit%20360%20aan%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20graag%20de%20Checkout%20Review%20met%20fixes%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20stuur%20me%20de%20futuristische%20diagnose%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Expressmissies%20-%20korte%20briefing",
+    "floatingWa": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20kom%20net%20van%20je%20futuristische%20SOS-site%2E"
+  }
+}

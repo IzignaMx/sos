@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "lang": "sv",
+    "dir": "ltr",
+    "title": "Expressuppdrag | IzignaMX",
+    "description": "SOS-uppdrag som optimerar Shopify, BigCommerce och WordPress på 24-72 timmar. Futuristiska gränssnitt fixerade vid verkliga konverteringar.",
+    "ogTitle": "Expressuppdrag | IzignaMX",
+    "ogDescription": "Ta din e-handel in i framtiden med snabba fixes, prestandalyft och uppgraderad checkout på under 72 timmar."
+  },
+  "header": {
+    "badge": "72 h eller mindre",
+    "message": "Expressuppdrag för Shopify-, BigCommerce- och WordPress-butiker • Prioritet för lanseringar och akuta kampanjer"
+  },
+  "nav": {
+    "services": "Tjänster",
+    "process": "Process",
+    "impact": "Resultat",
+    "faq": "FAQ",
+    "contact": "Maila mig",
+    "book": "Boka 24 h",
+    "languageLabel": "Välj språk"
+  },
+  "hero": {
+    "kicker": "Expressuppdrag för e-handel",
+    "title": "Futuristiska fixes som räddar intäkter på rekordtid.",
+    "lead": "Jag optimerar Shopify, BigCommerce och WordPress för prestanda, checkout och UX så att konverteringarna återvänder utan ändlösa sprintar. Leverans på 24-72 timmar med kirurgisk precision och handlingsbara rapporter.",
+    "bullets": [
+      "Immersiv design med mikroanimationer som bygger förtroende och retention.",
+      "Audit och visuell roadmap ingår: siffror före/efter samt underhållsplan.",
+      "Direktkontakt med mig via WhatsApp och ett Notion-liveboard—inga mellanhänder."
+    ],
+    "primaryCta": "Boka ett uppdrag",
+    "secondaryCta": "Se paket",
+    "metrics": {
+      "delivery": "Genomsnittlig leverans",
+      "checkout": "Checkout optimerade",
+      "satisfaction": "Kundnöjdhet"
+    },
+    "panel": {
+      "title": "Mission control i realtid",
+      "subtitle": "ROI-fokuserad review + lösta kritiska punkter:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Checkout-friktion",
+          "status": "-65%"
+        },
+        {
+          "label": "Visuellt förtroende",
+          "status": "Betyg A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Launchläge",
+        "body": "Redo för go-live på 36 h"
+      },
+      "ai": {
+        "title": "AI-stödd UX",
+        "body": "Konkreta insikter + copy"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "Express-tjänster",
+    "sectionTitle": "Välj uppdraget som matchar din brådska.",
+    "sectionDescription": "Varje paket levereras med visuell roadmap, säkerhetskontroll och handoff-session. Behöver du en mix? Jag kombinerar leverabler utan överraskande kostnader.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Prestanda + UI SOS",
+        "summary": "Precisionstuning för hastighet, borttagning av appkonflikter och en förnyad checkout-upplevelse. Inkluderar futuristisk responsiv look & feel.",
+        "bullets": [
+          "Lighthouse-diagnos med kommenterad rapport",
+          "Lätt refaktorering av kritiska sektioner och animerad hero",
+          "Trust badges och native modaler implementerade"
+        ],
+        "price": "Från 1 200 MXN",
+        "duration": "Leverans 24-48 h",
+        "cta": "Reservera"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Futuristisk hardening + städning",
+        "summary": "Säkerheten stärks, plugins städas och hero-designen görs om med glow-komponenter som skapar omedelbart förtroende.",
+        "bullets": [
+          "Malware-scan, backup och säker ominstallation",
+          "Hero och formulär byggs om med UX-valideringar",
+          "Visuell kontrollpanel för framtida uppdateringar"
+        ],
+        "price": "Från 1 500 MXN",
+        "duration": "Leverans 48-72 h",
+        "cta": "Reservera"
+      },
+      "audit": {
+        "tag": "UX + Hastighet",
+        "title": "Flash Audit 360°",
+        "summary": "Djupdyk i en nyckelsida med simulerade heatmaps, Core Web Vitals-checklista och interaktivt rörelseprototyp.",
+        "bullets": [
+          "Prioriterad checklista (impact vs. insats)",
+          "Figma-mockups med rekommenderade animationer",
+          "A/B-experimentplan och körklara skript"
+        ],
+        "price": "Från 1 200 MXN",
+        "duration": "Leverans 48 h",
+        "cta": "Reservera"
+      },
+      "checkout": {
+        "tag": "Checkout",
+        "title": "Checkout-review + fixes",
+        "summary": "Identifiera läckage och leverera upp till tre snabba uppgraderingar: microcopy, valideringar och fintech-inspirerade loading states.",
+        "bullets": [
+          "Observationssession + live friktionskarta",
+          "Futuristisk loader och trust-UI",
+          "Testad på desktop och mobil"
+        ],
+        "price": "Från 1 800 MXN",
+        "duration": "Leverans 48-72 h",
+        "cta": "Reservera"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Tydliga resultat",
+    "sectionTitle": "En snygg look räcker inte—varje leverans innehåller metrics och experiment.",
+    "sectionDescription": "Jag kopplar hastighetsdashboards, fångar jämförelser före/efter och lämnar automations som fångar regressions. Dina leads märker det från första scrollen.",
+    "stats": [
+      {
+        "description": "Butiker som lyfts de senaste 12 månaderna med synliga förbättringar i checkout och storytelling."
+      },
+      {
+        "description": "Genomsnittligt antal friktioner lösta per projekt; inkluderar video-walkthrough med åtgärdslista."
+      },
+      {
+        "description": "A/B-experiment redo att köra; hypoteser, assets och valideringsguide medföljer."
+      },
+      {
+        "description": "Kunder som återkommer för fler uppdrag eller väljer löpande UX-retainer."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Arbetssätt",
+    "sectionTitle": "Ett blixtsnabbt flöde utan byråkrati, byggt för akuta behov.",
+    "sectionDescription": "Jag hanterar UX/UI-, prestanda- och kommunikationsspår parallellt. Du ser varje milstolpe på ett levande Notion-board med emoji-statusar.",
+    "steps": [
+      {
+        "title": "Taktiskt brief på 20 minuter",
+        "description": "Samtal eller röstmeddelande; vi låser hypoteser, access och kritiska indikatorer. Inga slides—direkt till arbetskartan."
+      },
+      {
+        "title": "Futuristisk scan + protoboard",
+        "description": "Teknisk audit, visuell benchmark och klickbart Figma-prototyp med föreslagen motion."
+      },
+      {
+        "title": "Modulär implementation",
+        "description": "Jag kodar komponenter, optimerar glow-assets, konfigurerar mikrointeraktioner och valideringar."
+      },
+      {
+        "title": "Handoff + tillväxtplan",
+        "description": "Rapport före/efter, Loom-videor, underhållschecklista och nästa experiment."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Kundröster",
+    "sectionTitle": "Team som valde SOS visar nu en nivå upp i upplevelse.",
+    "sectionDescription": "Varje uppdrag inkluderar 7 dagars uppföljning för att hålla siffrorna på banan.",
+    "quotes": [
+      {
+        "text": "“På 48 timmar gick vår checkout från trög tunnel till polerad upplevelse. Animationerna byggde förtroende och mobila konverteringar ökade 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Rapporten före/efter var avgörande: hastighet, säkerhet, visuell berättelse. Edgar styrde allt via Notion och Slack utan brus. Vi återkommer varje kvartal.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Underhållsspår"
+      },
+      {
+        "text": "“Flash Audit gav omedelbar klarhet. Vi fick animerade mockups och körklara skript; live på under en sprint. Nu rullar vi ut flödena över hela sajten.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Futuristisk FAQ",
+    "sectionTitle": "Det du behöver veta innan uppdraget startar.",
+    "sectionDescription": "Har du något mer? Skicka ett röstmeddelande på WhatsApp så svarar jag direkt.",
+    "items": [
+      {
+        "question": "Vad krävs för att starta inom 24 timmar?",
+        "answer": "Tillfällig admin-, analytics- och sajtaccess plus tydliga mål (försäljning, leads, stabilitet). Därefter tar jag fram arbetskartan och bekräftar leveransfönstret."
+      },
+      {
+        "question": "Ingår implementation eller bara rekommendationer?",
+        "answer": "Varje paket innehåller fixes inom scope. Dyker något större upp föreslår jag ett express add-on med tydliga timmar—inga överraskningar."
+      },
+      {
+        "question": "Hur verifierar du konverteringslyft?",
+        "answer": "Jag aktiverar dashboards med nyckelhändelser, definierar KPI:er och lämnar skript för A/B-test. Dessutom följer jag upp i sju dagar för finjustering."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Redo för att din e-handel ska se futuristisk ut—och konvertera därefter?",
+    "body": "Berätta hur bråttom det är och boka tid med mig. Du får en kostnadsfri video-diagnos med omedelbara idéer.",
+    "primary": "Begär diagnos",
+    "secondary": "Skicka briefing via e-post"
+  },
+  "footer": {
+    "note": "IzignaMX · Express fixes 24-72 h · Byggt i CDMX • Betjänar LATAM / USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Chatta med Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Expressuppdrag%20-%20förfrågan",
+    "navWhatsApp": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20vill%20starta%20ett%20SOS-uppdrag%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20vill%20boka%20ett%20expressuppdrag%20denna%20vecka%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20behöver%20Shopify%20eller%20BigCommerce%20SOS%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20vill%20ha%20den%20futuristiska%20WordPress-hardening%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20beställer%20Flash%20Audit%20360%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20kör%20Checkout%20Review%20med%20fixes%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20skicka%20den%20futuristiska%20diagnosen%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Expressuppdrag%20-%20kort%20brief",
+    "floatingWa": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20kommer%20precis%20från%20din%20futuristiska%20SOS-sida%2E"
+  }
+}

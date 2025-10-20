@@ -2,35 +2,35 @@
   "meta": {
     "lang": "la",
     "dir": "ltr",
-    "title": "Missiones Expeditae | IzignaMX",
-    "description": "Missiones SOS ad Shopify, BigCommerce, WordPress intra 24-72 horas excolendas. Facies futuristicae ad veras conversiones directa cura.",
-    "ogTitle": "Missiones Expeditae | IzignaMX",
-    "ogDescription": "Mercatum tuum ad futurum impelle: emendationes celeres, augmentum celeritatis, checkout perfectum infra 72 horas."
+    "title": "Missiones Celeres | IzignaMX",
+    "description": "Missiones SOS ad tabernas Shopify, BigCommerce atque WordPress intra 24-72 horas excolendas. Facies futuristicae ad conversiones veras spectantes.",
+    "ogTitle": "Missiones Celeres | IzignaMX",
+    "ogDescription": "Mercaturam tuam in futurum promove correctionibus celeribus, incrementis perficientiae et checkout renovato infra 72 horas."
   },
   "header": {
     "badge": "72h aut minus",
-    "message": "Missiones expeditae pro tabernis Shopify, BigCommerce, WordPress • Praelatio ad lancementa et venditiones urgentes"
+    "message": "Missiones celeres pro tabernis Shopify, BigCommerce atque WordPress • Praerogativa pro lancementis et venditionibus urgentibus"
   },
   "nav": {
     "services": "Ministeria",
     "process": "Processus",
     "impact": "Effectus",
     "faq": "FAQ",
-    "contact": "Scribe mihi",
+    "contact": "Mitte epistulam",
     "book": "Reserva intra 24h",
-    "languageLabel": "Linguam selige"
+    "languageLabel": "Linguam elige"
   },
   "hero": {
-    "kicker": "Missiones eCommerce expeditae",
-    "title": "Remedia futuristica quae vectigalia celeriter restituunt.",
-    "lead": "Shopify, BigCommerce, WordPress in performantia, checkout, UX expolio, ut conversiones redeant sine interminis sprintibus. Traditio intra 24-72 horas cum cura chirurgica et relationibus exsequendis.",
+    "kicker": "Missiones eCommerce celeres",
+    "title": "Remedia futuristica quae vectigalia cito restituunt.",
+    "lead": "Tabernas Shopify, BigCommerce atque WordPress in perficientia, checkout et usu experientiae emendo, ut conversiones sine interminis sprintibus recuperes. Traditio 24-72 horarum cum cura exactissima et relationibus agibilibus.",
     "bullets": [
-      "Designatio immersiva et microanimationes fiduciam retinentiamque augent.",
-      "Auditio et roadmap visualis includuntur: indices ante/post et consilium conservationis.",
-      "Commercium directum mecum per WhatsApp et Notion Liveboard — nulli mediarii."
+      "Designatio immersiva cum microanimationibus fidem et retentionem auget.",
+      "Auditio cum tabula visuali includitur: indices ante et post plus consilium conservationis.",
+      "Accessus directus ad me per WhatsApp et Notion Liveboard — nulli mediarii."
     ],
     "primaryCta": "Missionem reserva",
-    "secondaryCta": "Paccata inspice",
+    "secondaryCta": "Sarcinas inspice",
     "metrics": {
       "delivery": "Medium tempus",
       "checkout": "Checkout emendati",
@@ -38,31 +38,46 @@
     },
     "panel": {
       "title": "Tabula missionis in actu",
-      "subtitle": "Recognitio in ROI versa et puncta critica soluta:",
+      "subtitle": "Recognitio ad ROI directa et nodi critici resoluti:",
       "items": [
-        { "label": "Core Web Vitals", "status": "+42%" },
-        { "label": "Attritus checkout", "status": "-65%" },
-        { "label": "Fiducia visualis", "status": "Gradus A+" }
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Attritus checkout",
+          "status": "-65%"
+        },
+        {
+          "label": "Fiducia visualis",
+          "status": "Gradus A+"
+        }
       ]
     },
     "chips": {
-      "launch": { "title": "Modus lancementi", "body": "Parata in 36h" },
-      "ai": { "title": "UX ope AI", "body": "Argumenta agenda + copia" }
+      "launch": {
+        "title": "Modus lancementis",
+        "body": "Parata ad go-live in 36h"
+      },
+      "ai": {
+        "title": "UX ope AI",
+        "body": "Argumenta praeparata + copia"
+      }
     }
   },
   "services": {
-    "sectionLabel": "Ministeria expedita",
-    "sectionTitle": "Elige missionem aptissimam necessitati tuae.",
-    "sectionDescription": "Quisque paccatum fert roadmap visualem, probationem securitatis et sessionem traditionis. Mixturam vis? Deliverabilia sine occultis sumptibus compono.",
+    "sectionLabel": "Ministeria celeria",
+    "sectionTitle": "Elige missionem quae necessitati tuae respondet.",
+    "sectionDescription": "Unaquaeque sarcina tabulam visualem, probationem securitatis atque sessionem traditionis affert. Mixturam optas? Deliverabilia sine occultis sumptibus componam.",
     "cards": {
       "performance": {
         "tag": "Shopify / BigCommerce",
-        "title": "SOS de perfomantia + UI",
-        "summary": "Velocitas subtiliter curatur, conflictus app dissolvuntur, experientia emptionis reficitur. Inclusa est species responsiva futuristica.",
+        "title": "SOS perficientiae + UI",
+        "summary": "Velocitas chirurgice restauratur, conflictus inter applicationes removentur, experientia emptionis refovetur. Aspectus responsivus futuristicus includitur.",
         "bullets": [
-          "Diagnostica Lighthouse cum commentariis",
+          "Diagnostica Lighthouse cum commentariis annotatis",
           "Refactor levis sectionum criticorum et hero animatus",
-          "Insignia fiduciae et moduli nativi instalantur"
+          "Insignia fiduciae atque moduli nativi instituuntur"
         ],
         "price": "Ab 1 200 MXN",
         "duration": "Traditio 24-48h",
@@ -70,12 +85,12 @@
       },
       "wordpress": {
         "tag": "WordPress",
-        "title": "Hardening + purgatio futuristica",
-        "summary": "Securitas roboratur, plugin deterguntur, landing princeps cum elementis glow confidens redesignatur.",
+        "title": "Fortificatio futuristica + purgatio",
+        "summary": "Securitas firmatur, plugin purgantur, hero redesignatur cum elementis lucentibus quae fidem statim excitant.",
         "bullets": [
-          "Scrutinium malware, backup, reinstallatio tuta",
+          "Scrutinium malware, backup et reinstallatio tuta",
           "Hero et formae cum probationibus UX refinguntur",
-          "Tabula visualis ad gubernationem renovationum"
+          "Tabula visualis ad renovationes futuras"
         ],
         "price": "Ab 1 500 MXN",
         "duration": "Traditio 48-72h",
@@ -83,10 +98,10 @@
       },
       "audit": {
         "tag": "UX + Celeritas",
-        "title": "Auditio Flash 360°",
-        "summary": "Paginam clavem per chartas caloris simulatas, indicem Core Web Vitals et prototypum interactivum cum motibus suggerendis exploramus.",
+        "title": "Flash Audit 360°",
+        "summary": "Pagina praecipua exploratur chartis caloris simulatis, indice Core Web Vitals et prototypo motus interactivo.",
         "bullets": [
-          "Checklist praeferentialis (impactus vs labor)",
+          "Checklist prioritaria (impactus contra laborem)",
           "Mockup Figma cum animationibus commendatis",
           "Consilium experimentorum A/B et scriptum paratum"
         ],
@@ -96,10 +111,10 @@
       },
       "checkout": {
         "tag": "Checkout",
-        "title": "Checkout Review + Fixes",
-        "summary": "Puncta dispersionis reperiuntur et usque ad tres celeres emendationes applicantur: microcopy, probationes, status oneris genere fintech.",
+        "title": "Checkout recognitio + emendationes",
+        "summary": "Puncta dispersionis deprehenduntur et ad tres celeres emendationes applicantur: microcopy, probationes, status oneris more fintech.",
         "bullets": [
-          "Sessio observandi et mapa frictionis in tempore reali",
+          "Sessio observationis et mappa frictionis in tempore reali",
           "Loader futuristica et UI fiduciae",
           "Probationes campi in desktop et mobili"
         ],
@@ -111,56 +126,63 @@
   },
   "impact": {
     "sectionLabel": "Effectus tangibiles",
-    "sectionTitle": "Forma sola non sufficit: singula traditio metricas et experimenta affert.",
-    "sectionDescription": "Cruscina velocitatis conecto, comparationes ante/post colligo et automatismos relinquo ad regressionem deprehendendam. Clientes discrimen sentiunt ab initio scrolli.",
+    "sectionTitle": "Forma sola non sufficit: omnis traditio metricas et experimenta affert.",
+    "sectionDescription": "Cruscinas velocitatis conecto, comparationes ante et post colligo atque automatismos relinquo ad regressus deprehendendos. Leads tui id sentiunt ab primo volutamine.",
     "stats": [
-      { "description": "Tabernae ultimo anno elevatae cum meliorationibus manifestis in checkout et narratione." },
-      { "description": "Numerus mediocris frictionum per propositum solvitarum; relatio video-walkthrough includit." },
-      { "description": "Experimenta A/B statim parata; hypotheses, materia et dux validationis traduntur." },
-      { "description": "Clientes qui missionem repetunt aut servitium UX menstruum seligunt." }
+      {
+        "description": "Tabernae ultimis XII mensibus elevatae cum meliorationibus manifestis in checkout et narratione."
+      },
+      {
+        "description": "Frictiones mediocres per proiectum solutae; relatio video-walkthrough cum indice actionum includitur."
+      },
+      {
+        "description": "Experimenta A/B statim currenda; hypotheses, materia et dux validationis praesto sunt."
+      },
+      {
+        "description": "Clientes qui missionem repetunt aut retainerem UX continuam seligunt."
+      }
     ]
   },
   "process": {
     "sectionLabel": "Modus operandi",
-    "sectionTitle": "Processus fulmineus sine bureaucratia, ad urgentia factus.",
-    "sectionDescription": "Tractos UX/UI, performantiam, communicationem parallelos ago. In tabula viva Notion statum et metrics cotidie renovantur.",
+    "sectionTitle": "Processus rapidissimus sine bureaucratia ad urgentias creatus.",
+    "sectionDescription": "Tractus UX/UI, perficientiae et communicationis parallelos gero. Omnia momenta in tabula Notion viva cernes cum emoji statum notantibus.",
     "steps": [
       {
         "title": "Brevis tacticus intra 20 minuta",
-        "description": "Vocatio vel nota vocis; hypotheses, accessus, indices criticos definimus. Nulla slide — statim ad mapam operis."
+        "description": "Vocatio vel nota vocis; hypotheses, accessus et indices criticos definiuntur. Nulla laminae — statim ad mappam operum."
       },
       {
-        "title": "Scansio + protoboard futuristica",
-        "description": "Auditio technica, benchmark visuale, prototypum Figma cliccabile cum motibus suadendis."
+        "title": "Scrutinium futurum + protoboard",
+        "description": "Auditio technica, benchmark visuale et prototypum Figma cliccabile cum motibus suadendis."
       },
       {
-        "title": "Executio modularis",
-        "description": "Componentes codifico, assetas glow effectu optimizo, microinteractiones et probationes configuro."
+        "title": "Implementatio modularis",
+        "description": "Componentes codifico, res lucentes optimizo, microinteractiones atque probationes configuro."
       },
       {
-        "title": "Handoff + consilium incrementi",
-        "description": "Relatio ante/post, videos Loom, checklist conservandi et experimenta sequentia.
-"
+        "title": "Traditio + consilium incrementi",
+        "description": "Relatio ante/post, videos Loom, checklist conservationis et experimenta sequentia."
       }
     ]
   },
   "testimonials": {
     "sectionLabel": "Testimonia",
-    "sectionTitle": "Qui modum SOS elegerunt nunc interfaciem gradus superioris ostendunt.",
-    "sectionDescription": "Singula missio cum sequela septem dierum datur ut indices stabiles maneant.",
+    "sectionTitle": "Qui modum SOS elegerunt nunc gradum superiorem monstrant.",
+    "sectionDescription": "Unaquaeque missio sequitur cum septem dierum recensione ut metricae stabiliter maneant.",
     "quotes": [
       {
-        "text": "“Binnen 48 horis checkout noster e canaliculo asperitati ad experientiam curatam transiit. Animationes fiduciam pepererunt et conversiones mobiles 23% creverunt.”",
+        "text": "“Intra 48 horas checkout noster ab canaliculo asperitatis ad experientiam politam transiit. Animationes fidem auxerunt et conversiones mobiles 23% creverunt.”",
         "author": "Daniela R. — CMO, Retail Boutique",
-        "role": "Shopify Plus · SOS performance"
+        "role": "Shopify Plus · SOS perficientia"
       },
       {
-        "text": "“Relatio ante/post convincens fuit: velocitas, securitas, narratio visualis. Edgar omnia per Notion et Slack sine strepitu moderatus est. Singulis trimestribus redibimus.”",
+        "text": "“Relatio ante/post convincens fuit: velocitas, securitas, narratio visualis. Edgar omnia per Notion et Slack sine strepitu composuit. Singulis trimestribus redibimus.”",
         "author": "Angelus G. — CTO, Escala B2B",
-        "role": "WordPress hardening · Tractus sustentationis"
+        "role": "WordPress fortificatio · Tractus sustentationis"
       },
       {
-        "text": "“Auditio Flash statim claritatem attulit. Animationes cum scriptis praeparatis accepimus; minus quam uno sprinte deploy fecimus. Nunc fluxum toti loco replicamus.”",
+        "text": "“Flash Audit statim claritatem dedit. Mockups animatos et scripta parata accepimus; minus quam uno sprinte distribimus. Nunc fluxus in toto situ replicamus.”",
         "author": "Maria P. — Growth Lead, SaaS LatAm",
         "role": "Flash Audit 360°"
       }
@@ -169,44 +191,44 @@
   "faq": {
     "sectionLabel": "FAQ futuristica",
     "sectionTitle": "Quid ante missionem scire oporteat.",
-    "sectionDescription": "Si quaestio restat, vocem WhatsApp mitte et statim respondebo.",
+    "sectionDescription": "Si quaestio restat, vocem per WhatsApp mitte et cito respondebo.",
     "items": [
       {
         "question": "Quid requiritur ut infra 24 horas incipiam?",
-        "answer": "Accessus temporarius ad admin, analytics, locum una cum finibus claris (venditiones, leads, stabilitas). Ex his mapam operum paro et tempus traditionis confirmo."
+        "answer": "Accessus temporarius ad admin, analytics et situm una cum finibus claris (venditiones, leads, stabilitas). Ex his mappam operum parabo et tempus traditionis confirmabo."
       },
       {
         "question": "Inclusa est executio an tantum consilia?",
-        "answer": "Singulum paccatum intra ambitum fixas includit. Si maior campus appareat, add-on expeditum cum horis certis propono — nullae insidiae."
+        "answer": "Unaquaeque sarcina intra ambitum fixas includit. Si maior campus emergat, add-on expeditum cum horis definitis proponam — nullae insidiae."
       },
       {
         "question": "Quomodo augmentum conversionum probatur?",
-        "answer": "Tabulas cum eventibus clavibus comparo, KPI definio et scripts pro testibus A/B trado. Adest etiam sequela septem dierum cum subtili adaptatione si opus est."
+        "answer": "Tabulas cum eventibus clavibus comparo, KPI definio et scripta pro testibus A/B trado. Sequor etiam per septem dies ut subtiliter adjustem si opus sit."
       }
     ]
   },
   "ctaFinal": {
-    "title": "Paratusne es ut eCommerce tuus futurum referat — et convertat?",
-    "body": "Communica quid sit tua urgentia et tempus mecum reserva. Gratis video-diagnosin cum ideis immediatis accipies.",
+    "title": "Paratusne es ut taberna tua futurum referat — et convertat?",
+    "body": "Narra mihi quantum urget et tempus mecum reserva. Diagnosis video gratuita cum ideis immediatis accipies.",
     "primary": "Diagnosin pete",
     "secondary": "Breviarium per email mitte"
   },
   "footer": {
-    "note": "IzignaMX · Missiones expeditae 24-72h · Factum in Civitate Mexici • Lata ministeria LATAM / USA · WhatsApp +52 55 3376 0889"
+    "note": "IzignaMX · Missiones celeres 24-72h · Factum in Civitate Mexici • Ministeria LATAM / USA · WhatsApp +52 55 3376 0889"
   },
   "wa": {
     "button": "Colloquere cum Edgar"
   },
   "links": {
-    "navMail": "mailto:edgar@izignamx.com?subject=Missiones%20expeditae%20-%20petitio",
-    "navWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20missionem%20SOS%20incipere%20cupio%2E",
-    "heroPrimary": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20hac%20hebdomade%20missionem%20expeditam%20reservare%20volo%2E",
-    "servicePerformance": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20SOS%20pro%20Shopify%20vel%20BigCommerce%20indigeo%2E",
-    "serviceWordpress": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20hardening%20futuristicum%20pro%20WordPress%20cupio%2E",
-    "serviceAudit": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20Flash%20Audit%20360%20desidero%2E",
-    "serviceCheckout": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20Checkout%20Review%20cum%20fixis%20quaeso%2E",
-    "ctaWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20diagnosin%20futuristicam%20mitte%2E",
-    "ctaMail": "mailto:edgar@izignamx.com?subject=Missiones%20expeditae%20-%20breviter",
-    "floatingWa": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20ex%20pagina%20tua%20futuristica%20SOS%20venio%2E"
+    "navMail": "mailto:edgar@izignamx.com?subject=Missiones%20celeres%20-%20petitio",
+    "navWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20missionem%20SOS%20experiri%20velim%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20missionem%20celerem%20hac%20hebdomade%20reservare%20velim%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20SOS%20pro%20Shopify%20vel%20BigCommerce%20quaero%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20fortificationem%20futuristicam%20pro%20WordPress%20cupio%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20Flash%20Audit%20360%20deposco%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20Checkout%20Review%20cum%20emendationibus%20quaeso%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20diagnosticen%20futuram%20mitte%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Missiones%20celeres%20-%20breviter",
+    "floatingWa": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20ex%20pagina%20futuristica%20SOS%20venio%2E"
   }
 }
