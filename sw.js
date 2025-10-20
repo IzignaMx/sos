@@ -1,9 +1,11 @@
-const PRECACHE = 'sos-precache-v2';
+const PRECACHE = 'sos-precache-v3';
 const RUNTIME = 'sos-runtime-v1';
 
 const PRECACHE_URLS = [
   '/',
   '/index.html',
+  '/privacy.html',
+  '/security.html',
   '/manifest.webmanifest',
   '/i18n/es.json',
   '/i18n/en.json',

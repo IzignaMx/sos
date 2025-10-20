@@ -15,6 +15,10 @@
   <meta name="apple-mobile-web-app-title" content="IzignaMX SOS">
   <meta name="format-detection" content="telephone=no">
   <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; img-src 'self' data: https://izignamx.com https://wa.me; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()">
+  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#0d1b3d">
   <meta name="color-scheme" content="dark">
@@ -43,8 +47,8 @@
   <meta property="og:locale:alternate" content="vi_VN">
   <meta property="og:locale:alternate" content="la">
   <meta property="og:locale:alternate" content="eo">
-  <meta property="og:image" content="assets/img/og-izigna-sos.png">
-  <meta property="og:image:secure_url" content="assets/img/og-izigna-sos.png">
+  <meta property="og:image" content="https://sos.izignamx.com/assets/img/og-izigna-sos.png">
+  <meta property="og:image:secure_url" content="https://sos.izignamx.com/assets/img/og-izigna-sos.png">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -53,13 +57,13 @@
   <meta name="twitter:title" content="Arreglos Express | IzignaMX">
   <meta name="twitter:description" content="Misiones SOS que llevan tu eCommerce al futuro con mejoras de performance, UX y checkout en 24-72h.">
   <meta name="twitter:url" content="https://sos.izignamx.com/">
-  <meta name="twitter:image" content="assets/img/og-izigna-sos.png">
+  <meta name="twitter:image" content="https://sos.izignamx.com/assets/img/og-izigna-sos.png">
   <meta name="twitter:image:alt" content="Arreglos express futuristas para eCommerce por IzignaMX">
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="icon" href="assets/img/favicon.ico" sizes="any">
   <link rel="icon" href="assets/img/favicon-32x32.png" sizes="32x32">
   <link rel="icon" href="assets/img/favicon-16x16.png" sizes="16x16">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="dns-prefetch" href="https://wa.me">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -629,7 +633,11 @@
       gap:24px;
     }
     .cta-final p{margin:0 auto;max-width:520px;color:var(--muted);font-size:16px}
-    footer{padding:40px 20px 80px;text-align:center;color:var(--muted);font-size:13px}
+    footer.site-footer{padding:40px 20px 80px;color:var(--muted);font-size:13px;}
+    .site-footer__inner{display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center;}
+    .site-footer__links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center;font-size:13px;color:var(--muted);}
+    .site-footer__links a{color:var(--muted);font-weight:600;}
+    .site-footer__links a:hover{color:var(--accent);}
     .wa-float{
       position:fixed;
       right:18px;
@@ -942,7 +950,7 @@
       <span class="top-bar__badge" data-i18n="header.badge">72h o menos</span>
       <span data-i18n="header.message">Misiones express para tiendas Shopify, BigCommerce y WordPress • Prioridad para lanzamientos y ventas urgentes</span>
     </div>
-    <nav class="nav">
+    <nav class="nav" aria-label="Navegación principal">
       <a class="brand" href="#inicio" aria-label="Inicio IzignaMX SOS">
         <img src="assets/img/favicon.svg" alt="IzignaMX" width="36" height="36" decoding="async" fetchpriority="high">
         <span class="brand__text">IzignaMX SOS</span>
@@ -1268,8 +1276,15 @@
       </div>
     </section>
   </main>
-  <footer data-i18n="footer.note">
-    IzignaMX · Arreglos Express 24-72h · Hecho en CDMX • Disponible LATAM / USA · WhatsApp +52 55 3376 0889
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span class="site-footer__copy" data-i18n="footer.note">IzignaMX · Arreglos Express 24-72h · Hecho en CDMX • Disponible LATAM / USA · WhatsApp +52 55 3376 0889</span>
+      <nav class="site-footer__links" aria-label="Enlaces legales y seguridad">
+        <a href="privacy.html">Política de Privacidad</a><span aria-hidden="true">·</span>
+        <a href="security.html">Política de Seguridad</a><span aria-hidden="true">·</span>
+        <a href="mailto:edgar@izignamx.com">Reportar incidente</a>
+      </nav>
+    </div>
   </footer>
   <div class="update-toast" data-update-toast hidden>
     <span class="update-toast__text">Nueva versión disponible. ¿Actualizar ahora?</span>
@@ -1705,56 +1720,106 @@
 
       initializeLanguage();
 
-                  if ('serviceWorker' in navigator) {
-        const handleWaitingWorker = (worker) => {
-          if (!worker) return;
-          if (!navigator.serviceWorker.controller) {
-            worker.postMessage({ type: 'SKIP_WAITING' });
-            return;
-          }
-          showUpdateToast(worker);
-        };
-
-        const registerServiceWorker = () => {
-          navigator.serviceWorker
-            .register('sw.js', { scope: './' })
-            .then((registration) => {
-              handleWaitingWorker(registration.waiting);
-              registration.addEventListener('updatefound', () => {
-                const newWorker = registration.installing;
-                if (newWorker) {
-                  newWorker.addEventListener('statechange', () => {
-                    if (newWorker.state === 'installed') {
-                      handleWaitingWorker(newWorker);
-                    }
-                  });
-                }
-              });
-            })
-            .catch((error) => {
-              console.warn('Service worker registration failed', error);
-            });
-        };
-
-        if (document.readyState === 'complete') {
-          registerServiceWorker();
-        } else {
-          window.addEventListener('load', registerServiceWorker);
-        }
-
-        navigator.serviceWorker.addEventListener('controllerchange', () => {
-          if (hasReloaded) return;
-          if (!pendingWorker) {
-            hideUpdateToast();
-            return;
-          }
-          hasReloaded = true;
-          pendingWorker = null;
-          hideUpdateToast();
-          window.location.reload();
-        });
-      }
-
+                  if ('serviceWorker' in navigator) {
+
+        const handleWaitingWorker = (worker) => {
+
+          if (!worker) return;
+
+          if (!navigator.serviceWorker.controller) {
+
+            worker.postMessage({ type: 'SKIP_WAITING' });
+
+            return;
+
+          }
+
+          showUpdateToast(worker);
+
+        };
+
+
+
+        const registerServiceWorker = () => {
+
+          navigator.serviceWorker
+
+            .register('sw.js', { scope: './' })
+
+            .then((registration) => {
+
+              handleWaitingWorker(registration.waiting);
+
+              registration.addEventListener('updatefound', () => {
+
+                const newWorker = registration.installing;
+
+                if (newWorker) {
+
+                  newWorker.addEventListener('statechange', () => {
+
+                    if (newWorker.state === 'installed') {
+
+                      handleWaitingWorker(newWorker);
+
+                    }
+
+                  });
+
+                }
+
+              });
+
+            })
+
+            .catch((error) => {
+
+              console.warn('Service worker registration failed', error);
+
+            });
+
+        };
+
+
+
+        if (document.readyState === 'complete') {
+
+          registerServiceWorker();
+
+        } else {
+
+          window.addEventListener('load', registerServiceWorker);
+
+        }
+
+
+
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+
+          if (hasReloaded) return;
+
+          if (!pendingWorker) {
+
+            hideUpdateToast();
+
+            return;
+
+          }
+
+          hasReloaded = true;
+
+          pendingWorker = null;
+
+          hideUpdateToast();
+
+          window.location.reload();
+
+        });
+
+      }
+
+
+
       const maybeHandleIntent = () => {
         const params = new URLSearchParams(window.location.search);
         const intent = params.get('intent');
@@ -1763,7 +1828,7 @@
           const reserveHref = 'https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20arrancar%20una%20mision%20SOS%2E';
           window.location.hash = '#servicios';
           setTimeout(() => {
-            window.open(reserveHref, '_blank', 'noopener');
+            window.open(reserveHref, '_blank', 'noopener,noreferrer');
           }, 300);
         }
       };
