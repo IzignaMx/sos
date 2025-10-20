@@ -69,13 +69,27 @@
       "name": "Reservar mision",
       "short_name": "Reservar",
       "url": "/?intent=reserve#servicios",
-      "description": "Revisa paquetes SOS y agenda una mision express."
+      "description": "Revisa paquetes SOS y agenda una mision express.",
+      "icons": [
+        {
+          "src": "assets/img/favicon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "Ver catalogo",
       "short_name": "Catalogo",
       "url": "/#servicios",
-      "description": "Explora servicios de performance, auditoria y checkout."
+      "description": "Explora servicios de performance, auditoria y checkout.",
+      "icons": [
+        {
+          "src": "assets/img/favicon-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
