@@ -15,7 +15,7 @@
   <meta name="apple-mobile-web-app-title" content="IzignaMX SOS">
   <meta name="format-detection" content="telephone=no">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; img-src 'self' data: https://sos.izignamx.com https://wa.me; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://analytics.izignamx.com; img-src 'self' data: https://sos.izignamx.com https://wa.me; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://analytics.izignamx.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
   <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()">
   <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -697,6 +697,7 @@
     @keyframes drift{from{transform:translate3d(-20px,0,0) scale(1)}to{transform:translate3d(30px,-30px,0) scale(1.1)}}
     @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
     @keyframes float{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-10px,0)}}
+    #matomo-opt-out{display:block;position:relative;bottom:0;max-width:75%;margin:0 auto;padding:0 2em 4em}
   </style>
   <script type="application/ld+json">
   {
@@ -942,6 +943,16 @@
     ]
   }
   </script>
+  <!-- Matomo Tag Manager -->
+<script>
+  var _mtm = window._mtm = window._mtm || [];
+  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+  (function() {
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='https://analytics.izignamx.com/js/container_7bpSEAnv.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Tag Manager -->
 </head>
 <body>
   <div class="reading-progress" data-progress aria-hidden="true"></div>
@@ -1888,5 +1899,7 @@
       }
     });
   </script>
+  <div id="matomo-opt-out"></div>
+  <script src="https://analytics.izignamx.com/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
 </body>
 </html>
