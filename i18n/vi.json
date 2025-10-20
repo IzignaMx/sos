@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "lang": "vi",
+    "dir": "ltr",
+    "title": "Nhiệm Vụ Tốc Độ | IzignaMX",
+    "description": "Nhiệm vụ SOS tối ưu Shopify, BigCommerce và WordPress trong 24-72h. Giao diện tương lai tập trung tuyệt đối vào chuyển đổi thực tế.",
+    "ogTitle": "Nhiệm Vụ Tốc Độ | IzignaMX",
+    "ogDescription": "Đưa eCommerce của bạn tiến vào tương lai với bản vá thần tốc, tăng hiệu năng và checkout mới dưới 72 giờ."
+  },
+  "header": {
+    "badge": "72h hoặc ít hơn",
+    "message": "Nhiệm vụ tốc độ cho cửa hàng Shopify, BigCommerce, WordPress • Ưu tiên cho launch và chiến dịch khẩn"
+  },
+  "nav": {
+    "services": "Dịch vụ",
+    "process": "Quy trình",
+    "impact": "Hiệu quả",
+    "faq": "FAQ",
+    "contact": "Gửi email",
+    "book": "Đặt lịch 24h",
+    "languageLabel": "Chọn ngôn ngữ"
+  },
+  "hero": {
+    "kicker": "Nhiệm vụ eCommerce tốc độ",
+    "title": "Bản vá tương lai cứu doanh thu trong thời gian kỷ lục.",
+    "lead": "Tôi tối ưu hiệu năng, checkout và UX cho Shopify, BigCommerce và WordPress để bạn lấy lại chuyển đổi mà không cần sprint vô tận. Giao trong 24-72h với sự chính xác như phẫu thuật và báo cáo hành động rõ ràng.",
+    "bullets": [
+      "Thiết kế immersive với micro-animation tăng niềm tin và giữ chân người dùng.",
+      "Bao gồm audit và roadmap trực quan: số liệu trước/sau cùng kế hoạch duy trì.",
+      "Liên hệ trực tiếp qua WhatsApp và bảng Notion live—không qua trung gian."
+    ],
+    "primaryCta": "Đặt lịch nhiệm vụ",
+    "secondaryCta": "Xem gói dịch vụ",
+    "metrics": {
+      "delivery": "Thời gian trung bình",
+      "checkout": "Checkout tối ưu",
+      "satisfaction": "Hài lòng khách hàng"
+    },
+    "panel": {
+      "title": "Mission control đang hoạt động",
+      "subtitle": "Đánh giá xoay quanh ROI + xử lý điểm nghẽn:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Ma sát checkout",
+          "status": "-65%"
+        },
+        {
+          "label": "Niềm tin thị giác",
+          "status": "Xếp hạng A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Chế độ launch",
+        "body": "Sẵn sàng go-live trong 36h"
+      },
+      "ai": {
+        "title": "UX hỗ trợ AI",
+        "body": "Insight hành động + copy"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "Dịch vụ tốc độ",
+    "sectionTitle": "Chọn nhiệm vụ phù hợp mức độ khẩn cấp của bạn.",
+    "sectionDescription": "Mỗi gói bao gồm roadmap trực quan, kiểm tra bảo mật và buổi bàn giao. Cần phối hợp? Tôi ghép deliverable mà không phát sinh phí ẩn.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "SOS hiệu năng + UI",
+        "summary": "Điều chỉnh tốc độ chuẩn xác, dọn xung đột app và làm mới trải nghiệm checkout. Đi kèm diện mạo responsive đậm chất tương lai.",
+        "bullets": [
+          "Chẩn đoán Lighthouse kèm báo cáo chú thích",
+          "Refactor nhẹ cho khu vực trọng yếu và hero animate",
+          "Triển khai huy hiệu tin cậy và modal native"
+        ],
+        "price": "Từ 1 200 MXN",
+        "duration": "Giao 24-48h",
+        "cta": "Giữ chỗ"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Hardening tương lai + làm sạch",
+        "summary": "Gia cố bảo mật, dọn plugin và thiết kế lại hero với thành phần glow dựng niềm tin tức thì.",
+        "bullets": [
+          "Quét malware, backup và cài lại an toàn",
+          "Hero và form tái cấu trúc cùng kiểm thử UX",
+          "Bảng điều khiển trực quan cho cập nhật tương lai"
+        ],
+        "price": "Từ 1 500 MXN",
+        "duration": "Giao 48-72h",
+        "cta": "Giữ chỗ"
+      },
+      "audit": {
+        "tag": "UX + Tốc độ",
+        "title": "Flash Audit 360°",
+        "summary": "Đào sâu một trang chủ lực với heatmap mô phỏng, checklist Core Web Vitals và prototype chuyển động tương tác.",
+        "bullets": [
+          "Checklist ưu tiên (tác động vs. nỗ lực)",
+          "Mockup Figma kèm animation đề xuất",
+          "Kế hoạch thử nghiệm A/B và script sẵn sàng"
+        ],
+        "price": "Từ 1 200 MXN",
+        "duration": "Giao 48h",
+        "cta": "Giữ chỗ"
+      },
+      "checkout": {
+        "tag": "Checkout",
+        "title": "Rà soát checkout + fix",
+        "summary": "Lộ diện điểm rò rỉ và triển khai tối đa ba nâng cấp tức thì: microcopy, xác thực, trạng thái tải lấy cảm hứng fintech.",
+        "bullets": [
+          "Phiên quan sát + bản đồ ma sát thời gian thực",
+          "Loader tương lai và UI niềm tin",
+          "Kiểm thử trên desktop và mobile"
+        ],
+        "price": "Từ 1 800 MXN",
+        "duration": "Giao 48-72h",
+        "cta": "Giữ chỗ"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Kết quả thực tế",
+    "sectionTitle": "Chỉ đẹp thôi chưa đủ—mỗi lần giao đều kèm metric và thử nghiệm.",
+    "sectionDescription": "Tôi kết nối dashboard tốc độ, ghi lại so sánh trước/sau và để lại automation phát hiện hồi quy. Leads cảm nhận ngay từ scroll đầu tiên.",
+    "stats": [
+      {
+        "description": "Cửa hàng được boost 12 tháng qua với cải thiện rõ rệt về checkout và storytelling."
+      },
+      {
+        "description": "Số ma sát trung bình xử lý trên mỗi dự án; kèm video walkthrough và danh sách hành động."
+      },
+      {
+        "description": "Thử nghiệm A/B sẵn sàng chạy; bao gồm giả thuyết, tài nguyên và hướng dẫn kiểm chứng."
+      },
+      {
+        "description": "Khách hàng quay lại cho nhiệm vụ mới hoặc chọn gói UX retainer liên tục."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Cách tôi làm",
+    "sectionTitle": "Quy trình thần tốc, không quan liêu, dành cho deadline gấp.",
+    "sectionDescription": "Tôi vận hành song song luồng UX/UI, hiệu năng và truyền thông. Mốc tiến độ hiển thị trên bảng Notion sống với emoji báo trạng thái.",
+    "steps": [
+      {
+        "title": "Tóm tắt chiến thuật trong 20 phút",
+        "description": "Call hoặc voice-note; chốt giả thuyết, quyền truy cập và chỉ số then chốt. Không slide—vào thẳng bản đồ công việc."
+      },
+      {
+        "title": "Quét tương lai + protoboard",
+        "description": "Audit kỹ thuật, benchmark thị giác và prototype Figma có thể click với motion đề xuất."
+      },
+      {
+        "title": "Triển khai mô-đun",
+        "description": "Tôi code component, tối ưu asset phát sáng, cấu hình micro-interaction và validation."
+      },
+      {
+        "title": "Bàn giao + kế hoạch tăng trưởng",
+        "description": "Báo cáo trước/sau, video Loom, checklist bảo trì và bước thử nghiệm kế tiếp."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Chia sẻ thực tế",
+    "sectionTitle": "Những team chọn SOS nay có giao diện đẳng cấp hơn.",
+    "sectionDescription": "Mỗi nhiệm vụ đi kèm theo dõi 7 ngày để đảm bảo metric giữ vững.",
+    "quotes": [
+      {
+        "text": "“Trong 48h checkout của chúng tôi chuyển từ đường hầm rối rắm thành trải nghiệm mượt mà. Animation tăng niềm tin và chuyển đổi mobile tăng 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Báo cáo trước/sau mang tính quyết định: tốc độ, bảo mật, câu chuyện thị giác. Edgar điều phối mọi thứ qua Notion & Slack không tiếng ồn. Chúng tôi quay lại mỗi quý.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Lộ trình duy trì"
+      },
+      {
+        "text": "“Flash Audit cho insight tức thì. Nhận mockup animate và script sẵn; triển khai chưa tới một sprint. Giờ chúng tôi nhân rộng flow cho toàn site.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ tương lai",
+    "sectionTitle": "Những điều cần rõ trước khi nhiệm vụ khởi động.",
+    "sectionDescription": "Còn thắc mắc? Gửi voice-note WhatsApp và tôi phản hồi ngay.",
+    "items": [
+      {
+        "question": "Cần gì để bắt đầu trong vòng 24 giờ?",
+        "answer": "Quyền truy cập tạm thời admin, analytics, website cùng mục tiêu rõ (doanh thu, lead, ổn định). Tôi lập bản đồ công việc và xác nhận khung giao."
+      },
+      {
+        "question": "Bao gồm triển khai hay chỉ khuyến nghị?",
+        "answer": "Mỗi gói đều có phần fix trong phạm vi. Nếu phát sinh hạng mục lớn hơn, tôi đề xuất add-on tốc độ với giờ cụ thể—không bất ngờ."
+      },
+      {
+        "question": "Bạn đo chuyển đổi tăng như thế nào?",
+        "answer": "Kích hoạt dashboard so sánh sự kiện chính, xác định KPI và bàn giao script cho test A/B. Tôi theo sát 7 ngày để tinh chỉnh khi cần."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Sẵn sàng để eCommerce của bạn trông như đến từ tương lai—và chuyển đổi đúng như vậy?",
+    "body": "Cho tôi biết mức độ khẩn cấp và đặt lịch ngay. Bạn nhận video chẩn đoán miễn phí với ý tưởng hành động tức thì.",
+    "primary": "Yêu cầu chẩn đoán",
+    "secondary": "Gửi brief qua email"
+  },
+  "footer": {
+    "note": "IzignaMX · Fix tốc độ 24-72h · Xây dựng tại CDMX • Phục vụ LATAM / USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Chat với Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Nhi%E1%BB%87m%20V%E1%BB%A5%20T%E1%BB%91c%20%C4%90%E1%BB%99%20-%20y%C3%AAu%20c%E1%BA%A7u",
+    "navWhatsApp": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20mu%E1%BB%91n%20kh%E1%BB%9Fi%20%C4%91%E1%BB%99ng%20m%E1%BB%99t%20nhi%E1%BB%87m%20v%E1%BB%A5%20SOS%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20mu%E1%BB%91n%20%C4%91%E1%BA%B7t%20nhi%E1%BB%87m%20v%E1%BB%A5%20t%E1%BB%91c%20%C4%91%E1%BB%99%20trong%20tu%E1%BA%A7n%20n%C3%A0y%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20c%E1%BA%A7n%20g%C3%B3i%20SOS%20cho%20Shopify%20ho%E1%BA%B7c%20BigCommerce%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20mu%E1%BB%91n%20g%C3%B3i%20hardening%20WordPress%20t%C6%B0%C6%A1ng%20lai%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20xin%20%C4%91%C4%83ng%20k%C3%BD%20Flash%20Audit%20360%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20vui%20l%C3%B2ng%20th%E1%BB%B1c%20hi%E1%BB%87n%20Checkout%20Review%20k%C3%A8m%20fix%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20g%E1%BB%ADi%20cho%20t%C3%B4i%20video%20ch%E1%BA%A9n%20%C4%91o%C3%A1n%20t%C6%B0%C6%A1ng%20lai%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Nhi%E1%BB%87m%20V%E1%BB%A5%20T%E1%BB%91c%20%C4%90%E1%BB%99%20-%20brief%20ng%E1%BA%AFn",
+    "floatingWa": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20v%E1%BB%ABa%20th%C4%83m%20trang%20SOS%20t%C6%B0%C6%A1ng%20lai%20c%E1%BB%A7a%20b%E1%BA%A1n%2E"
+  }
+}
