@@ -1,0 +1,69 @@
+{
+  "name": "IzignaMX SOS",
+  "short_name": "IzignaSOS",
+  "description": "Misiones express que optimizan Shopify, BigCommerce y WordPress en 24-72h con foco en conversiones futuristas.",
+  "lang": "es-MX",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "orientation": "portrait",
+  "background_color": "#020817",
+  "theme_color": "#0d1b3d",
+  "categories": [
+    "business",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "https://izignamx.com/assets/img/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://izignamx.com/assets/img/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://izignamx.com/assets/img/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/img/og-izigna-sos@1200.png",
+      "sizes": "1200x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/img/pwa-screenshot-mobile.png",
+      "sizes": "720x1200",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Reservar mision",
+      "short_name": "Reservar",
+      "url": "/?intent=reserve#servicios",
+      "description": "Revisa paquetes SOS y agenda una mision express."
+    },
+    {
+      "name": "Ver catalogo",
+      "short_name": "Catalogo",
+      "url": "/#servicios",
+      "description": "Explora servicios de performance, auditoria y checkout."
+    }
+  ]
+}
