@@ -5,7 +5,160 @@
     dispose() {}
   };
 
-  function initFluidBackgroundInternal() {
+  const QUALITY_PRESETS = {
+    alto: {
+      id: 'alto',
+      particleDensity: 0.1,
+      maxParticles: 100000,
+      particleLifetime: 1000,
+      numJacobiSteps: 3,
+      numRenderSteps: 3,
+      velocityScaleFactor: 8,
+      maxVelocity: 30,
+      trailLength: 18,
+      touchForceScale: 2,
+      frameBudget: 22
+    },
+    medio: {
+      id: 'medio',
+      particleDensity: 0.07,
+      maxParticles: 70000,
+      particleLifetime: 900,
+      numJacobiSteps: 3,
+      numRenderSteps: 2,
+      velocityScaleFactor: 10,
+      maxVelocity: 26,
+      trailLength: 14,
+      touchForceScale: 1.8,
+      frameBudget: 28
+    },
+    bajo: {
+      id: 'bajo',
+      particleDensity: 0.045,
+      maxParticles: 45000,
+      particleLifetime: 800,
+      numJacobiSteps: 2,
+      numRenderSteps: 1,
+      velocityScaleFactor: 12,
+      maxVelocity: 22,
+      trailLength: 12,
+      touchForceScale: 1.5,
+      frameBudget: 32
+    },
+    minimo: {
+      id: 'minimo',
+      particleDensity: 0.03,
+      maxParticles: 25000,
+      particleLifetime: 700,
+      numJacobiSteps: 1,
+      numRenderSteps: 1,
+      velocityScaleFactor: 14,
+      maxVelocity: 18,
+      trailLength: 10,
+      touchForceScale: 1.2,
+      frameBudget: 36
+    }
+  };
+
+  const QUALITY_SEQUENCE = ['alto', 'medio', 'bajo', 'minimo'];
+
+  function getNextQualityId(id) {
+    const index = QUALITY_SEQUENCE.indexOf(id);
+    if (index === -1 || index >= QUALITY_SEQUENCE.length - 1) {
+      return null;
+    }
+    return QUALITY_SEQUENCE[index + 1];
+  }
+
+  function prefersReducedMotion() {
+    if (typeof window === 'undefined' || !window.matchMedia) {
+      return false;
+    }
+    try {
+      return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function detectQualityProfile({ supportsWebGL2 }) {
+    if (prefersReducedMotion()) {
+      return 'minimo';
+    }
+    const connection = typeof navigator !== 'undefined' ? (navigator.connection || navigator.mozConnection || navigator.webkitConnection) : null;
+    if (connection && connection.saveData) {
+      return 'bajo';
+    }
+    const deviceMemory = typeof navigator !== 'undefined' && navigator.deviceMemory ? navigator.deviceMemory : 0;
+    const cores = typeof navigator !== 'undefined' && navigator.hardwareConcurrency ? navigator.hardwareConcurrency : 0;
+    const pixelRatio = typeof window !== 'undefined' && window.devicePixelRatio ? window.devicePixelRatio : 1;
+    const screenWidth = typeof window !== 'undefined' && window.innerWidth ? window.innerWidth : 0;
+    const screenHeight = typeof window !== 'undefined' && window.innerHeight ? window.innerHeight : 0;
+    const screenArea = screenWidth * screenHeight;
+
+    let score = 0;
+
+    if (supportsWebGL2) {
+      score += 1;
+    } else {
+      score -= 2;
+    }
+
+    if (deviceMemory >= 8) {
+      score += 2;
+    } else if (deviceMemory >= 4) {
+      score += 1;
+    } else if (deviceMemory > 0) {
+      score -= 1;
+    } else {
+      score -= 1;
+    }
+
+    if (cores >= 8) {
+      score += 2;
+    } else if (cores >= 4) {
+      score += 1;
+    } else if (cores > 0) {
+      score -= 1;
+    } else {
+      score -= 1;
+    }
+
+    if (pixelRatio > 2.5) {
+      score -= 1;
+    }
+
+    if (screenArea > 2500000) {
+      score -= 1;
+    }
+
+    if (deviceMemory && deviceMemory <= 2) {
+      score -= 1;
+    }
+
+    if (score <= -1) {
+      return 'bajo';
+    }
+    if (score <= 1) {
+      return 'medio';
+    }
+    return 'alto';
+  }
+
+  function setupMediaListener(query, handler, cleanup) {
+    if (!query) {
+      return;
+    }
+    if (typeof query.addEventListener === 'function') {
+      query.addEventListener('change', handler);
+      cleanup.push(() => query.removeEventListener('change', handler));
+    } else if (typeof query.addListener === 'function') {
+      query.addListener(handler);
+      cleanup.push(() => query.removeListener(handler));
+    }
+  }
+
+  function initFluidBackgroundInternal(options = {}) {
     if (!window.GPUIO || !window.GPUIO.GPUComposer) {
       console.warn('GPUIO no disponible para el fondo fluido');
       return null;
@@ -38,18 +191,33 @@
     }
     document.body.insertBefore(canvas, document.body.firstChild);
 
-    const TOUCH_FORCE_SCALE = 2;
-    const PARTICLE_DENSITY = 0.1;
-    const MAX_NUM_PARTICLES = 100000;
-    const PARTICLE_LIFETIME = 1000;
-    const NUM_JACOBI_STEPS = 3;
+    const { profileId, onRequestDowngrade } = options;
+    const cleanupCallbacks = [];
+
+    const supportsWebGL2 = typeof isWebGL2Supported === 'function' ? isWebGL2Supported() : true;
+    const selectedProfileId = QUALITY_PRESETS[profileId] ? profileId : detectQualityProfile({ supportsWebGL2 });
+    const quality = QUALITY_PRESETS[selectedProfileId] || QUALITY_PRESETS.minimo;
+
+    if (typeof console !== 'undefined' && typeof console.info === 'function') {
+      console.info('Fondo fluido: perfil de calidad "' + selectedProfileId + '"');
+    }
+
+    const {
+      touchForceScale: TOUCH_FORCE_SCALE,
+      particleDensity: PARTICLE_DENSITY,
+      maxParticles: MAX_NUM_PARTICLES,
+      particleLifetime: PARTICLE_LIFETIME,
+      numJacobiSteps: NUM_JACOBI_STEPS,
+      numRenderSteps: NUM_RENDER_STEPS,
+      velocityScaleFactor: VELOCITY_SCALE_FACTOR,
+      maxVelocity: MAX_VELOCITY,
+      trailLength: TRAIL_LENGTH,
+      frameBudget: FRAME_BUDGET
+    } = quality;
+
     const PRESSURE_CALC_ALPHA = -1;
     const PRESSURE_CALC_BETA = 0.25;
-    const NUM_RENDER_STEPS = 3;
-    const VELOCITY_SCALE_FACTOR = 8;
-    const MAX_VELOCITY = 30;
     const POSITION_NUM_COMPONENTS = 4;
-    const TRAIL_LENGTH = 18;
 
     let animationId = null;
     let composer;
@@ -74,7 +242,63 @@
     let canvasBounds = canvas.getBoundingClientRect();
     const activeTouches = new Map();
 
+    const now = () => (typeof performance !== 'undefined' && typeof performance.now === 'function' ? performance.now() : Date.now());
+    const frameDurations = [];
+    const FRAME_SAMPLE_SIZE = 45;
+    let lastFrameTime = now();
+    let degradeRequested = false;
+
     const calcNumParticles = (width, height) => Math.min(Math.ceil(width * height * PARTICLE_DENSITY), MAX_NUM_PARTICLES);
+
+    function requestDowngrade(targetProfileId) {
+      if (degradeRequested) {
+        return;
+      }
+      let fallbackProfile = targetProfileId;
+      if (!fallbackProfile || fallbackProfile === selectedProfileId) {
+        fallbackProfile = getNextQualityId(selectedProfileId);
+      }
+      if (!fallbackProfile || fallbackProfile === selectedProfileId) {
+        return;
+      }
+      degradeRequested = true;
+      if (typeof onRequestDowngrade === 'function') {
+        onRequestDowngrade(fallbackProfile);
+      }
+    }
+
+    const reduceMotionQuery = typeof window !== 'undefined' && window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+    setupMediaListener(reduceMotionQuery, (event) => {
+      if (event.matches) {
+        requestDowngrade('minimo');
+      }
+    }, cleanupCallbacks);
+    if (reduceMotionQuery && reduceMotionQuery.matches && selectedProfileId !== 'minimo') {
+      requestDowngrade('minimo');
+    }
+
+    const connection = typeof navigator !== 'undefined' ? (navigator.connection || navigator.mozConnection || navigator.webkitConnection) : null;
+    const handleConnectionChange = () => {
+      if (connection && connection.saveData) {
+        requestDowngrade(selectedProfileId === 'minimo' ? 'minimo' : 'bajo');
+      }
+    };
+    if (connection) {
+      handleConnectionChange();
+      if (typeof connection.addEventListener === 'function') {
+        connection.addEventListener('change', handleConnectionChange);
+        cleanupCallbacks.push(() => connection.removeEventListener('change', handleConnectionChange));
+      }
+    }
+
+    function handleVisibilityChange() {
+      lastFrameTime = now();
+      frameDurations.length = 0;
+    }
+    if (typeof document !== 'undefined' && document.addEventListener) {
+      document.addEventListener('visibilitychange', handleVisibilityChange);
+      cleanupCallbacks.push(() => document.removeEventListener('visibilitychange', handleVisibilityChange));
+    }
 
     function dispose() {
       if (animationId) {
@@ -88,6 +312,8 @@
       document.body.removeEventListener('pointercancel', onPointerStop);
       document.body.removeEventListener('pointerleave', onPointerStop);
       activeTouches.clear();
+      cleanupCallbacks.forEach((fn) => fn());
+      cleanupCallbacks.length = 0;
       if (trailState) trailState.dispose();
       if (particleAgeState) particleAgeState.dispose();
       if (particleInitialState) particleInitialState.dispose();
@@ -110,8 +336,6 @@
         canvas.parentNode.removeChild(canvas);
       }
     }
-
-    const supportsWebGL2 = typeof isWebGL2Supported === 'function' ? isWebGL2Supported() : true;
 
     try {
       composer = new GPUComposer({
@@ -460,9 +684,42 @@
       composer.step({ program: renderTrails, input: trailState });
     }
 
+    function monitorFrameTime() {
+      if (!FRAME_BUDGET) {
+        return;
+      }
+      if (typeof document !== 'undefined' && document.hidden) {
+        frameDurations.length = 0;
+        lastFrameTime = now();
+        return;
+      }
+      const currentTime = now();
+      const delta = currentTime - lastFrameTime;
+      lastFrameTime = currentTime;
+      if (!Number.isFinite(delta) || delta <= 0) {
+        return;
+      }
+      if (frameDurations.length >= FRAME_SAMPLE_SIZE) {
+        frameDurations.shift();
+      }
+      frameDurations.push(delta);
+      if (!degradeRequested && frameDurations.length === FRAME_SAMPLE_SIZE) {
+        let total = 0;
+      
+        for (let i = 0; i < frameDurations.length; i += 1) {
+          total += frameDurations[i];
+        }
+        const average = total / frameDurations.length;
+        if (average > FRAME_BUDGET) {
+          requestDowngrade();
+        }
+      }
+    }
+
     function tick() {
       composer.tick();
       stepSimulation();
+      monitorFrameTime();
       animationId = window.requestAnimationFrame(tick);
     }
 
@@ -506,6 +763,8 @@
     function onResize() {
       const widthResize = window.innerWidth || document.documentElement.clientWidth || 1;
       const heightResize = window.innerHeight || document.documentElement.clientHeight || 1;
+      frameDurations.length = 0;
+      lastFrameTime = now();
       canvasBounds = canvas.getBoundingClientRect();
 
       composer.resize([widthResize, heightResize]);
@@ -556,7 +815,59 @@
   }
 
   window.initFluidBackground = function initFluidBackground() {
-    const controller = initFluidBackgroundInternal();
-    return controller || noopController;
+    if (!window.GPUIO || !window.GPUIO.GPUComposer) {
+      console.warn('GPUIO no disponible para iniciar el fondo fluido');
+      return noopController;
+    }
+
+    const supportsWebGL2 = typeof window.GPUIO.isWebGL2Supported === 'function' ? window.GPUIO.isWebGL2Supported() : true;
+    let currentProfileId = detectQualityProfile({ supportsWebGL2 });
+    let currentController = noopController;
+    let disposed = false;
+
+    function selectFallbackProfile(requestedProfile) {
+      const currentIndex = QUALITY_SEQUENCE.indexOf(currentProfileId);
+      if (requestedProfile && QUALITY_PRESETS[requestedProfile]) {
+        const requestedIndex = QUALITY_SEQUENCE.indexOf(requestedProfile);
+        if (requestedIndex !== -1 && requestedIndex > currentIndex) {
+          return requestedProfile;
+        }
+      }
+      return getNextQualityId(currentProfileId);
+    }
+
+    function rebuild(profileId) {
+      if (disposed) {
+        return;
+      }
+      if (currentController && typeof currentController.dispose === 'function') {
+        currentController.dispose();
+      }
+      currentProfileId = QUALITY_PRESETS[profileId] ? profileId : 'minimo';
+      const nextController = initFluidBackgroundInternal({
+        profileId: currentProfileId,
+        onRequestDowngrade(requestedProfile) {
+          if (disposed) {
+            return;
+          }
+          const fallbackProfile = selectFallbackProfile(requestedProfile);
+          if (fallbackProfile && fallbackProfile !== currentProfileId) {
+            rebuild(fallbackProfile);
+          }
+        }
+      });
+      currentController = nextController || noopController;
+    }
+
+    rebuild(currentProfileId);
+
+    return {
+      dispose() {
+        disposed = true;
+        if (currentController && typeof currentController.dispose === 'function') {
+          currentController.dispose();
+        }
+      }
+    };
   };
 })();
