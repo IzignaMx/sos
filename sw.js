@@ -67,12 +67,23 @@ self.addEventListener("fetch", (event) => {
 
   const requestURL = new URL(request.url);
 
+  // Avoid caching non-HTTP requests (like chrome-extension://)
+  if (!requestURL.protocol.startsWith("http")) {
+    return;
+  }
+
   // Handle navigation requests with offline fallback
   if (
     request.mode === "navigate" &&
     requestURL.origin === self.location.origin
   ) {
-    event.respondWith(fetch(request).catch(() => caches.match("/index.html")));
+    event.respondWith(
+      fetch(request).catch(() =>
+        caches
+          .match("/index.html")
+          .then((cached) => cached || Response.error()),
+      ),
+    );
     return;
   }
 
@@ -86,12 +97,14 @@ self.addEventListener("fetch", (event) => {
         if (cachedResponse) {
           return cachedResponse;
         }
-        return fetch(request).then((response) => {
-          return caches.open(PRECACHE).then((cache) => {
-            cache.put(request, response.clone());
-            return response;
-          });
-        });
+        return fetch(request)
+          .then((response) => {
+            return caches.open(PRECACHE).then((cache) => {
+              cache.put(request, response.clone());
+              return response;
+            });
+          })
+          .catch(() => Response.error());
       }),
     );
     return;
@@ -112,7 +125,7 @@ self.addEventListener("fetch", (event) => {
               }
               return response;
             })
-            .catch(() => cachedResponse);
+            .catch(() => cachedResponse || Response.error());
           return cachedResponse || networkFetch;
         }),
       ),
@@ -125,10 +138,12 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       caches.open(RUNTIME).then((cache) =>
         cache.match(request).then((cachedResponse) => {
-          const fetchPromise = fetch(request).then((networkResponse) => {
-            cache.put(request, networkResponse.clone());
-            return networkResponse;
-          });
+          const fetchPromise = fetch(request)
+            .then((networkResponse) => {
+              cache.put(request, networkResponse.clone());
+              return networkResponse;
+            })
+            .catch(() => cachedResponse || Response.error());
           return cachedResponse || fetchPromise;
         }),
       ),
@@ -144,13 +159,24 @@ self.addEventListener("fetch", (event) => {
           if (cachedResponse) {
             return cachedResponse;
           }
-          return fetch(request).then((response) => {
-            cache.put(request, response.clone());
-            return response;
-          });
+          return fetch(request)
+            .then((response) => {
+              cache.put(request, response.clone());
+              return response;
+            })
+            .catch(() => Response.error());
         }),
       ),
     );
+    return;
+  }
+
+  // Analytics or external tracking requests shouldn't be cached, just pass through
+  if (
+    requestURL.hostname.includes("analytics") ||
+    requestURL.hostname.includes("cloudflareinsights")
+  ) {
+    event.respondWith(fetch(request).catch(() => Response.error()));
     return;
   }
 
@@ -167,7 +193,9 @@ self.addEventListener("fetch", (event) => {
         });
         return response;
       })
-      .catch(() => caches.match(request)),
+      .catch(() =>
+        caches.match(request).then((cached) => cached || Response.error()),
+      ),
   );
 });
 
