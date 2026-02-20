@@ -33,6 +33,7 @@ jobs:
           # Se excluyen carpetas de backend, docs, configuración y dependencias
           rsync -av --exclude='.git*' \
                     --exclude='.github' \
+                    --exclude='_internal_docs' \
                     --exclude='whatsapp-bot' \
                     --exclude='.public-dist' \
                     --exclude='node_modules' \
