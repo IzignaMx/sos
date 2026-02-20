@@ -224,7 +224,7 @@
 
     if (typeof console !== "undefined" && typeof console.info === "function") {
       console.info(
-        'Fondo fluido: perfil de calidad "' + selectedProfileId + '"'
+        'Fondo fluido: perfil de calidad "' + selectedProfileId + '"',
       );
     }
 
@@ -309,7 +309,7 @@
           requestDowngrade("minimo");
         }
       },
-      cleanupCallbacks
+      cleanupCallbacks,
     );
     if (
       reduceMotionQuery &&
@@ -335,7 +335,7 @@
       if (typeof connection.addEventListener === "function") {
         connection.addEventListener("change", handleConnectionChange);
         cleanupCallbacks.push(() =>
-          connection.removeEventListener("change", handleConnectionChange)
+          connection.removeEventListener("change", handleConnectionChange),
         );
       }
     }
@@ -347,7 +347,10 @@
     if (typeof document !== "undefined" && document.addEventListener) {
       document.addEventListener("visibilitychange", handleVisibilityChange);
       cleanupCallbacks.push(() =>
-        document.removeEventListener("visibilitychange", handleVisibilityChange)
+        document.removeEventListener(
+          "visibilitychange",
+          handleVisibilityChange,
+        ),
       );
     }
 
@@ -713,11 +716,11 @@
           vec2 radial = v_uv_local * 2.0 - 1.0;
           float radiusSq = dot(radial, radial);
           vec2 velocidad = texture(u_velocity, v_uv).xy + (1.0 - radiusSq) * u_vector * ${TOUCH_FORCE_SCALE.toFixed(
-            1
+            1,
           )};
           float magnitud = length(velocidad);
           out_velocity = velocidad / magnitud * min(magnitud, ${MAX_VELOCITY.toFixed(
-            1
+            1,
           )});
         }`,
         uniforms: [
@@ -900,7 +903,7 @@
 
       NUM_PARTICLES = calcNumParticles(widthResize, heightResize);
       const positions = new Float32Array(
-        NUM_PARTICLES * POSITION_NUM_COMPONENTS
+        NUM_PARTICLES * POSITION_NUM_COMPONENTS,
       );
       for (let i = 0; i < NUM_PARTICLES; i += 1) {
         positions[i * POSITION_NUM_COMPONENTS] = Math.random() * widthResize;

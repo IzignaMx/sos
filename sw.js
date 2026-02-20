@@ -36,7 +36,7 @@ self.addEventListener("install", (event) => {
     caches
       .open(PRECACHE)
       .then((cache) => cache.addAll(PRECACHE_URLS))
-      .then(() => self.skipWaiting())
+      .then(() => self.skipWaiting()),
   );
 });
 
@@ -51,10 +51,10 @@ self.addEventListener("activate", (event) => {
               return caches.delete(cacheName);
             }
             return undefined;
-          })
-        )
+          }),
+        ),
       )
-      .then(() => self.clients.claim())
+      .then(() => self.clients.claim()),
   );
 });
 
@@ -92,7 +92,7 @@ self.addEventListener("fetch", (event) => {
             return response;
           });
         });
-      })
+      }),
     );
     return;
   }
@@ -114,8 +114,8 @@ self.addEventListener("fetch", (event) => {
             })
             .catch(() => cachedResponse);
           return cachedResponse || networkFetch;
-        })
-      )
+        }),
+      ),
     );
     return;
   }
@@ -130,8 +130,8 @@ self.addEventListener("fetch", (event) => {
             return networkResponse;
           });
           return cachedResponse || fetchPromise;
-        })
-      )
+        }),
+      ),
     );
     return;
   }
@@ -148,8 +148,8 @@ self.addEventListener("fetch", (event) => {
             cache.put(request, response.clone());
             return response;
           });
-        })
-      )
+        }),
+      ),
     );
     return;
   }
@@ -167,7 +167,7 @@ self.addEventListener("fetch", (event) => {
         });
         return response;
       })
-      .catch(() => caches.match(request))
+      .catch(() => caches.match(request)),
   );
 });
 
