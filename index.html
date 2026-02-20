@@ -1,0 +1,3001 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Arreglos Express | IzignaMX</title>
+    <meta
+      name="description"
+      content="Misiones SOS para optimizar Shopify, BigCommerce y WordPress en 24-72h. Interfaces futuristas centradas en conversiones reales."
+    />
+    <link rel="canonical" href="https://sos.izignamx.com/" />
+    <link rel="manifest" href="manifest.webmanifest" crossorigin="anonymous" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="application-name" content="IzignaMX SOS" />
+    <meta name="apple-mobile-web-app-title" content="IzignaMX SOS" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' https://analytics.izignamx.com https://static.cloudflareinsights.com; img-src 'self' data: https://sos.izignamx.com https://wa.me; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://analytics.izignamx.com https://cloudflareinsights.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+    />
+    <meta
+      http-equiv="Permissions-Policy"
+      content="camera=(), microphone=(), geolocation=(), payment=()"
+    />
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#0d1b3d" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:title" content="Arreglos Express | IzignaMX" />
+    <meta
+      property="og:description"
+      content="Lleva tu eCommerce al futuro con arreglos express, mejoras de performance y checkouts optimizados en menos de 72h."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="IzignaMX SOS" />
+    <meta property="og:url" content="https://sos.izignamx.com/" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="pt_BR" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="it_IT" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ar_SA" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta property="og:locale:alternate" content="tr_TR" />
+    <meta property="og:locale:alternate" content="hi_IN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="nl_NL" />
+    <meta property="og:locale:alternate" content="sv_SE" />
+    <meta property="og:locale:alternate" content="pl_PL" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+    <meta property="og:locale:alternate" content="vi_VN" />
+    <meta property="og:locale:alternate" content="la" />
+    <meta property="og:locale:alternate" content="eo" />
+    <meta
+      property="og:image"
+      content="https://sos.izignamx.com/assets/img/og-izigna-sos.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://sos.izignamx.com/assets/img/og-izigna-sos.png"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Arreglos express futuristas para eCommerce por IzignaMX"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arreglos Express | IzignaMX" />
+    <meta
+      name="twitter:description"
+      content="Misiones SOS que llevan tu eCommerce al futuro con mejoras de performance, UX y checkout en 24-72h."
+    />
+    <meta name="twitter:url" content="https://sos.izignamx.com/" />
+    <meta
+      name="twitter:image"
+      content="https://sos.izignamx.com/assets/img/og-izigna-sos.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Arreglos express futuristas para eCommerce por IzignaMX"
+    />
+    <meta name="geo.region" content="MX-CMX" />
+    <meta name="geo.placename" content="Ciudad de México" />
+    <meta name="geo.position" content="19.378984;-99.140033" />
+    <meta name="ICBM" content="19.378984, -99.140033" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="icon" href="assets/img/favicon.ico" sizes="any" />
+    <link rel="icon" href="assets/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="assets/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+    <link rel="dns-prefetch" href="https://wa.me" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://wa.me" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap"
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #020817;
+        --bg-2: #0b1533;
+        --bg-3: #132347;
+        --txt: #f8fafc;
+        --muted: #cbd5f5;
+        --muted-2: #94a3c6;
+        --card: rgba(9, 20, 45, 0.72);
+        --card-solid: #101c3d;
+        --card-border: rgba(56, 189, 248, 0.24);
+        --glow: #38bdf8;
+        --brand: #22c55e;
+        --brand-alt: #4ade80;
+        --accent: #38bdf8;
+        --accent-alt: #818cf8;
+        --danger: #f97316;
+        --radius: 20px;
+        --shadow-lg: 0 30px 80px rgba(2, 8, 23, 0.55);
+        --shadow-sm: 0 12px 38px rgba(8, 20, 50, 0.45);
+        --grid-max: 1200px;
+        --border: 1px solid rgba(148, 163, 184, 0.16);
+        --font-body:
+          "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+        --font-display: "Space Grotesk", "Manrope", sans-serif;
+        scroll-behavior: smooth;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        overflow-x: hidden;
+      }
+      body {
+        margin: 0;
+        font-family: var(--font-body);
+        background:
+          radial-gradient(
+            140% 80% at 80% 10%,
+            rgba(56, 189, 248, 0.18),
+            transparent 60%
+          ),
+          radial-gradient(
+            120% 80% at 20% 0%,
+            rgba(129, 140, 248, 0.17),
+            transparent 55%
+          ),
+          var(--bg);
+        color: var(--txt);
+        min-height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+      }
+      body::before,
+      body::after {
+        content: "";
+        position: fixed;
+        inset: auto;
+        width: 48vw;
+        height: 48vw;
+        max-width: 620px;
+        border-radius: 50%;
+        filter: blur(120px);
+        opacity: 0.45;
+        z-index: -2;
+        pointer-events: none;
+        background: radial-gradient(
+          circle at 30% 30%,
+          rgba(56, 189, 248, 0.8),
+          transparent 60%
+        );
+        animation: drift 28s infinite alternate ease-in-out;
+      }
+      body::after {
+        top: 12vh;
+        right: -10vw;
+        background: radial-gradient(
+          circle at 70% 30%,
+          rgba(34, 197, 94, 0.65),
+          transparent 55%
+        );
+        animation-delay: -12s;
+      }
+      body::before {
+        bottom: -20vh;
+        left: -12vw;
+      }
+      /* fondo fluido */
+      .fondo--fluido {
+        position: fixed;
+        inset: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: -3;
+        filter: brightness(0.35);
+      }
+      .page {
+        width: 100%;
+        margin: 0 auto;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: var(--font-display);
+        margin: 0;
+        letter-spacing: -0.01em;
+      }
+      h1 {
+        font-size: clamp(40px, 6vw, 64px);
+        line-height: 1.05;
+      }
+      h2 {
+        font-size: clamp(32px, 4vw, 44px);
+      }
+      h3 {
+        font-size: clamp(22px, 2.4vw, 26px);
+      }
+      p {
+        margin: 0;
+        color: var(--muted-2);
+        line-height: 1.6;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      section {
+        padding: clamp(72px, 8vw, 120px) 20px;
+      }
+      #inicio {
+        padding: clamp(21px, 1vw, 80px) 20px;
+      }
+      #servicios {
+        padding-top: clamp(150px, 10vw, 60px);
+      }
+      .shell {
+        max-width: var(--grid-max);
+        margin: 0 auto;
+        width: 100%;
+      }
+      .reading-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        transform-origin: left center;
+        transform: scaleX(0);
+        background: linear-gradient(90deg, var(--brand), var(--accent));
+        z-index: 999;
+      }
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 900;
+        backdrop-filter: saturate(140%) blur(16px);
+        background: linear-gradient(
+          180deg,
+          rgba(7, 13, 29, 0.92),
+          rgba(7, 13, 29, 0.68)
+        );
+        border-bottom: var(--border);
+      }
+      .top-bar {
+        font-size: 13px;
+        color: var(--muted);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+        text-align: center;
+      }
+      .top-bar__badge {
+        background: rgba(56, 189, 248, 0.12);
+        border: 1px solid rgba(56, 189, 248, 0.35);
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--accent);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 20px;
+        max-width: var(--grid-max);
+        margin: 0 auto;
+        width: 100%;
+        gap: 16px;
+      }
+      @media (max-width: 449px) {
+        .nav {
+          flex-direction: column;
+        }
+      }
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: -0.01em;
+        color: var(--txt);
+        text-decoration: none;
+      }
+      .brand img {
+        width: 60px;
+        height: 60px;
+        display: block;
+        object-fit: contain;
+        border-radius: 0;
+      }
+      .brand__text {
+        display: inline-flex;
+        flex-direction: column;
+        line-height: 1;
+      }
+      .nav__links {
+        display: flex;
+        gap: 18px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      .nav__links a {
+        position: relative;
+        padding: 8px 0;
+      }
+      .nav__links a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+        background: linear-gradient(90deg, var(--accent), var(--brand));
+      }
+      .nav__links a:focus-visible,
+      .nav__links a:hover {
+        color: var(--txt);
+      }
+      .nav__links a:hover::after,
+      .nav__links a:focus-visible::after {
+        transform: scaleX(1);
+      }
+      .nav__controls {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .nav__cta {
+        display: flex;
+        gap: 12px;
+      }
+      .nav__lang {
+        position: relative;
+      }
+      .lang-selector {
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      .lang-selector__toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px;
+        border-radius: 12px;
+        background: rgba(8, 17, 35, 0.7);
+        border: 1px solid rgba(56, 189, 248, 0.3);
+        color: var(--muted);
+        font-weight: 600;
+        font-size: 13px;
+        cursor: pointer;
+        transition:
+          border-color 0.25s ease,
+          box-shadow 0.25s ease,
+          transform 0.25s ease;
+      }
+      .lang-selector__toggle:hover {
+        border-color: rgba(56, 189, 248, 0.6);
+        box-shadow: 0 12px 22px rgba(2, 8, 23, 0.3);
+      }
+      .lang-selector__toggle:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+      .lang-selector__icon {
+        width: 10px;
+        height: 10px;
+        fill: var(--muted);
+        transition: transform 0.25s ease;
+      }
+      .lang-selector__toggle[aria-expanded=\"true\"] .lang-selector__icon {
+        transform: rotate(180deg);
+      }
+      .lang-selector__list {
+        position: absolute;
+        top: calc(100% + 8px);
+        right: 0;
+        background: rgba(6, 14, 30, 0.96);
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        border-radius: 14px;
+        padding: 8px;
+        display: grid;
+        gap: 4px;
+        min-width: 190px;
+        box-shadow: var(--shadow-sm);
+        backdrop-filter: blur(12px);
+        z-index: 910;
+      }
+      .lang-selector__list[hidden] {
+        display: none;
+      }
+      .lang-selector__option {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding: 8px 10px;
+        border-radius: 10px;
+        border: none;
+        background: transparent;
+        color: var(--muted);
+        font-weight: 600;
+        font-size: 13px;
+        cursor: pointer;
+        text-align: left;
+        transition:
+          background 0.2s ease,
+          color 0.2s ease;
+      }
+      .lang-selector__option:hover,
+      .lang-selector__option:focus {
+        background: rgba(56, 189, 248, 0.12);
+        color: var(--txt);
+      }
+      .lang-selector__option.is-active {
+        background: rgba(56, 189, 248, 0.22);
+        color: var(--txt);
+      }
+      .lang-selector__option[aria-checked=\"true\"] .lang-selector__check {
+        opacity: 1;
+      }
+      .lang-selector__check {
+        margin-left: auto;
+        font-size: 12px;
+        color: var(--accent);
+        opacity: 0;
+        transition: opacity 0.2s ease;
+      }
+      .lang-flag {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        width: 22px;
+        height: 14px;
+        border-radius: 4px;
+        box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.4);
+        background-size: cover;
+        background-position: center;
+      }
+      .lang-flag--es {
+        background-image: linear-gradient(
+          180deg,
+          #c1121f 0 33%,
+          #f6c71b 33% 66%,
+          #c1121f 66%
+        );
+      }
+      .lang-flag--en {
+        background-image:
+          linear-gradient(
+            180deg,
+            #b22234 0 14%,
+            #fff 14% 28%,
+            #b22234 28% 42%,
+            #fff 42% 56%,
+            #b22234 56% 70%,
+            #fff 70% 84%,
+            #b22234 84% 100%
+          ),
+          linear-gradient(90deg, #3c3b6e 0 40%, transparent 40%);
+        background-size:
+          100% 100%,
+          40% 60%;
+        background-repeat: no-repeat;
+      }
+      .lang-flag--pt {
+        background-image: linear-gradient(
+          90deg,
+          #046a38 0 40%,
+          #ce1126 40% 100%
+        );
+      }
+      .lang-flag--pt::after {
+        content: \"\";
+        position: absolute;
+        left: 38%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #f8e44d;
+        box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.3);
+      }
+      .lang-flag--fr {
+        background-image: linear-gradient(
+          90deg,
+          #0055a4 0 33%,
+          #fff 33% 66%,
+          #ef4135 66%
+        );
+      }
+      .lang-flag--de {
+        background-image: linear-gradient(
+          180deg,
+          #000 0 33%,
+          #dd0000 33% 66%,
+          #ffce00 66%
+        );
+      }
+      .lang-flag--it {
+        background-image: linear-gradient(
+          90deg,
+          #008c45 0 33%,
+          #f4f5f0 33% 66%,
+          #cd212a 66%
+        );
+      }
+      .lang-flag--ja {
+        background-image:
+          radial-gradient(circle at 50% 50%, #bc002d 0 42%, transparent 43%),
+          linear-gradient(#fff, #fff);
+      }
+      .lang-flag--zh {
+        background-image: linear-gradient(#de2910, #de2910);
+      }
+      .lang-flag--zh::after {
+        content: \"\";
+        position: absolute;
+        left: 18%;
+        top: 32%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 3.5px 3.5px 3.5px 0;
+        border-color: transparent #ffde00 transparent transparent;
+      }
+      .lang-flag--ar {
+        background-image: linear-gradient(
+          180deg,
+          #007a3d 0 33%,
+          #fff 33% 66%,
+          #000 66%
+        );
+      }
+      .lang-flag--ar::before {
+        content: \"\";
+        position: absolute;
+        left: -2px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-style: solid;
+        border-width: 7px 8px 7px 0;
+        border-color: transparent #ce1126 transparent transparent;
+      }
+      .lang-flag--ru {
+        background-image: linear-gradient(
+          180deg,
+          #fff 0 33%,
+          #0039a6 33% 66%,
+          #d52b1e 66%
+        );
+      }
+      .lang-flag--tr {
+        background: #e30a17;
+      }
+      .lang-flag--tr::before {
+        content: "";
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #fff;
+      }
+      .lang-flag--tr::after {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #e30a17;
+        box-shadow: -4px 0 0 0 #fff;
+      }
+      .lang-flag--hi {
+        background-image: linear-gradient(
+          180deg,
+          #ff9933 0 33%,
+          #fff 33% 66%,
+          #138808 66%
+        );
+      }
+      .lang-flag--hi::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 6px;
+        height: 6px;
+        border: 1px solid #1a4ba0;
+        border-radius: 50%;
+      }
+      .lang-flag--ko {
+        background: #fff;
+      }
+      .lang-flag--ko::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #cd2e3a 0 50%, #0047a0 50%);
+      }
+      .lang-flag--la {
+        background-image: linear-gradient(90deg, #ffd100 0 50%, #ffffff 50%);
+      }
+      .lang-flag--eo {
+        background: #009b48;
+      }
+      .lang-flag--eo::before {
+        content: "";
+        position: absolute;
+        left: 3px;
+        top: 3px;
+        width: 6px;
+        height: 6px;
+        background: #fff;
+        clip-path: polygon(
+          50% 0%,
+          63% 35%,
+          100% 38%,
+          71% 60%,
+          82% 100%,
+          50% 78%,
+          18% 100%,
+          29% 60%,
+          0% 38%,
+          37% 35%
+        );
+      }
+      .lang-flag--nl {
+        background-image: linear-gradient(
+          180deg,
+          #ae1c28 0 33%,
+          #fff 33% 66%,
+          #21468b 66%
+        );
+      }
+      .lang-flag--sv {
+        background: #0057b8;
+      }
+      .lang-flag--sv::before {
+        content: "";
+        position: absolute;
+        left: 30%;
+        top: 0;
+        bottom: 0;
+        width: 4px;
+        background: #fecd00;
+      }
+      .lang-flag--sv::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 45%;
+        height: 4px;
+        background: #fecd00;
+      }
+      .lang-flag--pl {
+        background-image: linear-gradient(180deg, #fff 0 50%, #dc143c 50%);
+      }
+      .lang-flag--uk {
+        background-image: linear-gradient(180deg, #0057b7 0 50%, #ffd700 50%);
+      }
+      .lang-flag--vi {
+        background: #da251d;
+      }
+      .lang-flag--vi::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+        background: #ffde00;
+        clip-path: polygon(
+          50% 0%,
+          61% 38%,
+          100% 38%,
+          68% 59%,
+          79% 100%,
+          50% 75%,
+          21% 100%,
+          32% 59%,
+          0% 38%,
+          39% 38%
+        );
+      }
+      .lang-selector__label {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--txt);
+      }
+      .lang-selector__text {
+        font-size: 13px;
+        font-weight: 600;
+      }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        border-radius: 12px;
+        border: 1px solid transparent;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 12px 18px;
+        transition:
+          transform 0.25s ease,
+          box-shadow 0.25s ease,
+          border-color 0.25s ease;
+        cursor: pointer;
+        background: transparent;
+        color: var(--txt);
+      }
+      .btn:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+      .btn--primary {
+        background: linear-gradient(120deg, var(--brand), var(--brand-alt));
+        color: #04120a;
+        box-shadow: 0 18px 40px rgba(34, 197, 94, 0.25);
+      }
+      .btn--primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 22px 48px rgba(34, 197, 94, 0.28);
+      }
+      .btn--ghost {
+        border-color: rgba(56, 189, 248, 0.4);
+        background: rgba(8, 17, 35, 0.6);
+      }
+      .btn--ghost:hover {
+        border-color: rgba(56, 189, 248, 0.7);
+        transform: translateY(-2px);
+      }
+      .hero {
+        position: relative;
+      }
+      .hero__grid {
+        display: grid;
+        gap: 40px;
+        max-width: var(--grid-max);
+        margin: 0 auto;
+        align-items: flex-start;
+      }
+      .hero__text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .hero__kicker {
+        font-size: 14px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .hero__kicker::before {
+        content: "";
+        width: 36px;
+        height: 2px;
+        background: linear-gradient(90deg, var(--accent), transparent);
+      }
+      .hero__lead {
+        font-size: 18px;
+        color: var(--muted);
+      }
+      .hero__bulletlist {
+        display: grid;
+        gap: 12px;
+      }
+      .hero__bullet {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        color: var(--muted);
+        font-size: 15px;
+      }
+      .hero__bullet span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background: rgba(56, 189, 248, 0.18);
+        color: var(--accent);
+        font-size: 24px;
+        margin-top: 2px;
+        flex-shrink: 0;
+      }
+      .hero__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+      .cta-final .hero__actions {
+        justify-content: center;
+      }
+      .hero__meta {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 16px;
+        margin-top: 26px;
+      }
+      .metric {
+        padding: 18px;
+        border-radius: 16px;
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        background: rgba(10, 22, 47, 0.55);
+        backdrop-filter: blur(8px);
+        box-shadow: var(--shadow-sm);
+        position: relative;
+        overflow: hidden;
+      }
+      .metric::after {
+        content: "";
+        position: absolute;
+        inset: -30% auto auto -30%;
+        width: 80%;
+        height: 80%;
+        background: radial-gradient(
+          circle,
+          rgba(56, 189, 248, 0.3),
+          transparent 70%
+        );
+        opacity: 0;
+        transition:
+          opacity 0.4s ease,
+          transform 0.4s ease;
+      }
+      .metric:hover::after {
+        opacity: 1;
+        transform: translate3d(12px, -12px, 0);
+      }
+      .metric strong {
+        display: block;
+        font-size: 28px;
+        color: var(--txt);
+        font-family: var(--font-display);
+      }
+      .metric span {
+        color: var(--muted);
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+      .hero__visual {
+        position: relative;
+        padding: 30px;
+      }
+      @media (max-width: 449px) {
+        .hero__visual {
+          padding: 0;
+        }
+      }
+      .holo-card {
+        border-radius: 24px;
+        padding: 32px;
+        border: 1px solid rgba(129, 140, 248, 0.35);
+        background: linear-gradient(
+          160deg,
+          rgba(12, 26, 58, 0.85),
+          rgba(14, 28, 62, 0.62)
+        );
+        box-shadow: var(--shadow-lg);
+        position: relative;
+        overflow: hidden;
+      }
+      .holo-card::before {
+        content: "";
+        position: absolute;
+        inset: -50% auto auto -30%;
+        width: 60%;
+        height: 60%;
+        background: radial-gradient(
+          circle at 30% 30%,
+          rgba(56, 189, 248, 0.55),
+          transparent 60%
+        );
+        filter: blur(12px);
+        opacity: 0.9;
+      }
+      .holo-card::after {
+        content: "";
+        position: absolute;
+        inset: auto -40% -40% auto;
+        width: 70%;
+        height: 70%;
+        background: radial-gradient(
+          circle at 60% 60%,
+          rgba(34, 197, 94, 0.45),
+          transparent 65%
+        );
+        filter: blur(20px);
+      }
+      .holo-card__title {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      .holo-card__list {
+        display: grid;
+        gap: 12px;
+        margin-top: 18px;
+      }
+      .holo-card__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(8, 18, 42, 0.6);
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        border-radius: 14px;
+        padding: 14px 16px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      .holo-card__status {
+        padding: 4px 10px;
+        border-radius: 999px;
+        background: rgba(34, 197, 94, 0.18);
+        color: var(--brand-alt);
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .hero__floating {
+        position: absolute;
+        inset: auto;
+        bottom: calc(-12px - 30%);
+        right: -20px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .floating-chip {
+        border-radius: 14px;
+        padding: 14px 20px;
+        background: rgba(8, 20, 45, 0.75);
+        border: 1px solid rgba(56, 189, 248, 0.2);
+        color: var(--muted);
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        backdrop-filter: blur(10px);
+        box-shadow: var(--shadow-sm);
+        animation: float 8s infinite ease-in-out;
+      }
+      .floating-chip:nth-child(2) {
+        animation-delay: -3s;
+      }
+      .floating-chip strong {
+        color: var(--txt);
+        font-size: 16px;
+      }
+      .section__head {
+        max-width: var(--grid-max);
+        margin: 0 auto 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        text-align: left;
+      }
+      .section__head span {
+        font-size: 13px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+      .section__head p {
+        max-width: 620px;
+        color: var(--muted);
+      }
+      .service-grid {
+        display: grid;
+        gap: 22px;
+        max-width: var(--grid-max);
+        margin: 0 auto;
+      }
+      .service-card {
+        position: relative;
+        padding: 28px;
+        border-radius: 20px;
+        background: linear-gradient(
+          180deg,
+          rgba(12, 23, 49, 0.82),
+          rgba(10, 20, 44, 0.72)
+        );
+        border: 1px solid rgba(56, 189, 248, 0.18);
+        box-shadow: var(--shadow-sm);
+        overflow: hidden;
+        transition:
+          transform 0.35s ease,
+          box-shadow 0.35s ease,
+          border-color 0.35s ease;
+      }
+      .service-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          130deg,
+          rgba(56, 189, 248, 0.2),
+          transparent 35%
+        );
+        opacity: 0;
+        transition: opacity 0.35s ease;
+      }
+      .service-card:hover {
+        transform: translateY(-6px);
+        border-color: rgba(56, 189, 248, 0.35);
+        box-shadow: 0 30px 70px rgba(6, 17, 38, 0.55);
+      }
+      .service-card:hover::before {
+        opacity: 1;
+      }
+      .service-card__tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--accent);
+        background: rgba(56, 189, 248, 0.14);
+        border: 1px solid rgba(56, 189, 248, 0.32);
+        border-radius: 999px;
+        padding: 6px 12px;
+      }
+      .service-card__tag::before {
+        content: "★";
+        font-size: 12px;
+      }
+      .service-card__title {
+        margin-top: 18px;
+        color: var(--txt);
+      }
+      .service-card__summary {
+        margin-top: 12px;
+        color: var(--muted);
+        font-size: 15px;
+      }
+      .service-card__list {
+        margin-top: 18px;
+        display: grid;
+        gap: 10px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .service-card__list li {
+        display: flex;
+        gap: 10px;
+      }
+      .service-card__list li::before {
+        content: "▹";
+        color: var(--brand-alt);
+        font-size: 16px;
+        line-height: 1;
+        margin-top: 1px;
+      }
+      .service-card__footer {
+        margin-top: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+      }
+      .service-card__price {
+        font-family: var(--font-display);
+        font-size: 18px;
+        color: var(--brand-alt);
+      }
+      .badge-time {
+        font-size: 12px;
+        color: var(--muted);
+        background: rgba(129, 140, 248, 0.14);
+        border: 1px solid rgba(129, 140, 248, 0.32);
+        padding: 6px 10px;
+        border-radius: 8px;
+      }
+      .btn--chip {
+        font-size: 13px;
+        padding: 10px 16px;
+        border-radius: 999px;
+        border: 1px solid rgba(56, 189, 248, 0.3);
+        background: rgba(6, 12, 27, 0.6);
+        color: var(--accent);
+      }
+      .btn--chip:hover {
+        border-color: rgba(56, 189, 248, 0.6);
+      }
+      .process {
+        position: relative;
+      }
+      .process::before {
+        content: "";
+        position: absolute;
+        inset: 20% auto auto 50%;
+        width: 1px;
+        height: 60%;
+        background: linear-gradient(
+          180deg,
+          rgba(56, 189, 248, 0.2),
+          transparent
+        );
+        pointer-events: none;
+        transform: translateX(-50%);
+      }
+      .process__list {
+        max-width: var(--grid-max);
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+        counter-reset: steps;
+      }
+      .process__item {
+        display: grid;
+        gap: 16px;
+        padding: 26px;
+        border-radius: 18px;
+        background: rgba(10, 22, 47, 0.68);
+        border: 1px solid rgba(56, 189, 248, 0.18);
+        position: relative;
+        overflow: hidden;
+      }
+      .process__item::before {
+        counter-increment: steps;
+        content: counter(steps, decimal-leading-zero);
+        position: absolute;
+        top: 18px;
+        right: 24px;
+        font-family: var(--font-display);
+        font-size: 32px;
+        color: rgba(56, 189, 248, 0.25);
+      }
+      .process__item strong {
+        font-size: 18px;
+        color: var(--txt);
+      }
+      .process__item span {
+        font-size: 14px;
+        color: var(--muted);
+      }
+      .stats-grid {
+        max-width: var(--grid-max);
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+      .stat-card {
+        padding: 26px;
+        border-radius: 18px;
+        background: linear-gradient(
+          160deg,
+          rgba(14, 30, 67, 0.8),
+          rgba(12, 24, 55, 0.7)
+        );
+        border: 1px solid rgba(34, 197, 94, 0.2);
+        position: relative;
+        overflow: hidden;
+      }
+      .stat-card strong {
+        display: block;
+        font-size: 36px;
+        color: var(--brand-alt);
+        font-family: var(--font-display);
+      }
+      .stat-card p {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 15px;
+      }
+      .testimonials {
+        max-width: var(--grid-max);
+        margin: 0 auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+      .quote {
+        padding: 26px;
+        border-radius: 20px;
+        border: 1px solid rgba(56, 189, 248, 0.18);
+        background: rgba(8, 18, 42, 0.6);
+        box-shadow: var(--shadow-sm);
+        position: relative;
+      }
+      .quote::before {
+        content: "\201C";
+        position: absolute;
+        top: 14px;
+        left: 18px;
+        font-size: 52px;
+        color: rgba(56, 189, 248, 0.26);
+        font-family: var(--font-display);
+      }
+      .quote p {
+        margin-top: 24px;
+        color: var(--muted);
+      }
+      .quote strong {
+        display: block;
+        margin-top: 18px;
+        font-size: 15px;
+        color: var(--txt);
+      }
+      .quote span {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .faq {
+        max-width: var(--grid-max);
+        margin: 0 auto;
+        display: grid;
+        gap: 16px;
+      }
+      details {
+        border-radius: 14px;
+        background: rgba(9, 21, 45, 0.7);
+        border: 1px solid rgba(56, 189, 248, 0.16);
+        padding: 18px 22px;
+      }
+      summary {
+        cursor: pointer;
+        font-weight: 600;
+        color: var(--txt);
+        list-style: none;
+        position: relative;
+      }
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      summary::after {
+        content: "+";
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 20px;
+        color: var(--accent);
+        transition: transform 0.3s ease;
+      }
+      details[open] summary::after {
+        transform: rotate(45deg);
+      }
+      details p {
+        margin-top: 14px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .cta-final {
+        max-width: var(--grid-max);
+        margin: 0 auto;
+        padding: 50px clamp(20px, 6vw, 60px);
+        border-radius: 28px;
+        background: linear-gradient(
+          135deg,
+          rgba(34, 197, 94, 0.22),
+          rgba(8, 17, 35, 0.82)
+        );
+        border: 1px solid rgba(34, 197, 94, 0.24);
+        text-align: center;
+        box-shadow: 0 40px 120px rgba(34, 197, 94, 0.22);
+        display: grid;
+        gap: 24px;
+      }
+      .cta-final p {
+        margin: 0 auto;
+        max-width: 520px;
+        color: var(--muted);
+        font-size: 16px;
+      }
+      footer.site-footer {
+        padding: 40px 20px 80px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .site-footer__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        text-align: center;
+      }
+      .site-footer__links {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .site-footer__links a {
+        color: var(--muted);
+        font-weight: 600;
+      }
+      .site-footer__links a:hover {
+        color: var(--accent);
+      }
+      .wa-float {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        background: linear-gradient(135deg, #25d366, #128c7e);
+        color: #002510;
+        padding: 14px 18px;
+        border-radius: 999px;
+        font-weight: 700;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 0 25px 40px rgba(37, 211, 102, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        animation: pulse 2.8s infinite;
+        z-index: 901;
+      }
+      .wa-float svg {
+        width: 20px;
+        height: 20px;
+      }
+      .update-toast {
+        position: fixed;
+        left: 50%;
+        bottom: 24px;
+        transform: translate(-50%, 40px);
+        background: rgba(7, 13, 29, 0.94);
+        border: 1px solid rgba(148, 163, 184, 0.24);
+        box-shadow: 0 30px 60px rgba(2, 8, 23, 0.45);
+        color: var(--txt);
+        padding: 18px 20px;
+        border-radius: 16px;
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        z-index: 950;
+        opacity: 0;
+        pointer-events: none;
+        transition:
+          transform 0.24s ease,
+          opacity 0.24s ease;
+        max-width: min(480px, calc(100% - 32px));
+      }
+      .update-toast.is-visible {
+        transform: translate(-50%, 0);
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .update-toast__text {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--txt);
+      }
+      .update-toast__actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .update-toast__btn {
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        padding: 8px 16px;
+        border-radius: 12px;
+        background: rgba(56, 189, 248, 0.18);
+        color: var(--txt);
+        transition:
+          background 0.2s ease,
+          transform 0.2s ease;
+      }
+      .update-toast__btn:hover {
+        background: rgba(56, 189, 248, 0.28);
+        transform: translateY(-1px);
+      }
+      .update-toast__btn:disabled {
+        opacity: 0.6;
+        cursor: wait;
+        transform: none;
+      }
+      .update-toast__btn--ghost {
+        background: transparent;
+        border: 1px solid rgba(148, 163, 184, 0.28);
+      }
+      .update-toast__btn--ghost:hover {
+        background: rgba(148, 163, 184, 0.16);
+      }
+      @media (max-width: 640px) {
+        .update-toast {
+          left: 16px;
+          right: 16px;
+          transform: translate(0, 40px);
+          max-width: unset;
+        }
+        .update-toast.is-visible {
+          transform: translate(0, 0);
+        }
+      }
+      @media (min-width: 960px) {
+        .hero__grid {
+          grid-template-columns: repeat(12, 1fr);
+        }
+        .hero__text {
+          grid-column: span 6;
+        }
+        .hero__visual {
+          grid-column: span 6;
+        }
+        .service-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (min-width: 1200px) {
+        .service-grid {
+          grid-template-columns: repeat(4, 1fr);
+        }
+        .hero__grid {
+          gap: 60px;
+        }
+      }
+      @media (max-width: 720px) {
+        .nav__links {
+          display: none;
+        }
+        .nav__controls {
+          flex-wrap: wrap;
+          justify-content: flex-end;
+          gap: 10px;
+        }
+        .nav__lang {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+        }
+        .nav__cta {
+          width: 100%;
+          justify-content: flex-end;
+        }
+        .hero__actions {
+          flex-direction: column;
+          align-items: center;
+        }
+        .hero__meta {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process::before {
+          display: none;
+        }
+        .top-bar {
+          flex-direction: column;
+          gap: 6px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+      @keyframes drift {
+        from {
+          transform: translate3d(-20px, 0, 0) scale(1);
+        }
+        to {
+          transform: translate3d(30px, -30px, 0) scale(1.1);
+        }
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+      }
+      @keyframes float {
+        0%,
+        100% {
+          transform: translate3d(0, 0, 0);
+        }
+        50% {
+          transform: translate3d(0, -10px, 0);
+        }
+      }
+      #matomo-opt-out {
+        display: block;
+        position: relative;
+        bottom: 0;
+        max-width: 75%;
+        margin: 0 auto;
+        padding: 0 2em 4em;
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://sos.izignamx.com/#website",
+        "name": "IzignaMX SOS",
+        "url": "https://sos.izignamx.com/",
+        "description": "Misiones SOS para optimizar Shopify, BigCommerce y WordPress en 24-72h con foco en conversiones.",
+        "publisher": {
+          "@id": "https://sos.izignamx.com/#organization"
+        },
+        "inLanguage": [
+          "es-MX",
+          "en",
+          "pt-BR",
+          "fr",
+          "de",
+          "it",
+          "ja",
+          "zh-CN",
+          "ar",
+          "ru",
+          "tr",
+          "hi",
+          "ko",
+          "la",
+          "eo",
+          "nl",
+          "sv",
+          "pl",
+          "uk",
+          "vi"
+        ],
+        "potentialAction": [
+          {
+            "@type": "ContactAction",
+            "name": "Agendar misión por WhatsApp",
+            "target": "https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20arrancar%20una%20mision%20SOS%2E"
+          },
+          {
+            "@type": "ContactAction",
+            "name": "Enviar brief por correo",
+            "target": "mailto:edgar@izignamx.com"
+          }
+        ],
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "assets/img/og-izigna-sos.png",
+          "width": 1200,
+          "height": 630,
+          "caption": "Landing futurista de Arreglos Express IzignaMX"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "@id": "https://sos.izignamx.com/#organization",
+        "name": "IzignaMX Arreglos Express",
+        "url": "https://sos.izignamx.com/",
+        "logo": "assets/img/favicon.svg",
+        "image": "assets/img/og-izigna-sos.png",
+        "description": "Misiones SOS para optimizar Shopify, BigCommerce y WordPress en 24-72h con foco en conversiones.",
+        "telephone": "+52 55 3376 0889",
+        "email": "edgar@izignamx.com",
+        "priceRange": "$$",
+        "brand": {
+          "@type": "Brand",
+          "name": "IzignaMX"
+        },
+        "availableLanguage": [
+          "es-MX",
+          "en",
+          "pt-BR",
+          "fr",
+          "de",
+          "it",
+          "ja",
+          "zh-CN",
+          "ar",
+          "ru",
+          "tr",
+          "hi",
+          "ko",
+          "la",
+          "eo",
+          "nl",
+          "sv",
+          "pl",
+          "uk",
+          "vi"
+        ],
+        "areaServed": [
+          {
+            "@type": "Country",
+            "name": "Mexico"
+          },
+          {
+            "@type": "Country",
+            "name": "United States"
+          }
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "MX",
+          "addressLocality": "Ciudad de México"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+52 55 3376 0889",
+            "contactType": "customer service",
+            "availableLanguage": ["es-MX", "en", "pt-BR"]
+          }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/izigna-mx",
+          "https://wa.me/525533760889"
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "19:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "14:00"
+          }
+        ],
+        "serviceType": [
+          "Shopify/BigCommerce performance rescue",
+          "WordPress hardening y cleanup",
+          "Auditoría Flash 360°",
+          "Checkout Review + Fixes"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Misiones SOS IzignaMX",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "SOS de performance + UI",
+              "priceCurrency": "MXN",
+              "price": "1200",
+              "availability": "https://schema.org/InStock",
+              "url": "https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20el%20SOS%20para%20Shopify%20o%20BigCommerce%2E",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Performance + UI SOS",
+                "description": "Ajuste quirúrgico de velocidad, resolución de conflictos entre apps y refresco del checkout con look futurista responsive."
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Hardening + limpieza futurista",
+              "priceCurrency": "MXN",
+              "price": "1500",
+              "availability": "https://schema.org/InStock",
+              "url": "https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20el%20hardening%20futurista%20para%20WordPress%2E",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Hardening futurista WordPress",
+                "description": "Refuerzo de seguridad, limpieza de plugins y hero rediseñado con componentes glow de alta confianza."
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Flash Audit 360°",
+              "priceCurrency": "MXN",
+              "price": "1200",
+              "availability": "https://schema.org/InStock",
+              "url": "https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20el%20Flash%20Audit%20360%2E",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Flash Audit 360°",
+                "description": "Exploración profunda con heatmaps simulados, checklist Core Web Vitals y prototipo de motion interactivo."
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Checkout Review + Fixes",
+              "priceCurrency": "MXN",
+              "price": "1800",
+              "availability": "https://schema.org/InStock",
+              "url": "https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20el%20Checkout%20Review%20con%20fixes%2E",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Checkout Review + Fixes",
+                "description": "Detección de fricción y aplicación de microcopy, validaciones y estados fintech para aumentar conversión."
+              }
+            }
+          ]
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": "https://sos.izignamx.com/#faq",
+        "inLanguage": "es-MX",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué necesito para arrancar en menos de 24h?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Acceso temporal al admin, analytics y sitio, además de metas claras (ventas, leads, estabilidad). Con eso preparo el mapa de trabajo y confirmo ventana de entrega."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Incluye implementación o solo recomendaciones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cada paquete trae fixes aplicados dentro del alcance. Si surge algo mayor, cotizo un add-on express con horas exactas para que decidas sin sorpresas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo se valida la mejora en conversiones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Activo dashboards con comparativo de eventos clave, defino KPIs y entrego scripts para experimentos A/B. También hago seguimiento 7 días y ajuste fino si es necesario."
+            }
+          }
+        ]
+      }
+    </script>
+    <!-- Matomo Tag Manager -->
+    <script src="assets/js/matomo.js" async></script>
+    <!-- End Matomo Tag Manager -->
+  </head>
+  <body>
+    <div class="reading-progress" data-progress aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="top-bar">
+        <span class="top-bar__badge" data-i18n="header.badge">72h o menos</span>
+        <span data-i18n="header.message"
+          >Misiones express para tiendas Shopify, BigCommerce y WordPress •
+          Prioridad para lanzamientos y ventas urgentes</span
+        >
+      </div>
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Inicio IzignaMX SOS">
+          <img
+            src="assets/img/favicon.svg"
+            alt="IzignaMX"
+            width="36"
+            height="36"
+            decoding="async"
+            fetchpriority="high"
+          />
+          <span class="brand__text">IzignaMX SOS</span>
+        </a>
+        <div class="nav__links">
+          <a href="#servicios" data-i18n="nav.services">Servicios</a>
+          <a href="#proceso" data-i18n="nav.process">Proceso</a>
+          <a href="#impacto" data-i18n="nav.impact">Impacto</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        </div>
+        <div class="nav__controls">
+          <div class="nav__lang lang-selector" data-lang-menu>
+            <span class="sr-only" data-i18n="nav.languageLabel"
+              >Selecciona idioma</span
+            >
+            <button
+              type="button"
+              class="lang-selector__toggle"
+              data-lang-toggle
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-i18n-attrs="aria-label:nav.languageLabel"
+            >
+              <span
+                class="lang-flag lang-flag--es"
+                data-lang-flag
+                aria-hidden="true"
+              ></span>
+              <span class="lang-selector__label" data-lang-label>Español</span>
+              <svg
+                class="lang-selector__icon"
+                viewBox="0 0 12 12"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M2 4l4 4 4-4"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <ul
+              class="lang-selector__list"
+              data-lang-list
+              hidden
+              role="menu"
+              aria-orientation="vertical"
+            >
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="true"
+                  class="lang-selector__option is-active"
+                  data-lang-option="es"
+                  tabindex="-1"
+                >
+                  <span
+                    class="lang-flag lang-flag--es"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Español</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="en"
+                  tabindex="-1"
+                  lang="en"
+                >
+                  <span
+                    class="lang-flag lang-flag--en"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">English</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="pt"
+                  tabindex="-1"
+                  lang="pt"
+                >
+                  <span
+                    class="lang-flag lang-flag--pt"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Português</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="fr"
+                  tabindex="-1"
+                  lang="fr"
+                >
+                  <span
+                    class="lang-flag lang-flag--fr"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Français</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="de"
+                  tabindex="-1"
+                  lang="de"
+                >
+                  <span
+                    class="lang-flag lang-flag--de"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Deutsch</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="it"
+                  tabindex="-1"
+                  lang="it"
+                >
+                  <span
+                    class="lang-flag lang-flag--it"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Italiano</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="ja"
+                  tabindex="-1"
+                  lang="ja"
+                >
+                  <span
+                    class="lang-flag lang-flag--ja"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">日本語</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="zh"
+                  tabindex="-1"
+                  lang="zh"
+                >
+                  <span
+                    class="lang-flag lang-flag--zh"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">中文</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="ar"
+                  tabindex="-1"
+                  lang="ar"
+                  dir="rtl"
+                >
+                  <span
+                    class="lang-flag lang-flag--ar"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">العربية</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="ru"
+                  tabindex="-1"
+                  lang="ru"
+                >
+                  <span
+                    class="lang-flag lang-flag--ru"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Русский</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="tr"
+                  tabindex="-1"
+                  lang="tr"
+                >
+                  <span
+                    class="lang-flag lang-flag--tr"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Türkçe</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="hi"
+                  tabindex="-1"
+                  lang="hi"
+                >
+                  <span
+                    class="lang-flag lang-flag--hi"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">हिन्दी</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="ko"
+                  tabindex="-1"
+                  lang="ko"
+                >
+                  <span
+                    class="lang-flag lang-flag--ko"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">한국어</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="la"
+                  tabindex="-1"
+                  lang="la"
+                >
+                  <span
+                    class="lang-flag lang-flag--la"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Latina</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="eo"
+                  tabindex="-1"
+                  lang="eo"
+                >
+                  <span
+                    class="lang-flag lang-flag--eo"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Esperanto</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="nl"
+                  tabindex="-1"
+                  lang="nl"
+                >
+                  <span
+                    class="lang-flag lang-flag--nl"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Nederlands</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="sv"
+                  tabindex="-1"
+                  lang="sv"
+                >
+                  <span
+                    class="lang-flag lang-flag--sv"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Svenska</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="pl"
+                  tabindex="-1"
+                  lang="pl"
+                >
+                  <span
+                    class="lang-flag lang-flag--pl"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Polski</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="uk"
+                  tabindex="-1"
+                  lang="uk"
+                >
+                  <span
+                    class="lang-flag lang-flag--uk"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Українська</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  role="menuitemradio"
+                  aria-checked="false"
+                  class="lang-selector__option"
+                  data-lang-option="vi"
+                  tabindex="-1"
+                  lang="vi"
+                >
+                  <span
+                    class="lang-flag lang-flag--vi"
+                    aria-hidden="true"
+                  ></span
+                  ><span class="lang-selector__text">Tiếng Việt</span
+                  ><span class="lang-selector__check" aria-hidden="true"
+                    >●</span
+                  >
+                </button>
+              </li>
+            </ul>
+            <select
+              id="lang-switch"
+              class="lang-switch sr-only"
+              aria-hidden="true"
+              tabindex="-1"
+              data-language
+              aria-label="Selecciona idioma"
+              title="Selecciona idioma"
+              data-i18n-attrs="aria-label:nav.languageLabel,title:nav.languageLabel"
+            >
+              <option value="es">es</option>
+              <option value="en">en</option>
+              <option value="pt">pt</option>
+              <option value="fr">fr</option>
+              <option value="de">de</option>
+              <option value="it">it</option>
+              <option value="ja">ja</option>
+              <option value="zh">zh</option>
+              <option value="ar">ar</option>
+              <option value="ru">ru</option>
+              <option value="tr">tr</option>
+              <option value="hi">hi</option>
+              <option value="ko">ko</option>
+              <option value="la">la</option>
+              <option value="eo">eo</option>
+              <option value="nl">nl</option>
+              <option value="sv">sv</option>
+              <option value="pl">pl</option>
+              <option value="uk">uk</option>
+              <option value="vi">vi</option>
+            </select>
+          </div>
+          <div class="nav__cta">
+            <a
+              class="btn btn--ghost"
+              data-i18n="nav.contact"
+              data-i18n-attrs="href:links.navMail"
+              href="mailto:edgar@izignamx.com?subject=Arreglos%20Express%20-%20Consulta"
+              >Escríbeme</a
+            >
+            <a
+              class="btn btn--primary"
+              data-i18n="nav.book"
+              data-i18n-attrs="href:links.navWhatsApp"
+              href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20arrancar%20una%20mision%20SOS%2E"
+              rel="noopener"
+              target="_blank"
+              >Reserva 24h</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="page">
+      <section class="hero" id="inicio">
+        <div class="hero__grid">
+          <div class="hero__text">
+            <span class="hero__kicker" data-i18n="hero.kicker"
+              >Misiones express eCommerce</span
+            >
+            <h1 data-i18n="hero.title">
+              Arreglos futuristas que rescatan ventas en tiempo récord.
+            </h1>
+            <p class="hero__lead" data-i18n="hero.lead">
+              Optimizo performance, checkout y UX de Shopify, BigCommerce y
+              WordPress para que recuperes conversiones sin esperar sprints
+              eternos. Entrego en 24-72h con enfoque clínico y reportes
+              accionables.
+            </p>
+            <div class="hero__bulletlist">
+              <div class="hero__bullet">
+                <span>⚡</span>
+                <p data-i18n="hero.bullets.0">
+                  Diseño inmersivo con microanimaciones que elevan confianza y
+                  retención.
+                </p>
+              </div>
+              <div class="hero__bullet">
+                <span>🛰</span>
+                <p data-i18n="hero.bullets.1">
+                  Auditoría y roadmap visual incluidos: métricas antes/después y
+                  plan de mantenimiento.
+                </p>
+              </div>
+              <div class="hero__bullet">
+                <span>🤝</span>
+                <p data-i18n="hero.bullets.2">
+                  Trato directo conmigo vía WhatsApp y Notion Liveboard — sin
+                  intermediarios.
+                </p>
+              </div>
+            </div>
+            <div class="hero__actions">
+              <a
+                class="btn btn--primary"
+                data-i18n="hero.primaryCta"
+                data-i18n-attrs="href:links.heroPrimary"
+                href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20agendar%20un%20arreglo%20express%20esta%20semana%2E"
+                rel="noopener"
+                target="_blank"
+                >Agenda una misión</a
+              >
+              <a
+                class="btn btn--ghost"
+                data-i18n="hero.secondaryCta"
+                href="#servicios"
+                >Ver paquetes disponibles</a
+              >
+            </div>
+            <div class="hero__meta">
+              <div class="metric">
+                <strong data-counter data-target="72" data-suffix="h"
+                  >72h</strong
+                >
+                <span data-i18n="hero.metrics.delivery">Entrega promedio</span>
+              </div>
+              <div class="metric">
+                <strong data-counter data-target="38">38</strong>
+                <span data-i18n="hero.metrics.checkout"
+                  >Checkouts optimizados</span
+                >
+              </div>
+              <div class="metric">
+                <strong data-counter data-target="92" data-suffix="%"
+                  >92%</strong
+                >
+                <span data-i18n="hero.metrics.satisfaction"
+                  >Satisfacción de clientes</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="hero__visual" aria-hidden="true">
+            <div class="holo-card">
+              <h3 class="holo-card__title" data-i18n="hero.panel.title">
+                Panel de misión en curso
+              </h3>
+              <p data-i18n="hero.panel.subtitle">
+                Revisión integral con foco en ROI + Puntos críticos resueltos:
+              </p>
+              <div class="holo-card__list">
+                <div class="holo-card__item">
+                  <span data-i18n="hero.panel.items.0.label"
+                    >Core Web Vitals</span
+                  >
+                  <span
+                    class="holo-card__status"
+                    data-i18n="hero.panel.items.0.status"
+                    >+42%</span
+                  >
+                </div>
+                <div class="holo-card__item">
+                  <span data-i18n="hero.panel.items.1.label"
+                    >Fricción en checkout</span
+                  >
+                  <span
+                    class="holo-card__status"
+                    data-i18n="hero.panel.items.1.status"
+                    >-65%</span
+                  >
+                </div>
+                <div class="holo-card__item">
+                  <span data-i18n="hero.panel.items.2.label"
+                    >Confianza visual</span
+                  >
+                  <span
+                    class="holo-card__status"
+                    data-i18n="hero.panel.items.2.status"
+                    >Nivel A+</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="hero__floating">
+              <div class="floating-chip">
+                <span>🚀</span>
+                <div>
+                  <strong data-i18n="hero.chips.launch.title"
+                    >Modo lanzamiento</strong
+                  >
+                  <div data-i18n="hero.chips.launch.body">
+                    Listo para despegar en 36h
+                  </div>
+                </div>
+              </div>
+              <div class="floating-chip">
+                <span>🧠</span>
+                <div>
+                  <strong data-i18n="hero.chips.ai.title"
+                    >UX asistida IA</strong
+                  >
+                  <div data-i18n="hero.chips.ai.body">
+                    Insights accionables + copia
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="servicios">
+        <div class="section__head shell">
+          <span data-i18n="services.sectionLabel">Servicios Express</span>
+          <div>
+            <h2 data-i18n="services.sectionTitle">
+              Elige la misión que mejor se alinea a tu urgencia.
+            </h2>
+            <p data-i18n="services.sectionDescription">
+              Cada paquete se entrega con roadmap visual, check de
+              vulnerabilidades y sesión de handoff. Si necesitas algo híbrido,
+              mezclo entregables sin recargos sorpresa.
+            </p>
+          </div>
+        </div>
+        <div class="service-grid shell">
+          <article class="service-card">
+            <div
+              class="service-card__tag"
+              data-i18n="services.cards.performance.tag"
+            >
+              Shopify / BigCommerce
+            </div>
+            <h3
+              class="service-card__title"
+              data-i18n="services.cards.performance.title"
+            >
+              SOS de performance + UI
+            </h3>
+            <p
+              class="service-card__summary"
+              data-i18n="services.cards.performance.summary"
+            >
+              Arreglo quirúrgico de velocidad, apps conflictivas y experiencia
+              de compra. Incluye nuevo look &amp; feel responsive con lenguaje
+              visual futurista.
+            </p>
+            <ul class="service-card__list">
+              <li data-i18n="services.cards.performance.bullets.0">
+                Diagnóstico Lighthouse + reporte comentado
+              </li>
+              <li data-i18n="services.cards.performance.bullets.1">
+                Refactor ligero de secciones críticas y hero animado
+              </li>
+              <li data-i18n="services.cards.performance.bullets.2">
+                Implementación de badges de confianza y modales nativos
+              </li>
+            </ul>
+            <div class="service-card__footer">
+              <span
+                class="service-card__price"
+                data-i18n="services.cards.performance.price"
+                >Desde $1,200 MXN</span
+              >
+              <span
+                class="badge-time"
+                data-i18n="services.cards.performance.duration"
+                >Entrega 24-48h</span
+              >
+              <a
+                class="btn btn--chip"
+                data-i18n="services.cards.performance.cta"
+                data-i18n-attrs="href:links.servicePerformance"
+                href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20el%20SOS%20para%20Shopify%20o%20BigCommerce%2E"
+                rel="noopener"
+                target="_blank"
+                >Reservar</a
+              >
+            </div>
+          </article>
+          <article class="service-card">
+            <div
+              class="service-card__tag"
+              data-i18n="services.cards.wordpress.tag"
+            >
+              WordPress
+            </div>
+            <h3
+              class="service-card__title"
+              data-i18n="services.cards.wordpress.title"
+            >
+              Hardening + limpieza futurista
+            </h3>
+            <p
+              class="service-card__summary"
+              data-i18n="services.cards.wordpress.summary"
+            >
+              Refuerzo de seguridad, limpieza de plugins y rediseño de landing
+              clave con componentes glow animados que generan confianza al
+              instante.
+            </p>
+            <ul class="service-card__list">
+              <li data-i18n="services.cards.wordpress.bullets.0">
+                Escaneo malware, respaldo y reinstalación segura
+              </li>
+              <li data-i18n="services.cards.wordpress.bullets.1">
+                Rewire visual del hero y formularios con validaciones UX
+              </li>
+              <li data-i18n="services.cards.wordpress.bullets.2">
+                Implementación de panel de control visual para updates
+              </li>
+            </ul>
+            <div class="service-card__footer">
+              <span
+                class="service-card__price"
+                data-i18n="services.cards.wordpress.price"
+                >Desde $1,500 MXN</span
+              >
+              <span
+                class="badge-time"
+                data-i18n="services.cards.wordpress.duration"
+                >Entrega 48-72h</span
+              >
+              <a
+                class="btn btn--chip"
+                data-i18n="services.cards.wordpress.cta"
+                data-i18n-attrs="href:links.serviceWordpress"
+                href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20el%20hardening%20futurista%20para%20WordPress%2E"
+                rel="noopener"
+                target="_blank"
+                >Reservar</a
+              >
+            </div>
+          </article>
+          <article class="service-card">
+            <div class="service-card__tag" data-i18n="services.cards.audit.tag">
+              UX + Velocidad
+            </div>
+            <h3
+              class="service-card__title"
+              data-i18n="services.cards.audit.title"
+            >
+              Auditoría Flash 360°
+            </h3>
+            <p
+              class="service-card__summary"
+              data-i18n="services.cards.audit.summary"
+            >
+              Evalúo una página clave con mapas de calor simulados, checklist de
+              Core Web Vitals y prototipo interactivo con microanimaciones
+              sugeridas.
+            </p>
+            <ul class="service-card__list">
+              <li data-i18n="services.cards.audit.bullets.0">
+                Checklist priorizado (impacto vs esfuerzo)
+              </li>
+              <li data-i18n="services.cards.audit.bullets.1">
+                Mockups en Figma con animaciones sugeridas
+              </li>
+              <li data-i18n="services.cards.audit.bullets.2">
+                Plan de experimentos A/B y scripts listos
+              </li>
+            </ul>
+            <div class="service-card__footer">
+              <span
+                class="service-card__price"
+                data-i18n="services.cards.audit.price"
+                >Desde $1,200 MXN</span
+              >
+              <span class="badge-time" data-i18n="services.cards.audit.duration"
+                >Entrega 48h</span
+              >
+              <a
+                class="btn btn--chip"
+                data-i18n="services.cards.audit.cta"
+                data-i18n-attrs="href:links.serviceAudit"
+                href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20la%20Auditoria%20Flash%20360%2E"
+                rel="noopener"
+                target="_blank"
+                >Reservar</a
+              >
+            </div>
+          </article>
+          <article class="service-card">
+            <div
+              class="service-card__tag"
+              data-i18n="services.cards.checkout.tag"
+            >
+              Checkout
+            </div>
+            <h3
+              class="service-card__title"
+              data-i18n="services.cards.checkout.title"
+            >
+              Checkout Review + Fixes
+            </h3>
+            <p
+              class="service-card__summary"
+              data-i18n="services.cards.checkout.summary"
+            >
+              Identifico puntos de fuga y aplico hasta tres mejoras
+              instantáneas: microcopys, validaciones y estados de carga
+              inspirados en fintech.
+            </p>
+            <ul class="service-card__list">
+              <li data-i18n="services.cards.checkout.bullets.0">
+                Sesión de watching + mapa de fricción en tiempo real
+              </li>
+              <li data-i18n="services.cards.checkout.bullets.1">
+                Implementación de loader futurista + trust UI
+              </li>
+              <li data-i18n="services.cards.checkout.bullets.2">
+                Pruebas de campo en desktop y mobile
+              </li>
+            </ul>
+            <div class="service-card__footer">
+              <span
+                class="service-card__price"
+                data-i18n="services.cards.checkout.price"
+                >Desde $1,800 MXN</span
+              >
+              <span
+                class="badge-time"
+                data-i18n="services.cards.checkout.duration"
+                >Entrega 48-72h</span
+              >
+              <a
+                class="btn btn--chip"
+                data-i18n="services.cards.checkout.cta"
+                data-i18n-attrs="href:links.serviceCheckout"
+                href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20el%20Checkout%20Review%20con%20fixes%2E"
+                rel="noopener"
+                target="_blank"
+                >Reservar</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="impacto">
+        <div class="section__head shell">
+          <span data-i18n="impact.sectionLabel">Resultados Tangibles</span>
+          <div>
+            <h2 data-i18n="impact.sectionTitle">
+              Una estética cool no basta: cada entrega viene con métricas y
+              experimentos sugeridos.
+            </h2>
+            <p data-i18n="impact.sectionDescription">
+              Conecto dashboards de velocidad, capturo comparativos before/after
+              y dejo automations listos para detectar regresiones. Tus leads lo
+              sienten desde el primer scroll.
+            </p>
+          </div>
+        </div>
+        <div class="stats-grid shell">
+          <div class="stat-card">
+            <strong data-counter data-target="38">38</strong>
+            <p data-i18n="impact.stats.0.description">
+              Tiendas potenciadas en los últimos 12 meses con mejoras visibles
+              en checkout y storytelling.
+            </p>
+          </div>
+          <div class="stat-card">
+            <strong data-counter data-target="29">29</strong>
+            <p data-i18n="impact.stats.1.description">
+              Puntos de fricción resueltos por proyecto en promedio. El reporte
+              incluye video walkthrough.
+            </p>
+          </div>
+          <div class="stat-card">
+            <strong data-counter data-target="18">18</strong>
+            <p data-i18n="impact.stats.2.description">
+              Experimentos A/B listos para lanzar. Te entrego hipótesis + assets
+              + guía de validación.
+            </p>
+          </div>
+          <div class="stat-card">
+            <strong data-counter data-target="96" data-suffix="%">96%</strong>
+            <p data-i18n="impact.stats.3.description">
+              Clientes que repiten la misión o contratan mantenimiento UX
+              mensual.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="process" id="proceso">
+        <div class="section__head shell">
+          <span data-i18n="process.sectionLabel">Cómo Opero</span>
+          <div>
+            <h2 data-i18n="process.sectionTitle">
+              Proceso lightning sin burocracia, optimizado para emergencias.
+            </h2>
+            <p data-i18n="process.sectionDescription">
+              Trabajo en tracks paralelos: UX/UI, performance y comunicación. Te
+              mantengo al tanto en un tablero vivo con próximos pasos y
+              métricas.
+            </p>
+          </div>
+        </div>
+        <div class="process__list shell">
+          <div class="process__item">
+            <strong data-i18n="process.steps.0.title"
+              >Brief táctico en 20 minutos</strong
+            >
+            <span data-i18n="process.steps.0.description"
+              >Llamada o nota de voz; defino hipótesis, acceso e indicadores
+              críticos. Sin PPT, voy directo al mapa de trabajo.</span
+            >
+          </div>
+          <div class="process__item">
+            <strong data-i18n="process.steps.1.title"
+              >Scan + protoboard futurista</strong
+            >
+            <span data-i18n="process.steps.1.description"
+              >Auditoría técnica, benchmark visual y prototipo clickable en
+              Figma con animaciones sugeridas.</span
+            >
+          </div>
+          <div class="process__item">
+            <strong data-i18n="process.steps.2.title"
+              >Implementación modular</strong
+            >
+            <span data-i18n="process.steps.2.description"
+              >Codifico componentes, optimizo assets con efectos glow, configuro
+              microinteracciones y validaciones.</span
+            >
+          </div>
+          <div class="process__item">
+            <strong data-i18n="process.steps.3.title"
+              >Handoff + plan de crecimiento</strong
+            >
+            <span data-i18n="process.steps.3.description"
+              >Entrega de reporte before/after, videos Loom, checklist de
+              mantenimiento y próximos experimentos.</span
+            >
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="section__head shell">
+          <span data-i18n="testimonials.sectionLabel">Historias Reales</span>
+          <div>
+            <h2 data-i18n="testimonials.sectionTitle">
+              Clientes que confiaron en el modo SOS y ahora lucen interfaz de
+              siguiente nivel.
+            </h2>
+            <p data-i18n="testimonials.sectionDescription">
+              Las misiones incluyen seguimiento posterior de 7 días para
+              asegurarnos de que las métricas se mantengan estables.
+            </p>
+          </div>
+        </div>
+        <div class="testimonials shell">
+          <article class="quote">
+            <p data-i18n="testimonials.quotes.0.text">
+              “En 48 horas nuestro checkout pasó de un embudo con fricción a una
+              experiencia cuidada. Las animaciones transmiten confianza y
+              subimos 23% en conversiones móviles.”
+            </p>
+            <strong data-i18n="testimonials.quotes.0.author"
+              >Daniela R. — CMO, Retail Boutique</strong
+            >
+            <span data-i18n="testimonials.quotes.0.role"
+              >Shopify Plus · SOS performance</span
+            >
+          </article>
+          <article class="quote">
+            <p data-i18n="testimonials.quotes.1.text">
+              “El reporte antes/después fue contundente: velocidad, seguridad y
+              narrativa visual. Edgar orquestó todo vía Notion y Slack, sin
+              ruido. Volveremos cada trimestre.”
+            </p>
+            <strong data-i18n="testimonials.quotes.1.author"
+              >Ángel G. — CTO, Escala B2B</strong
+            >
+            <span data-i18n="testimonials.quotes.1.role"
+              >WordPress hardening · Track mantenimiento</span
+            >
+          </article>
+          <article class="quote">
+            <p data-i18n="testimonials.quotes.2.text">
+              “La auditoría Flash nos dio clarity inmediata. Entregó mockups
+              animados y scripts listos; hicimos deploy en menos de un sprint.
+              Ahora replicamos las progresiones en todo el sitio.”
+            </p>
+            <strong data-i18n="testimonials.quotes.2.author"
+              >María P. — Growth Lead, SaaS LatAm</strong
+            >
+            <span data-i18n="testimonials.quotes.2.role"
+              >Auditoría Flash 360°</span
+            >
+          </article>
+        </div>
+      </section>
+      <section id="faq">
+        <div class="section__head shell">
+          <span data-i18n="faq.sectionLabel">FAQ Futurista</span>
+          <div>
+            <h2 data-i18n="faq.sectionTitle">
+              Todo lo que necesitas saber antes de lanzar la misión.
+            </h2>
+            <p data-i18n="faq.sectionDescription">
+              Si algo no aparece aquí, envíame un audio por WhatsApp y lo
+              resolvemos al momento.
+            </p>
+          </div>
+        </div>
+        <div class="faq shell">
+          <details>
+            <summary data-i18n="faq.items.0.question">
+              ¿Qué necesito para arrancar en menos de 24h?
+            </summary>
+            <p data-i18n="faq.items.0.answer">
+              Acceso temporal al admin, analytics y sitio, además de metas
+              claras (ventas, leads, estabilidad). Con eso preparo el mapa de
+              trabajo y confirmo ventana de entrega.
+            </p>
+          </details>
+          <details>
+            <summary data-i18n="faq.items.1.question">
+              ¿Incluye implementación o solo recomendaciones?
+            </summary>
+            <p data-i18n="faq.items.1.answer">
+              Cada paquete trae fixes aplicados dentro del alcance. Si surge
+              algo mayor, cotizo un add-on express con horas exactas para que
+              decidas sin sorpresas.
+            </p>
+          </details>
+          <details>
+            <summary data-i18n="faq.items.2.question">
+              ¿Cómo se valida la mejora en conversiones?
+            </summary>
+            <p data-i18n="faq.items.2.answer">
+              Activo dashboards con comparativo de eventos clave, defino KPIs y
+              te entrego scripts para experimentos A/B. También hago seguimiento
+              7 días y ajuste fino si es necesario.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section>
+        <div class="cta-final shell">
+          <h2 data-i18n="ctaFinal.title">
+            ¿Listo para que tu eCommerce se vea —y convierta— como si viniera
+            del futuro?
+          </h2>
+          <p data-i18n="ctaFinal.body">
+            Responde este CTA con tu urgencia actual y agenda un espacio
+            conmigo. Recibirás un mini diagnóstico gratuito en video con ideas
+            inmediatas.
+          </p>
+          <div class="hero__actions">
+            <a
+              class="btn btn--primary"
+              data-i18n="ctaFinal.primary"
+              data-i18n-attrs="href:links.ctaWhatsApp"
+              href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20el%20mini%20diagnostico%20futurista%2E"
+              rel="noopener"
+              target="_blank"
+              >Solicitar diagnóstico</a
+            >
+            <a
+              class="btn btn--ghost"
+              data-i18n="ctaFinal.secondary"
+              data-i18n-attrs="href:links.ctaMail"
+              href="mailto:edgar@izignamx.com?subject=Arreglos%20Express%20-%20Brief%20Rapido"
+              >Enviar brief por correo</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <span class="site-footer__copy" data-i18n="footer.note"
+          >IzignaMX · Arreglos Express 24-72h · Hecho en CDMX • Disponible LATAM
+          / USA · WhatsApp +52 55 3376 0889</span
+        >
+        <nav
+          class="site-footer__links"
+          aria-label="Enlaces legales y seguridad"
+        >
+          <a href="privacy.html">Política de Privacidad</a
+          ><span aria-hidden="true">·</span>
+          <a href="security.html">Política de Seguridad</a
+          ><span aria-hidden="true">·</span>
+          <a href="mailto:edgar@izignamx.com">Reportar incidente</a>
+        </nav>
+      </div>
+    </footer>
+    <div class="update-toast" data-update-toast hidden>
+      <span class="update-toast__text"
+        >Nueva versión disponible. ¿Actualizar ahora?</span
+      >
+      <div class="update-toast__actions">
+        <button type="button" class="update-toast__btn" data-update-refresh>
+          Actualizar
+        </button>
+        <button
+          type="button"
+          class="update-toast__btn update-toast__btn--ghost"
+          data-update-dismiss
+        >
+          Después
+        </button>
+      </div>
+    </div>
+    <a
+      class="wa-float"
+      data-i18n-attrs="href:links.floatingWa"
+      href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20vengo%20del%20sitio%20futurista%20SOS%2E"
+      rel="noopener"
+      target="_blank"
+    >
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <path
+          d="M16.04 5C10.51 5 6 9.34 6 14.68c0 2.87 1.38 5.45 3.7 7.2l-.54 4.13 3.98-2.1c1.13.32 2.32.5 3.56.5 5.53 0 10.04-4.34 10.04-9.68C26.74 9.34 21.57 5 16.04 5Zm.02 17.39c-1.1 0-2.17-.18-3.14-.52l-2.22 1.18.3-2.52c-1.86-1.33-2.94-3.2-2.94-5.29 0-4.04 3.61-7.32 8.04-7.32 4.44 0 8.05 3.28 8.05 7.32s-3.61 7.32-8.05 7.32Zm4.43-5.49c-.24-.12-1.41-.69-1.63-.77-.22-.08-.38-.12-.54.12-.16.24-.62.77-.76.93-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.21-1.43-1.35-1.67-.14-.24-.01-.37.1-.49.1-.1.24-.26.36-.39.12-.12.16-.2.24-.32.08-.12.04-.24-.02-.36-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.41-.54-.41-.14 0-.3 0-.46 0-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.66 4.14 3.62.58.24 1.03.38 1.38.49.58.18 1.1.16 1.52.1.46-.07 1.41-.58 1.61-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"
+          fill="#002510"
+        />
+      </svg>
+      <span data-i18n="wa.button">Habla con Edgar</span>
+    </a>
+    <script src="assets/vendor/gpu-io/gpu-io.min.js" defer></script>
+    <script src="assets/js/fluid-background.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <div id="matomo-opt-out"></div>
+    <script src="https://analytics.izignamx.com/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
+  </body>
+</html>

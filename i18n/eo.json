@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "lang": "eo",
+    "dir": "ltr",
+    "title": "Ekspresaj Misioj | IzignaMX",
+    "description": "SOS-misioj por optimumigi Shopify, BigCommerce kaj WordPress ene de 24-72 horoj. Futurismaj interfaco kun vera konverta fokuso.",
+    "ogTitle": "Ekspresaj Misioj | IzignaMX",
+    "ogDescription": "Konduku vian komercan retejon en la estontecon: rapidaj riparoj, agado-plibonigoj kaj plibonigita check-out malpli ol en 72 horoj."
+  },
+  "header": {
+    "badge": "72h aŭ malpli",
+    "message": "Ekspresaj misioj por Shopify, BigCommerce kaj WordPress • Prioritato por lanĉoj kaj urĝaj vendoj"
+  },
+  "nav": {
+    "services": "Servoj",
+    "process": "Procezo",
+    "impact": "Rezultoj",
+    "faq": "Demandoj",
+    "contact": "Skribu al mi",
+    "book": "Rezervu en 24h",
+    "languageLabel": "Elektu lingvon"
+  },
+  "hero": {
+    "kicker": "Ekspresaj e-komercaj misioj",
+    "title": "Futurismaj riparoj kiuj savas enspezon fulmrapide.",
+    "lead": "Mi optimumigas rendimenton, check-out kaj UX en Shopify, BigCommerce kaj WordPress por ke konvertoj revenu sen senfinaj sprintoj. Livero post 24-72 horoj kun kirurgio-simila fokuso kaj aplikeblaj raportoj.",
+    "bullets": [
+      "Enmersiĝa dezajno kun mikroanimacioj por pli granda fido kaj reteno.",
+      "Aŭdito kaj vida vojmapo inkluzivitaj: antaŭ/post metrikoj kaj prizorga plano.",
+      "Rekta komunikado kun mi per WhatsApp kaj Notion Liveboard — neniuj perantoj."
+    ],
+    "primaryCta": "Rezervu mision",
+    "secondaryCta": "Vidu disponeblajn pakojn",
+    "metrics": {
+      "delivery": "Meza livero",
+      "checkout": "Optimigitaj check-out'oj",
+      "satisfaction": "Klienta kontento"
+    },
+    "panel": {
+      "title": "Kontrolpanelo de aktiva misio",
+      "subtitle": "ROI-fokusa rigardo kun solvitaj kritikaj punktoj:",
+      "items": [
+        { "label": "Core Web Vitals", "status": "+42%" },
+        { "label": "Frotado en check-out", "status": "-65%" },
+        { "label": "Vida konfido", "status": "Nivelo A+" }
+      ]
+    },
+    "chips": {
+      "launch": { "title": "Lanĉa reĝimo", "body": "Preta en 36h" },
+      "ai": { "title": "UX helpata de AI", "body": "Agendaj komprenoj + teksto" }
+    }
+  },
+  "services": {
+    "sectionLabel": "Ekspresaj servoj",
+    "sectionTitle": "Elektu la mision plej taŭgan por via urĝeco.",
+    "sectionDescription": "Ĉiu pako venas kun vida vojmapo, sekureca kontrolo kaj handoff-sesio. Bezonas hibridan solvon? Mi miksas liveraĵojn sen kaŝaj kostoj.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Rendimento + UI SOS",
+        "summary": "Chirurgia optimumigo de rapido, konfliktoj de aplikaĵoj forigitaj kaj refreŝigita aĉeta sperto. Inkluzivas futurisman respondecajn aspekton.",
+        "bullets": [
+          "Lighthouse-diagnozo kun komentaro",
+          "Luma refaktoro de kritikaj sekcioj kaj animita hero",
+          "Instalo de fido-insignoj kaj denaskaj modaloj"
+        ],
+        "price": "Ekde 1 200 MXN",
+        "duration": "Livero 24-48h",
+        "cta": "Rezervu"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Fortikigo + futurisma purigado",
+        "summary": "Sekureca plifortigo, purigado de kromprogramoj kaj redesegnita ĉefa paĝo kun glow-komponentoj por tujaj konfid-indikoj.",
+        "bullets": [
+          "Malvera kodo-serĉo, sekurkopio kaj sekura reinstalo",
+          "Hero kaj formularoj reverkataj kun UX-validado",
+          "Vida kontrolpanelo por ĝisdatigoj"
+        ],
+        "price": "Ekde 1 500 MXN",
+        "duration": "Livero 48-72h",
+        "cta": "Rezervu"
+      },
+      "audit": {
+        "tag": "UX + Rapido",
+        "title": "Flash-Aŭdito 360°",
+        "summary": "Profunda analizo de ŝlosila paĝo per simulitaj hejtmapoj, Core Web Vitals-listo kaj interaktiva prototipo kun sugestitaj mikroanimacioj.",
+        "bullets": [
+          "Prioritata listo (efiko kontraŭ penado)",
+          "Figma-bildo kun proponitaj animacioj",
+          "Plano de A/B-eksperimento kaj pretaj skriptoj"
+        ],
+        "price": "Ekde 1 200 MXN",
+        "duration": "Livero 48h",
+        "cta": "Rezervu"
+      },
+      "checkout": {
+        "tag": "Check-out",
+        "title": "Checkout Review + Fixes",
+        "summary": "Mi identigas elfluan punkton kaj aplikas ĝis tri tujajn plibonigojn: mikroteksto, validadoj, fintech-inspirita ŝarga stato.",
+        "bullets": [
+          "Observada sesio kun realtempa frota mapo",
+          "Futurisma ŝargilo kaj fida UI",
+          "Kampaj testoj en labortablo kaj poŝtelefono"
+        ],
+        "price": "Ekde 1 800 MXN",
+        "duration": "Livero 48-72h",
+        "cta": "Rezervu"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Tuŝeblaj rezultoj",
+    "sectionTitle": "Stila aspekto ne sufiĉas: ĉiu livero inkluzivas metrikojn kaj proponitajn eksperimentojn.",
+    "sectionDescription": "Mi konektas rapidajn panelojn, registras antaŭ/post komparojn kaj lasas aŭtomatigojn por kapti regresojn. Viaj gvidoj sentas la diferencon ekde la unua rulumo.",
+    "stats": [
+      { "description": "Nombro da butikoj plifortigitaj dum la lastaj 12 monatoj kun rimarkebla plibonigo en check-out kaj rakontado." },
+      { "description": "Meza nombro da forigitaj frotoj por projekto. Raporto enhavas video-gvidadon." },
+      { "description": "A/B-eksperimentoj pretaj por lanĉo. Vi ricevas hipotezojn, materialojn kaj gvidilon de validado." },
+      { "description": "Klientoj kiuj revenas aŭ elektas monatan UX-subtenon." }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Laborfluo",
+    "sectionTitle": "Fulma procezo sen burokratio, optimumigita por urĝoj.",
+    "sectionDescription": "Mi laboras paralele pri UX/UI, rendimento kaj komunikado. Notion-tabulo montras staton kaj metrikojn ĉiutage.",
+    "steps": [
+      {
+        "title": "20-minuta taktika babilo",
+        "description": "Voko aŭ voĉmesaĝo: ni difinas hipotezojn, alirojn kaj kritikajn indikilojn. Sen prezentaĵoj — rekta labor-mapo."
+      },
+      {
+        "title": "Skano + futurisma protoboard",
+        "description": "Teknika aŭdito, vida komparo kaj alklakebla Figma-prototipo kun proponitaj animacioj."
+      },
+      {
+        "title": "Modula efektivigo",
+        "description": "Mi kreas komponentojn, optimumigas aktivojn per glow-efikoj, agordas mikrointeragojn kaj validadojn."
+      },
+      {
+        "title": "Handoff + kreskplano",
+        "description": "Raporto antaŭ/post, Loom-videoj, prizorga checklist kaj sekvaj eksperimentaj ideoj."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Klientaj voĉoj",
+    "sectionTitle": "Teamoj kiuj ŝaltis SOS-modon nun havas interfacon je sekva nivelo.",
+    "sectionDescription": "Ĉiu misio inkluzivas 7-tagan sekvadon por certigi, ke metrikoj restas stabilaj.",
+    "quotes": [
+      {
+        "text": "“Post 48 horoj nia check-out iris de frikcia funelo al zorgeme polurita sperto. La animacioj donis fidon kaj poŝtelefonaj konvertoj kreskis je 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“La raporto antaŭ/post estis decidiga: rapido, sekureco, vida rakontado. Edgar ĉion kunordigis per Notion kaj Slack sen bruo. Ni revenos ĉiun kvaronjaron.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Subtena trako"
+      },
+      {
+        "text": "“La Flash-aŭdito tuj klarigis situacion. Li liveris animitajn mockup'ojn kaj pretajn skriptojn; ni deplojis ene de unu sprinte. Nun ni replicas la fluon tutrete.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Estonta FAQ",
+    "sectionTitle": "Ĉio scienda antaŭ lanĉi la mision.",
+    "sectionDescription": "Demando? Sendu voĉmesaĝon per WhatsApp kaj ni tuj solvos ĝin.",
+    "items": [
+      {
+        "question": "Kion mi bezonas por komenci ene de 24 horoj?",
+        "answer": "Provizora aliro al admin, analytics kaj retejo, plus klaraj celoj (vendoj, gvidoj, stabileco). Per tio mi preparas labor-mapojn kaj konfirmas liver-tempon."
+      },
+      {
+        "question": "Ĉu efektivigo estas inkluzivita aŭ nur rekomendoj?",
+        "answer": "Ĉiu pako enhavas riparojn ene de amplekso. Se aperas io pli granda, mi proponas ekspresan aldonaĵon kun precizaj horoj — neniuj surprizoj." 
+      },
+      {
+        "question": "Kiel vi validas pliiĝon de konvertoj?",
+        "answer": "Mi agordas panelojn kun ĉefaj eventokomparoj, difinas KPI-ojn kaj liveras skriptojn por A/B-testado. Aldone, 7-taga postsekvo kun fajna alĝustigo se necese." 
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Ĉu via e-komerco estu preta aspekti — kaj konverti — kvazaŭ ĝi venas el la estonteco?",
+    "body": "Diru al mi vian urĝecon kaj rezervu tempon kun mi. Vi ricevos senpagan video-diagnozon kun tujaj ideoj.",
+    "primary": "Peti diagnozon",
+    "secondary": "Sendi breef per retpoŝto"
+  },
+  "footer": {
+    "note": "IzignaMX · Ekspresaj riparoj 24-72h · Kreita en Meksik-urbo • Disponebla por LATAM / Usono · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Parolu kun Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Ekspresaj%20misioj%20-%20demando",
+    "navWhatsApp": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20deziras%20komenci%20SOS%20mision%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20volas%20rezervi%20ekspresan%20mision%20tiu%20semajno%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20bezonas%20SOS%20por%20Shopify%20aŭ%20BigCommerce%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20volas%20futurisman%20hardening%20por%20WordPress%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20petas%20la%20Flash%20Audit%20360%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20rezervu%20la%20Checkout%20Review%20kun%20riparoj%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20sendu%20al%20mi%20la%20futurisman%20mini-diagnozon%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Ekspresaj%20misioj%20-%20rapida%20breef",
+    "floatingWa": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20alvenis%20de%20via%20futurisma%20SOS-paĝo%2E"
+  }
+}

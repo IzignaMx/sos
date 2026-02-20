@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "lang": "ja",
+    "dir": "ltr",
+    "title": "エクスプレスミッション | IzignaMX",
+    "description": "Shopify・BigCommerce・WordPress を 24〜72 時間で最適化する SOS ミッション。コンバージョン重視の未来的インターフェース。",
+    "ogTitle": "エクスプレスミッション | IzignaMX",
+    "ogDescription": "72 時間以内に実装完了。パフォーマンス改善・チェックアウト最適化でショップを未来仕様にアップグレード。"
+  },
+  "header": {
+    "badge": "72 時間以内",
+    "message": "Shopify・BigCommerce・WordPress 向けエクスプレスミッション • ローンチと緊急案件を最優先で対応"
+  },
+  "nav": {
+    "services": "サービス",
+    "process": "プロセス",
+    "impact": "成果",
+    "faq": "FAQ",
+    "contact": "メールする",
+    "book": "24h で予約",
+    "languageLabel": "言語を選択"
+  },
+  "hero": {
+    "kicker": "eコマース緊急ミッション",
+    "title": "未来型の修正で売上を最短で取り戻す。",
+    "lead": "Shopify・BigCommerce・WordPress のパフォーマンス、チェックアウト、UX を短期間で改善。エンドレスなスプリントは不要。24〜72 時間で納品し、行動に直結するレポートを提供。",
+    "bullets": [
+      "没入感のあるデザインとマイクロアニメーションで信頼とリテンションを向上。",
+      "監査とビジュアルロードマップ込み：Before/After 指標と保守プランを提示。",
+      "WhatsApp と Notion Liveboard でダイレクトにやり取り — 中間業者なし。"
+    ],
+    "primaryCta": "ミッションを予約",
+    "secondaryCta": "利用可能なパッケージを見る",
+    "metrics": {
+      "delivery": "平均納期",
+      "checkout": "最適化したチェックアウト数",
+      "satisfaction": "顧客満足度"
+    },
+    "panel": {
+      "title": "進行中のミッションボード",
+      "subtitle": "ROI に直結する監査と解決済みクリティカルポイント：",
+      "items": [
+        { "label": "Core Web Vitals", "status": "+42%" },
+        { "label": "チェックアウトの摩擦", "status": "-65%" },
+        { "label": "ビジュアル信頼度", "status": "A+ グレード" }
+      ]
+    },
+    "chips": {
+      "launch": { "title": "ローンチモード", "body": "36 時間でリリース準備完了" },
+      "ai": { "title": "AI 支援 UX", "body": "行動につながる洞察とコピー" }
+    }
+  },
+  "services": {
+    "sectionLabel": "エクスプレスサービス",
+    "sectionTitle": "緊急度に合わせて最適なミッションを選択。",
+    "sectionDescription": "すべてのパッケージにビジュアルロードマップ、脆弱性チェック、ハンドオフセッションが含まれます。ハイブリッド構成も追加料金なしで調整可能。",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "パフォーマンス + UI SOS",
+        "summary": "速度改善、アプリ衝突解消、購入体験刷新を外科的に実行。未来感のあるレスポンシブ UI を実装。",
+        "bullets": [
+          "Lighthouse 診断とコメント付きレポート",
+          "重要セクションのライトリファクタリングとアニメ付きヒーロー",
+          "信頼バッジとネイティブモーダルの導入"
+        ],
+        "price": "価格 $1,200 MXN〜",
+        "duration": "納期 24〜48h",
+        "cta": "予約"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "ハードニング + 未来的クリーニング",
+        "summary": "セキュリティ強化、プラグイン整理、信頼感を演出するグロー演出付きヒーローの再設計。",
+        "bullets": [
+          "マルウェアスキャン・バックアップ・安全な再インストール",
+          "UX バリデーションを組み込んだヒーロー＆フォームの再配線",
+          "アップデート管理のためのビジュアルコントロールパネル"
+        ],
+        "price": "価格 $1,500 MXN〜",
+        "duration": "納期 48〜72h",
+        "cta": "予約"
+      },
+      "audit": {
+        "tag": "UX + 速度",
+        "title": "フラッシュ監査 360°",
+        "summary": "重要ページをヒートマップ模擬、Core Web Vitals チェックリスト、マイクロアニメーション提案付きプロトタイプで徹底診断。",
+        "bullets": [
+          "インパクトと工数で優先順位づけしたチェックリスト",
+          "Figma モック（推奨アニメーション付き）",
+          "A/B 実験プランとすぐ使えるスクリプト"
+        ],
+        "price": "価格 $1,200 MXN〜",
+        "duration": "納期 48h",
+        "cta": "予約"
+      },
+      "checkout": {
+        "tag": "チェックアウト",
+        "title": "Checkout Review + Fixes",
+        "summary": "離脱ポイントを特定し、マイクロコピー・バリデーション・フィンテック風ローディングなど即効性のある改善を最大 3 つ実装。",
+        "bullets": [
+          "ウォッチングセッション + リアルタイム摩擦マップ",
+          "未来的ローダーとトラスト UI の導入",
+          "デスクトップ・モバイル両方でのフィールドテスト"
+        ],
+        "price": "価格 $1,800 MXN〜",
+        "duration": "納期 48〜72h",
+        "cta": "予約"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "測定可能な成果",
+    "sectionTitle": "見た目だけでは不十分。すべての納品物に指標と実験プランを付与。",
+    "sectionDescription": "速度ダッシュボードを接続し、Before/After を記録。リグレッション検知用のオートメーションも仕込みます。最初のスクロールで違いが伝わります。",
+    "stats": [
+      { "description": "過去 12 ヶ月でチェックアウトとストーリーテリングが向上したショップ数。" },
+      { "description": "1 プロジェクトあたり平均で解消した摩擦ポイント数。レポートには動画ウォークスルー付き。" },
+      { "description": "すぐ開始できる A/B 実験の数。仮説・アセット・検証ガイドを提供。" },
+      { "description": "ミッション後にリピートまたは UX 保守契約に進むクライアント比率。" }
+    ]
+  },
+  "process": {
+    "sectionLabel": "進め方",
+    "sectionTitle": "緊急案件のためのライトニングプロセス。無駄な手続きゼロ。",
+    "sectionDescription": "UX/UI・パフォーマンス・コミュニケーションを並行で進行。Notion ボードでタスクと指標をリアルタイム共有。",
+    "steps": [
+      {
+        "title": "20 分のタクティカルブリーフ",
+        "description": "通話または音声メモで仮説・アクセス・重要指標を定義。スライドなしで即マップ作成。"
+      },
+      {
+        "title": "未来型スキャン & プロトボード",
+        "description": "技術監査・ビジュアルベンチマーク・アニメ提案付き Figma プロトタイプを用意。"
+      },
+      {
+        "title": "モジュラー実装",
+        "description": "コンポーネントをコーディングし、グロー演出でアセット最適化、マイクロインタラクションとバリデーションを設定。"
+      },
+      {
+        "title": "ハンドオフ + グロースプラン",
+        "description": "Before/After レポート、Loom 動画、保守チェックリスト、次の実験アイデアを提供。"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "導入事例",
+    "sectionTitle": "SOS モードを使ったクライアントは、一段上の UI を手に入れています。",
+    "sectionDescription": "各ミッションには 7 日間のフォローアップが含まれ、指標の安定を確認します。",
+    "quotes": [
+      {
+        "text": "“48 時間でチェックアウトが摩擦だらけの導線から洗練された体験に。アニメーションが信頼を生み、モバイル CV が 23% 向上しました。”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Before/After レポートで速度・セキュリティ・ビジュアルストーリーが明確に。Edgar が Notion と Slack でシームレスに進行してくれたので、四半期ごとに依頼する予定です。”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · メンテナンストラック"
+      },
+      {
+        "text": "“Flash Audit で即座に課題が可視化。アニメ付きモックと完成済みスクリプト付きで、1 スプリント以内にデプロイ完了。今では全ページに同じフローを展開しています。”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "未来型 FAQ",
+    "sectionTitle": "ミッション開始前に知っておきたいこと。",
+    "sectionDescription": "他に気になる点はありますか？WhatsApp の音声メッセージで気軽にどうぞ。即座に対応します。",
+    "items": [
+      {
+        "question": "24 時間以内にスタートするには何が必要ですか？",
+        "answer": "管理画面・アナリティクス・サイトの一時アクセスと、売上・リード・安定性などの目標。これで作業マップを準備し納期を確定します。"
+      },
+      {
+        "question": "実装まで含まれますか、それとも提案のみですか？",
+        "answer": "パッケージ内の範囲は私が実装します。追加範囲が判明した場合は、所要時間つきのエクスプレス見積もりを提示します。"
+      },
+      {
+        "question": "コンバージョン向上はどう検証しますか？",
+        "answer": "主要イベント比較ダッシュボードを構築し、KPI を定義。A/B テスト用スクリプトも提供します。7 日間フォローで微調整も対応。"
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "あなたの eコマースを未来仕様に — そして成果を最大化しませんか？",
+    "body": "今の課題や緊急度を教えてください。一緒に時間を確保し、すぐに使える無料ビデオ診断をお届けします。",
+    "primary": "診断を依頼",
+    "secondary": "メールでブリーフ送信"
+  },
+  "footer": {
+    "note": "IzignaMX · エクスプレス対応 24-72h · メキシコシティ発 • LATAM / USA 対応 · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Edgar と話す"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Express%20Mission%20-%20お問い合わせ",
+    "navWhatsApp": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20SOS%20ミッションを始めたいです%2E",
+    "heroPrimary": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20今週エクスプレスミッションを予約したいです%2E",
+    "servicePerformance": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20Shopify%20か%20BigCommerce%20のSOSをお願いします%2E",
+    "serviceWordpress": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20WordPress%20の未来型ハードニングを依頼します%2E",
+    "serviceAudit": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20Flash%20Audit%20360を予約したいです%2E",
+    "serviceCheckout": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20Checkout%20Review%20%2B%20Fixes%20を希望します%2E",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20未来型ミニ診断を送ってください%2E",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Express%20Mission%20-%20クイックブリーフ",
+    "floatingWa": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20あなたの未来的なSOSサイトを見ました%2E"
+  }
+}
