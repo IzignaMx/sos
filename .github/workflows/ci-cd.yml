@@ -52,4 +52,5 @@ jobs:
           publish_dir: ./.public-dist
           publish_branch: gh-pages
           force_orphan: true
+          cname: sos.izignamx.com
           commit_message: "🚀 Deploy static PWA to gh-pages"

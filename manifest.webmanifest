@@ -4,8 +4,8 @@
   "description": "Misiones express que optimizan Shopify, BigCommerce y WordPress en 24-72h con foco en conversiones futuristas.",
   "lang": "es-MX",
   "dir": "ltr",
-  "start_url": "/?source=pwa",
-  "scope": "/",
+  "start_url": "./?source=pwa",
+  "scope": ".",
   "display": "standalone",
   "display_override": [
     "window-controls-overlay",
@@ -68,7 +68,7 @@
     {
       "name": "Reservar mision",
       "short_name": "Reservar",
-      "url": "/?intent=reserve#servicios",
+      "url": "./?intent=reserve#servicios",
       "description": "Revisa paquetes SOS y agenda una mision express.",
       "icons": [
         {
@@ -81,7 +81,7 @@
     {
       "name": "Ver catalogo",
       "short_name": "Catalogo",
-      "url": "/#servicios",
+      "url": "./#servicios",
       "description": "Explora servicios de performance, auditoria y checkout.",
       "icons": [
         {
