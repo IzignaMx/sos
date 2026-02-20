@@ -1,12 +1,10 @@
-# Política de Seguridad - IzignaMx Express & WhatsApp Bot
+# Política de Seguridad - IzignaMx Express Landing
 
 ## 1. Superficie del Proyecto
 
 El proyecto consta de las siguientes áreas expuestas:
 
-- **Frontend PWA**: Landing estática (`index.html`), archivos de internacionalización (`i18n`), y "Service Worker" (`sw.js`).
-- **Backend API (Node.js)**: Servicio Webhook para Meta Cloud API.
-- **Infraestructura de Datos e IA**: Instancia PostgreSQL, Redis, y Servidor de Inferencia Ollama (LLM) auto-hospedado.
+- **Frontend PWA**: Landing estática (`index.html`), archivos de internacionalización integrados (`i18n`), rutinas asíncronas de diseño en `assets/js/` y caché mediante "Service Worker" (`sw.js`).
 
 ## 2. Buenas Prácticas Aplicadas
 
@@ -17,12 +15,10 @@ El proyecto consta de las siguientes áreas expuestas:
 - Configuración anti ataques de ventana cruzada empleando **Cross-Origin-Opener-Policy=same-origin**.
 - El Service Worker (`sw.js`) solo tramitará peticiones GET para servir caché sin corromper el estado del almacenamiento persistente.
 
-### En Backend y DevOps (Docker & Node)
+### Prácticas de Aislamiento y Headers (Despliegue GitHub Pages)
 
-- **Gestión de Secretos**: Los secretos se manejan externamente en variables de entorno (archivos `.env` exluidos de git) utilizando herramientas consolidadas (Vault o variables de GH Actions en CI/CD).
-- **Protección de Puertos**: El puerto `11434` (Ollama) está bloqueado para tráfico de la red exterior mediante cortafuegos (UFW) garantizando acceso exclusivo en la IP local al contenedor `message-processor`.
-- **Límites de Tasa (Rate Limiting)**: Las APIs de Webhook integran el módulo `express-rate-limit` mitigando DoS y ataques de retransmisión de fuerza bruta.
-- **Protección de Datos en Reposo**: Integración prospectiva con cifrado a nivel de fila (`pgcrypto`) en PostgreSQL para almacenar logs de chat y campos de PII (Información Personalmente Identificable).
+- **Gestión Estricta CSP**: Reducción de inyección mediante control de `Content-Security-Policy`.
+- **Mitigación CORS y Cookies**: Dado que no existe una API de Node local ni recolección de base de datos directa en este repositorio, se reducen enormemente vectores de CSRF (Cross-Site Request Forgery).
 
 ## 3. Reporte de Vulnerabilidades
 

@@ -4,13 +4,12 @@
 
 El sitio consiste en una página de destino (landing page) de una sola página almacenada en `index.html`. El CSS integrado (inline) se encuentra dentro del bloque `<style>` cerca del `head`; los cambios deben agruparse por marcadores de comentarios (ej., `/* hero */`) y mantenerse en orden.
 
-**Nuevas funcionalidades** deben priorizar la carpeta `assets/` para los recursos compartidos, mientras que el bot de backend debe alojarse modularmente en la carpeta `/whatsapp-bot`. Toda la documentación, incluyendo las notas, variables, y scripts, debe estar escrita y comentada en **Español** para mantener coherencia, utilizando `<!-- EN -->` solo como auxiliar si es necesario referenciar APIs externas.
+**Nuevas funcionalidades** deben priorizar la carpeta `assets/` para los recursos compartidos. Toda la documentación, incluyendo las notas, variables, y scripts, debe estar escrita y comentada en **Español** para mantener coherencia, utilizando `<!-- EN -->` solo como auxiliar si es necesario referenciar APIs externas.
 
 ## Comandos de Compilación, Pruebas y Desarrollo
 
 - **PWA (Frontend)**: Usa `npx serve .` para montar una vista previa estática en `http://localhost:3000`. También funciona `python -m http.server 4000` para iteraciones rápidas.
 - **Formateo**: Ejecuta `npx prettier@latest "**.html" "**.md" --check` antes de subir código. Usa flag `--write` para auto-corregir derivas menores.
-- **Backend (Node)**: Para los servicios del bot, asegúrate de estar ejecutando los entornos controlados con `docker-compose up -d`.
 
 ## Lineamientos de Codificación y TDD (Test-Driven Development)
 
@@ -21,7 +20,7 @@ Debemos seguir estrictamente la regla de "Red-Green-Refactor" detallada por nues
 2. **Green**: Escribe el código mínimo necesario para superarla.
 3. **Refactor**: Mejora y consolida según Patrones de Diseño limpios (SOLID, DRY).
 
-Para el Frontend, formatea el HTML con una sangría de dos espacios (2 spaces). Prefiere siempre etiquetas semánticas (`<section>`, `<main>`) sobre divs genéricos y mantén etiquetas `aria-label` en Español. Para el backend (Node.js/TypeScript), fomenta uso de tipados, Linter estricto y abstracciones simples.
+Para el Frontend, formatea el HTML con una sangría de dos espacios (2 spaces). Prefiere siempre etiquetas semánticas (`<section>`, `<main>`) sobre divs genéricos y mantén etiquetas `aria-label` en Español. Fomenta el uso de Linter estricto y abstracciones simples en cualquier iteración de JS.
 
 ## Desarrollo de Agentes e IAs (Agent Development)
 
@@ -38,4 +37,4 @@ Usa `npx html-validate index.html` para problemas estructurales y `npx pa11y htt
 ## Commits y Pull Requests
 
 - Usar **Conventional Commits** (`feat:`, `fix:`, `style:`, `docs:`). Ej. `docs: consolida arquitectura general B2B`.
-- Los Pull Requests deben describir el objetivo, incluir vistas previas antes/después si hay cambios visuales, o evidencia de que las pruebas automatizadas pasaron en caso de tocar back-end.
+- Los Pull Requests deben describir el objetivo, incluir vistas previas antes/después si hay cambios visuales, o evidencia de que las pruebas de calidad/E2E pasaron satisfactoriamente.

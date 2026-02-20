@@ -1,124 +1,56 @@
-# Arquitectura del Sistema - IzignaMx Express Landing & WhatsApp Bot
+# Arquitectura del Sistema - IzignaMx Express Landing
 
 ## Índice
 
 - [Visión General](#visión-general)
 - [Dominios Clave](#dominios-clave)
-- [Diagrama de Arquitectura](#diagrama-de-arquitectura)
 - [Decisiones de Diseño (ADRs)](#decisiones-de-diseño-adrs)
 - [Prácticas de Desarrollo (TDD & Clean Code)](#prácticas-de-desarrollo-tdd--clean-code)
-- [Iteraciones y Hoja de Ruta](#iteraciones-y-hoja-de-ruta)
 
 ---
 
 ## Visión General
 
-El sistema se compone de dos frentes principales:
+El sistema se compone exclusivamente de la **PWA Landing Page (Frontend)**. Un sitio estático, optimizado para altísimo rendimiento, con un enfoque visual "neon-futurista". Construido con HTML semántico, CSS/JS inline/minimalista para lograr velocidades de carga óptimas, e incluye soporte offline garantizado a través de Web Workers (Progressive Web App).
 
-1. **PWA Landing Page (Frontend)**: Sitio estático, optimizado para alto rendimiento, con un enfoque "neon-futurista". Construido con HTML semántico, CSS/JS inline para velocidad óptima, y soporte offline mediante Web Workers (PWA). Sirve como el principal embudo de captación de leads (B2B).
-2. **WhatsApp AI Bot (Backend)**: Backend contenerizado en Node.js que orquesta mensajes entrantes de clientes, conectado a modelos de IA auto-hospedados (Ollama/Llama) para respuestas conversacionales, y gestionado mediante PostgreSQL y Redis para persistencia y colas.
-
-El objetivo a medio plazo es consolidar la plataforma en una arquitectura SaaS multi-tenant que soporte la atención omnicanal, la automatización por reglas y el uso de Inteligencia Artificial como fallback (o agente principal).
+Su propósito central es servir como el principal embudo de captación de leads (B2B/B2C) maximizando la tasa de conversión a través del perfomance y la accesibilidad.
 
 ---
 
 ## Dominios Clave
 
-### 1. Aplicaciones Cliente (Frontend)
+### 1. Aplicación Cliente (Frontend)
 
-- **Express Landing (PWA)**: UI estática, 100% responsiva y optimizada para accesibilidad (WCAG AA).
-- **Internacionalización (i18n)**: Basado en diccionarios JSON estáticos cargados asíncronamente según el `languageMap`.
-
-### 2. Core Conversacional (Backend)
-
-- **Orquestador**: Motor Node.js (`src/server.js` / Express) que maneja Webhooks.
-- **Queue System**: Redis (`message_queue`) para desacoplar recepción de mensajes de su procesamiento pesado (IA).
-- **Procesador IA**: Abstracción que consulta a un proveedor LLM (Ollama con modelo `llama2:7b` u otros) para generar respuestas contextuales.
-
-### 3. Integraciones y Canales
-
-- **WhatsApp Cloud API**: Vía Meta Developer Console, canal principal de comunicación B2B/B2C.
-- **Bases de Datos**: PostgreSQL 15, almacena usuarios (`user_sessions`), historial de mensajes (`messages`), y auditorías.
-
----
-
-## Diagrama de Arquitectura
-
-```mermaid
-flowchart LR
-    subgraph Client Layer
-        Web[PWA Landing Page]
-        WAApp[WhatsApp App]
-    end
-
-    subgraph CDN & Proxy
-        VercelCDN[Vercel/Netlify CDN]
-        NginxProxy[Nginx - API Gateway]
-    end
-
-    subgraph Backend Services
-        WebhookService[Node.js - Webhook Receiver]
-        FlowEngine[Generador de Flujos / IA]
-    end
-
-    subgraph AI Infrastructure
-        Ollama[Ollama Server - LLM]
-    end
-
-    subgraph Data & Message Queues
-        Redis[(Redis - Colas)]
-        Postgres[(PostgreSQL - Persistencia)]
-    end
-
-    Web -.-> |Leads / CTA| WAApp
-    WAApp --> |Mensajes| NginxProxy
-    NginxProxy --> WebhookService
-
-    WebhookService --> |Push a Cola| Redis
-    WebhookService --> |Registro| Postgres
-    Redis --> |Pop de Cola| FlowEngine
-
-    FlowEngine <--> |Consulta Local| Ollama
-    FlowEngine --> |Respuestas| Postgres
-    FlowEngine --> |Envía Mensaje| WhatsAppAPI[Meta Cloud API]
-    WhatsAppAPI --> WAApp
-```
+- **Express Landing (PWA)**: Interfaz estática, 100% responsiva (Mobile-First) y optimizada bajo los estrictos estándares de accesibilidad (WCAG AA).
+- **Internacionalización (i18n)**: Arquitectura idiomática basada en diccionarios JSON estáticos cargados asíncronamente según prefijos de URL o configuración del navegador, ofreciendo soporte global sin impacto en la carga inicial.
+- **Service Workers**: Estrategia de caché "Cache-First" o "Stale-While-Revalidate" para activos primarios, asegurando que la primera carga sea la única necesaria para interacción offline.
 
 ---
 
 ## Decisiones de Diseño (ADRs)
 
-1. **Despliegue de IA Auto-hospedada**: Se prioriza control de privacidad y previsibilidad de costos utilizando infraestructura local (Ollama) en contenedores, en lugar de APIs externas (salvo como fallback).
-2. **PostgreSQL como Fuente de Verdad Multi-Tenant**: Uso de esquemas compartidos con RLS (Row Level Security) proyectado para aislar datos si la plataforma agrupa múltiples tiendas/clientes.
-3. **PWA Estático Puro**: La landing prioriza el TTI (Time to Interactive) usando recursos inline, prescindiendo de frameworks SPAs pesados (React/Next) en el lado del cliente público para garantizar lighthouse de ~100.
-4. **Acoplamiento Débil de Tareas**: Intermediación con Redis entre la recepción del Webhook (rápido) y la inferencia del modelo LLM (lento) para evitar _timeouts_ de WhatsApp.
+1. **PWA Estática Pura**: La landing prioriza radicalmente el TTI (Time to Interactive). Se utilizan recursos inline limitados al _above-the-fold_, prescindiendo por completo de frameworks SPAs pesados (como React, Angular o Next.js) en el lado del cliente público para garantizar métricas Lighthouse consistentes de ~100/100/100/100.
+2. **Independencia de Backend Contenerizado**: Toda lógica de base de datos, bots de inteligencia artificial (WhatsApp bots) o APIs de procesamiento pesado ha sido desacoplada en infraestructuras y repositorios externos (SaaS). Esta PWA no ejecuta consultas a bases de datos ni lógicas de back-end internas, actuando exclusivamente como un recolector y visor optimizado de prospectos.
+3. **Despliegue GitHub Pages (gh-pages)**: El proyecto se compila y lanza hacia la rama `gh-pages` vía pipelines automatizadas de GitHub Actions, lo que reduce a $0 el costo de despliegue, entrega escalabilidad por medio de la CDN de GitHub y provee soporte nativo HTTPS.
 
 ---
 
 ## Prácticas de Desarrollo (TDD & Clean Code)
 
-En esta plataforma se asumen las directrices conjuntas de un **Seniot Architect**, **Senior Fullstack** y la disciplina **Test-Driven Development (TDD)**:
+En esta plataforma se asumen las directrices conjuntas de un **Senior Architect**, **Senior Frontend** y la disciplina **Test-Driven Development (TDD)**:
 
 ### 1. No hay Producción Sin Pruebas (Red-Green-Refactor)
 
-- **RED**: Toda característica nueva o corrección de error empieza escribiendo una prueba funcional mínima (Jest/Playwright). Validar que falla.
-- **GREEN**: Escribir el código estrictamente necesario para que pase.
-- **REFACTOR**: Optimizar, aplicar Patrones de Diseño (Inyección de Dependencias, Adapter para canales), limpiando la deuda.
+- **RED**: Toda característica nueva de UI o corrección de error de renderizado empieza escribiendo una prueba funcional/E2E mínima (Ej. Playwright). Validar que falla.
+- **GREEN**: Escribir el HTML/CSS/JS estrictamente necesario para que pase.
+- **REFACTOR**: Optimizar, aplicar Patrones de Diseño Frontend (BEM para CSS, modularidad sin bloqueos para JS), limpiando la deuda.
 
-### 2. Estándares Fullstack
+### 2. Estándares Frontend
 
-- **Tipado Fuerte**: Gradual transición o aplicación de Typescript / JSDoc para interfaces robustas.
-- **Calidad de Código**: Linter (ESLint) estricto, Prettier para formateo unificado.
-- **Modularidad**: Componentización de los bots. Por ejemplo, `FlowEngine.js`, `WhatsAppAdapter.js`, `AIProvider.js`, buscando alta cohesión y bajo acoplamiento.
+- **Accesibilidad Primero**: Auditorías automáticas obligatorias; todo elemento interactivo requiere trazabilidad por teclado y screen-readers.
+- **Calidad de Código**: Linter estricto, Prettier (Plugin MD/HTML/JS) para formateo unificado.
+- **Modularidad Ligera**: Scripts Vanilla JS divididos por responsabilidad (`sw.js`, optimizadores de imágenes o animadores de GPU) sin bloquear el _main thread_.
 
 ### 3. Desarrollo Orientado a Agentes (Agent-Driven)
 
-Al escribir nuevos sub-sistemas, se usarán prompts y descripciones de contexto claros (`name`, `description`, `system prompt` como en `AGENTS.md`) para ayudar a herramientas automatizadas y a LLMs a contribuir con seguridad, validando contra las pruebas unitarias.
-
----
-
-## Iteraciones y Hoja de Ruta
-
-- **Fase 1 (MVP)**: Landing optimizada + Bot de WhatsApp básico en contenedores con respuestas LLM locales. Logging y PostgreSQL (Actual).
-- **Fase 2**: Implementación multi-tenant en DB, colas avanzadas (RabbitMQ o BullMQ), integración en Landing (ChatWidget webchat conectado al back).
-- **Fase 3**: Dashboard Administrativo Fullstack (Next.js) consumiendo APIs seguras para ver reportes de logs, consumo de Tokens y analítica.
+Al escribir nuevas actualizaciones o scripts, se usarán prompts y descripciones de contexto claros (`name`, `description`, `system prompt` como en `AGENTS.md`) para ayudar a herramientas automatizadas y a LLMs a contribuir con la UI de forma segura, respetando los estándares estéticos y operativos del frontend.
