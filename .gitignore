@@ -1,1 +1,5 @@
 *.bak
+.env
+node_modules
+logs
+_internal_docs/

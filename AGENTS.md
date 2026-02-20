@@ -1,16 +1,41 @@
-# Repository Guidelines
+# Guías del Repositorio e Interacción con Agentes
 
-## Project Structure & Module Organization
-The site is a single-page landing stored in `index.html`. Inline CSS lives inside the `<style>` block near the head; group changes by comment markers (e.g., `/* hero */`) and keep them in sorted order. Add reusable assets under a new `assets/` directory and reference them with relative paths (`assets/img/logo.png`). Keep localized copy in Spanish; annotate English helper notes with `<!-- EN -->` comments when needed.
+## Estructura del Proyecto y Organización de Módulos
 
-## Build, Test, and Development Commands
-Use `npx serve .` to spin up a static preview on http://localhost:3000. For quick iteration, `python -m http.server 4000` also works and avoids caching issues. Run `npx prettier@latest index.html --check` before pushing to confirm formatting, then use `--write` to auto-fix small drifts.
+El sitio consiste en una página de destino (landing page) de una sola página almacenada en `index.html`. El CSS integrado (inline) se encuentra dentro del bloque `<style>` cerca del `head`; los cambios deben agruparse por marcadores de comentarios (ej., `/* hero */`) y mantenerse en orden.
 
-## Coding Style & Naming Conventions
-Format HTML with two-space indentation and wrap attributes onto new lines when they exceed 100 characters. Prefer semantic tags (`<section>`, `<main>`) over generic divs and keep aria labels in Spanish. CSS variables follow kebab-case (`--brand-accent`); utility classes pair noun + qualifier (`.btn--brand`, `.grid--two`). Place structural comments using lowercase Spanish descriptions.
+**Nuevas funcionalidades** deben priorizar la carpeta `assets/` para los recursos compartidos, mientras que el bot de backend debe alojarse modularmente en la carpeta `/whatsapp-bot`. Toda la documentación, incluyendo las notas, variables, y scripts, debe estar escrita y comentada en **Español** para mantener coherencia, utilizando `<!-- EN -->` solo como auxiliar si es necesario referenciar APIs externas.
 
-## Testing Guidelines
-Manually sanity-check the landing in Chromium- and WebKit-based browsers. Run `npx html-validate index.html` to catch structural issues and `npx pa11y http://localhost:3000` against the served page to flag accessibility regressions. Keep Lighthouse performance above 90; note any exceptions in the PR description.
+## Comandos de Compilación, Pruebas y Desarrollo
 
-## Commit & Pull Request Guidelines
-Initialize Git if missing, then use Conventional Commits (`feat:`, `fix:`, `style:`) with imperative verbs (`feat: refina hero CTA`). PRs should describe intent, list visual or copy changes, attach before/after screenshots, and link tracking tickets or WhatsApp requests when available.
+- **PWA (Frontend)**: Usa `npx serve .` para montar una vista previa estática en `http://localhost:3000`. También funciona `python -m http.server 4000` para iteraciones rápidas.
+- **Formateo**: Ejecuta `npx prettier@latest "**.html" "**.md" --check` antes de subir código. Usa flag `--write` para auto-corregir derivas menores.
+- **Backend (Node)**: Para los servicios del bot, asegúrate de estar ejecutando los entornos controlados con `docker-compose up -d`.
+
+## Lineamientos de Codificación y TDD (Test-Driven Development)
+
+**Absolutamente ningún código de producción sin una prueba que falle primero.**
+Debemos seguir estrictamente la regla de "Red-Green-Refactor" detallada por nuestros principios de `senior-architect` y `test-driven-development`.
+
+1. **Red**: Escribe la prueba. Mira cómo falla.
+2. **Green**: Escribe el código mínimo necesario para superarla.
+3. **Refactor**: Mejora y consolida según Patrones de Diseño limpios (SOLID, DRY).
+
+Para el Frontend, formatea el HTML con una sangría de dos espacios (2 spaces). Prefiere siempre etiquetas semánticas (`<section>`, `<main>`) sobre divs genéricos y mantén etiquetas `aria-label` en Español. Para el backend (Node.js/TypeScript), fomenta uso de tipados, Linter estricto y abstracciones simples.
+
+## Desarrollo de Agentes e IAs (Agent Development)
+
+Cualquier sub-agente, IA o herramienta que actúe sobre este repositorio debe seguir el formato de "YAML frontmatter" en sus descripciones (según las guías de `Agent Development`).
+
+1. **Contexto Claro**: Especifica claramente en los prompts el `name`, `description` y `triggering conditions` en español.
+2. **Inyección de Dependencias**: Agentes que generan código (`code-reviewer`, `test-generator`) deben asegurar responsabilidades únicas y adherirse a la Arquitectura Centralizada (`ARCHITECTURE.md`).
+
+## Guías de Pruebas Adicionales
+
+Valida manualmente la visualización de la PWA en navegadores Chromium y WebKit.
+Usa `npx html-validate index.html` para problemas estructurales y `npx pa11y http://localhost:3000` para garantizar cumplimiento de accesibilidad (AA). Mantén métricas completas de Lighthouse >90. Las excepciones deben quedar documentadas.
+
+## Commits y Pull Requests
+
+- Usar **Conventional Commits** (`feat:`, `fix:`, `style:`, `docs:`). Ej. `docs: consolida arquitectura general B2B`.
+- Los Pull Requests deben describir el objetivo, incluir vistas previas antes/después si hay cambios visuales, o evidencia de que las pruebas automatizadas pasaron en caso de tocar back-end.

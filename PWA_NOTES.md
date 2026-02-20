@@ -1,12 +1,16 @@
-# PWA follow-up checklist
+# Lista de Comprobación para PWA (PWA Follow-Up Checklist)
 
-- **Icon sources**: La cabecera y el manifest siguen apuntando a iconos alojados en izignamx.com. Sustitúyelos por copias locales en ssets/img/ (o tu CDN definitivo) antes de publicar.
-- **Manifest scope**: Si el deploy final vive en un subdirectorio (p. ej. /sos/), actualiza start_url y scope en manifest.webmanifest para que coincidan.
-- **Cache versioning**: Incrementa los nombres PRECACHE / RUNTIME en sw.js cada vez que cambies assets críticos (CSS, JSON, capturas) para forzar la actualización en clientes existentes.
-- **Language catalog updates**: Cuando agregues o renombres archivos i18n/*.json, inclúyelos en PRECACHE_URLS para mantener soporte offline.
-- **Runtime analytics**: Si añades Google Analytics o GTM, cárgalos con sync/defer y considera helpers tipo workbox-google-analytics si deseas replay offline.
-- **Testing**: Sirve el sitio vía 
-px serve . (HTTPS), verifica el worker en chrome://inspect/#service-workers y ejecuta Lighthouse PWA para confirmar puntuaciones de Installable + Offline.
-- **Update prompts**: El toast de actualización ya está integrado; ajusta copy/estilos o lógica de maybeHandleIntent si deseas mensajes personalizados por idioma.
-- **Fallback UX**: Si incorporas formularios o media extra, cachea los endpoints relevantes o muestra un mensaje offline para evitar pantallas en blanco.
-- [ ] Reemplaza ssets/img/og-izigna-sos.png y ssets/img/pwa-screenshot-mobile.png por capturas reales (1280×720 wide, 720×1280 móvil) y actualiza manifest.webmanifest con tamaños exactos.
+Antes de preparar una nueva versión a producción, los desarrolladores frontend deben asegurar:
+
+- **Orígenes de Iconos (Icon Sources)**: La cabecera (header) y el `manifest.webmanifest` apuntan a referencias estáticas. Toda imagen debe pre-existir en el CDN local (`/assets/img/`) o el bucket productivo.
+- **Alcance del Manifiesto (Manifest Scope)**: Si el despliegue de la Landing PWA ocurre en un subdirectorio (ej. `/sos/`), actualiza `start_url` y `scope` en el archivo `manifest.webmanifest` garantizando exactitud.
+- **Versionado de Caché (Cache Versioning)**: Modifica activamente las llaves estáticas (`PRECACHE` / `RUNTIME`) al interior de `sw.js` tras inyectar nuevos cambios en tu CSS/JS/Imágenes. Esto obliga una purga de Service Workers en navegadores cliente.
+- **Catálogos i18n**: Al incorporar modismos nuevos en `i18n/*.json`, agrégalos manualmente al arreglo temporal `PRECACHE_URLS` para posibilitar navegación a Internet caída (Offline Support).
+- **Analítica Diferida (Runtime Analytics)**: Integra toda firma de rastreo (GTM, GA4, Meta Pixel) con estrategias `async` o `defer`. Revisa `workbox-google-analytics` si consideras rastreo de interacciones offline diferidas.
+- **Calidad de Pruebas (Testing)**:
+  - Sírvase la PWA con `npx serve .` (o tunelizado HTTPS por `ngrok`).
+  - Inspecciona validadores W3C: `npx html-validate index.html`.
+  - Fuerza una corrida local AA/AAA: `npx pa11y http://localhost:3000`.
+  - Emula Lighthouse desde la pestaña "Audits".
+- **Comportamiento Offline (Fallback UX)**: Mantener un mensaje HTML pre-cargado amigable cuando recursos no esenciales quiebren y el Service Worker asuma el control.
+- [ ] Renderizar y ajustar pantallazos: Reemplaza `/assets/img/og-izigna-sos.png` e imágenes OpenGraph promocionales tras validación móvil (720x1280).
