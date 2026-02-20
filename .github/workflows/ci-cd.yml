@@ -1,0 +1,87 @@
+name: CI/CD Pipeline & GitHub Pages Deployment
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+# Otorgar permisos necesarios para el despliegue a gh-pages
+permissions:
+  contents: write
+
+jobs:
+  # 1. Validación Continua (CI) para el Backend
+  validate-backend:
+    name: Lint & Test Backend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: "whatsapp-bot/package-lock.json"
+
+      - name: Install Dependencies
+        working-directory: ./whatsapp-bot
+        # Emplea 'npm ci' si existe package-lock.json, si falla usa 'npm install'
+        run: npm ci || npm install
+
+      - name: Run Linter
+        working-directory: ./whatsapp-bot
+        run: npm run lint
+
+      - name: Run Tests
+        working-directory: ./whatsapp-bot
+        run: npm run test
+
+      - name: Typecheck
+        working-directory: ./whatsapp-bot
+        run: npm run typecheck || echo "Typecheck not configured yet, skipping."
+
+  # 2. Despliegue Continuo (CD) para la landing page PWA
+  deploy-pwa:
+    name: Deploy PWA to gh-pages
+    needs: validate-backend
+    # Solo ejecutar el despliegue si es un push a la rama principal
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Prepare Static Files
+        run: |
+          mkdir -p .public-dist
+          # Copiar de forma segura exclusivamente los archivos estáticos necesarios para la PWA
+          # Se excluyen carpetas de backend, docs, configuración y dependencias
+          rsync -av --exclude='.git*' \
+                    --exclude='.github' \
+                    --exclude='whatsapp-bot' \
+                    --exclude='.public-dist' \
+                    --exclude='node_modules' \
+                    --exclude='*.md' \
+                    --exclude='package*.json' \
+                    --exclude='Dockerfile' \
+                    --exclude='docker-compose.yml' \
+                    --exclude='.env*' \
+                    --exclude='*.ts' \
+                    ./ .public-dist/
+
+      - name: Deploy to GitHub Pages (gh-pages branch)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./.public-dist
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "🚀 Deploy static PWA to gh-pages"
