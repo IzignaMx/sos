@@ -1,13 +1,13 @@
 (function () {
-  'use strict';
+  "use strict";
 
   const noopController = {
-    dispose() {}
+    dispose() {},
   };
 
   const QUALITY_PRESETS = {
     alto: {
-      id: 'alto',
+      id: "alto",
       particleDensity: 0.1,
       maxParticles: 100000,
       particleLifetime: 1000,
@@ -17,10 +17,10 @@
       maxVelocity: 30,
       trailLength: 18,
       touchForceScale: 2,
-      frameBudget: 22
+      frameBudget: 22,
     },
     medio: {
-      id: 'medio',
+      id: "medio",
       particleDensity: 0.07,
       maxParticles: 70000,
       particleLifetime: 900,
@@ -30,10 +30,10 @@
       maxVelocity: 26,
       trailLength: 14,
       touchForceScale: 1.8,
-      frameBudget: 28
+      frameBudget: 28,
     },
     bajo: {
-      id: 'bajo',
+      id: "bajo",
       particleDensity: 0.045,
       maxParticles: 45000,
       particleLifetime: 800,
@@ -43,10 +43,10 @@
       maxVelocity: 22,
       trailLength: 12,
       touchForceScale: 1.5,
-      frameBudget: 32
+      frameBudget: 32,
     },
     minimo: {
-      id: 'minimo',
+      id: "minimo",
       particleDensity: 0.03,
       maxParticles: 25000,
       particleLifetime: 700,
@@ -56,11 +56,11 @@
       maxVelocity: 18,
       trailLength: 10,
       touchForceScale: 1.2,
-      frameBudget: 36
-    }
+      frameBudget: 36,
+    },
   };
 
-  const QUALITY_SEQUENCE = ['alto', 'medio', 'bajo', 'minimo'];
+  const QUALITY_SEQUENCE = ["alto", "medio", "bajo", "minimo"];
 
   function getNextQualityId(id) {
     const index = QUALITY_SEQUENCE.indexOf(id);
@@ -71,11 +71,11 @@
   }
 
   function prefersReducedMotion() {
-    if (typeof window === 'undefined' || !window.matchMedia) {
+    if (typeof window === "undefined" || !window.matchMedia) {
       return false;
     }
     try {
-      return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     } catch (error) {
       return false;
     }
@@ -83,17 +83,37 @@
 
   function detectQualityProfile({ supportsWebGL2 }) {
     if (prefersReducedMotion()) {
-      return 'minimo';
+      return "minimo";
     }
-    const connection = typeof navigator !== 'undefined' ? (navigator.connection || navigator.mozConnection || navigator.webkitConnection) : null;
+    const connection =
+      typeof navigator !== "undefined"
+        ? navigator.connection ||
+          navigator.mozConnection ||
+          navigator.webkitConnection
+        : null;
     if (connection && connection.saveData) {
-      return 'bajo';
+      return "bajo";
     }
-    const deviceMemory = typeof navigator !== 'undefined' && navigator.deviceMemory ? navigator.deviceMemory : 0;
-    const cores = typeof navigator !== 'undefined' && navigator.hardwareConcurrency ? navigator.hardwareConcurrency : 0;
-    const pixelRatio = typeof window !== 'undefined' && window.devicePixelRatio ? window.devicePixelRatio : 1;
-    const screenWidth = typeof window !== 'undefined' && window.innerWidth ? window.innerWidth : 0;
-    const screenHeight = typeof window !== 'undefined' && window.innerHeight ? window.innerHeight : 0;
+    const deviceMemory =
+      typeof navigator !== "undefined" && navigator.deviceMemory
+        ? navigator.deviceMemory
+        : 0;
+    const cores =
+      typeof navigator !== "undefined" && navigator.hardwareConcurrency
+        ? navigator.hardwareConcurrency
+        : 0;
+    const pixelRatio =
+      typeof window !== "undefined" && window.devicePixelRatio
+        ? window.devicePixelRatio
+        : 1;
+    const screenWidth =
+      typeof window !== "undefined" && window.innerWidth
+        ? window.innerWidth
+        : 0;
+    const screenHeight =
+      typeof window !== "undefined" && window.innerHeight
+        ? window.innerHeight
+        : 0;
     const screenArea = screenWidth * screenHeight;
 
     let score = 0;
@@ -137,22 +157,22 @@
     }
 
     if (score <= -1) {
-      return 'bajo';
+      return "bajo";
     }
     if (score <= 1) {
-      return 'medio';
+      return "medio";
     }
-    return 'alto';
+    return "alto";
   }
 
   function setupMediaListener(query, handler, cleanup) {
     if (!query) {
       return;
     }
-    if (typeof query.addEventListener === 'function') {
-      query.addEventListener('change', handler);
-      cleanup.push(() => query.removeEventListener('change', handler));
-    } else if (typeof query.addListener === 'function') {
+    if (typeof query.addEventListener === "function") {
+      query.addEventListener("change", handler);
+      cleanup.push(() => query.removeEventListener("change", handler));
+    } else if (typeof query.addListener === "function") {
       query.addListener(handler);
       cleanup.push(() => query.removeListener(handler));
     }
@@ -160,7 +180,7 @@
 
   function initFluidBackgroundInternal(options = {}) {
     if (!window.GPUIO || !window.GPUIO.GPUComposer) {
-      console.warn('GPUIO no disponible para el fondo fluido');
+      console.warn("GPUIO no disponible para el fondo fluido");
       return null;
     }
 
@@ -178,13 +198,13 @@
       WEBGL1,
       GLSL3,
       GLSL1,
-      isWebGL2Supported
+      isWebGL2Supported,
     } = window.GPUIO;
 
-    const canvas = document.createElement('canvas');
-    canvas.className = 'fondo--fluido';
-    canvas.setAttribute('aria-hidden', 'true');
-    canvas.setAttribute('role', 'presentation');
+    const canvas = document.createElement("canvas");
+    canvas.className = "fondo--fluido";
+    canvas.setAttribute("aria-hidden", "true");
+    canvas.setAttribute("role", "presentation");
 
     if (!document.body) {
       return null;
@@ -194,12 +214,18 @@
     const { profileId, onRequestDowngrade } = options;
     const cleanupCallbacks = [];
 
-    const supportsWebGL2 = typeof isWebGL2Supported === 'function' ? isWebGL2Supported() : true;
-    const selectedProfileId = QUALITY_PRESETS[profileId] ? profileId : detectQualityProfile({ supportsWebGL2 });
-    const quality = QUALITY_PRESETS[selectedProfileId] || QUALITY_PRESETS.minimo;
+    const supportsWebGL2 =
+      typeof isWebGL2Supported === "function" ? isWebGL2Supported() : true;
+    const selectedProfileId = QUALITY_PRESETS[profileId]
+      ? profileId
+      : detectQualityProfile({ supportsWebGL2 });
+    const quality =
+      QUALITY_PRESETS[selectedProfileId] || QUALITY_PRESETS.minimo;
 
-    if (typeof console !== 'undefined' && typeof console.info === 'function') {
-      console.info('Fondo fluido: perfil de calidad "' + selectedProfileId + '"');
+    if (typeof console !== "undefined" && typeof console.info === "function") {
+      console.info(
+        'Fondo fluido: perfil de calidad "' + selectedProfileId + '"'
+      );
     }
 
     const {
@@ -212,7 +238,7 @@
       velocityScaleFactor: VELOCITY_SCALE_FACTOR,
       maxVelocity: MAX_VELOCITY,
       trailLength: TRAIL_LENGTH,
-      frameBudget: FRAME_BUDGET
+      frameBudget: FRAME_BUDGET,
     } = quality;
 
     const PRESSURE_CALC_ALPHA = -1;
@@ -242,13 +268,18 @@
     let canvasBounds = canvas.getBoundingClientRect();
     const activeTouches = new Map();
 
-    const now = () => (typeof performance !== 'undefined' && typeof performance.now === 'function' ? performance.now() : Date.now());
+    const now = () =>
+      typeof performance !== "undefined" &&
+      typeof performance.now === "function"
+        ? performance.now()
+        : Date.now();
     const frameDurations = [];
     const FRAME_SAMPLE_SIZE = 45;
     let lastFrameTime = now();
     let degradeRequested = false;
 
-    const calcNumParticles = (width, height) => Math.min(Math.ceil(width * height * PARTICLE_DENSITY), MAX_NUM_PARTICLES);
+    const calcNumParticles = (width, height) =>
+      Math.min(Math.ceil(width * height * PARTICLE_DENSITY), MAX_NUM_PARTICLES);
 
     function requestDowngrade(targetProfileId) {
       if (degradeRequested) {
@@ -262,32 +293,50 @@
         return;
       }
       degradeRequested = true;
-      if (typeof onRequestDowngrade === 'function') {
+      if (typeof onRequestDowngrade === "function") {
         onRequestDowngrade(fallbackProfile);
       }
     }
 
-    const reduceMotionQuery = typeof window !== 'undefined' && window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
-    setupMediaListener(reduceMotionQuery, (event) => {
-      if (event.matches) {
-        requestDowngrade('minimo');
-      }
-    }, cleanupCallbacks);
-    if (reduceMotionQuery && reduceMotionQuery.matches && selectedProfileId !== 'minimo') {
-      requestDowngrade('minimo');
+    const reduceMotionQuery =
+      typeof window !== "undefined" && window.matchMedia
+        ? window.matchMedia("(prefers-reduced-motion: reduce)")
+        : null;
+    setupMediaListener(
+      reduceMotionQuery,
+      (event) => {
+        if (event.matches) {
+          requestDowngrade("minimo");
+        }
+      },
+      cleanupCallbacks
+    );
+    if (
+      reduceMotionQuery &&
+      reduceMotionQuery.matches &&
+      selectedProfileId !== "minimo"
+    ) {
+      requestDowngrade("minimo");
     }
 
-    const connection = typeof navigator !== 'undefined' ? (navigator.connection || navigator.mozConnection || navigator.webkitConnection) : null;
+    const connection =
+      typeof navigator !== "undefined"
+        ? navigator.connection ||
+          navigator.mozConnection ||
+          navigator.webkitConnection
+        : null;
     const handleConnectionChange = () => {
       if (connection && connection.saveData) {
-        requestDowngrade(selectedProfileId === 'minimo' ? 'minimo' : 'bajo');
+        requestDowngrade(selectedProfileId === "minimo" ? "minimo" : "bajo");
       }
     };
     if (connection) {
       handleConnectionChange();
-      if (typeof connection.addEventListener === 'function') {
-        connection.addEventListener('change', handleConnectionChange);
-        cleanupCallbacks.push(() => connection.removeEventListener('change', handleConnectionChange));
+      if (typeof connection.addEventListener === "function") {
+        connection.addEventListener("change", handleConnectionChange);
+        cleanupCallbacks.push(() =>
+          connection.removeEventListener("change", handleConnectionChange)
+        );
       }
     }
 
@@ -295,9 +344,11 @@
       lastFrameTime = now();
       frameDurations.length = 0;
     }
-    if (typeof document !== 'undefined' && document.addEventListener) {
-      document.addEventListener('visibilitychange', handleVisibilityChange);
-      cleanupCallbacks.push(() => document.removeEventListener('visibilitychange', handleVisibilityChange));
+    if (typeof document !== "undefined" && document.addEventListener) {
+      document.addEventListener("visibilitychange", handleVisibilityChange);
+      cleanupCallbacks.push(() =>
+        document.removeEventListener("visibilitychange", handleVisibilityChange)
+      );
     }
 
     function dispose() {
@@ -305,12 +356,12 @@
         cancelAnimationFrame(animationId);
         animationId = null;
       }
-      window.removeEventListener('resize', onResize);
-      document.body.removeEventListener('pointerdown', onPointerStart);
-      document.body.removeEventListener('pointermove', onPointerMove);
-      document.body.removeEventListener('pointerup', onPointerStop);
-      document.body.removeEventListener('pointercancel', onPointerStop);
-      document.body.removeEventListener('pointerleave', onPointerStop);
+      window.removeEventListener("resize", onResize);
+      document.body.removeEventListener("pointerdown", onPointerStart);
+      document.body.removeEventListener("pointermove", onPointerMove);
+      document.body.removeEventListener("pointerup", onPointerStop);
+      document.body.removeEventListener("pointercancel", onPointerStop);
+      document.body.removeEventListener("pointerleave", onPointerStop);
       activeTouches.clear();
       cleanupCallbacks.forEach((fn) => fn());
       cleanupCallbacks.length = 0;
@@ -341,85 +392,96 @@
       composer = new GPUComposer({
         canvas,
         contextID: supportsWebGL2 ? WEBGL2 : WEBGL1,
-        glslVersion: supportsWebGL2 ? GLSL3 : GLSL1
+        glslVersion: supportsWebGL2 ? GLSL3 : GLSL1,
       });
     } catch (error) {
-      console.warn('No se pudo iniciar GPUComposer', error);
+      console.warn("No se pudo iniciar GPUComposer", error);
       dispose();
       return null;
     }
 
-    const baseWidth = window.innerWidth || document.documentElement.clientWidth || canvas.clientWidth || 1;
-    const baseHeight = window.innerHeight || document.documentElement.clientHeight || canvas.clientHeight || 1;
+    const baseWidth =
+      window.innerWidth ||
+      document.documentElement.clientWidth ||
+      canvas.clientWidth ||
+      1;
+    const baseHeight =
+      window.innerHeight ||
+      document.documentElement.clientHeight ||
+      canvas.clientHeight ||
+      1;
     NUM_PARTICLES = calcNumParticles(baseWidth, baseHeight);
 
     try {
       velocityState = new GPULayer(composer, {
-        name: 'velocity',
-        dimensions: [Math.ceil(baseWidth / VELOCITY_SCALE_FACTOR), Math.ceil(baseHeight / VELOCITY_SCALE_FACTOR)],
+        name: "velocity",
+        dimensions: [
+          Math.ceil(baseWidth / VELOCITY_SCALE_FACTOR),
+          Math.ceil(baseHeight / VELOCITY_SCALE_FACTOR),
+        ],
         type: FLOAT,
         filter: LINEAR,
         numComponents: 2,
         wrapX: REPEAT,
         wrapY: REPEAT,
-        numBuffers: 2
+        numBuffers: 2,
       });
       divergenceState = new GPULayer(composer, {
-        name: 'divergence',
-        dimensions: [velocityState.width, velocityState.height],
-        type: FLOAT,
-        filter: NEAREST,
-        numComponents: 1,
-        wrapX: REPEAT,
-        wrapY: REPEAT
-      });
-      pressureState = new GPULayer(composer, {
-        name: 'pressure',
+        name: "divergence",
         dimensions: [velocityState.width, velocityState.height],
         type: FLOAT,
         filter: NEAREST,
         numComponents: 1,
         wrapX: REPEAT,
         wrapY: REPEAT,
-        numBuffers: 2
+      });
+      pressureState = new GPULayer(composer, {
+        name: "pressure",
+        dimensions: [velocityState.width, velocityState.height],
+        type: FLOAT,
+        filter: NEAREST,
+        numComponents: 1,
+        wrapX: REPEAT,
+        wrapY: REPEAT,
+        numBuffers: 2,
       });
       particlePositionState = new GPULayer(composer, {
-        name: 'position',
+        name: "position",
         dimensions: NUM_PARTICLES,
         type: FLOAT,
         numComponents: POSITION_NUM_COMPONENTS,
-        numBuffers: 2
+        numBuffers: 2,
       });
       particleInitialState = new GPULayer(composer, {
-        name: 'initialPosition',
+        name: "initialPosition",
         dimensions: NUM_PARTICLES,
         type: FLOAT,
-        numComponents: POSITION_NUM_COMPONENTS
+        numComponents: POSITION_NUM_COMPONENTS,
       });
       particleAgeState = new GPULayer(composer, {
-        name: 'age',
+        name: "age",
         dimensions: NUM_PARTICLES,
         type: SHORT,
         numComponents: 1,
-        numBuffers: 2
+        numBuffers: 2,
       });
       trailState = new GPULayer(composer, {
-        name: 'trails',
+        name: "trails",
         dimensions: [baseWidth, baseHeight],
         type: FLOAT,
         filter: NEAREST,
         numComponents: 1,
-        numBuffers: 2
+        numBuffers: 2,
       });
     } catch (error) {
-      console.warn('No se pudieron crear las capas GPU', error);
+      console.warn("No se pudieron crear las capas GPU", error);
       dispose();
       return null;
     }
 
     try {
       advection = new GPUProgram(composer, {
-        name: 'advection',
+        name: "advection",
         fragmentShader: `
         in vec2 v_uv;
 
@@ -433,13 +495,13 @@
           out_state = texture(u_state, v_uv - texture(u_velocity, v_uv).xy / u_dimensions).xy;
         }`,
         uniforms: [
-          { name: 'u_state', value: 0, type: INT },
-          { name: 'u_velocity', value: 1, type: INT },
-          { name: 'u_dimensions', value: [baseWidth, baseHeight], type: FLOAT }
-        ]
+          { name: "u_state", value: 0, type: INT },
+          { name: "u_velocity", value: 1, type: INT },
+          { name: "u_dimensions", value: [baseWidth, baseHeight], type: FLOAT },
+        ],
       });
       divergence2D = new GPUProgram(composer, {
-        name: 'divergence2D',
+        name: "divergence2D",
         fragmentShader: `
         in vec2 v_uv;
 
@@ -456,12 +518,16 @@
           out_divergence = 0.5 * (e - w + n - s);
         }`,
         uniforms: [
-          { name: 'u_vectorField', value: 0, type: INT },
-          { name: 'u_pxSize', value: [1 / velocityState.width, 1 / velocityState.height], type: FLOAT }
-        ]
+          { name: "u_vectorField", value: 0, type: INT },
+          {
+            name: "u_pxSize",
+            value: [1 / velocityState.width, 1 / velocityState.height],
+            type: FLOAT,
+          },
+        ],
       });
       jacobi = new GPUProgram(composer, {
-        name: 'jacobi',
+        name: "jacobi",
         fragmentShader: `
         in vec2 v_uv;
 
@@ -482,15 +548,19 @@
           out_jacobi = (n + s + e + w + u_alpha * d) * u_beta;
         }`,
         uniforms: [
-          { name: 'u_alpha', value: PRESSURE_CALC_ALPHA, type: FLOAT },
-          { name: 'u_beta', value: PRESSURE_CALC_BETA, type: FLOAT },
-          { name: 'u_pxSize', value: [1 / velocityState.width, 1 / velocityState.height], type: FLOAT },
-          { name: 'u_previousState', value: 0, type: INT },
-          { name: 'u_divergence', value: 1, type: INT }
-        ]
+          { name: "u_alpha", value: PRESSURE_CALC_ALPHA, type: FLOAT },
+          { name: "u_beta", value: PRESSURE_CALC_BETA, type: FLOAT },
+          {
+            name: "u_pxSize",
+            value: [1 / velocityState.width, 1 / velocityState.height],
+            type: FLOAT,
+          },
+          { name: "u_previousState", value: 0, type: INT },
+          { name: "u_divergence", value: 1, type: INT },
+        ],
       });
       gradientSubtraction = new GPUProgram(composer, {
-        name: 'gradientSubtraction',
+        name: "gradientSubtraction",
         fragmentShader: `
         in vec2 v_uv;
 
@@ -508,13 +578,17 @@
           out_result = texture(u_vectorField, v_uv).xy - 0.5 * vec2(e - w, n - s);
         }`,
         uniforms: [
-          { name: 'u_pxSize', value: [1 / velocityState.width, 1 / velocityState.height], type: FLOAT },
-          { name: 'u_scalarField', value: 0, type: INT },
-          { name: 'u_vectorField', value: 1, type: INT }
-        ]
+          {
+            name: "u_pxSize",
+            value: [1 / velocityState.width, 1 / velocityState.height],
+            type: FLOAT,
+          },
+          { name: "u_scalarField", value: 0, type: INT },
+          { name: "u_vectorField", value: 1, type: INT },
+        ],
       });
       renderParticles = new GPUProgram(composer, {
-        name: 'renderParticles',
+        name: "renderParticles",
         fragmentShader: `
         #define VIDA_MAX ${PARTICLE_LIFETIME.toFixed(1)}
         in vec2 v_uv;
@@ -533,12 +607,12 @@
           out_state = opacidad * energia;
         }`,
         uniforms: [
-          { name: 'u_ages', value: 0, type: INT },
-          { name: 'u_velocity', value: 1, type: INT }
-        ]
+          { name: "u_ages", value: 0, type: INT },
+          { name: "u_velocity", value: 1, type: INT },
+        ],
       });
       ageParticles = new GPUProgram(composer, {
-        name: 'ageParticles',
+        name: "ageParticles",
         fragmentShader: `
         in vec2 v_uv;
 
@@ -550,12 +624,10 @@
           int edad = texture(u_ages, v_uv).x + 1;
           out_age = stepi(edad, ${PARTICLE_LIFETIME}) * edad;
         }`,
-        uniforms: [
-          { name: 'u_ages', value: 0, type: INT }
-        ]
+        uniforms: [{ name: "u_ages", value: 0, type: INT }],
       });
       advectParticles = new GPUProgram(composer, {
-        name: 'advectParticles',
+        name: "advectParticles",
         fragmentShader: `
         in vec2 v_uv;
 
@@ -587,15 +659,15 @@
           out_position = mix(vec4(absolute, displacement), texture(u_initialPositions, v_uv), float(shouldReset));
         }`,
         uniforms: [
-          { name: 'u_positions', value: 0, type: INT },
-          { name: 'u_velocity', value: 1, type: INT },
-          { name: 'u_ages', value: 2, type: INT },
-          { name: 'u_initialPositions', value: 3, type: INT },
-          { name: 'u_dimensions', value: [baseWidth, baseHeight], type: FLOAT }
-        ]
+          { name: "u_positions", value: 0, type: INT },
+          { name: "u_velocity", value: 1, type: INT },
+          { name: "u_ages", value: 2, type: INT },
+          { name: "u_initialPositions", value: 3, type: INT },
+          { name: "u_dimensions", value: [baseWidth, baseHeight], type: FLOAT },
+        ],
       });
       fadeTrails = new GPUProgram(composer, {
-        name: 'fadeTrails',
+        name: "fadeTrails",
         fragmentShader: `
         in vec2 v_uv;
 
@@ -608,12 +680,12 @@
           out_color = max(texture(u_image, v_uv).x + u_increment, 0.0);
         }`,
         uniforms: [
-          { name: 'u_image', value: 0, type: INT },
-          { name: 'u_increment', value: -1 / TRAIL_LENGTH, type: FLOAT }
-        ]
+          { name: "u_image", value: 0, type: INT },
+          { name: "u_increment", value: -1 / TRAIL_LENGTH, type: FLOAT },
+        ],
       });
       renderTrails = new GPUProgram(composer, {
-        name: 'renderTrails',
+        name: "renderTrails",
         fragmentShader: `
         in vec2 v_uv;
         uniform sampler2D u_trailState;
@@ -624,12 +696,10 @@
           float intensidad = texture(u_trailState, v_uv).x;
           out_color = vec4(mix(fondo, acento, intensidad), 1.0);
         }`,
-        uniforms: [
-          { name: 'u_trailState', value: 0, type: INT }
-        ]
+        uniforms: [{ name: "u_trailState", value: 0, type: INT }],
       });
       touch = new GPUProgram(composer, {
-        name: 'touch',
+        name: "touch",
         fragmentShader: `
         in vec2 v_uv;
         in vec2 v_uv_local;
@@ -642,35 +712,68 @@
         void main() {
           vec2 radial = v_uv_local * 2.0 - 1.0;
           float radiusSq = dot(radial, radial);
-          vec2 velocidad = texture(u_velocity, v_uv).xy + (1.0 - radiusSq) * u_vector * ${TOUCH_FORCE_SCALE.toFixed(1)};
+          vec2 velocidad = texture(u_velocity, v_uv).xy + (1.0 - radiusSq) * u_vector * ${TOUCH_FORCE_SCALE.toFixed(
+            1
+          )};
           float magnitud = length(velocidad);
-          out_velocity = velocidad / magnitud * min(magnitud, ${MAX_VELOCITY.toFixed(1)});
+          out_velocity = velocidad / magnitud * min(magnitud, ${MAX_VELOCITY.toFixed(
+            1
+          )});
         }`,
         uniforms: [
-          { name: 'u_velocity', value: 0, type: INT },
-          { name: 'u_vector', value: [0, 0], type: FLOAT }
-        ]
+          { name: "u_velocity", value: 0, type: INT },
+          { name: "u_vector", value: [0, 0], type: FLOAT },
+        ],
       });
     } catch (error) {
-      console.warn('No se pudieron compilar los programas GPU', error);
+      console.warn("No se pudieron compilar los programas GPU", error);
       dispose();
       return null;
     }
 
     function stepSimulation() {
-      composer.step({ program: advection, input: [velocityState, velocityState], output: velocityState });
-      composer.step({ program: divergence2D, input: velocityState, output: divergenceState });
+      composer.step({
+        program: advection,
+        input: [velocityState, velocityState],
+        output: velocityState,
+      });
+      composer.step({
+        program: divergence2D,
+        input: velocityState,
+        output: divergenceState,
+      });
       for (let i = 0; i < NUM_JACOBI_STEPS; i += 1) {
-        composer.step({ program: jacobi, input: [pressureState, divergenceState], output: pressureState });
+        composer.step({
+          program: jacobi,
+          input: [pressureState, divergenceState],
+          output: pressureState,
+        });
       }
-      composer.step({ program: gradientSubtraction, input: [pressureState, velocityState], output: velocityState });
-      composer.step({ program: ageParticles, input: particleAgeState, output: particleAgeState });
-      composer.step({ program: fadeTrails, input: trailState, output: trailState });
+      composer.step({
+        program: gradientSubtraction,
+        input: [pressureState, velocityState],
+        output: velocityState,
+      });
+      composer.step({
+        program: ageParticles,
+        input: particleAgeState,
+        output: particleAgeState,
+      });
+      composer.step({
+        program: fadeTrails,
+        input: trailState,
+        output: trailState,
+      });
       for (let i = 0; i < NUM_RENDER_STEPS; i += 1) {
         composer.step({
           program: advectParticles,
-          input: [particlePositionState, velocityState, particleAgeState, particleInitialState],
-          output: particlePositionState
+          input: [
+            particlePositionState,
+            velocityState,
+            particleAgeState,
+            particleInitialState,
+          ],
+          output: particlePositionState,
         });
         composer.drawLayerAsPoints({
           layer: particlePositionState,
@@ -678,7 +781,7 @@
           input: [particleAgeState, velocityState],
           output: trailState,
           wrapX: true,
-          wrapY: true
+          wrapY: true,
         });
       }
       composer.step({ program: renderTrails, input: trailState });
@@ -688,7 +791,7 @@
       if (!FRAME_BUDGET) {
         return;
       }
-      if (typeof document !== 'undefined' && document.hidden) {
+      if (typeof document !== "undefined" && document.hidden) {
         frameDurations.length = 0;
         lastFrameTime = now();
         return;
@@ -705,7 +808,7 @@
       frameDurations.push(delta);
       if (!degradeRequested && frameDurations.length === FRAME_SAMPLE_SIZE) {
         let total = 0;
-      
+
         for (let i = 0; i < frameDurations.length; i += 1) {
           total += frameDurations[i];
         }
@@ -724,7 +827,10 @@
     }
 
     function toCanvasCoords(event) {
-      return [event.clientX - canvasBounds.left, event.clientY - canvasBounds.top];
+      return [
+        event.clientX - canvasBounds.left,
+        event.clientY - canvasBounds.top,
+      ];
     }
 
     function onPointerStart(event) {
@@ -744,7 +850,10 @@
       if (!last || (current[0] === last[0] && current[1] === last[1])) {
         return;
       }
-      touch.setUniform('u_vector', [current[0] - last[0], -(current[1] - last[1])]);
+      touch.setUniform("u_vector", [
+        current[0] - last[0],
+        -(current[1] - last[1]),
+      ]);
       composer.stepSegment({
         program: touch,
         input: velocityState,
@@ -752,7 +861,7 @@
         position1: [current[0], canvasBounds.height - current[1]],
         position2: [last[0], canvasBounds.height - last[1]],
         thickness: 30,
-        endCaps: true
+        endCaps: true,
       });
     }
 
@@ -761,31 +870,42 @@
     }
 
     function onResize() {
-      const widthResize = window.innerWidth || document.documentElement.clientWidth || 1;
-      const heightResize = window.innerHeight || document.documentElement.clientHeight || 1;
+      const widthResize =
+        window.innerWidth || document.documentElement.clientWidth || 1;
+      const heightResize =
+        window.innerHeight || document.documentElement.clientHeight || 1;
       frameDurations.length = 0;
       lastFrameTime = now();
       canvasBounds = canvas.getBoundingClientRect();
 
       composer.resize([widthResize, heightResize]);
-      const velocityDimensions = [Math.ceil(widthResize / VELOCITY_SCALE_FACTOR), Math.ceil(heightResize / VELOCITY_SCALE_FACTOR)];
+      const velocityDimensions = [
+        Math.ceil(widthResize / VELOCITY_SCALE_FACTOR),
+        Math.ceil(heightResize / VELOCITY_SCALE_FACTOR),
+      ];
       velocityState.resize(velocityDimensions);
       divergenceState.resize(velocityDimensions);
       pressureState.resize(velocityDimensions);
       trailState.resize([widthResize, heightResize]);
 
-      advection.setUniform('u_dimensions', [widthResize, heightResize]);
-      advectParticles.setUniform('u_dimensions', [widthResize, heightResize]);
-      const velocityPxSize = [1 / velocityDimensions[0], 1 / velocityDimensions[1]];
-      divergence2D.setUniform('u_pxSize', velocityPxSize);
-      jacobi.setUniform('u_pxSize', velocityPxSize);
-      gradientSubtraction.setUniform('u_pxSize', velocityPxSize);
+      advection.setUniform("u_dimensions", [widthResize, heightResize]);
+      advectParticles.setUniform("u_dimensions", [widthResize, heightResize]);
+      const velocityPxSize = [
+        1 / velocityDimensions[0],
+        1 / velocityDimensions[1],
+      ];
+      divergence2D.setUniform("u_pxSize", velocityPxSize);
+      jacobi.setUniform("u_pxSize", velocityPxSize);
+      gradientSubtraction.setUniform("u_pxSize", velocityPxSize);
 
       NUM_PARTICLES = calcNumParticles(widthResize, heightResize);
-      const positions = new Float32Array(NUM_PARTICLES * POSITION_NUM_COMPONENTS);
+      const positions = new Float32Array(
+        NUM_PARTICLES * POSITION_NUM_COMPONENTS
+      );
       for (let i = 0; i < NUM_PARTICLES; i += 1) {
         positions[i * POSITION_NUM_COMPONENTS] = Math.random() * widthResize;
-        positions[i * POSITION_NUM_COMPONENTS + 1] = Math.random() * heightResize;
+        positions[i * POSITION_NUM_COMPONENTS + 1] =
+          Math.random() * heightResize;
         positions[i * POSITION_NUM_COMPONENTS + 2] = 0;
         positions[i * POSITION_NUM_COMPONENTS + 3] = 0;
       }
@@ -799,28 +919,41 @@
       particleAgeState.resize(NUM_PARTICLES, ages);
     }
 
-    window.addEventListener('resize', onResize);
-    document.body.addEventListener('pointerdown', onPointerStart, { passive: true });
-    document.body.addEventListener('pointermove', onPointerMove, { passive: true });
-    document.body.addEventListener('pointerup', onPointerStop, { passive: true });
-    document.body.addEventListener('pointercancel', onPointerStop, { passive: true });
-    document.body.addEventListener('pointerleave', onPointerStop, { passive: true });
+    window.addEventListener("resize", onResize);
+    document.body.addEventListener("pointerdown", onPointerStart, {
+      passive: true,
+    });
+    document.body.addEventListener("pointermove", onPointerMove, {
+      passive: true,
+    });
+    document.body.addEventListener("pointerup", onPointerStop, {
+      passive: true,
+    });
+    document.body.addEventListener("pointercancel", onPointerStop, {
+      passive: true,
+    });
+    document.body.addEventListener("pointerleave", onPointerStop, {
+      passive: true,
+    });
 
     onResize();
     animationId = window.requestAnimationFrame(tick);
 
     return {
-      dispose
+      dispose,
     };
   }
 
   window.initFluidBackground = function initFluidBackground() {
     if (!window.GPUIO || !window.GPUIO.GPUComposer) {
-      console.warn('GPUIO no disponible para iniciar el fondo fluido');
+      console.warn("GPUIO no disponible para iniciar el fondo fluido");
       return noopController;
     }
 
-    const supportsWebGL2 = typeof window.GPUIO.isWebGL2Supported === 'function' ? window.GPUIO.isWebGL2Supported() : true;
+    const supportsWebGL2 =
+      typeof window.GPUIO.isWebGL2Supported === "function"
+        ? window.GPUIO.isWebGL2Supported()
+        : true;
     let currentProfileId = detectQualityProfile({ supportsWebGL2 });
     let currentController = noopController;
     let disposed = false;
@@ -840,10 +973,13 @@
       if (disposed) {
         return;
       }
-      if (currentController && typeof currentController.dispose === 'function') {
+      if (
+        currentController &&
+        typeof currentController.dispose === "function"
+      ) {
         currentController.dispose();
       }
-      currentProfileId = QUALITY_PRESETS[profileId] ? profileId : 'minimo';
+      currentProfileId = QUALITY_PRESETS[profileId] ? profileId : "minimo";
       const nextController = initFluidBackgroundInternal({
         profileId: currentProfileId,
         onRequestDowngrade(requestedProfile) {
@@ -854,7 +990,7 @@
           if (fallbackProfile && fallbackProfile !== currentProfileId) {
             rebuild(fallbackProfile);
           }
-        }
+        },
       });
       currentController = nextController || noopController;
     }
@@ -864,10 +1000,13 @@
     return {
       dispose() {
         disposed = true;
-        if (currentController && typeof currentController.dispose === 'function') {
+        if (
+          currentController &&
+          typeof currentController.dispose === "function"
+        ) {
           currentController.dispose();
         }
-      }
+      },
     };
   };
 })();

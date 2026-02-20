@@ -1,43 +1,46 @@
-const PRECACHE = 'sos-precache-v3';
-const RUNTIME = 'sos-runtime-v1';
+const PRECACHE = "sos-precache-v3";
+const RUNTIME = "sos-runtime-v1";
 
 const PRECACHE_URLS = [
-  '/',
-  '/index.html',
-  '/privacy.html',
-  '/security.html',
-  '/manifest.webmanifest',
-  '/i18n/es.json',
-  '/i18n/en.json',
-  '/i18n/pt.json',
-  '/i18n/fr.json',
-  '/i18n/de.json',
-  '/i18n/it.json',
-  '/i18n/ja.json',
-  '/i18n/zh.json',
-  '/i18n/ar.json',
-  '/i18n/ru.json',
-  '/i18n/tr.json',
-  '/i18n/hi.json',
-  '/i18n/ko.json',
-  '/i18n/la.json',
-  '/i18n/eo.json',
-  '/i18n/nl.json',
-  '/i18n/sv.json',
-  '/i18n/pl.json',
-  '/i18n/uk.json',
-  '/i18n/vi.json',
-  '/assets/img/og-izigna-sos.png',
-  '/assets/img/pwa-screenshot-mobile.png'
+  "/",
+  "/index.html",
+  "/privacy.html",
+  "/security.html",
+  "/manifest.webmanifest",
+  "/i18n/es.json",
+  "/i18n/en.json",
+  "/i18n/pt.json",
+  "/i18n/fr.json",
+  "/i18n/de.json",
+  "/i18n/it.json",
+  "/i18n/ja.json",
+  "/i18n/zh.json",
+  "/i18n/ar.json",
+  "/i18n/ru.json",
+  "/i18n/tr.json",
+  "/i18n/hi.json",
+  "/i18n/ko.json",
+  "/i18n/la.json",
+  "/i18n/eo.json",
+  "/i18n/nl.json",
+  "/i18n/sv.json",
+  "/i18n/pl.json",
+  "/i18n/uk.json",
+  "/i18n/vi.json",
+  "/assets/img/og-izigna-sos.png",
+  "/assets/img/pwa-screenshot-mobile.png",
 ];
 
-self.addEventListener('install', (event) => {
+self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(PRECACHE).then((cache) => cache.addAll(PRECACHE_URLS)).then(() => self.skipWaiting())
+    caches
+      .open(PRECACHE)
+      .then((cache) => cache.addAll(PRECACHE_URLS))
+      .then(() => self.skipWaiting())
   );
 });
 
-self.addEventListener('activate', (event) => {
+self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches
       .keys()
@@ -55,25 +58,29 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-self.addEventListener('fetch', (event) => {
+self.addEventListener("fetch", (event) => {
   const { request } = event;
 
-  if (request.method !== 'GET') {
+  if (request.method !== "GET") {
     return;
   }
 
   const requestURL = new URL(request.url);
 
   // Handle navigation requests with offline fallback
-  if (request.mode === 'navigate' && requestURL.origin === self.location.origin) {
-    event.respondWith(
-      fetch(request).catch(() => caches.match('/index.html'))
-    );
+  if (
+    request.mode === "navigate" &&
+    requestURL.origin === self.location.origin
+  ) {
+    event.respondWith(fetch(request).catch(() => caches.match("/index.html")));
     return;
   }
 
   // Cache-first strategy for precached assets
-  if (requestURL.origin === self.location.origin && PRECACHE_URLS.includes(requestURL.pathname)) {
+  if (
+    requestURL.origin === self.location.origin &&
+    PRECACHE_URLS.includes(requestURL.pathname)
+  ) {
     event.respondWith(
       caches.match(request).then((cachedResponse) => {
         if (cachedResponse) {
@@ -91,7 +98,10 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Stale-while-revalidate for translation catalogs
-  if (requestURL.origin === self.location.origin && requestURL.pathname.startsWith('/i18n/')) {
+  if (
+    requestURL.origin === self.location.origin &&
+    requestURL.pathname.startsWith("/i18n/")
+  ) {
     event.respondWith(
       caches.open(RUNTIME).then((cache) =>
         cache.match(request).then((cachedResponse) => {
@@ -111,7 +121,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Google Fonts stylesheet -> stale-while-revalidate
-  if (requestURL.origin === 'https://fonts.googleapis.com') {
+  if (requestURL.origin === "https://fonts.googleapis.com") {
     event.respondWith(
       caches.open(RUNTIME).then((cache) =>
         cache.match(request).then((cachedResponse) => {
@@ -127,7 +137,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Google Fonts files -> cache-first
-  if (requestURL.origin === 'https://fonts.gstatic.com') {
+  if (requestURL.origin === "https://fonts.gstatic.com") {
     event.respondWith(
       caches.open(RUNTIME).then((cache) =>
         cache.match(request).then((cachedResponse) => {
@@ -148,7 +158,7 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     fetch(request)
       .then((response) => {
-        if (!response || response.status !== 200 || response.type !== 'basic') {
+        if (!response || response.status !== 200 || response.type !== "basic") {
           return response;
         }
         const responseToCache = response.clone();
@@ -161,8 +171,8 @@ self.addEventListener('fetch', (event) => {
   );
 });
 
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
     self.skipWaiting();
   }
 });
