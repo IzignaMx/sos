@@ -1,0 +1,15 @@
+title = "Gitleaks Configuration"
+
+[[rules]]
+id = "generic-api-key"
+description = "Generic API Key"
+regex = '''(?i)(api[_-]?key|apikey|access[_-]?key)(.{0,20})?['"][0-9a-zA-Z]{32,}['"]'''
+tags = ["key", "generic"]
+
+[allowlist]
+description = "Allowlist"
+paths = [
+  '''node_modules/''',
+  '''\.git/''',
+  '''\.lock$'''
+]

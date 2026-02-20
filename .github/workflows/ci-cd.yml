@@ -15,9 +15,24 @@ permissions:
   contents: write
 
 jobs:
-  # 1. Despliegue Continuo (CD) para la landing page PWA
+  # 1. Escáner de Seguridad de Secretos (Gitleaks)
+  security-scan:
+    name: Gitleaks Secret Scanner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history para escaneo completo
+      - name: Run Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # 2. Despliegue Continuo (CD) para la landing page PWA
   deploy-pwa:
     name: Deploy PWA to gh-pages
+    needs: security-scan
     # Solo ejecutar el despliegue si es un push a la rama principal
     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
     runs-on: ubuntu-latest
