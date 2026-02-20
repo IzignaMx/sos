@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es-MX">
   <head>
     <meta charset="utf-8" />
@@ -23,7 +23,7 @@
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' https://analytics.izignamx.com; img-src 'self' data: https://sos.izignamx.com https://wa.me; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://analytics.izignamx.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+      content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' https://analytics.izignamx.com https://static.cloudflareinsights.com; img-src 'self' data: https://sos.izignamx.com https://wa.me; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://analytics.izignamx.com https://cloudflareinsights.com; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
     />
     <meta
       http-equiv="Permissions-Policy"
@@ -109,7 +109,7 @@
       rel="preload"
       as="style"
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      onload="this.rel='stylesheet'"
+      onload="this.rel = 'stylesheet'"
     />
     <noscript
       ><link
@@ -139,7 +139,8 @@
         --shadow-sm: 0 12px 38px rgba(8, 20, 50, 0.45);
         --grid-max: 1200px;
         --border: 1px solid rgba(148, 163, 184, 0.16);
-        --font-body: "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+        --font-body:
+          "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
         --font-display: "Space Grotesk", "Manrope", sans-serif;
         scroll-behavior: smooth;
       }
@@ -152,7 +153,8 @@
       body {
         margin: 0;
         font-family: var(--font-body);
-        background: radial-gradient(
+        background:
+          radial-gradient(
             140% 80% at 80% 10%,
             rgba(56, 189, 248, 0.18),
             transparent 60%
@@ -400,7 +402,9 @@
         font-weight: 600;
         font-size: 13px;
         cursor: pointer;
-        transition: border-color 0.25s ease, box-shadow 0.25s ease,
+        transition:
+          border-color 0.25s ease,
+          box-shadow 0.25s ease,
           transform 0.25s ease;
       }
       .lang-selector__toggle:hover {
@@ -452,7 +456,9 @@
         font-size: 13px;
         cursor: pointer;
         text-align: left;
-        transition: background 0.2s ease, color 0.2s ease;
+        transition:
+          background 0.2s ease,
+          color 0.2s ease;
       }
       .lang-selector__option:hover,
       .lang-selector__option:focus {
@@ -493,7 +499,8 @@
         );
       }
       .lang-flag--en {
-        background-image: linear-gradient(
+        background-image:
+          linear-gradient(
             180deg,
             #b22234 0 14%,
             #fff 14% 28%,
@@ -504,7 +511,9 @@
             #b22234 84% 100%
           ),
           linear-gradient(90deg, #3c3b6e 0 40%, transparent 40%);
-        background-size: 100% 100%, 40% 60%;
+        background-size:
+          100% 100%,
+          40% 60%;
         background-repeat: no-repeat;
       }
       .lang-flag--pt {
@@ -551,11 +560,8 @@
         );
       }
       .lang-flag--ja {
-        background-image: radial-gradient(
-            circle at 50% 50%,
-            #bc002d 0 42%,
-            transparent 43%
-          ),
+        background-image:
+          radial-gradient(circle at 50% 50%, #bc002d 0 42%, transparent 43%),
           linear-gradient(#fff, #fff);
       }
       .lang-flag--zh {
@@ -774,7 +780,9 @@
         font-weight: 600;
         font-size: 14px;
         padding: 12px 18px;
-        transition: transform 0.25s ease, box-shadow 0.25s ease,
+        transition:
+          transform 0.25s ease,
+          box-shadow 0.25s ease,
           border-color 0.25s ease;
         cursor: pointer;
         background: transparent;
@@ -895,7 +903,9 @@
           transparent 70%
         );
         opacity: 0;
-        transition: opacity 0.4s ease, transform 0.4s ease;
+        transition:
+          opacity 0.4s ease,
+          transform 0.4s ease;
       }
       .metric:hover::after {
         opacity: 1;
@@ -1058,7 +1068,9 @@
         border: 1px solid rgba(56, 189, 248, 0.18);
         box-shadow: var(--shadow-sm);
         overflow: hidden;
-        transition: transform 0.35s ease, box-shadow 0.35s ease,
+        transition:
+          transform 0.35s ease,
+          box-shadow 0.35s ease,
           border-color 0.35s ease;
       }
       .service-card::before {
@@ -1403,7 +1415,9 @@
         z-index: 950;
         opacity: 0;
         pointer-events: none;
-        transition: transform 0.24s ease, opacity 0.24s ease;
+        transition:
+          transform 0.24s ease,
+          opacity 0.24s ease;
         max-width: min(480px, calc(100% - 32px));
       }
       .update-toast.is-visible {
@@ -1429,7 +1443,9 @@
         border-radius: 12px;
         background: rgba(56, 189, 248, 0.18);
         color: var(--txt);
-        transition: background 0.2s ease, transform 0.2s ease;
+        transition:
+          background 0.2s ease,
+          transform 0.2s ease;
       }
       .update-toast__btn:hover {
         background: rgba(56, 189, 248, 0.28);
@@ -3029,7 +3045,7 @@
         const langFlagEl = document.querySelector("[data-lang-flag]");
         const langLabelEl = document.querySelector("[data-lang-label]");
         const optionButtons = Array.from(
-          document.querySelectorAll("[data-lang-option]")
+          document.querySelectorAll("[data-lang-option]"),
         );
         const translationCache = {};
         const inlineCache = {};
@@ -3067,7 +3083,7 @@
           }
 
           requestAnimationFrame(() =>
-            updateToastEl.classList.add("is-visible")
+            updateToastEl.classList.add("is-visible"),
           );
         };
 
@@ -3137,11 +3153,11 @@
           if (ogTitle && (catalog.meta?.ogTitle || catalog.meta?.title)) {
             ogTitle.setAttribute(
               "content",
-              catalog.meta.ogTitle || catalog.meta.title
+              catalog.meta.ogTitle || catalog.meta.title,
             );
           }
           const ogDesc = document.querySelector(
-            'meta[property="og:description"]'
+            'meta[property="og:description"]',
           );
           if (ogDesc && catalog.meta?.ogDescription) {
             ogDesc.setAttribute("content", catalog.meta.ogDescription);
@@ -3185,7 +3201,7 @@
             return inlineCache[lang];
           }
           const inlineScript = document.querySelector(
-            '[data-i18n-catalog="' + lang + '"]'
+            '[data-i18n-catalog="' + lang + '"]',
           );
           if (inlineScript) {
             try {
@@ -3278,7 +3294,7 @@
           if (open) {
             const activeBtn =
               optionButtons.find(
-                (btn) => btn.dataset.langOption === currentLanguage
+                (btn) => btn.dataset.langOption === currentLanguage,
               ) || optionButtons[0];
             if (activeBtn) {
               requestAnimationFrame(() => activeBtn.focus());
@@ -3291,7 +3307,7 @@
         const focusOptionByOffset = (offset) => {
           if (!optionButtons.length) return;
           const currentIndex = optionButtons.findIndex(
-            (btn) => btn === document.activeElement
+            (btn) => btn === document.activeElement,
           );
           let nextIndex = currentIndex === -1 ? 0 : currentIndex + offset;
           if (nextIndex < 0) {
@@ -3503,7 +3519,7 @@
         maybeHandleIntent();
 
         const motionQuery = window.matchMedia(
-          "(prefers-reduced-motion: reduce)"
+          "(prefers-reduced-motion: reduce)",
         );
         let fluidController = null;
         if (
@@ -3582,7 +3598,7 @@
                 }
               });
             },
-            { threshold: 0.6 }
+            { threshold: 0.6 },
           );
           counters.forEach((counter) => observer.observe(counter));
         }
