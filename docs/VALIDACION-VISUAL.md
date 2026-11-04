@@ -29,3 +29,9 @@ Antes de implementar, las pruebas fallaron porque no existía el control de clar
 La propuesta conserva precios, destinos de reserva, cifras y testimonios existentes; no incorpora resultados de clientes inventados. Los nuevos textos editoriales están traducidos en los 20 idiomas. El resto del copy se refinó en español e inglés; otros idiomas conservan su narrativa anterior.
 
 Antes de enviar a Awwwards: comprobar la versión desplegada en dispositivos reales y con lectores de pantalla, contrastar métricas de campo y revisar la evidencia comercial de las cifras y testimonios existentes. La pieza visual generada no sustituye casos de trabajo verificables. La postulación a premios queda fuera de esta implementación.
+
+## Publicación y caché del CDN
+
+Tras integrar la PR #1 se confirmó el despliegue de GitHub Pages, pero Cloudflare conservaba HTML antiguo y respuestas 404 durante cinco días. Se incorporó una versión común a las URLs de imágenes, estilos, scripts, catálogos, manifiesto y service worker. El precaché y el fallback offline usan esa misma versión. Una prueba adicional simula respuestas 404 del CDN para toda URL no versionada: falló antes de la corrección y pasó después. La suite ampliada aprueba 20 pruebas entre Chromium y WebKit.
+
+Cada entrega que modifique recursos debe usar una versión nueva, sincronizada entre `data-release` del HTML, sus URLs, `manifest.webmanifest` y `RELEASE` de `sw.js`. No consultar URLs de una versión futura antes de desplegarla. La raíz HTML sigue requiriendo purga o una política de caché corta en Cloudflare; versionar recursos no invalida esa página.
