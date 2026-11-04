@@ -1,5 +1,5 @@
 // Mantener esta versión sincronizada con data-release del HTML.
-const RELEASE = "20261104-editorial-2";
+const RELEASE = "20261104-izigna-flow-1";
 const PRECACHE = "sos-precache-" + RELEASE;
 const RUNTIME = "sos-runtime-" + RELEASE;
 const versionedUrl = (path) => path + "?v=" + RELEASE;
@@ -9,10 +9,14 @@ const PRECACHE_URLS = [
   "/assets/css/editorial.css",
   "/assets/css/language-flags.css",
   "/assets/js/main.js",
+  "/assets/js/service-guide.js",
+  "/assets/fonts/Aileron-Regular.woff2",
+  "/assets/fonts/Aileron-Bold.woff2",
+  "/assets/img/izignamx-mark.svg",
   "/assets/js/editorial.js",
   "/assets/js/laboratory.js",
-  "/assets/img/repair-sculpture-640.webp",
-  "/assets/img/repair-sculpture-1024.webp",
+  "/assets/img/flow-sculpture-640.webp",
+  "/assets/img/flow-sculpture-1024.webp",
   "/index.html",
   "/privacy.html",
   "/security.html",

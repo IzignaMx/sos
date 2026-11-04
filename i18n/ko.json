@@ -40,14 +40,29 @@
       "title": "진행 중인 미션 패널",
       "subtitle": "ROI 중심 리뷰와 해결된 핵심 이슈:",
       "items": [
-        { "label": "Core Web Vitals", "status": "+42%" },
-        { "label": "체크아웃 마찰", "status": "-65%" },
-        { "label": "비주얼 신뢰도", "status": "A+" }
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "체크아웃 마찰",
+          "status": "-65%"
+        },
+        {
+          "label": "비주얼 신뢰도",
+          "status": "A+"
+        }
       ]
     },
     "chips": {
-      "launch": { "title": "런칭 모드", "body": "36시간 안에 GO" },
-      "ai": { "title": "AI 지원 UX", "body": "행동 가능한 인사이트 + 카피" }
+      "launch": {
+        "title": "런칭 모드",
+        "body": "36시간 안에 GO"
+      },
+      "ai": {
+        "title": "AI 지원 UX",
+        "body": "행동 가능한 인사이트 + 카피"
+      }
     }
   },
   "services": {
@@ -114,10 +129,18 @@
     "sectionTitle": "멋진 디자인만으로는 부족합니다. 각 전달물은 지표와 실험 제안과 함께합니다.",
     "sectionDescription": "속도 대시보드를 연결하고, 전·후 비교를 기록하며, 회귀를 탐지할 자동화를 구성합니다. 첫 스크롤부터 리드를 설득하세요.",
     "stats": [
-      { "description": "지난 12개월 동안 체크아웃과 스토리텔링이 가시적으로 향상된 스토어 수." },
-      { "description": "프로젝트당 평균 해결한 마찰 포인트. 리포트에는 영상 walkthrough 포함." },
-      { "description": "즉시 실행 가능한 A/B 실험 수. 가설·에셋·검증 가이드를 제공합니다." },
-      { "description": "미션을 재신청하거나 월간 UX 케어로 전환한 고객 비율." }
+      {
+        "description": "지난 12개월 동안 체크아웃과 스토리텔링이 가시적으로 향상된 스토어 수."
+      },
+      {
+        "description": "프로젝트당 평균 해결한 마찰 포인트. 리포트에는 영상 walkthrough 포함."
+      },
+      {
+        "description": "즉시 실행 가능한 A/B 실험 수. 가설·에셋·검증 가이드를 제공합니다."
+      },
+      {
+        "description": "미션을 재신청하거나 월간 UX 케어로 전환한 고객 비율."
+      }
     ]
   },
   "process": {
@@ -211,7 +234,7 @@
   "editorial": {
     "skip": "본문으로 건너뛰기",
     "edition": "의도를 담은 디자인. 정성으로 완성한 코드.",
-    "artLabel": "수선에 관한 습작 / No. 001",
+    "artLabel": "수선에 관한 습작 / No. 002",
     "artCaption": "중요한 것을 다시 잇다.",
     "scroll": "스튜디오 둘러보기",
     "motionOn": "움직임 일시정지",
@@ -230,5 +253,30 @@
     "labAction": "장바구니에 담기",
     "labNote": "콘셉트 프로토타입 · 판매 데이터 없음",
     "footerTitle": "모든 것이 다시 흐르도록."
+  },
+  "brandFlow": {
+    "family": "IzignaMx의 전문 서비스",
+    "flowLabel": "흐름을 되살리는 방법",
+    "flowTitle": "막힘에서 매끄러운 흐름으로.",
+    "flowIntro": "디자인, 코드, 그리고 연결된 경험. 스토어를 어떻게 개선하는지 살펴보세요.",
+    "flowNote": "과정을 설명하는 개념도이며, 고객의 실제 측정값이 아닙니다.",
+    "detect": "발견하기",
+    "detectBody": "속도, 보안, 구매 과정 중 무엇이 경험을 방해하는지 파악합니다.",
+    "connect": "다시 연결하기",
+    "connectBody": "핵심 요소를 조정하고 함께 제대로 작동하는지 확인합니다.",
+    "activate": "활성화하기",
+    "activateBody": "점검 결과와 다음 단계를 담아 명확한 경험을 전달합니다.",
+    "chooseLabel": "시작점을 찾아보세요",
+    "chooseTitle": "스토어에 무엇이 필요한가요?",
+    "chooseBody": "우선순위를 선택하면 제안을 볼 수 있습니다. 모든 서비스는 계속 확인할 수 있습니다.",
+    "slow": "스토어가 너무 느려요",
+    "security": "WordPress 정리가 필요해요",
+    "checkout": "결제 과정에서 구매를 놓쳐요",
+    "unsure": "어디서 시작할지 모르겠어요",
+    "recommended": "나에게 맞는 시작점",
+    "viewService": "작업 범위와 가격 보기",
+    "reset": "모든 선택지 보기",
+    "scopeNote": "표시 금액은 시작 가격입니다. 시작 전에 작업 범위와 일정을 확인합니다.",
+    "reassurance": "WhatsApp으로 이야기해요. 시작 전에 작업 범위와 일정을 확인합니다."
   }
 }

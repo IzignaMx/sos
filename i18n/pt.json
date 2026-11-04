@@ -40,14 +40,29 @@
       "title": "Painel da missão em andamento",
       "subtitle": "Revisão focada em ROI + pontos críticos resolvidos:",
       "items": [
-        { "label": "Core Web Vitals", "status": "+42%" },
-        { "label": "Atrito no checkout", "status": "-65%" },
-        { "label": "Confiança visual", "status": "Nível A+" }
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Atrito no checkout",
+          "status": "-65%"
+        },
+        {
+          "label": "Confiança visual",
+          "status": "Nível A+"
+        }
       ]
     },
     "chips": {
-      "launch": { "title": "Modo lançamento", "body": "Pronto para decolar em 36h" },
-      "ai": { "title": "UX assistida por IA", "body": "Insights acionáveis + copy" }
+      "launch": {
+        "title": "Modo lançamento",
+        "body": "Pronto para decolar em 36h"
+      },
+      "ai": {
+        "title": "UX assistida por IA",
+        "body": "Insights acionáveis + copy"
+      }
     }
   },
   "services": {
@@ -114,10 +129,18 @@
     "sectionTitle": "Estética sozinha não basta: cada entrega vem com métricas e experimentos.",
     "sectionDescription": "Conecto dashboards de velocidade, registro comparativos before/after e deixo automações prontas para detectar regressões. Seus leads sentem desde o primeiro scroll.",
     "stats": [
-      { "description": "Lojas potencializadas nos últimos 12 meses com ganhos visíveis de checkout e storytelling." },
-      { "description": "Pontos de atrito removidos por projeto em média. O relatório inclui walkthrough em vídeo." },
-      { "description": "Experimentos A/B prontos para lançar. Entrego hipóteses, assets e guia de validação." },
-      { "description": "Clientes que repetem a missão ou contratam manutenção UX mensal." }
+      {
+        "description": "Lojas potencializadas nos últimos 12 meses com ganhos visíveis de checkout e storytelling."
+      },
+      {
+        "description": "Pontos de atrito removidos por projeto em média. O relatório inclui walkthrough em vídeo."
+      },
+      {
+        "description": "Experimentos A/B prontos para lançar. Entrego hipóteses, assets e guia de validação."
+      },
+      {
+        "description": "Clientes que repetem a missão ou contratam manutenção UX mensal."
+      }
     ]
   },
   "process": {
@@ -211,7 +234,7 @@
   "editorial": {
     "skip": "Pular para o conteúdo",
     "edition": "Design com intenção. Código com cuidado.",
-    "artLabel": "Estudo de uma reparação / Nº 001",
+    "artLabel": "Estudo de uma reparação / Nº 002",
     "artCaption": "Reconectar o que importa.",
     "scroll": "Explore o estúdio",
     "motionOn": "Pausar movimento",
@@ -230,6 +253,30 @@
     "labAction": "Adicionar à sacola",
     "labNote": "Protótipo conceitual · Sem dados de vendas",
     "footerTitle": "Vamos colocar tudo em movimento de novo."
+  },
+  "brandFlow": {
+    "family": "Uma especialidade da IzignaMx",
+    "flowLabel": "Como recuperamos o fluxo",
+    "flowTitle": "Do bloqueio ao fluxo.",
+    "flowIntro": "Design, código e continuidade. Descubra como cuidamos da sua loja.",
+    "flowNote": "Representação conceitual do processo. Não são métricas de um cliente.",
+    "detect": "Detectar",
+    "detectBody": "Identificamos o que prejudica a experiência: velocidade, segurança ou compra.",
+    "connect": "Reconectar",
+    "connectBody": "Ajustamos as peças que importam e testamos como funcionam juntas.",
+    "activate": "Ativar",
+    "activateBody": "Entregamos uma experiência clara, com verificações e próximos passos.",
+    "chooseLabel": "Encontre seu ponto de partida",
+    "chooseTitle": "Do que sua loja precisa?",
+    "chooseBody": "Escolha sua prioridade para ver uma sugestão. Todos os serviços continuam disponíveis.",
+    "slow": "Está lenta demais",
+    "security": "Meu WordPress precisa de limpeza",
+    "checkout": "Perco compras no checkout",
+    "unsure": "Não sei por onde começar",
+    "recommended": "Seu ponto de partida",
+    "viewService": "Ver escopo e preço",
+    "reset": "Ver todas as opções",
+    "scopeNote": "Preço inicial. Confirmamos escopo e prazo antes de começar.",
+    "reassurance": "Vamos conversar pelo WhatsApp. Confirmamos escopo e prazo antes de começar."
   }
 }
-

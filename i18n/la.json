@@ -230,12 +230,11 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20diagnosticen%20futuram%20mitte%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Missiones%20celeres%20-%20breviter",
     "floatingWa": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20ex%20pagina%20futuristica%20SOS%20venio%2E"
-  }
-,
+  },
   "editorial": {
     "skip": "Ad materiam transire",
     "edition": "Forma cum consilio. Codex cum arte.",
-    "artLabel": "Studium refectionis / N. 001",
+    "artLabel": "Studium refectionis / N. 002",
     "artCaption": "Quae valent denuo coniungere.",
     "scroll": "Officinam explora",
     "motionOn": "Motum intermittere",
@@ -254,5 +253,30 @@
     "labAction": "In corbem addere",
     "labNote": "Exemplar conceptum · Sine datis venditionum",
     "footerTitle": "Omnia rursus in motum ponamus."
+  },
+  "brandFlow": {
+    "family": "Munus proprium IzignaMx",
+    "flowLabel": "Quomodo cursum restituimus",
+    "flowTitle": "Ab impedimento ad cursum expeditum.",
+    "flowIntro": "Forma, codex et continuatio. Cognosce quomodo tabernam tuam tractemus.",
+    "flowNote": "Imago processus ad explicandum facta. Non sunt mensurae clientis.",
+    "detect": "Detegere",
+    "detectBody": "Detegimus quid usum impediat: celeritas, securitas an emptio.",
+    "connect": "Reconectere",
+    "connectBody": "Partes necessarias aptamus et probamus quomodo inter se operentur.",
+    "activate": "Activare",
+    "activateBody": "Usum clarum tradimus, cum probationibus et gradibus sequentibus.",
+    "chooseLabel": "Invenias unde incipias",
+    "chooseTitle": "Quid taberna tua desiderat?",
+    "chooseBody": "Elige quod maxime refert ut consilium videas. Omnia officia manent praesto.",
+    "slow": "Taberna nimis lenta est",
+    "security": "Meus WordPress purgatione eget",
+    "checkout": "Emptiones in solutione amitto",
+    "unsure": "Nescio unde incipiam",
+    "recommended": "Tuus initii locus",
+    "viewService": "Vide ambitum et pretium",
+    "reset": "Vide omnes optiones",
+    "scopeNote": "Pretium initiale. Ambitum et tempus ante initium confirmamus.",
+    "reassurance": "Per WhatsApp colloquamur. Ambitum et tempus ante initium confirmamus."
   }
 }

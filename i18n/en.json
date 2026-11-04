@@ -17,11 +17,11 @@
     "impact": "Impact",
     "faq": "FAQ",
     "contact": "Email me",
-    "book": "Book 24h",
+    "book": "Check availability",
     "languageLabel": "Choose language"
   },
   "hero": {
-    "kicker": "Independent studio · Digital rescue",
+    "kicker": "SOS / An IzignaMx specialty",
     "title": "Your store deserves another chance.",
     "lead": "Design, performance and checkout for Shopify, BigCommerce and WordPress. I restore your shopping experience in 24–72h, with care in every detail.",
     "bullets": [
@@ -233,8 +233,8 @@
   },
   "editorial": {
     "skip": "Skip to content",
-    "edition": "Design with intent. Code with craft.",
-    "artLabel": "Study of a repair / No. 001",
+    "edition": "Design with intention. Technology with identity.",
+    "artLabel": "Study of a repair / No. 002",
     "artCaption": "Reconnect what matters.",
     "scroll": "Explore the studio",
     "motionOn": "Pause motion",
@@ -253,5 +253,30 @@
     "labAction": "Add to bag",
     "labNote": "Concept prototype · No sales data",
     "footerTitle": "Let’s get things moving again."
+  },
+  "brandFlow": {
+    "family": "An IzignaMx specialty",
+    "flowLabel": "How we restore the flow",
+    "flowTitle": "From friction to flow.",
+    "flowIntro": "Design, code and continuity. Discover how we approach your store.",
+    "flowNote": "A conceptual view of the process. These are not client metrics.",
+    "detect": "Detect",
+    "detectBody": "We identify what slows the experience down: speed, security or purchasing.",
+    "connect": "Reconnect",
+    "connectBody": "We refine the pieces that matter and test how they work together.",
+    "activate": "Activate",
+    "activateBody": "We deliver a clear experience, with checks and next steps.",
+    "chooseLabel": "Find your starting point",
+    "chooseTitle": "What does your store need?",
+    "chooseBody": "Choose your priority to see a suggestion. All services remain available.",
+    "slow": "It is too slow",
+    "security": "My WordPress needs a cleanup",
+    "checkout": "I lose purchases at checkout",
+    "unsure": "I do not know where to start",
+    "recommended": "Your starting point",
+    "viewService": "View scope and price",
+    "reset": "View all options",
+    "scopeNote": "Starting price. We confirm scope and timing before we begin.",
+    "reassurance": "Let’s talk on WhatsApp. We confirm scope and timing before we begin."
   }
 }

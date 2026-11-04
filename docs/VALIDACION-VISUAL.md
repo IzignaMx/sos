@@ -1,4 +1,38 @@
-# Validación de la experiencia editorial
+# Validación de identidad y recorrido IzignaMx
+
+Entrega: `20261104-izigna-flow-1`. Fecha: 4 de noviembre de 2026. La revisión recupera la identidad pública de IzignaMx y mantiene la composición propia de SOS.
+
+## Evidencia visual actual
+
+[Antes de la corrección de marca](previews/despues-desktop.png) · [Ahora, escritorio](previews/marca-desktop.png) · [Ahora, móvil](previews/marca-mobile.png)
+
+Recorrido con movimiento activo: [inicio](previews/flujo-inicio.png) · [ensamblaje](previews/flujo-medio.png) · [continuidad](previews/flujo-final.png). Las capturas completas usan movimiento reducido para mostrar todos los contenidos. Las imágenes OG y PWA también se regeneraron con la identidad actual.
+
+## Resultado de la revisión local
+
+- Chromium y WebKit: 46 pruebas automatizadas en total. Comprueban identidad, navegación, teclado, idiomas, selector de necesidades, movimiento reversible, etapas móviles, pausa, almacenamiento denegado, modo sin JavaScript, caché versionada y uso offline.
+- El selector toma título, precio, plazo y descripción del catálogo real; no duplica precios en JavaScript. Se verifica la actualización tras cambiar de idioma y el restablecimiento sin ocultar el catálogo.
+- Revisión independiente a 320 × 740 y 390 × 844: títulos libres de superposiciones, etapa activa sincronizada y cero desbordamiento. A 320 px se comprobaron los 20 idiomas. La miniatura se reduce en pantallas estrechas para evitar cortar «Reconectar».
+- Pa11y WCAG AA: cero incidencias automáticas a 1440 × 1000 y 390 × 844.
+- Lighthouse 13.6 móvil local: rendimiento **99**, accesibilidad **100**, buenas prácticas **96**, SEO **100**. LCP **1,8 s**, CLS **0,031**, TBT **0 ms**. Las dos peticiones de Matomo inaccesibles desde este entorno (`ERR_TUNNEL_CONNECTION_FAILED`) explican la excepción de buenas prácticas. No son métricas de campo ni una garantía de resultados en producción.
+- Fuentes Aileron locales y SVG original de marca; la pieza Higgsfield usa WebP responsive de aproximadamente 20/52 KB. Sin motor 3D, framework, API de recomendación ni bucle de animación en reposo.
+- HTML validado, formato aprobado y `git diff --check` sin incidencias.
+
+## Pruebas que motivaron correcciones
+
+Los nuevos tests fallaron antes de implementar el parentesco de marca, el selector y la secuencia por scroll. Una prueba móvil reprodujo un desfase: al centrar el segundo paso, se marcaba la tercera etapa. Se corrigió seleccionando el centro de paso más próximo al centro de la pantalla. La revisión visual encontró una superposición del gráfico sticky sobre títulos móviles; se sustituyó por una composición normal y miniaturas ligadas a cada paso. Pa11y detectó un encabezado vacío en el resultado oculto; se reemplazó por un texto destacado sin jerarquía de título vacía.
+
+El servidor de pruebas sólo retira `upgrade-insecure-requests` en loopback HTTP para poder probar WebKit; las otras directivas CSP permanecen. Lighthouse y Pa11y se ejecutaron contra `serve` con el HTML original. Los navegadores usan páginas reales para las pruebas de integración y fixtures aisladas para los límites del controlador.
+
+## Criterio comercial
+
+La [estrategia de elección](ESTRATEGIA-CONVERSION.md) documenta las fuentes y límites de las hipótesis: familiaridad, reconocimiento, claridad y transparencia. No se añaden testimonios, aumentos de conversión, escasez ni resultados clínicos inventados. El [contrato del recorrido](CONTRATO-RECORRIDO.md) diferencia la metáfora visual de los resultados comerciales.
+
+Antes de postular a Awwwards siguen siendo pertinentes pruebas con dispositivos físicos, lectores de pantalla y usuarios, además de evidencia verificable para los casos y cifras existentes. Esta entrega no envía la candidatura ni garantiza un premio.
+
+---
+
+# Historial de la primera experiencia editorial
 
 Fecha: 4 de noviembre de 2026. Entorno local, servidor estático y navegadores automatizados. Estas mediciones no son resultados del dominio publicado ni garantizan un premio.
 

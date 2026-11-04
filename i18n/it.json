@@ -46,7 +46,10 @@
       ]
     },
     "chips": {
-      "launch": { "title": "Modalità lancio", "body": "Pronto al decollo in 36h" },
+      "launch": {
+        "title": "Modalità lancio",
+        "body": "Pronto al decollo in 36h"
+      },
       "ai": { "title": "UX assistita IA", "body": "Insights azionabili + copy" }
     }
   },
@@ -114,10 +117,18 @@
     "sectionTitle": "Il look non basta: ogni consegna include metriche e sperimentazioni.",
     "sectionDescription": "Connetto dashboard di velocità, catturo comparativi before/after e lascio automazioni pronte per intercettare regressioni. I tuoi lead lo percepiscono dal primo scroll.",
     "stats": [
-      { "description": "Store potenziati negli ultimi 12 mesi con miglioramenti visibili su checkout e storytelling." },
-      { "description": "Punti di frizione risolti in media per progetto. Il report include walkthrough video." },
-      { "description": "Esperimenti A/B pronti al lancio. Ricevi ipotesi, asset e guida alla validazione." },
-      { "description": "Clienti che ripetono la missione o attivano manutenzione UX mensile." }
+      {
+        "description": "Store potenziati negli ultimi 12 mesi con miglioramenti visibili su checkout e storytelling."
+      },
+      {
+        "description": "Punti di frizione risolti in media per progetto. Il report include walkthrough video."
+      },
+      {
+        "description": "Esperimenti A/B pronti al lancio. Ricevi ipotesi, asset e guida alla validazione."
+      },
+      {
+        "description": "Clienti che ripetono la missione o attivano manutenzione UX mensile."
+      }
     ]
   },
   "process": {
@@ -211,7 +222,7 @@
   "editorial": {
     "skip": "Vai al contenuto",
     "edition": "Design con intenzione. Codice con cura.",
-    "artLabel": "Studio di una riparazione / N. 001",
+    "artLabel": "Studio di una riparazione / N. 002",
     "artCaption": "Riconnettere ciò che conta.",
     "scroll": "Esplora lo studio",
     "motionOn": "Metti in pausa le animazioni",
@@ -230,5 +241,30 @@
     "labAction": "Aggiungi al carrello",
     "labNote": "Prototipo concettuale · Nessun dato di vendita",
     "footerTitle": "Rimettiamo tutto in movimento."
+  },
+  "brandFlow": {
+    "family": "Una specialità di IzignaMx",
+    "flowLabel": "Come ripristiniamo il flusso",
+    "flowTitle": "Dal blocco alla fluidità.",
+    "flowIntro": "Design, codice e continuità. Scopri il nostro approccio al tuo negozio.",
+    "flowNote": "Rappresentazione concettuale del processo. Non sono metriche di un cliente.",
+    "detect": "Individuare",
+    "detectBody": "Identifichiamo ciò che rallenta l’esperienza: velocità, sicurezza o acquisto.",
+    "connect": "Ricollegare",
+    "connectBody": "Interveniamo sugli elementi essenziali e verifichiamo come funzionano insieme.",
+    "activate": "Attivare",
+    "activateBody": "Consegniamo un’esperienza chiara, con verifiche e prossimi passi.",
+    "chooseLabel": "Trova il tuo punto di partenza",
+    "chooseTitle": "Di cosa ha bisogno il tuo negozio?",
+    "chooseBody": "Scegli la tua priorità per ricevere un suggerimento. Tutti i servizi restano disponibili.",
+    "slow": "È troppo lento",
+    "security": "Il mio WordPress ha bisogno di pulizia",
+    "checkout": "Perdo acquisti al checkout",
+    "unsure": "Non so da dove iniziare",
+    "recommended": "Il tuo punto di partenza",
+    "viewService": "Vedi ambito e prezzo",
+    "reset": "Vedi tutte le opzioni",
+    "scopeNote": "Prezzo di partenza. Confermiamo ambito e tempi prima di iniziare.",
+    "reassurance": "Parliamone su WhatsApp. Confermiamo ambito e tempi prima di iniziare."
   }
 }

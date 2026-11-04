@@ -47,7 +47,10 @@
     },
     "chips": {
       "launch": { "title": "Lanĉa reĝimo", "body": "Preta en 36h" },
-      "ai": { "title": "UX helpata de AI", "body": "Agendaj komprenoj + teksto" }
+      "ai": {
+        "title": "UX helpata de AI",
+        "body": "Agendaj komprenoj + teksto"
+      }
     }
   },
   "services": {
@@ -114,9 +117,15 @@
     "sectionTitle": "Stila aspekto ne sufiĉas: ĉiu livero inkluzivas metrikojn kaj proponitajn eksperimentojn.",
     "sectionDescription": "Mi konektas rapidajn panelojn, registras antaŭ/post komparojn kaj lasas aŭtomatigojn por kapti regresojn. Viaj gvidoj sentas la diferencon ekde la unua rulumo.",
     "stats": [
-      { "description": "Nombro da butikoj plifortigitaj dum la lastaj 12 monatoj kun rimarkebla plibonigo en check-out kaj rakontado." },
-      { "description": "Meza nombro da forigitaj frotoj por projekto. Raporto enhavas video-gvidadon." },
-      { "description": "A/B-eksperimentoj pretaj por lanĉo. Vi ricevas hipotezojn, materialojn kaj gvidilon de validado." },
+      {
+        "description": "Nombro da butikoj plifortigitaj dum la lastaj 12 monatoj kun rimarkebla plibonigo en check-out kaj rakontado."
+      },
+      {
+        "description": "Meza nombro da forigitaj frotoj por projekto. Raporto enhavas video-gvidadon."
+      },
+      {
+        "description": "A/B-eksperimentoj pretaj por lanĉo. Vi ricevas hipotezojn, materialojn kaj gvidilon de validado."
+      },
       { "description": "Klientoj kiuj revenas aŭ elektas monatan UX-subtenon." }
     ]
   },
@@ -176,11 +185,11 @@
       },
       {
         "question": "Ĉu efektivigo estas inkluzivita aŭ nur rekomendoj?",
-        "answer": "Ĉiu pako enhavas riparojn ene de amplekso. Se aperas io pli granda, mi proponas ekspresan aldonaĵon kun precizaj horoj — neniuj surprizoj." 
+        "answer": "Ĉiu pako enhavas riparojn ene de amplekso. Se aperas io pli granda, mi proponas ekspresan aldonaĵon kun precizaj horoj — neniuj surprizoj."
       },
       {
         "question": "Kiel vi validas pliiĝon de konvertoj?",
-        "answer": "Mi agordas panelojn kun ĉefaj eventokomparoj, difinas KPI-ojn kaj liveras skriptojn por A/B-testado. Aldone, 7-taga postsekvo kun fajna alĝustigo se necese." 
+        "answer": "Mi agordas panelojn kun ĉefaj eventokomparoj, difinas KPI-ojn kaj liveras skriptojn por A/B-testado. Aldone, 7-taga postsekvo kun fajna alĝustigo se necese."
       }
     ]
   },
@@ -211,7 +220,7 @@
   "editorial": {
     "skip": "Salti al la enhavo",
     "edition": "Dezajno kun celo. Kodo kun metia zorgo.",
-    "artLabel": "Studo de riparo / N-ro 001",
+    "artLabel": "Studo de riparo / N-ro 002",
     "artCaption": "Rekonekti tion, kio gravas.",
     "scroll": "Esplori la atelieron",
     "motionOn": "Paŭzigi animaciojn",
@@ -230,5 +239,30 @@
     "labAction": "Aldoni al la korbo",
     "labNote": "Koncepta prototipo · Sen vendodatumoj",
     "footerTitle": "Ni denove ekmovu ĉion."
+  },
+  "brandFlow": {
+    "family": "Specialaĵo de IzignaMx",
+    "flowLabel": "Kiel ni restarigas la fluon",
+    "flowTitle": "De blokado al fluo.",
+    "flowIntro": "Dezajno, kodo kaj kontinueco. Malkovru nian aliron al via vendejo.",
+    "flowNote": "Koncepta prezento de la procezo. Ne temas pri mezuroj de kliento.",
+    "detect": "Identigi",
+    "detectBody": "Ni identigas, kio malhelpas la sperton: rapideco, sekureco aŭ aĉetado.",
+    "connect": "Rekonekti",
+    "connectBody": "Ni plibonigas la gravajn partojn kaj provas, kiel ili funkcias kune.",
+    "activate": "Aktivigi",
+    "activateBody": "Ni liveras klaran sperton kun kontroloj kaj sekvaj paŝoj.",
+    "chooseLabel": "Trovu vian deirpunkton",
+    "chooseTitle": "Kion bezonas via vendejo?",
+    "chooseBody": "Elektu vian prioritaton por ricevi sugeston. Ĉiuj servoj restas disponeblaj.",
+    "slow": "Ĝi estas tro malrapida",
+    "security": "Mia WordPress bezonas purigon",
+    "checkout": "Mi perdas aĉetojn dum pagado",
+    "unsure": "Mi ne scias, kie komenci",
+    "recommended": "Via deirpunkto",
+    "viewService": "Vidu amplekson kaj prezon",
+    "reset": "Vidu ĉiujn eblojn",
+    "scopeNote": "Komenca prezo. Ni konfirmas la amplekson kaj limdaton antaŭ ol komenci.",
+    "reassurance": "Ni parolu per WhatsApp. Ni konfirmas la amplekson kaj limdaton antaŭ ol komenci."
   }
 }

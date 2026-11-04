@@ -230,12 +230,11 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20g%E1%BB%ADi%20cho%20t%C3%B4i%20video%20ch%E1%BA%A9n%20%C4%91o%C3%A1n%20t%C6%B0%C6%A1ng%20lai%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Nhi%E1%BB%87m%20V%E1%BB%A5%20T%E1%BB%91c%20%C4%90%E1%BB%99%20-%20brief%20ng%E1%BA%AFn",
     "floatingWa": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20v%E1%BB%ABa%20th%C4%83m%20trang%20SOS%20t%C6%B0%C6%A1ng%20lai%20c%E1%BB%A7a%20b%E1%BA%A1n%2E"
-  }
-,
+  },
   "editorial": {
     "skip": "Chuyển đến nội dung",
     "edition": "Thiết kế có chủ đích. Viết mã bằng tâm huyết.",
-    "artLabel": "Nghiên cứu về sự sửa chữa / Số 001",
+    "artLabel": "Nghiên cứu về sự sửa chữa / Số 002",
     "artCaption": "Kết nối lại những điều quan trọng.",
     "scroll": "Khám phá xưởng",
     "motionOn": "Tạm dừng chuyển động",
@@ -254,5 +253,30 @@
     "labAction": "Thêm vào giỏ",
     "labNote": "Nguyên mẫu ý tưởng · Không có dữ liệu bán hàng",
     "footerTitle": "Cùng đưa mọi thứ trở lại nhịp vận hành."
+  },
+  "brandFlow": {
+    "family": "Một dịch vụ chuyên biệt của IzignaMx",
+    "flowLabel": "Cách chúng tôi khôi phục sự liền mạch",
+    "flowTitle": "Từ gián đoạn đến liền mạch.",
+    "flowIntro": "Thiết kế, mã nguồn và tính liên tục. Khám phá cách chúng tôi cải thiện cửa hàng của bạn.",
+    "flowNote": "Minh họa khái niệm về quy trình, không phải số liệu của khách hàng.",
+    "detect": "Phát hiện",
+    "detectBody": "Chúng tôi xác định điều cản trở trải nghiệm: tốc độ, bảo mật hoặc mua hàng.",
+    "connect": "Kết nối lại",
+    "connectBody": "Chúng tôi điều chỉnh các phần quan trọng và kiểm tra cách chúng phối hợp với nhau.",
+    "activate": "Kích hoạt",
+    "activateBody": "Chúng tôi bàn giao trải nghiệm rõ ràng, cùng kết quả kiểm tra và các bước tiếp theo.",
+    "chooseLabel": "Tìm điểm bắt đầu của bạn",
+    "chooseTitle": "Cửa hàng của bạn cần gì?",
+    "chooseBody": "Chọn ưu tiên để xem gợi ý. Bạn vẫn có thể xem tất cả dịch vụ.",
+    "slow": "Cửa hàng quá chậm",
+    "security": "WordPress của tôi cần dọn dẹp",
+    "checkout": "Tôi mất đơn ở bước thanh toán",
+    "unsure": "Tôi không biết bắt đầu từ đâu",
+    "recommended": "Điểm bắt đầu của bạn",
+    "viewService": "Xem phạm vi và giá",
+    "reset": "Xem tất cả lựa chọn",
+    "scopeNote": "Giá khởi điểm. Chúng tôi xác nhận phạm vi và thời hạn trước khi bắt đầu.",
+    "reassurance": "Trao đổi qua WhatsApp. Chúng tôi xác nhận phạm vi và thời hạn trước khi bắt đầu."
   }
 }

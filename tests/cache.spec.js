@@ -21,7 +21,7 @@ test("el diseño evita las respuestas antiguas del CDN mediante URLs versionadas
   await page.goto("/");
   await expect(page.locator("body")).toHaveCSS(
     "background-color",
-    "rgb(238, 234, 226)",
+    "rgb(15, 15, 15)",
   );
   await expect(
     page.getByRole("slider", { name: "Nivel de claridad" }),

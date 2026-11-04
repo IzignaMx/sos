@@ -40,14 +40,29 @@
       "title": "任务控制面板",
       "subtitle": "聚焦 ROI 的审计与关键项修复：",
       "items": [
-        { "label": "核心网页指标", "status": "+42%" },
-        { "label": "结账摩擦", "status": "-65%" },
-        { "label": "视觉信任度", "status": "A+ 等级" }
+        {
+          "label": "核心网页指标",
+          "status": "+42%"
+        },
+        {
+          "label": "结账摩擦",
+          "status": "-65%"
+        },
+        {
+          "label": "视觉信任度",
+          "status": "A+ 等级"
+        }
       ]
     },
     "chips": {
-      "launch": { "title": "上线模式", "body": "36 小时即可投入使用" },
-      "ai": { "title": "AI 辅助 UX", "body": "可执行洞察 + 文案" }
+      "launch": {
+        "title": "上线模式",
+        "body": "36 小时即可投入使用"
+      },
+      "ai": {
+        "title": "AI 辅助 UX",
+        "body": "可执行洞察 + 文案"
+      }
     }
   },
   "services": {
@@ -114,10 +129,18 @@
     "sectionTitle": "颜值不是全部：每次交付都附带指标与实验建议。",
     "sectionDescription": "接入速度仪表盘、记录前后对比，并预置回归监控自动化。从第一屏开始就能感知变化。",
     "stats": [
-      { "description": "过去 12 个月中完成升级的店铺数量，结账与叙事显著提升。" },
-      { "description": "平均每个项目解决的摩擦点数量，报告附带视频讲解。" },
-      { "description": "可立即上线的 A/B 实验数量，提供假设、素材与验证指南。" },
-      { "description": "再次预约或签约 UX 维护的客户比例。" }
+      {
+        "description": "过去 12 个月中完成升级的店铺数量，结账与叙事显著提升。"
+      },
+      {
+        "description": "平均每个项目解决的摩擦点数量，报告附带视频讲解。"
+      },
+      {
+        "description": "可立即上线的 A/B 实验数量，提供假设、素材与验证指南。"
+      },
+      {
+        "description": "再次预约或签约 UX 维护的客户比例。"
+      }
     ]
   },
   "process": {
@@ -211,7 +234,7 @@
   "editorial": {
     "skip": "跳至正文",
     "edition": "设计有意，代码有工。",
-    "artLabel": "修复习作 / 第 001 号",
+    "artLabel": "修复习作 / 第 002 号",
     "artCaption": "重新连接重要之物。",
     "scroll": "探索工作室",
     "motionOn": "暂停动效",
@@ -230,5 +253,30 @@
     "labAction": "加入购物袋",
     "labNote": "概念原型 · 不含销售数据",
     "footerTitle": "让一切重新运转起来。"
+  },
+  "brandFlow": {
+    "family": "IzignaMx 专项服务",
+    "flowLabel": "我们如何恢复顺畅体验",
+    "flowTitle": "从阻碍到顺畅。",
+    "flowIntro": "设计、代码与连贯体验。了解我们如何改进你的商店。",
+    "flowNote": "流程的概念示意，并非客户的实际指标。",
+    "detect": "发现问题",
+    "detectBody": "我们找出影响体验的因素：速度、安全性或购买流程。",
+    "connect": "重新连接",
+    "connectBody": "我们调整关键环节，并测试它们如何协同工作。",
+    "activate": "启用体验",
+    "activateBody": "我们交付清晰的体验，并附上检查结果和后续步骤。",
+    "chooseLabel": "找到你的起点",
+    "chooseTitle": "你的商店需要什么？",
+    "chooseBody": "选择优先事项，即可查看建议。所有服务仍可浏览。",
+    "slow": "商店速度太慢",
+    "security": "我的 WordPress 需要清理",
+    "checkout": "顾客在结账时放弃购买",
+    "unsure": "不知道从哪里开始",
+    "recommended": "你的起点",
+    "viewService": "查看服务范围与价格",
+    "reset": "查看全部选项",
+    "scopeNote": "所示为起价。开始前会确认服务范围与交付时间。",
+    "reassurance": "通过 WhatsApp 聊聊。开始前会确认服务范围与交付时间。"
   }
 }

@@ -29,7 +29,7 @@ test("la PWA conserva arte, estilos y laboratorio después de desconectar", asyn
   ).toBeTruthy();
   await expect(page.locator("body")).toHaveCSS(
     "background-color",
-    "rgb(238, 234, 226)",
+    "rgb(15, 15, 15)",
   );
   const slider = page.getByRole("slider", { name: "Nivel de claridad" });
   await slider.focus();
