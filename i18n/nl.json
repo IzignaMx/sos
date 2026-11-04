@@ -2,37 +2,37 @@
   "meta": {
     "lang": "nl",
     "dir": "ltr",
-    "title": "Expressmissies | IzignaMX",
-    "description": "SOS-missies om Shopify, BigCommerce en WordPress in 24-72 uur te optimaliseren. Futuristische interfaces geobsedeerd door échte conversies.",
-    "ogTitle": "Expressmissies | IzignaMX",
-    "ogDescription": "Breng je e-commerce naar de toekomst met snelle fixes, performance-boosts en een vernieuwde checkout in minder dan 72 uur."
+    "title": "Reparaties en verbeteringen voor je webwinkel | IzignaMx SOS",
+    "description": "Opent je winkel langzaam, zijn er fouten of is kopen lastig? Verbeteringen voor Shopify, BigCommerce en WordPress. Bekijk de prijzen en vertel me wat er speelt.",
+    "ogTitle": "Je webwinkel kan beter werken | IzignaMx SOS",
+    "ogDescription": "Hulp bij trage winkels, WordPress-problemen en ingewikkeld betalen. Kies wat je nodig hebt of vertel me over je probleem op WhatsApp."
   },
   "header": {
     "badge": "72u of minder",
     "message": "Expressmissies voor Shopify-, BigCommerce- en WordPress-shops • Prioriteit voor launches en urgente sales"
   },
   "nav": {
-    "services": "Services",
-    "process": "Proces",
-    "impact": "Impact",
-    "faq": "FAQ",
-    "contact": "Mail mij",
-    "book": "Boek 24u",
+    "services": "Oplossingen",
+    "process": "Zo werkt het",
+    "impact": "Ervaring",
+    "faq": "Vragen",
+    "contact": "Een e-mail sturen",
+    "book": "Praten via WhatsApp",
     "languageLabel": "Kies taal"
   },
   "hero": {
     "kicker": "Express e-commerce missies",
-    "title": "Futuristische fixes die omzet razendsnel redden.",
-    "lead": "Ik optimaliseer Shopify, BigCommerce en WordPress voor performance, checkout en UX zodat je conversies terugkeren zonder eindeloze sprints. Levering in 24-72 uur met chirurgische focus en bruikbare rapporten.",
+    "title": "Reparaties en verbeteringen voor je webwinkel.",
+    "lead": "Als je winkel langzaam opent, fouten heeft of kopen lastig maakt, help ik je dat op te lossen. Ik werk met Shopify, BigCommerce en WordPress.",
     "bullets": [
       "Immersive design met micro-animaties die vertrouwen en retentie verhogen.",
       "Inclusief audit en visuele roadmap: metrics voor/na plus onderhoudsplan.",
       "Direct contact met mij via WhatsApp en een live Notion-board—geen tussenpersonen."
     ],
-    "primaryCta": "Boek een missie",
-    "secondaryCta": "Bekijk pakketten",
+    "primaryCta": "Mijn probleem vertellen",
+    "secondaryCta": "Oplossingen en prijzen bekijken",
     "metrics": {
-      "delivery": "Gemiddelde oplevering",
+      "delivery": "Afhankelijk van de dienst",
       "checkout": "Checkouts geoptimaliseerd",
       "satisfaction": "Klanttevredenheid"
     },
@@ -66,110 +66,110 @@
     }
   },
   "services": {
-    "sectionLabel": "Express services",
-    "sectionTitle": "Kies de missie die past bij je urgentie.",
-    "sectionDescription": "Elk pakket bevat een visuele roadmap, security-check en hand-off sessie. Mix nodig? Ik combineer deliverables zonder verrassingskosten.",
+    "sectionLabel": "Waarmee ik je help",
+    "sectionTitle": "Kies wat je winkel nodig heeft.",
+    "sectionDescription": "Je kunt beginnen met een concreet probleem of een controle aanvragen als je niet weet wat er misgaat.",
     "cards": {
       "performance": {
         "tag": "Shopify / BigCommerce",
-        "title": "Performance + UI SOS",
-        "summary": "Precisie-tuning voor snelheid, oplossen van app-conflicten en een verfriste checkout-ervaring. Inclusief futuristische responsive look & feel.",
+        "title": "Een snellere winkel",
+        "summary": "Voor winkels die langzaam laden of moeilijk te gebruiken zijn. Ik verbeter de laadtijd en het ontwerp van de afgesproken pagina's.",
         "bullets": [
-          "Lighthouse-diagnose met geannoteerd rapport",
-          "Lichte refactor van kritieke secties en geanimeerde hero",
-          "Trust badges en native modals geïmplementeerd"
+          "Een snelheidscontrole met een uitgelegd verslag.",
+          "Aanpassingen aan de belangrijkste onderdelen van je winkel.",
+          "Duidelijkere meldingen en informatie die vertrouwen geeft."
         ],
         "price": "Vanaf $1.200 MXN",
         "duration": "Oplevering 24-48u",
-        "cta": "Reserveer"
+        "cta": "Vragen via WhatsApp"
       },
       "wordpress": {
         "tag": "WordPress",
-        "title": "Futuristische hardening + opschoning",
-        "summary": "Security-hardening, plugin-opschoning en hero-redesign met glow-componenten die direct vertrouwen wekken.",
+        "title": "Een veiligere WordPress-site",
+        "summary": "Voor sites met fouten of beveiligingsproblemen. Ik controleer bestanden, ruim uitbreidingen op en verbeter een belangrijke pagina.",
         "bullets": [
-          "Malwarescan, backup en veilige herinstallatie",
-          "Hero en formulieren opnieuw opgebouwd met UX-validaties",
-          "Visueel controlepaneel voor toekomstige updates"
+          "Een reservekopie, een controle op schadelijke bestanden en een opschoning.",
+          "Verbeteringen aan de startpagina en de afgesproken formulieren.",
+          "Een eenvoudig overzicht om updates te beheren."
         ],
         "price": "Vanaf $1.500 MXN",
         "duration": "Oplevering 48-72u",
-        "cta": "Reserveer"
+        "cta": "Vragen via WhatsApp"
       },
       "audit": {
-        "tag": "UX + Snelheid",
-        "title": "Flash Audit 360°",
-        "summary": "Verdiep één kernpagina met gesimuleerde heatmaps, Core Web Vitals-checklist en interactief motion-prototype.",
+        "tag": "Controle van je winkel",
+        "title": "Weten wat beter kan",
+        "summary": "Ik bekijk één pagina en leg uit wat je het beste eerst kunt veranderen. Je krijgt aanbevelingen en een voorbeeldontwerp; wijzigingen aan de site spreken we apart af.",
         "bullets": [
-          "Geprioriteerde checklist (impact vs. inspanning)",
-          "Figma-mockups met aanbevolen animaties",
-          "A/B-experimentplan en kant-en-klare scripts"
+          "Een lijst met verbeteringen, gerangschikt op belang en benodigde moeite.",
+          "Een voorbeeldontwerp dat laat zien hoe de pagina eruit kan zien.",
+          "Een plan en materiaal om verschillende opties te proberen."
         ],
         "price": "Vanaf $1.200 MXN",
         "duration": "Oplevering 48u",
-        "cta": "Reserveer"
+        "cta": "Vragen via WhatsApp"
       },
       "checkout": {
-        "tag": "Checkout",
-        "title": "Checkout review + fixes",
-        "summary": "Identificeer lekkages en lever tot drie directe upgrades: microcopy, validaties en fintech-waardige loading states.",
+        "tag": "Winkelmand en betaling",
+        "title": "Makkelijker betalen",
+        "summary": "Voor aankopen die bij de laatste stap lastig worden. Ik bekijk de stappen en voer tot drie verbeteringen door in teksten, formulieren of meldingen.",
         "bullets": [
-          "Kijksessie + live frictiekaart",
-          "Futuristische loader en trust-UI",
-          "Field-tested op desktop en mobiel"
+          "Een controle van de stappen van winkelmand tot betaling.",
+          "Duidelijke meldingen tijdens het laden of als er een fout optreedt.",
+          "Een controle op computer en telefoon."
         ],
         "price": "Vanaf $1.800 MXN",
         "duration": "Oplevering 48-72u",
-        "cta": "Reserveer"
+        "cta": "Vragen via WhatsApp"
       }
     }
   },
   "impact": {
-    "sectionLabel": "Tastbare resultaten",
-    "sectionTitle": "Alleen een mooi uiterlijk is niet genoeg—elke oplevering komt met metrics en experimenten.",
-    "sectionDescription": "Ik koppel snelheid-dashboards, leg voor/na-vergelijkingen vast en laat automatiseringen achter om regressies te vangen. Leads voelen het vanaf de eerste scroll.",
+    "sectionLabel": "Ervaring",
+    "sectionTitle": "Veranderingen die je zelf kunt controleren.",
+    "sectionDescription": "Ik laat je zien wat er is veranderd, hoe het werkt en waar je daarna op moet letten, met vergelijkingen en uitleg in een video.",
     "stats": [
       {
-        "description": "Shops die de afgelopen 12 maanden zijn geboost met zichtbare verbeteringen in checkout en storytelling."
+        "description": "Winkels verbeterd in de afgelopen 12 maanden."
       },
       {
-        "description": "Gemiddeld aantal weggenomen fricties per project; inclusief video-walkthrough met actielijst."
+        "description": "Opgeloste moeilijkheden per project, gemiddeld."
       },
       {
-        "description": "A/B-experimenten klaar om te draaien; hypotheses, assets en validatiegids inbegrepen."
+        "description": "Tests voorbereid om verschillende verbeteringen te vergelijken."
       },
       {
-        "description": "Klanten die de missie herhalen of kiezen voor een doorlopende UX-retainer."
+        "description": "Klanten die terugkomen of kiezen voor maandelijks onderhoud."
       }
     ]
   },
   "process": {
-    "sectionLabel": "Werkwijze",
-    "sectionTitle": "Bliksemsnel proces zonder bureaucratie, gebouwd voor urgentie.",
-    "sectionDescription": "Ik beheer UX/UI-, performance- en communicatietracks parallel. Je ziet elke mijlpaal op een live Notion-board met emoji-statussen.",
+    "sectionLabel": "Zo beginnen we",
+    "sectionTitle": "Jij vertelt het probleem. Ik doe het werk.",
+    "sectionDescription": "Je praat rechtstreeks met mij, Edgar. Je hoeft niets te weten van ontwerpen of programmeren.",
     "steps": [
       {
-        "title": "Tactische intake in 20 minuten",
-        "description": "Call of voice-note; we bepalen hypotheses, toegang en kritieke indicatoren. Geen slides—direct naar de werkmap."
+        "title": "Vertel me wat er speelt",
+        "description": "Stuur me de link naar je winkel en vertel waar je je zorgen over maakt. Dat kan in een bericht of spraakbericht."
       },
       {
-        "title": "Futuristische scan + protoboard",
-        "description": "Technische audit, visuele benchmark en klikbaar Figma-prototype met voorgestelde motion."
+        "title": "We spreken het werk af",
+        "description": "Ik leg uit wat ik kan oplossen, wat het kost en wanneer het klaar is. Jij beslist voordat ik begin."
       },
       {
-        "title": "Modulaire implementatie",
-        "description": "Ik codeer componenten, optimaliseer glow-assets, stel micro-interacties en validaties in."
+        "title": "Ik voer de verbeteringen uit",
+        "description": "Ik werk aan de afgesproken wijzigingen en houd je op de hoogte. Kies je de controle, dan bereid ik de aanbevelingen voor."
       },
       {
-        "title": "Handoff + groeiplan",
-        "description": "Voor/na-rapport, Loom-video's, onderhoudschecklist en volgende experimenten."
+        "title": "We kijken er samen naar",
+        "description": "Ik laat je het geleverde werk zien en leg uit hoe je het gebruikt. Je krijgt een handleiding en de volgende stappen."
       }
     ]
   },
   "testimonials": {
-    "sectionLabel": "Ervaringen",
-    "sectionTitle": "Teams die SOS kozen tonen nu een next-level interface.",
-    "sectionDescription": "Elke missie bevat een follow-up van 7 dagen zodat de metrics op koers blijven.",
+    "sectionLabel": "Beoordelingen",
+    "sectionTitle": "Wat onze klanten vertellen.",
+    "sectionDescription": "Na de oplevering volgen we het werk nog 7 dagen op.",
     "quotes": [
       {
         "text": "“Binnen 48 uur transformeerde onze checkout van stroperige funnel naar gepolijste ervaring. De animaties bouwden vertrouwen en mobiele conversies stegen 23%.”",
@@ -190,93 +190,107 @@
   },
   "faq": {
     "sectionLabel": "Futuristische FAQ",
-    "sectionTitle": "Wat je moet weten voor de missie start.",
-    "sectionDescription": "Nog een vraag? Stuur me een voice-note via WhatsApp en ik antwoord direct.",
+    "sectionTitle": "Wat je moet weten.",
+    "sectionDescription": "Heb je nog een vraag? Stuur me een bericht op WhatsApp.",
     "items": [
       {
-        "question": "Wat heb ik nodig om binnen 24 uur te starten?",
-        "answer": "Tijdelijke toegang tot admin, analytics en site plus heldere doelen (sales, leads, stabiliteit). Daarmee maak ik de werkmap en bevestig ik het oplevervenster."
+        "question": "Wat heb je nodig om te beginnen?",
+        "answer": "Eerst de link naar je winkel en een uitleg van wat er speelt. Als ik op je site moet inloggen, vertel ik welke tijdelijke toegang ik nodig heb en hoe je die kunt delen."
       },
       {
-        "question": "Zit implementatie inbegrepen of alleen advies?",
-        "answer": "Elk pakket bevat fixes binnen scope. Verschijnt er iets groters, dan stel ik een express add-on voor met duidelijke uren—geen verrassingen."
+        "question": "Voer je de wijzigingen uit of vertel je alleen wat er beter kan?",
+        "answer": "De diensten voor snelheid, WordPress en betalen bevatten de afgesproken wijzigingen. Bij de winkelcontrole krijg je aanbevelingen en een voorbeeldontwerp. Als je wilt dat ik die uitvoer, spreken we dat werk apart af."
       },
       {
-        "question": "Hoe meet je conversiestijging?",
-        "answer": "Ik activeer dashboards met key event-vergelijkingen, definieer KPI's en lever scripts voor A/B-tests. Daarna volgt 7 dagen opvolging voor fine-tuning."
+        "question": "Wat kost het en wanneer is het klaar?",
+        "answer": "Elke dienst vermeldt een vanafprijs en een geschatte levertijd. Voordat ik begin, bevestig ik de uiteindelijke prijs, wat inbegrepen is en de datum, afhankelijk van het probleem en mijn beschikbaarheid. Extra werk bespreek ik eerst met je."
+      },
+      {
+        "question": "Wat als ik niet weet wat mijn winkel nodig heeft?",
+        "answer": "Stuur me de link en vertel wat je wilt verbeteren. Je hoeft het technische probleem niet te kennen of te weten welk platform je winkel gebruikt: ik help je een beginpunt te vinden."
+      },
+      {
+        "question": "Hoe weet ik wat er is verbeterd?",
+        "answer": "We controleren samen wat we hebben afgesproken: bijvoorbeeld hoe lang het duurt om een pagina te openen of of een formulier goed werkt. Ik leg de wijzigingen uit en hoe je ze kunt controleren. Om het effect op de verkoop te kennen, moeten we echte aankopen over een langere tijd bekijken."
       }
     ]
   },
   "ctaFinal": {
-    "title": "Klaar om jouw e-commerce futuristisch te laten ogen—én converteren?",
-    "body": "Laat je urgentie weten en plan tijd met mij. Je ontvangt een gratis video-diagnose met directe ideeën.",
-    "primary": "Vraag een diagnose aan",
-    "secondary": "Stuur briefing per e-mail"
+    "title": "Laten we beginnen met wat je bezighoudt.",
+    "body": "Stuur me de link naar je winkel en vertel wat er speelt. In een gratis video geef ik je een eerste advies om te bepalen waar je kunt beginnen.",
+    "primary": "Praten via WhatsApp",
+    "secondary": "Ik stuur liever een e-mail"
   },
   "footer": {
-    "note": "IzignaMX · Express fixes 24-72u · Gebouwd in CDMX • Service LATAM / USA · WhatsApp +52 55 3376 0889"
+    "note": "IzignaMx SOS · Verbeteringen voor je webwinkel · Vanuit Mexico-Stad voor Latijns-Amerika en de VS · WhatsApp +52 55 3376 0889"
   },
   "wa": {
     "button": "Chat met Edgar"
   },
   "links": {
-    "navMail": "mailto:edgar@izignamx.com?subject=Expressmissies%20-%20aanvraag",
-    "navWhatsApp": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20wil%20een%20SOS-missie%20starten%2E",
-    "heroPrimary": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20wil%20deze%20week%20een%20express-missie%20boeken%2E",
-    "servicePerformance": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20heb%20de%20Shopify%20of%20BigCommerce%20SOS%20nodig%2E",
-    "serviceWordpress": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20wil%20de%20futuristische%20WordPress-hardening%2E",
-    "serviceAudit": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20vraag%20de%20Flash%20Audit%20360%20aan%2E",
-    "serviceCheckout": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20graag%20de%20Checkout%20Review%20met%20fixes%2E",
-    "ctaWhatsApp": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20stuur%20me%20de%20futuristische%20diagnose%2E",
-    "ctaMail": "mailto:edgar@izignamx.com?subject=Expressmissies%20-%20korte%20briefing",
-    "floatingWa": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20kom%20net%20van%20je%20futuristische%20SOS-site%2E"
+    "navMail": "mailto:edgar@izignamx.com?subject=Hulp%20met%20mijn%20webwinkel",
+    "navWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20heb%20hulp%20nodig%20met%20mijn%20webwinkel.",
+    "heroPrimary": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20wil%20je%20vertellen%20over%20een%20probleem%20met%20mijn%20webwinkel.",
+    "servicePerformance": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20mijn%20winkel%20opent%20langzaam%20en%20ik%20wil%20hem%20verbeteren.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20heb%20hulp%20nodig%20met%20mijn%20WordPress-site.",
+    "serviceAudit": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20wil%20weten%20wat%20ik%20het%20beste%20kan%20verbeteren%20aan%20mijn%20winkel.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20wil%20het%20makkelijker%20maken%20om%20een%20aankoop%20in%20mijn%20winkel%20af%20te%20ronden.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20wil%20graag%20een%20eerste%20advies%20over%20mijn%20webwinkel.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Hulp%20met%20mijn%20webwinkel",
+    "floatingWa": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20kom%20van%20SOS%20en%20heb%20hulp%20nodig%20met%20mijn%20webwinkel."
   },
   "editorial": {
     "skip": "Ga naar inhoud",
     "edition": "Design met een doel. Code met vakmanschap.",
     "artLabel": "Studie van een reparatie / Nr. 002",
     "artCaption": "Verbind opnieuw wat ertoe doet.",
-    "scroll": "Ontdek de werkplaats",
+    "scroll": "Zo zorgen we voor je winkel",
     "motionOn": "Animaties pauzeren",
     "motionOff": "Animaties inschakelen",
-    "platforms": "Gespecialiseerd in",
+    "platforms": "We werken met",
     "manifestoLabel": "Het idee achter SOS",
     "manifestoTitle": "Ook haastwerk verdient aandacht.",
     "manifestoBody": "Een winkel is een reis. Als er iets misgaat, herstel ik de doorstroming en besteed ik aandacht aan elk detail: wat je ziet, wat je voelt en wat alles laat werken.",
-    "labLabel": "Interactielab",
-    "labTitle": "Minder wrijving. Meer helderheid.",
-    "labBody": "Een verkenning van de interface: beweeg de schuifregelaar en ontdek hoe de visuele hiërarchie verandert. Dit is een demonstratie, geen klantcase.",
+    "labLabel": "Probeer het",
+    "labTitle": "Als het duidelijk is, wordt kopen makkelijker.",
+    "labBody": "Verschuif de knop en vergelijk hoe makkelijk je de koopknop vindt. Dit is een voorbeeld, geen echte winkel.",
     "labControl": "Mate van helderheid",
-    "labBefore": "Wrijving",
-    "labAfter": "Helderheid",
-    "labProduct": "Studieobject",
+    "labBefore": "Onduidelijker",
+    "labAfter": "Duidelijker",
+    "labProduct": "Voorbeeldproduct",
     "labAction": "In winkelmand",
-    "labNote": "Conceptprototype · Geen verkoopgegevens",
+    "labNote": "Ontwerpvoorbeeld · Geen weergave van verkoopresultaten",
     "footerTitle": "Laten we alles weer in beweging brengen."
   },
   "brandFlow": {
     "family": "Een specialiteit van IzignaMx",
-    "flowLabel": "Zo herstellen we de doorstroming",
-    "flowTitle": "Van blokkade naar doorstroming.",
-    "flowIntro": "Design, code en continuïteit. Ontdek onze aanpak voor je winkel.",
-    "flowNote": "Conceptuele weergave van het proces. Dit zijn geen klantresultaten.",
-    "detect": "Signaleren",
-    "detectBody": "We onderzoeken wat de ervaring belemmert: snelheid, veiligheid of het aankoopproces.",
-    "connect": "Verbinden",
-    "connectBody": "We verbeteren de onderdelen die ertoe doen en testen hoe ze samenwerken.",
-    "activate": "Activeren",
-    "activateBody": "We leveren een heldere ervaring op, met controles en vervolgstappen.",
-    "chooseLabel": "Vind je startpunt",
-    "chooseTitle": "Wat heeft je winkel nodig?",
-    "chooseBody": "Kies je prioriteit voor een suggestie. Alle diensten blijven beschikbaar.",
-    "slow": "Mijn winkel is te traag",
-    "security": "Mijn WordPress heeft een opschoonbeurt nodig",
-    "checkout": "Ik verlies aankopen bij het afrekenen",
-    "unsure": "Ik weet niet waar ik moet beginnen",
-    "recommended": "Je startpunt",
-    "viewService": "Bekijk de werkzaamheden en prijs",
-    "reset": "Bekijk alle opties",
-    "scopeNote": "Vanafprijs. We bevestigen de werkzaamheden en planning voordat we beginnen.",
-    "reassurance": "Laten we praten via WhatsApp. We bevestigen de werkzaamheden en planning voordat we beginnen."
+    "flowLabel": "We letten op elke stap",
+    "flowTitle": "Het probleem vinden en oplossen.",
+    "flowIntro": "Zo werken we als je dienst wijzigingen aan de winkel omvat.",
+    "flowNote": "Een illustratie van ons werk, geen resultaten van klanten.",
+    "detect": "Bekijken",
+    "detectBody": "We zoeken wat de winkel vertraagt, wat er misgaat of wat kopen lastig maakt.",
+    "connect": "Verbeteren",
+    "connectBody": "We herstellen wat is afgesproken en controleren of de onderdelen samenwerken.",
+    "activate": "Controleren",
+    "activateBody": "We laten je de wijzigingen zien en leggen uit hoe je de winkel na de oplevering gebruikt.",
+    "chooseLabel": "Begin met wat je opvalt",
+    "chooseTitle": "Waar maak je je zorgen over?",
+    "chooseBody": "Kies een optie en ik stel een dienst voor. Je kunt ze hieronder ook allemaal bekijken.",
+    "slow": "Mijn winkel opent langzaam",
+    "security": "Mijn WordPress heeft problemen",
+    "checkout": "Een aankoop afronden is lastig",
+    "unsure": "Ik weet niet wat er nodig is",
+    "recommended": "Dit kan je helpen",
+    "viewService": "Deze dienst bekijken",
+    "reset": "Mijn keuze wissen",
+    "scopeNote": "We bevestigen de prijs, wat inbegrepen is en de datum voordat we beginnen.",
+    "reassurance": "De knop opent WhatsApp. Vertel in je eigen woorden wat er speelt."
+  },
+  "plainContent": {
+    "detailsLabel": "Wat is inbegrepen",
+    "timingNote": "De levertijden zijn schattingen. We bevestigen de datum zodra we het werk hebben afgesproken en de nodige toegang hebben.",
+    "experienceDetails": "Onze ervaring in cijfers bekijken",
+    "testimonialsDetails": "Beoordelingen van klanten lezen"
   }
 }

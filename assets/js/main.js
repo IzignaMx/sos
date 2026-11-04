@@ -500,7 +500,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!intent) return;
     if (intent === "reserve") {
       const reserveHref =
-        "https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20arrancar%20una%20mision%20SOS%2E";
+        "https://wa.me/525533760889?text=Hola%20Edgar%2C%20necesito%20ayuda%20con%20mi%20tienda%20online.";
       window.location.hash = "#servicios";
       setTimeout(() => {
         window.open(reserveHref, "_blank", "noopener,noreferrer");

@@ -1,7 +1,7 @@
 /* Identidad IzignaMx: tokens públicos de marca y composición propia de SOS. */
 @font-face {
   font-family: "Aileron";
-  src: url("../fonts/Aileron-Regular.woff2?v=20261104-izigna-flow-1")
+  src: url("../fonts/Aileron-Regular.woff2?v=20261104-contenido-1")
     format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -9,8 +9,7 @@
 }
 @font-face {
   font-family: "Aileron";
-  src: url("../fonts/Aileron-Bold.woff2?v=20261104-izigna-flow-1")
-    format("woff2");
+  src: url("../fonts/Aileron-Bold.woff2?v=20261104-contenido-1") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -1930,4 +1929,47 @@ html[data-motion="paused"] .flow__visual {
   .flow__step h3 {
     font-size: 30px;
   }
+}
+
+/* Lectura por niveles: lo esencial visible y el detalle disponible a petición. */
+.service-card__summary,
+.service-card__list,
+.process__item > span,
+.faq details p,
+.lab__intro > p {
+  font-size: 14px;
+}
+.service-card__details {
+  width: 100%;
+  margin-block: 22px 28px;
+}
+.service-card__details summary,
+.content-disclosure > summary {
+  cursor: pointer;
+  color: var(--iz-accent);
+  font-size: 14px;
+  min-height: 44px;
+  padding-block: 12px;
+}
+.service-card__details .service-card__list {
+  margin-block: 12px 4px;
+}
+.services__timing {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.content-disclosure {
+  border-block: 1px solid var(--line);
+}
+.content-disclosure > summary {
+  padding-block: 20px;
+  font-size: 16px;
+}
+.content-disclosure[open] > summary {
+  margin-bottom: 24px;
+}
+.content-disclosure .testimonials,
+.content-disclosure .stats-grid {
+  padding-bottom: 32px;
 }

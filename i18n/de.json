@@ -2,37 +2,37 @@
   "meta": {
     "lang": "de",
     "dir": "ltr",
-    "title": "Express-Missionen | IzignaMX",
-    "description": "SOS-Missionen, um Shopify, BigCommerce und WordPress in 24-72h zu optimieren. Futuristische Interfaces mit Fokus auf echte Conversions.",
-    "ogTitle": "Express-Missionen | IzignaMX",
-    "ogDescription": "Bring deinen Shop in die Zukunft: Express-Fixes, Performance-Boosts und optimierte Checkouts in unter 72h."
+    "title": "Reparaturen und Verbesserungen für deinen Onlineshop | IzignaMx SOS",
+    "description": "Lädt dein Shop langsam, zeigt er Fehler oder ist das Einkaufen schwierig? Verbesserungen für Shopify, BigCommerce und WordPress. Sieh dir die Preise an und erzähle mir, was los ist.",
+    "ogTitle": "Dein Onlineshop kann besser funktionieren | IzignaMx SOS",
+    "ogDescription": "Hilfe bei langsamen Shops, WordPress-Problemen und komplizierten Zahlungen. Wähle, was du brauchst, oder beschreibe mir dein Problem auf WhatsApp."
   },
   "header": {
     "badge": "72h oder weniger",
     "message": "Express-Missionen für Shopify-, BigCommerce- und WordPress-Shops • Priorität für Launches und dringende Sales"
   },
   "nav": {
-    "services": "Services",
-    "process": "Prozess",
-    "impact": "Impact",
-    "faq": "FAQ",
-    "contact": "E-Mail senden",
-    "book": "In 24h buchen",
+    "services": "Lösungen",
+    "process": "So geht's",
+    "impact": "Erfahrung",
+    "faq": "Fragen",
+    "contact": "E-Mail schreiben",
+    "book": "Auf WhatsApp sprechen",
     "languageLabel": "Sprache wählen"
   },
   "hero": {
     "kicker": "Express-Missionen für eCommerce",
-    "title": "Futuristische Fixes, die Umsatz im Rekordtempo zurückholen.",
-    "lead": "Ich optimiere Performance, Checkout und UX von Shopify, BigCommerce und WordPress, damit Conversions ohne endlose Sprints zurückkommen. Lieferung in 24-72h mit klinischem Fokus und klaren Reports.",
+    "title": "Reparaturen und Verbesserungen für deinen Onlineshop.",
+    "lead": "Wenn er langsam lädt, Fehler zeigt oder das Einkaufen erschwert, helfe ich dir. Ich arbeite mit Shopify, BigCommerce und WordPress.",
     "bullets": [
       "Immersives Design mit Micro-Animationen steigert Vertrauen und Retention.",
       "Audit und visueller Fahrplan inklusive: Metriken vorher/nachher plus Wartungsplan.",
       "Direkter Draht zu mir via WhatsApp und Notion Liveboard – keine Zwischenstationen."
     ],
-    "primaryCta": "Mission buchen",
-    "secondaryCta": "Pakete ansehen",
+    "primaryCta": "Mein Problem schildern",
+    "secondaryCta": "Lösungen und Preise ansehen",
     "metrics": {
-      "delivery": "Ø Lieferzeit",
+      "delivery": "Je nach Leistung",
       "checkout": "Optimierte Checkouts",
       "satisfaction": "Kundenzufriedenheit"
     },
@@ -40,121 +40,136 @@
       "title": "Mission-Control aktiv",
       "subtitle": "ROI-getriebener Check + behobene Hotspots:",
       "items": [
-        { "label": "Core Web Vitals", "status": "+42%" },
-        { "label": "Checkout-Reibung", "status": "-65%" },
-        { "label": "Visuelles Vertrauen", "status": "Level A+" }
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Checkout-Reibung",
+          "status": "-65%"
+        },
+        {
+          "label": "Visuelles Vertrauen",
+          "status": "Level A+"
+        }
       ]
     },
     "chips": {
-      "launch": { "title": "Launch-Modus", "body": "Go-Live in 36h" },
-      "ai": { "title": "KI-gestützte UX", "body": "Actionable Insights + Copy" }
+      "launch": {
+        "title": "Launch-Modus",
+        "body": "Go-Live in 36h"
+      },
+      "ai": {
+        "title": "KI-gestützte UX",
+        "body": "Actionable Insights + Copy"
+      }
     }
   },
   "services": {
-    "sectionLabel": "Express-Services",
-    "sectionTitle": "Wähle die Mission, die zu deiner Dringlichkeit passt.",
-    "sectionDescription": "Jedes Paket liefert Roadmap, Sicherheitscheck und Handoff-Session. Brauchst du Hybrides? Ich kombiniere Deliverables ohne versteckte Kosten.",
+    "sectionLabel": "Wobei ich dir helfe",
+    "sectionTitle": "Wähle, was dein Shop braucht.",
+    "sectionDescription": "Du kannst mit einem konkreten Problem anfangen oder eine Prüfung anfragen, wenn du nicht weißt, woran es liegt.",
     "cards": {
       "performance": {
         "tag": "Shopify / BigCommerce",
-        "title": "Performance + UI SOS",
-        "summary": "Chirurgische Speed-Optimierung, Konflikt-Apps aufräumen und Einkaufserlebnis upgraden. Enthält neuen responsiven Look im Future-Style.",
+        "title": "Ein schnellerer Shop",
+        "summary": "Für Shops, die langsam laden oder schwer zu bedienen sind. Ich verbessere die Ladezeit und die Gestaltung der vereinbarten Seiten.",
         "bullets": [
-          "Lighthouse-Diagnose mit kommentiertem Report",
-          "Leichtes Refactoring kritischer Bereiche plus animierter Hero",
-          "Trust-Badges und native Modale eingebaut"
+          "Eine Prüfung der Ladezeit mit einem verständlich erklärten Bericht.",
+          "Anpassungen in den wichtigsten Bereichen deines Shops.",
+          "Klarere Hinweise und Informationen, die Vertrauen schaffen."
         ],
         "price": "Ab 1.200 $ MXN",
         "duration": "Lieferung 24-48h",
-        "cta": "Reservieren"
+        "cta": "Auf WhatsApp anfragen"
       },
       "wordpress": {
         "tag": "WordPress",
-        "title": "Futuristisches Hardening + Cleanup",
-        "summary": "Security-Hardening, Plugin-Cleanup und Landing-Redesign mit Glow-Komponenten für sofortiges Vertrauen.",
+        "title": "Eine sicherere WordPress-Seite",
+        "summary": "Für Seiten mit Fehlern oder Sicherheitsproblemen. Ich prüfe Dateien, bereinige Erweiterungen und verbessere eine wichtige Seite.",
         "bullets": [
-          "Malware-Scan, Backup und sichere Neuinstallation",
-          "Hero & Forms mit UX-Validierung neu verdrahtet",
-          "Visuelles Control-Panel für Updates"
+          "Eine Sicherungskopie, die Suche nach schädlichen Dateien und eine Bereinigung.",
+          "Verbesserungen an der Startseite und den vereinbarten Formularen.",
+          "Eine einfache Übersicht zum Verwalten von Aktualisierungen."
         ],
         "price": "Ab 1.500 $ MXN",
         "duration": "Lieferung 48-72h",
-        "cta": "Reservieren"
+        "cta": "Auf WhatsApp anfragen"
       },
       "audit": {
-        "tag": "UX + Speed",
-        "title": "Flash Audit 360°",
-        "summary": "Analyse einer Schlüssel-Seite mit simulierten Heatmaps, Core-Web-Vitals-Checklist und interaktivem Motion-Prototyp.",
+        "tag": "Prüfung deines Shops",
+        "title": "Wissen, was besser werden kann",
+        "summary": "Ich prüfe eine Seite und erkläre dir, was du zuerst ändern solltest. Du bekommst Empfehlungen und einen Entwurf; Änderungen am Shop vereinbaren wir gesondert.",
         "bullets": [
-          "Priorisierte Checklist (Impact vs Aufwand)",
-          "Figma-Mockups mit vorgeschlagenen Animationen",
-          "A/B-Experimentplan und fertige Scripts"
+          "Eine Liste von Verbesserungen, geordnet nach Wichtigkeit und Aufwand.",
+          "Ein Entwurf, der zeigt, wie die Seite aussehen könnte.",
+          "Ein Plan und Materialien, um verschiedene Möglichkeiten zu testen."
         ],
         "price": "Ab 1.200 $ MXN",
         "duration": "Lieferung 48h",
-        "cta": "Reservieren"
+        "cta": "Auf WhatsApp anfragen"
       },
       "checkout": {
-        "tag": "Checkout",
-        "title": "Checkout Review + Fixes",
-        "summary": "Ich finde Leakage und liefere bis zu drei Sofort-Optimierungen: Microcopy, Validierungen und Fintech-Ladezustände.",
+        "tag": "Warenkorb und Zahlung",
+        "title": "Einfacher bezahlen",
+        "summary": "Für Einkäufe, die im letzten Schritt schwierig werden. Ich prüfe den Ablauf und setze bis zu drei Verbesserungen an Texten, Formularen oder Meldungen um.",
         "bullets": [
-          "Watching-Session + Reibungskarte in Echtzeit",
-          "Futuristischer Loader & Trust-UI implementiert",
-          "Feldtests auf Desktop und Mobile"
+          "Eine Prüfung des Weges vom Warenkorb bis zur Zahlung.",
+          "Klare Meldungen beim Laden oder bei einem Fehler.",
+          "Eine Prüfung am Computer und am Handy."
         ],
         "price": "Ab 1.800 $ MXN",
         "duration": "Lieferung 48-72h",
-        "cta": "Reservieren"
+        "cta": "Auf WhatsApp anfragen"
       }
     }
   },
   "impact": {
-    "sectionLabel": "Messbare Ergebnisse",
-    "sectionTitle": "Nur cool aussehen reicht nicht: Jede Lieferung bringt KPIs und Experimente.",
-    "sectionDescription": "Speed-Dashboards, Before/After-Vergleiche und Automationen gegen Regressionen – Leads spüren es ab dem ersten Scroll.",
+    "sectionLabel": "Erfahrung",
+    "sectionTitle": "Änderungen, die du überprüfen kannst.",
+    "sectionDescription": "Ich zeige dir, was sich geändert hat, wie es funktioniert und worauf du danach achten solltest – mit Vergleichen und einer Videoerklärung.",
     "stats": [
       {
-        "description": "Shops, die in den letzten 12 Monaten mit sichtbaren Checkout- und Storytelling-Gewinnen geboostet wurden."
+        "description": "Verbesserte Shops in den letzten 12 Monaten."
       },
       {
-        "description": "Gelöste Reibungspunkte pro Projekt im Durchschnitt. Report inkl. Video-Walkthrough."
+        "description": "Gelöste Schwierigkeiten pro Projekt im Durchschnitt."
       },
       {
-        "description": "A/B-Experimente startklar. Du bekommst Hypothesen, Assets und Validierungsleitfaden."
+        "description": "Vorbereitete Tests zum Vergleichen verschiedener Verbesserungen."
       },
       {
-        "description": "Kunden, die erneut buchen oder in monatliche UX-Betreuung wechseln."
+        "description": "Kunden, die wiederkommen oder monatliche Wartung buchen."
       }
     ]
   },
   "process": {
-    "sectionLabel": "So arbeite ich",
-    "sectionTitle": "Lightning-Prozess ohne Bürokratie, optimiert für Notfälle.",
-    "sectionDescription": "Parallele Tracks für UX/UI, Performance und Kommunikation. Live-Board mit Next Steps und Metriken inklusive.",
+    "sectionLabel": "So fangen wir an",
+    "sectionTitle": "Du erklärst das Problem. Ich kümmere mich um die Arbeit.",
+    "sectionDescription": "Du sprichst direkt mit mir, Edgar. Du brauchst keine Kenntnisse in Gestaltung oder Programmierung.",
     "steps": [
       {
-        "title": "Taktisches Briefing in 20 Minuten",
-        "description": "Call oder Voice-Note – Hypothesen, Zugänge und KPIs stehen. Keine Slides, direkt in die Map."
+        "title": "Erzähle mir, was los ist",
+        "description": "Schick mir den Link zu deinem Shop und sag mir, was dich beschäftigt. Eine Nachricht oder Sprachnachricht reicht."
       },
       {
-        "title": "Futuristischer Scan + Protoboard",
-        "description": "Technisches Audit, visuelles Benchmarking und klickbarer Figma-Prototyp mit Motion-Ideen."
+        "title": "Wir vereinbaren die Arbeit",
+        "description": "Ich erkläre dir, was ich lösen kann, was es kostet und wann es fertig ist. Du entscheidest, bevor ich anfange."
       },
       {
-        "title": "Modulare Umsetzung",
-        "description": "Komponenten codieren, Assets mit Glow veredeln, Micro-Interactions und Validierungen konfigurieren."
+        "title": "Ich setze die Verbesserungen um",
+        "description": "Ich arbeite an den vereinbarten Änderungen und halte dich auf dem Laufenden. Wenn du die Prüfung wählst, bereite ich die Empfehlungen vor."
       },
       {
-        "title": "Handoff + Growth-Plan",
-        "description": "Before/After-Report, Loom-Videos, Maintenance-Checklist und nächste Experimente."
+        "title": "Wir prüfen es gemeinsam",
+        "description": "Ich zeige dir das Ergebnis und wie du es nutzt. Du erhältst eine Anleitung und die nächsten Schritte."
       }
     ]
   },
   "testimonials": {
-    "sectionLabel": "Erfolgsgeschichten",
-    "sectionTitle": "Kunden im SOS-Modus glänzen jetzt mit Next-Level-Interfaces.",
-    "sectionDescription": "Jede Mission enthält ein 7-Tage-Follow-up, damit KPIs stabil bleiben.",
+    "sectionLabel": "Meinungen",
+    "sectionTitle": "Das erzählen unsere Kunden.",
+    "sectionDescription": "Nach der Übergabe begleiten wir dich noch 7 Tage.",
     "quotes": [
       {
         "text": "“In 48 Stunden wurde unser Checkout vom Reibungs-Tunnel zur gepflegten Experience. Die Animationen erzeugen Vertrauen und Mobile-Conversions stiegen um 23 %.”",
@@ -175,93 +190,107 @@
   },
   "faq": {
     "sectionLabel": "Futuristische FAQ",
-    "sectionTitle": "Alles, was du vor dem Start wissen musst.",
-    "sectionDescription": "Fehlt etwas? Schick mir eine WhatsApp-Voice und wir lösen es sofort.",
+    "sectionTitle": "Was du wissen solltest.",
+    "sectionDescription": "Wenn du weitere Fragen hast, schreib mir auf WhatsApp.",
     "items": [
       {
-        "question": "Was brauche ich, um in <24h zu starten?",
-        "answer": "Temporären Admin-, Analytics- und Site-Zugang sowie klare Ziele (Sales, Leads, Stabilität). Damit erstelle ich die Map und bestätige das Zeitfenster."
+        "question": "Was brauchst du, um anzufangen?",
+        "answer": "Zuerst den Link zu deinem Shop und eine Erklärung, was los ist. Wenn ich mich auf deiner Seite anmelden muss, erkläre ich dir, welchen vorübergehenden Zugang ich brauche und wie du ihn teilen kannst."
       },
       {
-        "question": "Gibt es Umsetzung oder nur Empfehlungen?",
-        "answer": "Jedes Paket enthält Fixes im Scope. Taucht mehr auf, biete ich ein Express-Add-on mit exakten Stunden – keine Überraschungen."
+        "question": "Machst du die Änderungen oder sagst du mir nur, was besser werden sollte?",
+        "answer": "Die Leistungen für Geschwindigkeit, WordPress und Zahlung enthalten die vereinbarten Änderungen. Bei der Shop-Prüfung erhältst du Empfehlungen und einen Entwurf. Wenn ich diese umsetzen soll, vereinbaren wir diese Arbeit gesondert."
       },
       {
-        "question": "Wie messen wir Conversion-Steigerung?",
-        "answer": "Dashboards mit Key-Event-Vergleich, definierte KPIs und Scripts für A/B-Tests. plus 7-Tage-Nachbetreuung und Feintuning falls nötig."
+        "question": "Was kostet es und wann ist es fertig?",
+        "answer": "Bei jeder Leistung stehen ein Einstiegspreis und die voraussichtliche Dauer. Vor dem Start bestätige ich den Endpreis, den Umfang und den Termin – je nach Problem und meiner Verfügbarkeit. Zusätzliche Arbeiten bespreche ich vorher mit dir."
+      },
+      {
+        "question": "Was, wenn ich nicht weiß, was mein Shop braucht?",
+        "answer": "Schick mir den Link und erzähle, was du verbessern möchtest. Du musst weder das technische Problem noch die verwendete Plattform kennen: Ich helfe dir, einen Anfang zu finden."
+      },
+      {
+        "question": "Woran erkenne ich die Verbesserung?",
+        "answer": "Wir prüfen gemeinsam, was wir vereinbart haben: zum Beispiel, wie lange eine Seite zum Laden braucht oder ob ein Formular richtig funktioniert. Ich erkläre dir die Änderungen und wie du sie überprüfen kannst. Um ihre Wirkung auf den Umsatz zu erkennen, müssen wir echte Käufe über einen längeren Zeitraum beobachten."
       }
     ]
   },
   "ctaFinal": {
-    "title": "Bereit, dass dein eCommerce aussieht – und konvertiert – wie aus der Zukunft?",
-    "body": "Antworte mit deiner aktuellen Dringlichkeit und buche einen Slot mit mir. Du erhältst ein kostenloses Video-Mini-Diagnose mit Sofort-Ideen.",
-    "primary": "Diagnose anfordern",
-    "secondary": "Brief per E-Mail senden"
+    "title": "Fangen wir mit dem an, was dich beschäftigt.",
+    "body": "Schick mir den Link zu deinem Shop und erzähle, was los ist. In einem kostenlosen Video gebe ich dir eine erste Orientierung, damit du weißt, wo du anfangen kannst.",
+    "primary": "Auf WhatsApp sprechen",
+    "secondary": "Lieber eine E-Mail schreiben"
   },
   "footer": {
-    "note": "IzignaMX · Express-Missionen 24-72h · Made in CDMX • Aktiv in LATAM / USA · WhatsApp +52 55 3376 0889"
+    "note": "IzignaMx SOS · Verbesserungen für deinen Onlineshop · Aus Mexiko-Stadt für Lateinamerika und die USA · WhatsApp +52 55 3376 0889"
   },
   "wa": {
     "button": "Mit Edgar chatten"
   },
   "links": {
-    "navMail": "mailto:edgar@izignamx.com?subject=Express-Missionen%20-%20Kontakt",
-    "navWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20moechte%20eine%20SOS%20Mission%20starten%2E",
-    "heroPrimary": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20will%20diese%20Woche%20eine%20Express%20Mission%20buchen%2E",
-    "servicePerformance": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20brauche%20das%20Shopify%20oder%20BigCommerce%20SOS%2E",
-    "serviceWordpress": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20moechte%20das%20futuristische%20WordPress%20Hardening%2E",
-    "serviceAudit": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20moechte%20das%20Flash%20Audit%20360%2E",
-    "serviceCheckout": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20bitte%20um%20das%20Checkout%20Review%20mit%20Fixes%2E",
-    "ctaWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20schick%20mir%20das%20futuristische%20Mini%20Diagnose%2E",
-    "ctaMail": "mailto:edgar@izignamx.com?subject=Express-Missionen%20-%20Kurzes%20Briefing",
-    "floatingWa": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20komme%20vom%20futuristischen%20SOS%20Site%2E"
+    "navMail": "mailto:edgar@izignamx.com?subject=Hilfe%20mit%20meinem%20Onlineshop",
+    "navWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20brauche%20Hilfe%20mit%20meinem%20Onlineshop.",
+    "heroPrimary": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20m%C3%B6chte%20dir%20von%20einem%20Problem%20mit%20meinem%20Onlineshop%20erz%C3%A4hlen.",
+    "servicePerformance": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20mein%20Shop%20l%C3%A4dt%20langsam%20und%20ich%20m%C3%B6chte%20ihn%20verbessern.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20brauche%20Hilfe%20mit%20meiner%20WordPress-Seite.",
+    "serviceAudit": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20m%C3%B6chte%20wissen%2C%20was%20ich%20an%20meinem%20Shop%20verbessern%20sollte.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20m%C3%B6chte%20den%20Kaufabschluss%20in%20meinem%20Shop%20einfacher%20machen.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20h%C3%A4tte%20gerne%20eine%20erste%20Orientierung%20zu%20meinem%20Onlineshop.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Hilfe%20mit%20meinem%20Onlineshop",
+    "floatingWa": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20komme%20von%20SOS%20und%20brauche%20Hilfe%20mit%20meinem%20Onlineshop."
   },
   "editorial": {
     "skip": "Zum Inhalt springen",
     "edition": "Bewusstes Design. Sorgfältiger Code.",
     "artLabel": "Studie einer Reparatur / Nr. 002",
     "artCaption": "Wieder verbinden, was zählt.",
-    "scroll": "Die Werkstatt entdecken",
+    "scroll": "So kümmern wir uns um deinen Shop",
     "motionOn": "Animationen pausieren",
     "motionOff": "Animationen aktivieren",
-    "platforms": "Spezialisiert auf",
+    "platforms": "Wir arbeiten mit",
     "manifestoLabel": "Die Idee hinter SOS",
     "manifestoTitle": "Auch unter Zeitdruck zählt gute Arbeit.",
     "manifestoBody": "Ein Shop ist eine Reise. Wenn etwas nicht mehr funktioniert, stelle ich den Fluss wieder her und kümmere mich um jedes Detail: was man sieht, was man fühlt und was alles am Laufen hält.",
-    "labLabel": "Interaktionslabor",
-    "labTitle": "Weniger Reibung. Mehr Klarheit.",
-    "labBody": "Eine Erkundung der Benutzeroberfläche: Bewege den Regler und entdecke, wie sich die visuelle Hierarchie verändert. Dies ist eine Demonstration, keine Kundenfallstudie.",
+    "labLabel": "Probier es aus",
+    "labTitle": "Wenn alles klar ist, fällt das Einkaufen leichter.",
+    "labBody": "Bewege den Regler und vergleiche, wie leicht du den Kaufbutton findest. Das ist ein Beispiel, kein echter Shop.",
     "labControl": "Grad der Klarheit",
-    "labBefore": "Reibung",
-    "labAfter": "Klarheit",
-    "labProduct": "Studienobjekt",
+    "labBefore": "Unübersichtlicher",
+    "labAfter": "Klarer",
+    "labProduct": "Beispielprodukt",
     "labAction": "In den Warenkorb",
-    "labNote": "Konzeptprototyp · Keine Verkaufsdaten",
+    "labNote": "Gestaltungsbeispiel · Zeigt keine Verkaufsergebnisse",
     "footerTitle": "Bringen wir alles wieder in Bewegung."
   },
   "brandFlow": {
     "family": "Ein Spezialgebiet von IzignaMx",
-    "flowLabel": "So bringen wir den Ablauf wieder in Gang",
-    "flowTitle": "Von der Blockade zum reibungslosen Ablauf.",
-    "flowIntro": "Design, Code und Kontinuität. Entdecken Sie unseren Ansatz für Ihren Shop.",
-    "flowNote": "Konzeptionelle Darstellung des Prozesses. Keine Kennzahlen eines Kunden.",
-    "detect": "Erkennen",
-    "detectBody": "Wir finden heraus, was das Erlebnis bremst: Geschwindigkeit, Sicherheit oder Kaufablauf.",
-    "connect": "Verbinden",
-    "connectBody": "Wir optimieren die entscheidenden Elemente und testen ihr Zusammenspiel.",
-    "activate": "Aktivieren",
-    "activateBody": "Wir liefern ein klares Nutzungserlebnis mit Prüfungen und nächsten Schritten.",
-    "chooseLabel": "Finden Sie Ihren Einstieg",
-    "chooseTitle": "Was braucht Ihr Shop?",
-    "chooseBody": "Wählen Sie Ihre Priorität für einen Vorschlag. Alle Leistungen bleiben verfügbar.",
-    "slow": "Mein Shop ist zu langsam",
-    "security": "Mein WordPress braucht eine Bereinigung",
-    "checkout": "Im Checkout gehen Käufe verloren",
-    "unsure": "Ich weiß nicht, wo ich anfangen soll",
-    "recommended": "Ihr Einstieg",
-    "viewService": "Leistungsumfang und Preis ansehen",
-    "reset": "Alle Optionen ansehen",
-    "scopeNote": "Einstiegspreis. Umfang und Zeitrahmen bestätigen wir vor dem Start.",
-    "reassurance": "Sprechen wir über WhatsApp. Umfang und Zeitrahmen bestätigen wir vor dem Start."
+    "flowLabel": "Wir achten auf jeden Schritt",
+    "flowTitle": "Das Problem finden und lösen.",
+    "flowIntro": "So arbeiten wir, wenn deine gebuchte Leistung Änderungen am Shop enthält.",
+    "flowNote": "Eine Darstellung unserer Arbeit, keine Kundenergebnisse.",
+    "detect": "Prüfen",
+    "detectBody": "Wir suchen, was den Shop verlangsamt, was nicht funktioniert oder den Einkauf erschwert.",
+    "connect": "Verbessern",
+    "connectBody": "Wir korrigieren die vereinbarten Punkte und prüfen, ob die Teile zusammen funktionieren.",
+    "activate": "Überprüfen",
+    "activateBody": "Wir zeigen dir die Änderungen und wie du deinen Shop nach der Übergabe nutzt.",
+    "chooseLabel": "Beginne mit dem, was dir auffällt",
+    "chooseTitle": "Was beschäftigt dich?",
+    "chooseBody": "Wähle eine Möglichkeit und ich schlage dir eine Leistung vor. Du kannst dir auch alle unten ansehen.",
+    "slow": "Mein Shop lädt langsam",
+    "security": "Mein WordPress macht Probleme",
+    "checkout": "Der Kaufabschluss ist schwierig",
+    "unsure": "Ich weiß nicht, was er braucht",
+    "recommended": "Das könnte dir helfen",
+    "viewService": "Diese Leistung ansehen",
+    "reset": "Auswahl aufheben",
+    "scopeNote": "Preis, Umfang und Termin bestätigen wir, bevor die Arbeit beginnt.",
+    "reassurance": "Der Button öffnet WhatsApp. Erzähle mir mit deinen eigenen Worten, was los ist."
+  },
+  "plainContent": {
+    "detailsLabel": "Was enthalten ist",
+    "timingNote": "Die Zeitangaben sind Schätzungen. Wir bestätigen den Termin, sobald wir die Arbeit vereinbart haben und die nötigen Zugänge vorliegen.",
+    "experienceDetails": "Unsere Erfahrung in Zahlen ansehen",
+    "testimonialsDetails": "Kundenmeinungen lesen"
   }
 }
