@@ -34,7 +34,7 @@ const PRECACHE_URLS = [
   "/i18n/pl.json",
   "/i18n/uk.json",
   "/i18n/vi.json",
-  "/assets/img/og-izigna-sos.png",
+  "/assets/img/og-izigna-sos@1200.png",
   "/assets/img/pwa-screenshot-mobile.png",
 ];
 
