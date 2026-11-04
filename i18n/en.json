@@ -3,9 +3,9 @@
     "lang": "en",
     "dir": "ltr",
     "title": "Express Missions | IzignaMX",
-    "description": "SOS missions to optimize Shopify, BigCommerce, and WordPress in 24-72h. Futuristic interfaces obsessed with real conversions.",
+    "description": "Digital rescue for Shopify, BigCommerce and WordPress in 24-72h. Thoughtful design, performance and carefully crafted shopping experiences.",
     "ogTitle": "Express Missions | IzignaMX",
-    "ogDescription": "Bring your eCommerce into the future with express fixes, performance boosts, and checkout upgrades in under 72h."
+    "ogDescription": "Get your eCommerce flowing again with express fixes, performance improvements and optimized checkouts in under 72h."
   },
   "header": {
     "badge": "72h or less",
@@ -21,16 +21,16 @@
     "languageLabel": "Choose language"
   },
   "hero": {
-    "kicker": "Express eCommerce missions",
-    "title": "Futuristic fixes that rescue revenue in record time.",
-    "lead": "I optimize Shopify, BigCommerce, and WordPress performance, checkout, and UX so you recover conversions without endless sprints. Delivery in 24-72h with surgical focus and actionable reports.",
+    "kicker": "Independent studio · Digital rescue",
+    "title": "Your store deserves another chance.",
+    "lead": "Design, performance and checkout for Shopify, BigCommerce and WordPress. I restore your shopping experience in 24–72h, with care in every detail.",
     "bullets": [
       "Immersive design with micro-animations that boost trust and retention.",
       "Includes audit and visual roadmap: before/after metrics plus maintenance plan.",
       "Direct access to me via WhatsApp and Notion Liveboard—no middlemen."
     ],
-    "primaryCta": "Book a mission",
-    "secondaryCta": "See available packages",
+    "primaryCta": "Let’s rescue your store",
+    "secondaryCta": "Explore services",
     "metrics": {
       "delivery": "Average delivery",
       "checkout": "Checkouts optimized",
@@ -40,25 +40,40 @@
       "title": "Mission control in progress",
       "subtitle": "ROI-focused review + critical fixes:",
       "items": [
-        { "label": "Core Web Vitals", "status": "+42%" },
-        { "label": "Checkout friction", "status": "-65%" },
-        { "label": "Visual trust", "status": "Grade A+" }
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Checkout friction",
+          "status": "-65%"
+        },
+        {
+          "label": "Visual trust",
+          "status": "Grade A+"
+        }
       ]
     },
     "chips": {
-      "launch": { "title": "Launch mode", "body": "Go-live ready in 36h" },
-      "ai": { "title": "AI-assisted UX", "body": "Actionable insights + copy" }
+      "launch": {
+        "title": "Launch mode",
+        "body": "Go-live ready in 36h"
+      },
+      "ai": {
+        "title": "AI-assisted UX",
+        "body": "Actionable insights + copy"
+      }
     }
   },
   "services": {
     "sectionLabel": "Express Services",
-    "sectionTitle": "Choose the mission that matches your urgency.",
-    "sectionDescription": "Each package ships with a visual roadmap, vulnerability check, and handoff session. Need a hybrid? I'll blend deliverables with zero surprise fees.",
+    "sectionTitle": "A solution for every urgency.",
+    "sectionDescription": "Every service includes a visual roadmap, vulnerability check and handoff session. We combine what you need, without surprise fees.",
     "cards": {
       "performance": {
         "tag": "Shopify / BigCommerce",
-        "title": "Performance + UI SOS",
-        "summary": "Surgical speed tune-up, app conflict cleanup, and checkout experience refresh. Includes a responsive futuristic look & feel.",
+        "title": "Performance + design",
+        "summary": "I resolve slow pages, app conflicts and shopping friction. A refreshed interface that works across screens.",
         "bullets": [
           "Lighthouse diagnosis with annotated report",
           "Light refactor of critical sections and animated hero",
@@ -70,11 +85,11 @@
       },
       "wordpress": {
         "tag": "WordPress",
-        "title": "Futuristic hardening + cleanup",
-        "summary": "Security hardening, plugin cleanup, and hero redesign with glow components that build instant trust.",
+        "title": "Security + cleanup",
+        "summary": "Security hardening, plugin cleanup and a considered redesign of your key page.",
         "bullets": [
           "Malware scan, backup, and safe reinstall",
-          "Hero and forms rewired with UX validations",
+          "Hero and form redesign with UX validation",
           "Visual control panel for future updates"
         ],
         "price": "From $1,500 MXN",
@@ -84,7 +99,7 @@
       "audit": {
         "tag": "UX + Speed",
         "title": "Flash Audit 360°",
-        "summary": "Deep-dive one key page with simulated heatmaps, Core Web Vitals checklist, and interactive motion prototype.",
+        "summary": "A focused review of one key page: simulated heatmaps, Core Web Vitals and an interactive prototype with suggested improvements.",
         "bullets": [
           "Prioritized checklist (impact vs effort)",
           "Figma mockups with suggested animations",
@@ -96,11 +111,11 @@
       },
       "checkout": {
         "tag": "Checkout",
-        "title": "Checkout Review + Fixes",
-        "summary": "Spot leakage points and ship up to three instant upgrades: microcopy, validations, and fintech-inspired loading states.",
+        "title": "A smoother checkout",
+        "summary": "I find abandonment points and implement up to three improvements: clearer copy, validation and loading states.",
         "bullets": [
           "Watching session + live friction map",
-          "Futuristic loader and trust UI implementation",
+          "Loading states and trust indicators",
           "Field-tested on desktop and mobile"
         ],
         "price": "From $1,800 MXN",
@@ -111,35 +126,43 @@
   },
   "impact": {
     "sectionLabel": "Tangible Results",
-    "sectionTitle": "A cool aesthetic alone is not enough—every delivery ships with metrics and experiments.",
-    "sectionDescription": "I connect speed dashboards, capture before/after comparisons, and leave automations ready to detect regressions. Your leads feel it from the first scroll.",
+    "sectionTitle": "Feel the difference. Measure the result.",
+    "sectionDescription": "Performance metrics, before-and-after comparisons and alerts to catch regressions. Every delivery includes experiments for what comes next.",
     "stats": [
-      { "description": "Stores boosted over the last 12 months with visible checkout and storytelling gains." },
-      { "description": "Average friction points removed per project. Report includes a video walkthrough." },
-      { "description": "A/B experiments ready to launch. You get hypotheses, assets, and validation guide." },
-      { "description": "Clients that repeat the mission or upgrade to monthly UX support." }
+      {
+        "description": "Stores boosted over the last 12 months with visible checkout and storytelling gains."
+      },
+      {
+        "description": "Average friction points removed per project. Report includes a video walkthrough."
+      },
+      {
+        "description": "A/B experiments ready to launch. You get hypotheses, assets, and validation guide."
+      },
+      {
+        "description": "Clients that repeat the mission or upgrade to monthly UX support."
+      }
     ]
   },
   "process": {
-    "sectionLabel": "How I Operate",
-    "sectionTitle": "Lightning process built for emergencies, zero bureaucracy.",
-    "sectionDescription": "I run parallel tracks for UX/UI, performance, and comms. You get a live board with next steps and metrics.",
+    "sectionLabel": "The method",
+    "sectionTitle": "From urgency to craft.",
+    "sectionDescription": "Design, development and communication move together. Follow every step and its metrics on a shared board.",
     "steps": [
       {
-        "title": "Tactical brief in 20 minutes",
-        "description": "Call or voice note to lock hypotheses, access, and critical indicators. No slides—straight to the map."
+        "title": "A conversation. 20 minutes.",
+        "description": "A call or voice note to define goals, access and key indicators. That becomes our working plan."
       },
       {
-        "title": "Futuristic scan + protoboard",
-        "description": "Technical audit, visual benchmark, and clickable Figma prototype with suggested motion."
+        "title": "Look before we change.",
+        "description": "A technical audit, visual references and a Figma prototype to explore improvements."
       },
       {
-        "title": "Modular implementation",
-        "description": "Code components, optimize assets with glow effects, configure micro-interactions and validations."
+        "title": "Build with care.",
+        "description": "I build components, optimize assets and refine interactions and validation."
       },
       {
-        "title": "Handoff + growth plan",
-        "description": "Before/after report, Loom videos, maintenance checklist, and next experiments."
+        "title": "Deliver and guide.",
+        "description": "Before-and-after comparisons, Loom videos, a maintenance guide and next experiments."
       }
     ]
   },
@@ -166,9 +189,9 @@
     ]
   },
   "faq": {
-    "sectionLabel": "Futuristic FAQ",
-    "sectionTitle": "Everything you need before launching the mission.",
-    "sectionDescription": "Need something else? Drop me a WhatsApp voice note and we solve it on the spot.",
+    "sectionLabel": "Frequently asked questions",
+    "sectionTitle": "Before we begin.",
+    "sectionDescription": "Something else on your mind? Send me a WhatsApp voice note.",
     "items": [
       {
         "question": "What do I need to kick off in under 24h?",
@@ -185,8 +208,8 @@
     ]
   },
   "ctaFinal": {
-    "title": "Ready for your eCommerce to look—and convert—like it came from the future?",
-    "body": "Reply to this CTA with your current urgency and book time with me. You'll get a free video mini-diagnosis with immediate ideas.",
+    "title": "Let’s get your store flowing again.",
+    "body": "Tell me what needs attention. We’ll book a conversation and you’ll receive a free video mini-diagnosis with ideas to get started.",
     "primary": "Request diagnosis",
     "secondary": "Send brief by email"
   },
@@ -207,5 +230,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20send%20me%20the%20futuristic%20mini%20diagnosis%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Express%20Missions%20-%20Quick%20Brief",
     "floatingWa": "https://wa.me/525533760889?text=Hi%20Edgar%2C%20I%20just%20visited%20the%20futuristic%20SOS%20site%2E"
+  },
+  "editorial": {
+    "skip": "Skip to content",
+    "edition": "Design with intent. Code with craft.",
+    "artLabel": "Study of a repair / No. 001",
+    "artCaption": "Reconnect what matters.",
+    "scroll": "Explore the studio",
+    "motionOn": "Pause motion",
+    "motionOff": "Enable motion",
+    "platforms": "Specializing in",
+    "manifestoLabel": "The idea behind SOS",
+    "manifestoTitle": "Urgent work can still be thoughtful work.",
+    "manifestoBody": "A store is a journey. When something breaks, I restore its flow and care for every detail: what you see, what you feel and what makes it all work.",
+    "labLabel": "Interaction lab",
+    "labTitle": "Less friction. More clarity.",
+    "labBody": "An interface exploration: move the control to discover how visual hierarchy changes. This is a demonstration, not a client case study.",
+    "labControl": "Clarity level",
+    "labBefore": "Friction",
+    "labAfter": "Clarity",
+    "labProduct": "Study object",
+    "labAction": "Add to bag",
+    "labNote": "Concept prototype · No sales data",
+    "footerTitle": "Let’s get things moving again."
   }
 }

@@ -11,7 +11,7 @@
 
 ## Visión General
 
-El sistema se compone exclusivamente de la **PWA Landing Page (Frontend)**. Un sitio estático, optimizado para altísimo rendimiento, con un enfoque visual "neon-futurista". Construido con HTML semántico, CSS/JS inline/minimalista para lograr velocidades de carga óptimas, e incluye soporte offline garantizado a través de Web Workers (Progressive Web App).
+El sistema se compone exclusivamente de la **PWA Landing Page (Frontend)**. Un sitio estático, optimizado para altísimo rendimiento, con una identidad editorial de taller digital (papel, tinta y rojo señal). Construido con HTML semántico y CSS/JS compartidos en `assets/` para lograr velocidades de carga óptimas, e incluye soporte offline garantizado a través de Web Workers (Progressive Web App).
 
 Su propósito central es servir como el principal embudo de captación de leads (B2B/B2C) maximizando la tasa de conversión a través del perfomance y la accesibilidad.
 
@@ -54,3 +54,9 @@ En esta plataforma se asumen las directrices conjuntas de un **Senior Architect*
 ### 3. Desarrollo Orientado a Agentes (Agent-Driven)
 
 Al escribir nuevas actualizaciones o scripts, se usarán prompts y descripciones de contexto claros (`name`, `description`, `system prompt` como en `AGENTS.md`) para ayudar a herramientas automatizadas y a LLMs a contribuir con la UI de forma segura, respetando los estándares estéticos y operativos del frontend.
+
+## Experiencia editorial (noviembre de 2026)
+
+`assets/css/editorial.css` centraliza los tokens y la composición responsive. `editorial.js` controla revelados y parallax bajo demanda, con pausa persistente y preferencia de movimiento reducido. `laboratory.js` implementa una demostración conceptual mediante un rango nativo. La simulación GPU anterior ya no se carga desde la landing; sus archivos se conservan como legado. Los contadores se muestran estáticos para evitar animaciones adicionales.
+
+Los 20 diccionarios incorporan el bloque `editorial`; el HTML inicial conserva el contenido español para funcionar sin JavaScript. La nueva versión del service worker precachea estilos, scripts y derivados WebP de la escultura. El fallback de navegación usa `/` para evitar respuestas redirigidas de `/index.html` en servidores con URLs limpias.

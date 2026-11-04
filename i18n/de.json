@@ -207,5 +207,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20schick%20mir%20das%20futuristische%20Mini%20Diagnose%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Express-Missionen%20-%20Kurzes%20Briefing",
     "floatingWa": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ich%20komme%20vom%20futuristischen%20SOS%20Site%2E"
+  },
+  "editorial": {
+    "skip": "Zum Inhalt springen",
+    "edition": "Bewusstes Design. Sorgfältiger Code.",
+    "artLabel": "Studie einer Reparatur / Nr. 001",
+    "artCaption": "Wieder verbinden, was zählt.",
+    "scroll": "Die Werkstatt entdecken",
+    "motionOn": "Animationen pausieren",
+    "motionOff": "Animationen aktivieren",
+    "platforms": "Spezialisiert auf",
+    "manifestoLabel": "Die Idee hinter SOS",
+    "manifestoTitle": "Auch unter Zeitdruck zählt gute Arbeit.",
+    "manifestoBody": "Ein Shop ist eine Reise. Wenn etwas nicht mehr funktioniert, stelle ich den Fluss wieder her und kümmere mich um jedes Detail: was man sieht, was man fühlt und was alles am Laufen hält.",
+    "labLabel": "Interaktionslabor",
+    "labTitle": "Weniger Reibung. Mehr Klarheit.",
+    "labBody": "Eine Erkundung der Benutzeroberfläche: Bewege den Regler und entdecke, wie sich die visuelle Hierarchie verändert. Dies ist eine Demonstration, keine Kundenfallstudie.",
+    "labControl": "Grad der Klarheit",
+    "labBefore": "Reibung",
+    "labAfter": "Klarheit",
+    "labProduct": "Studienobjekt",
+    "labAction": "In den Warenkorb",
+    "labNote": "Konzeptprototyp · Keine Verkaufsdaten",
+    "footerTitle": "Bringen wir alles wieder in Bewegung."
   }
 }

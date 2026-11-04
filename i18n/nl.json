@@ -230,5 +230,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20stuur%20me%20de%20futuristische%20diagnose%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Expressmissies%20-%20korte%20briefing",
     "floatingWa": "https://wa.me/525533760889?text=Hoi%20Edgar%2C%20ik%20kom%20net%20van%20je%20futuristische%20SOS-site%2E"
+  },
+  "editorial": {
+    "skip": "Ga naar inhoud",
+    "edition": "Design met een doel. Code met vakmanschap.",
+    "artLabel": "Studie van een reparatie / Nr. 001",
+    "artCaption": "Verbind opnieuw wat ertoe doet.",
+    "scroll": "Ontdek de werkplaats",
+    "motionOn": "Animaties pauzeren",
+    "motionOff": "Animaties inschakelen",
+    "platforms": "Gespecialiseerd in",
+    "manifestoLabel": "Het idee achter SOS",
+    "manifestoTitle": "Ook haastwerk verdient aandacht.",
+    "manifestoBody": "Een winkel is een reis. Als er iets misgaat, herstel ik de doorstroming en besteed ik aandacht aan elk detail: wat je ziet, wat je voelt en wat alles laat werken.",
+    "labLabel": "Interactielab",
+    "labTitle": "Minder wrijving. Meer helderheid.",
+    "labBody": "Een verkenning van de interface: beweeg de schuifregelaar en ontdek hoe de visuele hiërarchie verandert. Dit is een demonstratie, geen klantcase.",
+    "labControl": "Mate van helderheid",
+    "labBefore": "Wrijving",
+    "labAfter": "Helderheid",
+    "labProduct": "Studieobject",
+    "labAction": "In winkelmand",
+    "labNote": "Conceptprototype · Geen verkoopgegevens",
+    "footerTitle": "Laten we alles weer in beweging brengen."
   }
 }

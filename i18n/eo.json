@@ -207,5 +207,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20sendu%20al%20mi%20la%20futurisman%20mini-diagnozon%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Ekspresaj%20misioj%20-%20rapida%20breef",
     "floatingWa": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20alvenis%20de%20via%20futurisma%20SOS-paĝo%2E"
+  },
+  "editorial": {
+    "skip": "Salti al la enhavo",
+    "edition": "Dezajno kun celo. Kodo kun metia zorgo.",
+    "artLabel": "Studo de riparo / N-ro 001",
+    "artCaption": "Rekonekti tion, kio gravas.",
+    "scroll": "Esplori la atelieron",
+    "motionOn": "Paŭzigi animaciojn",
+    "motionOff": "Ebligi animaciojn",
+    "platforms": "Specialiĝo pri",
+    "manifestoLabel": "La ideo malantaŭ SOS",
+    "manifestoTitle": "Eĉ urĝa laboro povas esti zorge farita.",
+    "manifestoBody": "Butiko estas vojaĝo. Kiam io rompiĝas, mi restarigas ĝian fluon kaj zorgas pri ĉiu detalo: tio, kion oni vidas, tio, kion oni sentas, kaj tio, kio funkciigas ĉion.",
+    "labLabel": "Laboratorio de interagado",
+    "labTitle": "Malpli da obstakloj. Pli da klareco.",
+    "labBody": "Esploro de interfaco: movu la ŝovilon kaj malkovru, kiel ŝanĝiĝas la vida hierarkio. Tio estas demonstraĵo, ne klienta kazostudo.",
+    "labControl": "Nivelo de klareco",
+    "labBefore": "Obstakloj",
+    "labAfter": "Klareco",
+    "labProduct": "Studobjekto",
+    "labAction": "Aldoni al la korbo",
+    "labNote": "Koncepta prototipo · Sen vendodatumoj",
+    "footerTitle": "Ni denove ekmovu ĉion."
   }
 }

@@ -4,13 +4,13 @@
 
 IzignaMx (Arreglos Express) es una plataforma estructurada como una Landing Page estática altamente optimizada (enfocada en conversiones B2B y B2C).
 
-Nuestra arquitectura prioriza la velocidad (TTI casi instantáneo mediante la carga estática de recursos inline), accesibilidad estricta y micro-animaciones de alto impacto visual.
+La experiencia editorial combina papel cálido, tinta y rojo señal con una pieza escultórica original creada con Higgsfield. Prioriza lectura, navegación accesible y movimiento breve bajo demanda.
 
 ## Estructura del Proyecto
 
 Toda la documentación arquitectónica está consolidada en `ARCHITECTURE.md`.
 
-- `index.html`: La PWA/Landing principal con CSS/JS en línea para máximo rendimiento (Lighthouse ~100).
+- `index.html`: La PWA/Landing principal con HTML semántico y recursos CSS/JS compartidos, sin framework de cliente.
 - `i18n/*.json`: Archivos de diccionario estáticos para soporte multi-idioma.
 - `assets/`: Recursos compartidos e iconografía.
 
@@ -47,3 +47,10 @@ Este repositorio sigue de forma estricta:
 - **TDD (Test-Driven Development)**: No escribimos código de producción sin una prueba fallida ("RED") inicial.
 - **Agent-Driven Development**: Estructura de código pensada para ser mantenida por desarrolladores e IAs en colaboración.
 - **Conventional Commits**: Usamos `feat:`, `fix:`, `docs:`, etc.
+
+## Experiencia editorial
+
+- [Dirección y referencia Form & Flow](docs/REFERENCIA-VISUAL.md).
+- [Validación, capturas y límites de entrega](docs/VALIDACION-VISUAL.md).
+- [Procedencia del recurso Higgsfield](docs/RECURSOS-VISUALES.md).
+- `npm test`: pruebas de interacción, idiomas, movimiento y PWA en Chromium y WebKit. Instala navegadores con `npx playwright install --with-deps chromium webkit`.

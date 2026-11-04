@@ -207,5 +207,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E8%AF%B7%E5%8F%91%E7%BB%99%E6%88%91%E6%9C%AA%E6%9D%A5%E6%84%9F%E5%B0%8F%E8%AF%8A%E6%96%AD%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=%E6%80%A5%E9%80%9F%E4%BF%AE%E5%A4%8D%20-%20%E5%BF%AB%E9%80%9F%E7%AE%80%E4%BB%8B",
     "floatingWa": "https://wa.me/525533760889?text=%E5%93%88%E5%95%8AEdgar%EF%BC%8C%E6%88%91%E6%98%AF%E4%BB%8E%E4%BD%A0%E7%9A%84%E6%9C%AA%E6%9D%A5%E6%84%9F%E9%A1%B5%E9%9D%A2%E6%9D%A5%E7%9A%84%2E"
+  },
+  "editorial": {
+    "skip": "跳至正文",
+    "edition": "设计有意，代码有工。",
+    "artLabel": "修复习作 / 第 001 号",
+    "artCaption": "重新连接重要之物。",
+    "scroll": "探索工作室",
+    "motionOn": "暂停动效",
+    "motionOff": "启用动效",
+    "platforms": "专注领域",
+    "manifestoLabel": "SOS 背后的理念",
+    "manifestoTitle": "紧急的工作，也可以精雕细琢。",
+    "manifestoBody": "一家商店，是一段旅程。当某个环节断裂，我会恢复顺畅，照顾每一处细节：看得见的、感受得到的，以及让一切运转的机制。",
+    "labLabel": "交互实验室",
+    "labTitle": "更少阻碍，更加清晰。",
+    "labBody": "一次界面探索：移动滑块，观察视觉层级如何变化。这是演示，并非客户案例。",
+    "labControl": "清晰程度",
+    "labBefore": "阻碍",
+    "labAfter": "清晰",
+    "labProduct": "研究对象",
+    "labAction": "加入购物袋",
+    "labNote": "概念原型 · 不含销售数据",
+    "footerTitle": "让一切重新运转起来。"
   }
 }

@@ -1,8 +1,15 @@
-const PRECACHE = "sos-precache-v3";
-const RUNTIME = "sos-runtime-v1";
+const PRECACHE = "sos-precache-v4-editorial";
+const RUNTIME = "sos-runtime-v2-editorial";
 
 const PRECACHE_URLS = [
   "/",
+  "/assets/css/editorial.css",
+  "/assets/css/language-flags.css",
+  "/assets/js/main.js",
+  "/assets/js/editorial.js",
+  "/assets/js/laboratory.js",
+  "/assets/img/repair-sculpture-640.webp",
+  "/assets/img/repair-sculpture-1024.webp",
   "/index.html",
   "/privacy.html",
   "/security.html",
@@ -27,7 +34,7 @@ const PRECACHE_URLS = [
   "/i18n/pl.json",
   "/i18n/uk.json",
   "/i18n/vi.json",
-  "/assets/img/og-izigna-sos.png",
+  "/assets/img/og-izigna-sos@1200.png",
   "/assets/img/pwa-screenshot-mobile.png",
 ];
 
@@ -80,7 +87,7 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(request).catch(() =>
         caches
-          .match("/index.html")
+          .match("/")
           .then((cached) => cached || Response.error()),
       ),
     );

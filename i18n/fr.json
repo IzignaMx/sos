@@ -207,5 +207,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Bonjour%20Edgar%2C%20envoie-moi%20le%20mini%20diagnostic%20futuriste%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Missions%20Express%20-%20Brief%20Rapide",
     "floatingWa": "https://wa.me/525533760889?text=Bonjour%20Edgar%2C%20je%20viens%20du%20site%20futuriste%20SOS%2E"
+  },
+  "editorial": {
+    "skip": "Aller au contenu",
+    "edition": "Du sens dans le design. Du soin dans le code.",
+    "artLabel": "Étude d’une réparation / Nº 001",
+    "artCaption": "Reconnecter l’essentiel.",
+    "scroll": "Explorer l’atelier",
+    "motionOn": "Mettre les animations en pause",
+    "motionOff": "Activer les animations",
+    "platforms": "Spécialiste de",
+    "manifestoLabel": "L’idée derrière SOS",
+    "manifestoTitle": "L’urgence n’empêche pas le travail bien fait.",
+    "manifestoBody": "Une boutique est un parcours. Quand quelque chose se brise, j’en rétablis la fluidité et soigne chaque détail : ce que l’on voit, ce que l’on ressent et ce qui fait fonctionner l’ensemble.",
+    "labLabel": "Laboratoire d’interaction",
+    "labTitle": "Moins de friction. Plus de clarté.",
+    "labBody": "Une exploration d’interface : déplacez le curseur pour découvrir comment la hiérarchie visuelle évolue. Il s’agit d’une démonstration, pas d’un cas client.",
+    "labControl": "Niveau de clarté",
+    "labBefore": "Friction",
+    "labAfter": "Clarté",
+    "labProduct": "Objet d’étude",
+    "labAction": "Ajouter au panier",
+    "labNote": "Prototype conceptuel · Aucune donnée de vente",
+    "footerTitle": "Remettons les choses en mouvement."
   }
 }

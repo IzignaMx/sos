@@ -207,6 +207,29 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Oi%20Edgar%2C%20me%20envia%20o%20mini%20diagnostico%20futurista%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Missoes%20Expressas%20-%20Brief%20Rapido",
     "floatingWa": "https://wa.me/525533760889?text=Oi%20Edgar%2C%20acabei%20de%20ver%20o%20site%20futurista%20SOS%2E"
+  },
+  "editorial": {
+    "skip": "Pular para o conteúdo",
+    "edition": "Design com intenção. Código com cuidado.",
+    "artLabel": "Estudo de uma reparação / Nº 001",
+    "artCaption": "Reconectar o que importa.",
+    "scroll": "Explore o estúdio",
+    "motionOn": "Pausar movimento",
+    "motionOff": "Ativar movimento",
+    "platforms": "Especialidade em",
+    "manifestoLabel": "A ideia por trás do SOS",
+    "manifestoTitle": "O urgente também pode ser bem feito.",
+    "manifestoBody": "Uma loja é um percurso. Quando algo se rompe, recupero o fluxo e cuido de cada detalhe: o que se vê, o que se sente e o que faz tudo funcionar.",
+    "labLabel": "Laboratório de interação",
+    "labTitle": "Menos atrito. Mais clareza.",
+    "labBody": "Uma exploração de interface: mova o controle e descubra como a hierarquia visual muda. É uma demonstração, não um caso de cliente.",
+    "labControl": "Nível de clareza",
+    "labBefore": "Atrito",
+    "labAfter": "Clareza",
+    "labProduct": "Objeto de estudo",
+    "labAction": "Adicionar à sacola",
+    "labNote": "Protótipo conceitual · Sem dados de vendas",
+    "footerTitle": "Vamos colocar tudo em movimento de novo."
   }
 }
 

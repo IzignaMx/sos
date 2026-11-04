@@ -230,5 +230,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20prze%C5%9Blij%20futurystyczn%C4%85%20diagnoz%C4%99%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Misje%20Ekspres%20-%20kr%C3%B3tki%20brief",
     "floatingWa": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20w%C5%82a%C5%9Bnie%20odwiedzi%C5%82em%20twoj%C4%85%20futurystyczn%C4%85%20stron%C4%99%20SOS%2E"
+  },
+  "editorial": {
+    "skip": "Przejdź do treści",
+    "edition": "Przemyślany projekt. Kod tworzony z kunsztem.",
+    "artLabel": "Studium naprawy / Nr 001",
+    "artCaption": "Połączyć na nowo to, co ważne.",
+    "scroll": "Odkryj pracownię",
+    "motionOn": "Wstrzymaj animacje",
+    "motionOff": "Włącz animacje",
+    "platforms": "Specjalizacja",
+    "manifestoLabel": "Idea stojąca za SOS",
+    "manifestoTitle": "Pilna praca też może być dobrze wykonana.",
+    "manifestoBody": "Sklep to podróż. Gdy coś się psuje, przywracam jej płynność i dbam o każdy szczegół: to, co widać, to, co się czuje, i to, co sprawia, że wszystko działa.",
+    "labLabel": "Laboratorium interakcji",
+    "labTitle": "Mniej przeszkód. Więcej przejrzystości.",
+    "labBody": "Eksperyment z interfejsem: przesuń suwak i odkryj, jak zmienia się hierarchia wizualna. To demonstracja, a nie opis realizacji dla klienta.",
+    "labControl": "Poziom przejrzystości",
+    "labBefore": "Przeszkody",
+    "labAfter": "Przejrzystość",
+    "labProduct": "Obiekt badania",
+    "labAction": "Dodaj do koszyka",
+    "labNote": "Prototyp koncepcyjny · Bez danych sprzedażowych",
+    "footerTitle": "Wprawmy wszystko ponownie w ruch."
   }
 }

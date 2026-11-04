@@ -207,5 +207,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20l%C3%BCtfen%20futuristik%20mini%20diagnosti%C4%9Fi%20payla%C5%9F%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Ekspres%20g%C3%B6revler%20-%20h%C4%B1zl%C4%B1%20brif",
     "floatingWa": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20futuristik%20SOS%20sayfandan%20geldim%2E"
+  },
+  "editorial": {
+    "skip": "İçeriğe geç",
+    "edition": "Bilinçli tasarım. Özenli kod.",
+    "artLabel": "Bir onarım çalışması / No. 001",
+    "artCaption": "Önemli olanı yeniden bağlamak.",
+    "scroll": "Atölyeyi keşfet",
+    "motionOn": "Hareketi duraklat",
+    "motionOff": "Hareketi etkinleştir",
+    "platforms": "Uzmanlık alanları",
+    "manifestoLabel": "SOS’un ardındaki fikir",
+    "manifestoTitle": "Acil işler de özenle yapılabilir.",
+    "manifestoBody": "Bir mağaza bir yolculuktur. Bir şeyler aksadığında akışı yeniden kurar, her ayrıntıyla ilgilenirim: gördükleriniz, hissettikleriniz ve her şeyin çalışmasını sağlayan yapı.",
+    "labLabel": "Etkileşim laboratuvarı",
+    "labTitle": "Daha az sürtünme. Daha fazla netlik.",
+    "labBody": "Bir arayüz keşfi: kaydırıcıyı hareket ettirerek görsel hiyerarşinin nasıl değiştiğini görün. Bu bir gösterimdir, müşteri vaka çalışması değildir.",
+    "labControl": "Netlik düzeyi",
+    "labBefore": "Sürtünme",
+    "labAfter": "Netlik",
+    "labProduct": "İnceleme nesnesi",
+    "labAction": "Sepete ekle",
+    "labNote": "Kavramsal prototip · Satış verisi içermez",
+    "footerTitle": "Her şeyi yeniden harekete geçirelim."
   }
 }

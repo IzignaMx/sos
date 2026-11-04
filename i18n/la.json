@@ -231,4 +231,28 @@
     "ctaMail": "mailto:edgar@izignamx.com?subject=Missiones%20celeres%20-%20breviter",
     "floatingWa": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20ex%20pagina%20futuristica%20SOS%20venio%2E"
   }
+,
+  "editorial": {
+    "skip": "Ad materiam transire",
+    "edition": "Forma cum consilio. Codex cum arte.",
+    "artLabel": "Studium refectionis / N. 001",
+    "artCaption": "Quae valent denuo coniungere.",
+    "scroll": "Officinam explora",
+    "motionOn": "Motum intermittere",
+    "motionOff": "Motum permittere",
+    "platforms": "Artes nostrae",
+    "manifestoLabel": "Consilium post SOS",
+    "manifestoTitle": "Etiam urgens opus bene fieri potest.",
+    "manifestoBody": "Taberna iter est. Si quid frangitur, cursum restituo et singula curo: quae vides, quae sentis, et quae omnia operari faciunt.",
+    "labLabel": "Officina interactionis",
+    "labTitle": "Minora impedimenta. Maior claritas.",
+    "labBody": "Exploratio interfaciei: moderamen move et vide quomodo ordo visibilis mutetur. Haec demonstratio est, non exemplum operis pro cliente.",
+    "labControl": "Gradus claritatis",
+    "labBefore": "Impedimenta",
+    "labAfter": "Claritas",
+    "labProduct": "Res investiganda",
+    "labAction": "In corbem addere",
+    "labNote": "Exemplar conceptum · Sine datis venditionum",
+    "footerTitle": "Omnia rursus in motum ponamus."
+  }
 }
