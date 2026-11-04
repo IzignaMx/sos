@@ -51,8 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let hasReloaded = false;
 
-  const buildCatalogUrl = (lang) =>
-    new URL("./i18n/" + lang + ".json", window.location.href).href;
+  // La versión evita mezclar una página nueva con recursos antiguos del CDN.
+  const version = document.documentElement.dataset.release;
+  const versionedUrl = (path) => {
+    const url = new URL(path, window.location.href);
+    if (version) url.searchParams.set("v", version);
+    return url.href;
+  };
+  const buildCatalogUrl = (lang) => versionedUrl("./i18n/" + lang + ".json");
 
   const showUpdateToast = (worker) => {
     if (!updateToastEl) return;
@@ -436,7 +442,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const registerServiceWorker = () => {
       navigator.serviceWorker
 
-        .register("sw.js", { scope: "./" })
+        .register(versionedUrl("sw.js"), {
+          scope: "./",
+          updateViaCache: "none",
+        })
 
         .then((registration) => {
           handleWaitingWorker(registration.waiting);

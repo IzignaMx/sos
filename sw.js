@@ -1,5 +1,8 @@
-const PRECACHE = "sos-precache-v4-editorial";
-const RUNTIME = "sos-runtime-v2-editorial";
+// Mantener esta versión sincronizada con data-release del HTML.
+const RELEASE = "20261104-editorial-2";
+const PRECACHE = "sos-precache-" + RELEASE;
+const RUNTIME = "sos-runtime-" + RELEASE;
+const versionedUrl = (path) => path + "?v=" + RELEASE;
 
 const PRECACHE_URLS = [
   "/",
@@ -36,7 +39,7 @@ const PRECACHE_URLS = [
   "/i18n/vi.json",
   "/assets/img/og-izigna-sos@1200.png",
   "/assets/img/pwa-screenshot-mobile.png",
-];
+].map(versionedUrl);
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -87,7 +90,7 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(
       fetch(request).catch(() =>
         caches
-          .match("/")
+          .match(versionedUrl("/"))
           .then((cached) => cached || Response.error()),
       ),
     );
@@ -97,7 +100,7 @@ self.addEventListener("fetch", (event) => {
   // Cache-first strategy for precached assets
   if (
     requestURL.origin === self.location.origin &&
-    PRECACHE_URLS.includes(requestURL.pathname)
+    PRECACHE_URLS.includes(requestURL.pathname + requestURL.search)
   ) {
     event.respondWith(
       caches.match(request).then((cachedResponse) => {
@@ -107,7 +110,7 @@ self.addEventListener("fetch", (event) => {
         return fetch(request)
           .then((response) => {
             return caches.open(PRECACHE).then((cache) => {
-              cache.put(request, response.clone());
+              if (response.ok) cache.put(request, response.clone());
               return response;
             });
           })
