@@ -1,24 +1,17 @@
 {
   "name": "IzignaMX SOS",
   "short_name": "IzignaSOS",
-  "description": "Misiones express que optimizan Shopify, BigCommerce y WordPress en 24-72h con foco en conversiones futuristas.",
+  "description": "Diseño, velocidad y checkout para Shopify, BigCommerce y WordPress. Rescate digital con atención a cada detalle en 24–72h.",
   "lang": "es-MX",
   "dir": "ltr",
   "start_url": "./?source=pwa",
   "scope": ".",
   "display": "standalone",
-  "display_override": [
-    "window-controls-overlay",
-    "standalone"
-  ],
+  "display_override": ["window-controls-overlay", "standalone"],
   "orientation": "portrait",
-  "background_color": "#020817",
-  "theme_color": "#0d1b3d",
-  "categories": [
-    "business",
-    "productivity",
-    "utilities"
-  ],
+  "background_color": "#eeeae2",
+  "theme_color": "#eeeae2",
+  "categories": ["business", "productivity", "utilities"],
   "icons": [
     {
       "src": "assets/img/favicon-96x96.png",

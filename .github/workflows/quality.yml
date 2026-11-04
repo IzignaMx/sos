@@ -1,0 +1,49 @@
+name: Calidad de la experiencia SOS
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: read
+
+concurrency:
+  group: calidad-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  calidad:
+    name: HTML, formato y experiencia en dos navegadores
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Obtener el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias reproducibles
+        run: npm ci
+
+      - name: Validar estructura HTML
+        run: npx html-validate index.html
+
+      - name: Comprobar formato de HTML y documentación
+        run: npx prettier "**/*.html" "**/*.md" --check
+
+      - name: Instalar Chromium, WebKit y dependencias del sistema
+        run: npx playwright install --with-deps chromium webkit
+
+      - name: Verificar navegación e interacciones
+        run: npm test

@@ -4,3 +4,6 @@ node_modules
 logs
 _internal_docs/
 whatsapp-bot/
+
+test-results/
+playwright-report/

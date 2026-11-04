@@ -207,5 +207,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=안녕하세요%20Edgar%2C%20미래형%20미니%20진단을%20보내주세요%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=익스프레스%20미션%20-%20빠른%20브리프",
     "floatingWa": "https://wa.me/525533760889?text=안녕하세요%20Edgar%2C%20미래형%20SOS%20랜딩에서%20방문했습니다%2E"
+  },
+  "editorial": {
+    "skip": "본문으로 건너뛰기",
+    "edition": "의도를 담은 디자인. 정성으로 완성한 코드.",
+    "artLabel": "수선에 관한 습작 / No. 001",
+    "artCaption": "중요한 것을 다시 잇다.",
+    "scroll": "스튜디오 둘러보기",
+    "motionOn": "움직임 일시정지",
+    "motionOff": "움직임 활성화",
+    "platforms": "전문 분야",
+    "manifestoLabel": "SOS의 생각",
+    "manifestoTitle": "급한 작업도 정성스럽게.",
+    "manifestoBody": "스토어는 하나의 여정입니다. 흐름이 끊기면 다시 잇고 모든 디테일을 살핍니다. 눈에 보이는 것, 느껴지는 것, 그리고 모든 것을 움직이는 구조까지.",
+    "labLabel": "인터랙션 실험실",
+    "labTitle": "불편은 줄이고, 명확함은 더하고.",
+    "labBody": "인터페이스 탐구: 슬라이더를 움직이며 시각적 위계가 어떻게 달라지는지 확인해 보세요. 고객 사례가 아닌 데모입니다.",
+    "labControl": "명확성 수준",
+    "labBefore": "불편함",
+    "labAfter": "명확함",
+    "labProduct": "연구 대상",
+    "labAction": "장바구니에 담기",
+    "labNote": "콘셉트 프로토타입 · 판매 데이터 없음",
+    "footerTitle": "모든 것이 다시 흐르도록."
   }
 }

@@ -207,5 +207,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20未来型ミニ診断を送ってください%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Express%20Mission%20-%20クイックブリーフ",
     "floatingWa": "https://wa.me/525533760889?text=こんにちはEdgar%2C%20あなたの未来的なSOSサイトを見ました%2E"
+  },
+  "editorial": {
+    "skip": "本文へスキップ",
+    "edition": "意図のあるデザイン。手仕事のように丁寧なコード。",
+    "artLabel": "修復の習作 / No. 001",
+    "artCaption": "大切なものを、つなぎ直す。",
+    "scroll": "アトリエを探索する",
+    "motionOn": "動きを一時停止",
+    "motionOff": "動きを有効にする",
+    "platforms": "専門分野",
+    "manifestoLabel": "SOSに込めた想い",
+    "manifestoTitle": "急ぎの仕事にも、丁寧さを。",
+    "manifestoBody": "ストアはひとつの道のりです。どこかで流れが途切れたら、つなぎ直し、細部まで整えます。目に見えるもの、感じるもの、すべてを支える仕組みまで。",
+    "labLabel": "インタラクション・ラボ",
+    "labTitle": "迷いを減らし、わかりやすく。",
+    "labBody": "インターフェースの実験です。スライダーを動かすと、情報の見え方と優先順位が変わります。これはデモであり、お客様の導入事例ではありません。",
+    "labControl": "わかりやすさのレベル",
+    "labBefore": "迷いやすい",
+    "labAfter": "わかりやすい",
+    "labProduct": "研究対象",
+    "labAction": "バッグに追加",
+    "labNote": "コンセプトモデル · 売上データは含みません",
+    "footerTitle": "もう一度、すべてを動かそう。"
   }
 }

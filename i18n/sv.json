@@ -230,5 +230,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20skicka%20den%20futuristiska%20diagnosen%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Expressuppdrag%20-%20kort%20brief",
     "floatingWa": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20kommer%20precis%20från%20din%20futuristiska%20SOS-sida%2E"
+  },
+  "editorial": {
+    "skip": "Hoppa till innehållet",
+    "edition": "Genomtänkt design. Kod med hantverkskänsla.",
+    "artLabel": "Studie av en reparation / Nr 001",
+    "artCaption": "Återknyt det som betyder något.",
+    "scroll": "Utforska verkstaden",
+    "motionOn": "Pausa animationer",
+    "motionOff": "Aktivera animationer",
+    "platforms": "Specialiserad på",
+    "manifestoLabel": "Idén bakom SOS",
+    "manifestoTitle": "Även brådskande arbete kan vara genomtänkt.",
+    "manifestoBody": "En butik är en resa. När något går sönder återställer jag flödet och tar hand om varje detalj: det du ser, det du känner och det som får allt att fungera.",
+    "labLabel": "Interaktionslabb",
+    "labTitle": "Mindre friktion. Mer tydlighet.",
+    "labBody": "En utforskning av gränssnittet: flytta reglaget och upptäck hur den visuella hierarkin förändras. Det här är en demonstration, inte ett kundcase.",
+    "labControl": "Grad av tydlighet",
+    "labBefore": "Friktion",
+    "labAfter": "Tydlighet",
+    "labProduct": "Studieobjekt",
+    "labAction": "Lägg i varukorgen",
+    "labNote": "Konceptprototyp · Inga försäljningsdata",
+    "footerTitle": "Låt oss få allt i rörelse igen."
   }
 }

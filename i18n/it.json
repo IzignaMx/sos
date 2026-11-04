@@ -207,5 +207,28 @@
     "ctaWhatsApp": "https://wa.me/525533760889?text=Ciao%20Edgar%2C%20mandami%20il%20mini%20diagnostico%20futuristico%2E",
     "ctaMail": "mailto:edgar@izignamx.com?subject=Missioni%20Express%20-%20Brief%20Rapido",
     "floatingWa": "https://wa.me/525533760889?text=Ciao%20Edgar%2C%20arrivo%20dal%20tuo%20sito%20futuristico%20SOS%2E"
+  },
+  "editorial": {
+    "skip": "Vai al contenuto",
+    "edition": "Design con intenzione. Codice con cura.",
+    "artLabel": "Studio di una riparazione / N. 001",
+    "artCaption": "Riconnettere ciò che conta.",
+    "scroll": "Esplora lo studio",
+    "motionOn": "Metti in pausa le animazioni",
+    "motionOff": "Attiva le animazioni",
+    "platforms": "Specializzato in",
+    "manifestoLabel": "L’idea dietro SOS",
+    "manifestoTitle": "Anche ciò che è urgente può essere fatto bene.",
+    "manifestoBody": "Un negozio è un percorso. Quando qualcosa si rompe, ne ripristino il flusso e curo ogni dettaglio: ciò che si vede, ciò che si sente e ciò che fa funzionare tutto.",
+    "labLabel": "Laboratorio di interazione",
+    "labTitle": "Meno attrito. Più chiarezza.",
+    "labBody": "Un’esplorazione dell’interfaccia: sposta il cursore e scopri come cambia la gerarchia visiva. È una dimostrazione, non un caso cliente.",
+    "labControl": "Livello di chiarezza",
+    "labBefore": "Attrito",
+    "labAfter": "Chiarezza",
+    "labProduct": "Oggetto di studio",
+    "labAction": "Aggiungi al carrello",
+    "labNote": "Prototipo concettuale · Nessun dato di vendita",
+    "footerTitle": "Rimettiamo tutto in movimento."
   }
 }

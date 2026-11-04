@@ -499,37 +499,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   maybeHandleIntent();
 
-  const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
-  let fluidController = null;
-  if (
-    !motionQuery.matches &&
-    typeof window.initFluidBackground === "function"
-  ) {
-    fluidController = window.initFluidBackground();
-  }
-  const handleMotionPreference = (event) => {
-    if (event.matches) {
-      if (fluidController && typeof fluidController.dispose === "function") {
-        fluidController.dispose();
-      }
-      fluidController = null;
-    } else if (
-      !fluidController &&
-      typeof window.initFluidBackground === "function"
-    ) {
-      fluidController = window.initFluidBackground();
-    }
-  };
-  if (typeof motionQuery.addEventListener === "function") {
-    motionQuery.addEventListener("change", handleMotionPreference);
-  } else if (typeof motionQuery.addListener === "function") {
-    motionQuery.addListener(handleMotionPreference);
-  }
-
   const progressBar = document.querySelector("[data-progress]");
-  const counters = document.querySelectorAll("[data-counter]");
-  const prefersReduced = motionQuery.matches;
-
   const updateProgress = () => {
     const scrollTop = window.scrollY;
     const docHeight = document.body.scrollHeight - window.innerHeight;
@@ -540,42 +510,4 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   updateProgress();
   window.addEventListener("scroll", updateProgress, { passive: true });
-
-  if (!prefersReduced) {
-    const easeOutQuart = (t) => 1 - Math.pow(1 - t, 4);
-    const animateCounter = (el) => {
-      const target = parseInt(el.dataset.target, 10);
-      if (Number.isNaN(target)) return;
-      const suffix = el.dataset.suffix || "";
-      const duration = 1400;
-      let start = null;
-      const step = (timestamp) => {
-        if (!start) start = timestamp;
-        const progress = Math.min((timestamp - start) / duration, 1);
-        let value = Math.round(easeOutQuart(progress) * target);
-        if (value > target) value = target;
-        el.textContent = value + suffix;
-        if (progress < 1) {
-          requestAnimationFrame(step);
-        }
-      };
-      requestAnimationFrame(step);
-    };
-    counters.forEach((counter) => {
-      const suffix = counter.dataset.suffix || "";
-      counter.textContent = "0" + suffix;
-    });
-    const observer = new IntersectionObserver(
-      (entries, obs) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            animateCounter(entry.target);
-            obs.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.6 },
-    );
-    counters.forEach((counter) => observer.observe(counter));
-  }
 });

@@ -32,8 +32,8 @@
     <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" />
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="theme-color" content="#0d1b3d" />
-    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#eeeae2" />
+    <meta name="color-scheme" content="light" />
     <meta property="og:title" content="Arreglos Express | IzignaMX" />
     <meta
       property="og:description"
@@ -109,1464 +109,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap"
     />
-    <style>
-      :root {
-        color-scheme: dark;
-        --bg: #020817;
-        --bg-2: #0b1533;
-        --bg-3: #132347;
-        --txt: #f8fafc;
-        --muted: #cbd5f5;
-        --muted-2: #94a3c6;
-        --card: rgba(9, 20, 45, 0.72);
-        --card-solid: #101c3d;
-        --card-border: rgba(56, 189, 248, 0.24);
-        --glow: #38bdf8;
-        --brand: #22c55e;
-        --brand-alt: #4ade80;
-        --accent: #38bdf8;
-        --accent-alt: #818cf8;
-        --danger: #f97316;
-        --radius: 20px;
-        --shadow-lg: 0 30px 80px rgba(2, 8, 23, 0.55);
-        --shadow-sm: 0 12px 38px rgba(8, 20, 50, 0.45);
-        --grid-max: 1200px;
-        --border: 1px solid rgba(148, 163, 184, 0.16);
-        --font-body:
-          "Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
-        --font-display: "Space Grotesk", "Manrope", sans-serif;
-        scroll-behavior: smooth;
-      }
-      * {
-        box-sizing: border-box;
-      }
-      html {
-        overflow-x: hidden;
-      }
-      body {
-        margin: 0;
-        font-family: var(--font-body);
-        background:
-          radial-gradient(
-            140% 80% at 80% 10%,
-            rgba(56, 189, 248, 0.18),
-            transparent 60%
-          ),
-          radial-gradient(
-            120% 80% at 20% 0%,
-            rgba(129, 140, 248, 0.17),
-            transparent 55%
-          ),
-          var(--bg);
-        color: var(--txt);
-        min-height: 100vh;
-        overflow-x: hidden;
-        position: relative;
-      }
-      body::before,
-      body::after {
-        content: "";
-        position: fixed;
-        inset: auto;
-        width: 48vw;
-        height: 48vw;
-        max-width: 620px;
-        border-radius: 50%;
-        filter: blur(120px);
-        opacity: 0.45;
-        z-index: -2;
-        pointer-events: none;
-        background: radial-gradient(
-          circle at 30% 30%,
-          rgba(56, 189, 248, 0.8),
-          transparent 60%
-        );
-        animation: drift 28s infinite alternate ease-in-out;
-      }
-      body::after {
-        top: 12vh;
-        right: -10vw;
-        background: radial-gradient(
-          circle at 70% 30%,
-          rgba(34, 197, 94, 0.65),
-          transparent 55%
-        );
-        animation-delay: -12s;
-      }
-      body::before {
-        bottom: -20vh;
-        left: -12vw;
-      }
-      /* fondo fluido */
-      .fondo--fluido {
-        position: fixed;
-        inset: 0;
-        width: 100vw;
-        height: 100vh;
-        pointer-events: none;
-        z-index: -3;
-        filter: brightness(0.35);
-      }
-      .page {
-        width: 100%;
-        margin: 0 auto;
-      }
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-      h1,
-      h2,
-      h3 {
-        font-family: var(--font-display);
-        margin: 0;
-        letter-spacing: -0.01em;
-      }
-      h1 {
-        font-size: clamp(40px, 6vw, 64px);
-        line-height: 1.05;
-      }
-      h2 {
-        font-size: clamp(32px, 4vw, 44px);
-      }
-      h3 {
-        font-size: clamp(22px, 2.4vw, 26px);
-      }
-      p {
-        margin: 0;
-        color: var(--muted-2);
-        line-height: 1.6;
-      }
-      ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-      }
-      section {
-        padding: clamp(72px, 8vw, 120px) 20px;
-      }
-      #inicio {
-        padding: clamp(21px, 1vw, 80px) 20px;
-      }
-      #servicios {
-        padding-top: clamp(150px, 10vw, 60px);
-      }
-      .shell {
-        max-width: var(--grid-max);
-        margin: 0 auto;
-        width: 100%;
-      }
-      .reading-progress {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 4px;
-        width: 100%;
-        transform-origin: left center;
-        transform: scaleX(0);
-        background: linear-gradient(90deg, var(--brand), var(--accent));
-        z-index: 999;
-      }
-      .site-header {
-        position: sticky;
-        top: 0;
-        z-index: 900;
-        backdrop-filter: saturate(140%) blur(16px);
-        background: linear-gradient(
-          180deg,
-          rgba(7, 13, 29, 0.92),
-          rgba(7, 13, 29, 0.68)
-        );
-        border-bottom: var(--border);
-      }
-      .top-bar {
-        font-size: 13px;
-        color: var(--muted);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 16px;
-        text-align: center;
-      }
-      .top-bar__badge {
-        background: rgba(56, 189, 248, 0.12);
-        border: 1px solid rgba(56, 189, 248, 0.35);
-        border-radius: 999px;
-        padding: 4px 10px;
-        font-size: 12px;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--accent);
-      }
-      .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 14px 20px;
-        max-width: var(--grid-max);
-        margin: 0 auto;
-        width: 100%;
-        gap: 16px;
-      }
-      @media (max-width: 449px) {
-        .nav {
-          flex-direction: column;
-        }
-      }
-      .brand {
-        display: inline-flex;
-        align-items: center;
-        gap: 12px;
-        font-weight: 700;
-        font-size: 18px;
-        letter-spacing: -0.01em;
-        color: var(--txt);
-        text-decoration: none;
-      }
-      .brand img {
-        width: 60px;
-        height: 60px;
-        display: block;
-        object-fit: contain;
-        border-radius: 0;
-      }
-      .brand__text {
-        display: inline-flex;
-        flex-direction: column;
-        line-height: 1;
-      }
-      .nav__links {
-        display: flex;
-        gap: 18px;
-        font-size: 14px;
-        color: var(--muted);
-      }
-      .nav__links a {
-        position: relative;
-        padding: 8px 0;
-      }
-      .nav__links a::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 2px;
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: transform 0.3s ease;
-        background: linear-gradient(90deg, var(--accent), var(--brand));
-      }
-      .nav__links a:focus-visible,
-      .nav__links a:hover {
-        color: var(--txt);
-      }
-      .nav__links a:hover::after,
-      .nav__links a:focus-visible::after {
-        transform: scaleX(1);
-      }
-      .nav__controls {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-      }
-      .nav__cta {
-        display: flex;
-        gap: 12px;
-      }
-      .nav__lang {
-        position: relative;
-      }
-      .lang-selector {
-        position: relative;
-        display: flex;
-        align-items: center;
-      }
-      .lang-selector__toggle {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        padding: 14px;
-        border-radius: 12px;
-        background: rgba(8, 17, 35, 0.7);
-        border: 1px solid rgba(56, 189, 248, 0.3);
-        color: var(--muted);
-        font-weight: 600;
-        font-size: 13px;
-        cursor: pointer;
-        transition:
-          border-color 0.25s ease,
-          box-shadow 0.25s ease,
-          transform 0.25s ease;
-      }
-      .lang-selector__toggle:hover {
-        border-color: rgba(56, 189, 248, 0.6);
-        box-shadow: 0 12px 22px rgba(2, 8, 23, 0.3);
-      }
-      .lang-selector__toggle:focus-visible {
-        outline: 2px solid var(--accent);
-        outline-offset: 3px;
-      }
-      .lang-selector__icon {
-        width: 10px;
-        height: 10px;
-        fill: var(--muted);
-        transition: transform 0.25s ease;
-      }
-      .lang-selector__toggle[aria-expanded=\"true\"] .lang-selector__icon {
-        transform: rotate(180deg);
-      }
-      .lang-selector__list {
-        position: absolute;
-        top: calc(100% + 8px);
-        right: 0;
-        background: rgba(6, 14, 30, 0.96);
-        border: 1px solid rgba(56, 189, 248, 0.25);
-        border-radius: 14px;
-        padding: 8px;
-        display: grid;
-        gap: 4px;
-        min-width: 190px;
-        box-shadow: var(--shadow-sm);
-        backdrop-filter: blur(12px);
-        z-index: 910;
-      }
-      .lang-selector__list[hidden] {
-        display: none;
-      }
-      .lang-selector__option {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        width: 100%;
-        padding: 8px 10px;
-        border-radius: 10px;
-        border: none;
-        background: transparent;
-        color: var(--muted);
-        font-weight: 600;
-        font-size: 13px;
-        cursor: pointer;
-        text-align: left;
-        transition:
-          background 0.2s ease,
-          color 0.2s ease;
-      }
-      .lang-selector__option:hover,
-      .lang-selector__option:focus {
-        background: rgba(56, 189, 248, 0.12);
-        color: var(--txt);
-      }
-      .lang-selector__option.is-active {
-        background: rgba(56, 189, 248, 0.22);
-        color: var(--txt);
-      }
-      .lang-selector__option[aria-checked=\"true\"] .lang-selector__check {
-        opacity: 1;
-      }
-      .lang-selector__check {
-        margin-left: auto;
-        font-size: 12px;
-        color: var(--accent);
-        opacity: 0;
-        transition: opacity 0.2s ease;
-      }
-      .lang-flag {
-        position: relative;
-        display: inline-block;
-        overflow: hidden;
-        width: 22px;
-        height: 14px;
-        border-radius: 4px;
-        box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.4);
-        background-size: cover;
-        background-position: center;
-      }
-      .lang-flag--es {
-        background-image: linear-gradient(
-          180deg,
-          #c1121f 0 33%,
-          #f6c71b 33% 66%,
-          #c1121f 66%
-        );
-      }
-      .lang-flag--en {
-        background-image:
-          linear-gradient(
-            180deg,
-            #b22234 0 14%,
-            #fff 14% 28%,
-            #b22234 28% 42%,
-            #fff 42% 56%,
-            #b22234 56% 70%,
-            #fff 70% 84%,
-            #b22234 84% 100%
-          ),
-          linear-gradient(90deg, #3c3b6e 0 40%, transparent 40%);
-        background-size:
-          100% 100%,
-          40% 60%;
-        background-repeat: no-repeat;
-      }
-      .lang-flag--pt {
-        background-image: linear-gradient(
-          90deg,
-          #046a38 0 40%,
-          #ce1126 40% 100%
-        );
-      }
-      .lang-flag--pt::after {
-        content: \"\";
-        position: absolute;
-        left: 38%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: #f8e44d;
-        box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.3);
-      }
-      .lang-flag--fr {
-        background-image: linear-gradient(
-          90deg,
-          #0055a4 0 33%,
-          #fff 33% 66%,
-          #ef4135 66%
-        );
-      }
-      .lang-flag--de {
-        background-image: linear-gradient(
-          180deg,
-          #000 0 33%,
-          #dd0000 33% 66%,
-          #ffce00 66%
-        );
-      }
-      .lang-flag--it {
-        background-image: linear-gradient(
-          90deg,
-          #008c45 0 33%,
-          #f4f5f0 33% 66%,
-          #cd212a 66%
-        );
-      }
-      .lang-flag--ja {
-        background-image:
-          radial-gradient(circle at 50% 50%, #bc002d 0 42%, transparent 43%),
-          linear-gradient(#fff, #fff);
-      }
-      .lang-flag--zh {
-        background-image: linear-gradient(#de2910, #de2910);
-      }
-      .lang-flag--zh::after {
-        content: \"\";
-        position: absolute;
-        left: 18%;
-        top: 32%;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 3.5px 3.5px 3.5px 0;
-        border-color: transparent #ffde00 transparent transparent;
-      }
-      .lang-flag--ar {
-        background-image: linear-gradient(
-          180deg,
-          #007a3d 0 33%,
-          #fff 33% 66%,
-          #000 66%
-        );
-      }
-      .lang-flag--ar::before {
-        content: \"\";
-        position: absolute;
-        left: -2px;
-        top: 50%;
-        transform: translateY(-50%);
-        border-style: solid;
-        border-width: 7px 8px 7px 0;
-        border-color: transparent #ce1126 transparent transparent;
-      }
-      .lang-flag--ru {
-        background-image: linear-gradient(
-          180deg,
-          #fff 0 33%,
-          #0039a6 33% 66%,
-          #d52b1e 66%
-        );
-      }
-      .lang-flag--tr {
-        background: #e30a17;
-      }
-      .lang-flag--tr::before {
-        content: "";
-        position: absolute;
-        left: 5px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: #fff;
-      }
-      .lang-flag--tr::after {
-        content: "";
-        position: absolute;
-        left: 7px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: #e30a17;
-        box-shadow: -4px 0 0 0 #fff;
-      }
-      .lang-flag--hi {
-        background-image: linear-gradient(
-          180deg,
-          #ff9933 0 33%,
-          #fff 33% 66%,
-          #138808 66%
-        );
-      }
-      .lang-flag--hi::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 6px;
-        height: 6px;
-        border: 1px solid #1a4ba0;
-        border-radius: 50%;
-      }
-      .lang-flag--ko {
-        background: #fff;
-      }
-      .lang-flag--ko::before {
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background: linear-gradient(180deg, #cd2e3a 0 50%, #0047a0 50%);
-      }
-      .lang-flag--la {
-        background-image: linear-gradient(90deg, #ffd100 0 50%, #ffffff 50%);
-      }
-      .lang-flag--eo {
-        background: #009b48;
-      }
-      .lang-flag--eo::before {
-        content: "";
-        position: absolute;
-        left: 3px;
-        top: 3px;
-        width: 6px;
-        height: 6px;
-        background: #fff;
-        clip-path: polygon(
-          50% 0%,
-          63% 35%,
-          100% 38%,
-          71% 60%,
-          82% 100%,
-          50% 78%,
-          18% 100%,
-          29% 60%,
-          0% 38%,
-          37% 35%
-        );
-      }
-      .lang-flag--nl {
-        background-image: linear-gradient(
-          180deg,
-          #ae1c28 0 33%,
-          #fff 33% 66%,
-          #21468b 66%
-        );
-      }
-      .lang-flag--sv {
-        background: #0057b8;
-      }
-      .lang-flag--sv::before {
-        content: "";
-        position: absolute;
-        left: 30%;
-        top: 0;
-        bottom: 0;
-        width: 4px;
-        background: #fecd00;
-      }
-      .lang-flag--sv::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 45%;
-        height: 4px;
-        background: #fecd00;
-      }
-      .lang-flag--pl {
-        background-image: linear-gradient(180deg, #fff 0 50%, #dc143c 50%);
-      }
-      .lang-flag--uk {
-        background-image: linear-gradient(180deg, #0057b7 0 50%, #ffd700 50%);
-      }
-      .lang-flag--vi {
-        background: #da251d;
-      }
-      .lang-flag--vi::before {
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 10px;
-        height: 10px;
-        background: #ffde00;
-        clip-path: polygon(
-          50% 0%,
-          61% 38%,
-          100% 38%,
-          68% 59%,
-          79% 100%,
-          50% 75%,
-          21% 100%,
-          32% 59%,
-          0% 38%,
-          39% 38%
-        );
-      }
-      .lang-selector__label {
-        font-size: 13px;
-        font-weight: 600;
-        color: var(--txt);
-      }
-      .lang-selector__text {
-        font-size: 13px;
-        font-weight: 600;
-      }
-      .sr-only {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-      }
-      .btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        border-radius: 12px;
-        border: 1px solid transparent;
-        font-weight: 600;
-        font-size: 14px;
-        padding: 12px 18px;
-        transition:
-          transform 0.25s ease,
-          box-shadow 0.25s ease,
-          border-color 0.25s ease;
-        cursor: pointer;
-        background: transparent;
-        color: var(--txt);
-      }
-      .btn:focus-visible {
-        outline: 2px solid var(--accent);
-        outline-offset: 3px;
-      }
-      .btn--primary {
-        background: linear-gradient(120deg, var(--brand), var(--brand-alt));
-        color: #04120a;
-        box-shadow: 0 18px 40px rgba(34, 197, 94, 0.25);
-      }
-      .btn--primary:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 22px 48px rgba(34, 197, 94, 0.28);
-      }
-      .btn--ghost {
-        border-color: rgba(56, 189, 248, 0.4);
-        background: rgba(8, 17, 35, 0.6);
-      }
-      .btn--ghost:hover {
-        border-color: rgba(56, 189, 248, 0.7);
-        transform: translateY(-2px);
-      }
-      .hero {
-        position: relative;
-      }
-      .hero__grid {
-        display: grid;
-        gap: 40px;
-        max-width: var(--grid-max);
-        margin: 0 auto;
-        align-items: flex-start;
-      }
-      .hero__text {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-      }
-      .hero__kicker {
-        font-size: 14px;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        color: var(--accent);
-        display: flex;
-        align-items: center;
-        gap: 10px;
-      }
-      .hero__kicker::before {
-        content: "";
-        width: 36px;
-        height: 2px;
-        background: linear-gradient(90deg, var(--accent), transparent);
-      }
-      .hero__lead {
-        font-size: 18px;
-        color: var(--muted);
-      }
-      .hero__bulletlist {
-        display: grid;
-        gap: 12px;
-      }
-      .hero__bullet {
-        display: flex;
-        align-items: flex-start;
-        gap: 12px;
-        color: var(--muted);
-        font-size: 15px;
-      }
-      .hero__bullet span {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 42px;
-        height: 42px;
-        border-radius: 50%;
-        background: rgba(56, 189, 248, 0.18);
-        color: var(--accent);
-        font-size: 24px;
-        margin-top: 2px;
-        flex-shrink: 0;
-      }
-      .hero__actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 14px;
-      }
-      .cta-final .hero__actions {
-        justify-content: center;
-      }
-      .hero__meta {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: 16px;
-        margin-top: 26px;
-      }
-      .metric {
-        padding: 18px;
-        border-radius: 16px;
-        border: 1px solid rgba(56, 189, 248, 0.25);
-        background: rgba(10, 22, 47, 0.55);
-        backdrop-filter: blur(8px);
-        box-shadow: var(--shadow-sm);
-        position: relative;
-        overflow: hidden;
-      }
-      .metric::after {
-        content: "";
-        position: absolute;
-        inset: -30% auto auto -30%;
-        width: 80%;
-        height: 80%;
-        background: radial-gradient(
-          circle,
-          rgba(56, 189, 248, 0.3),
-          transparent 70%
-        );
-        opacity: 0;
-        transition:
-          opacity 0.4s ease,
-          transform 0.4s ease;
-      }
-      .metric:hover::after {
-        opacity: 1;
-        transform: translate3d(12px, -12px, 0);
-      }
-      .metric strong {
-        display: block;
-        font-size: 28px;
-        color: var(--txt);
-        font-family: var(--font-display);
-      }
-      .metric span {
-        color: var(--muted);
-        font-size: 13px;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-      }
-      .hero__visual {
-        position: relative;
-        padding: 30px;
-      }
-      @media (max-width: 449px) {
-        .hero__visual {
-          padding: 0;
-        }
-      }
-      .holo-card {
-        border-radius: 24px;
-        padding: 32px;
-        border: 1px solid rgba(129, 140, 248, 0.35);
-        background: linear-gradient(
-          160deg,
-          rgba(12, 26, 58, 0.85),
-          rgba(14, 28, 62, 0.62)
-        );
-        box-shadow: var(--shadow-lg);
-        position: relative;
-        overflow: hidden;
-      }
-      .holo-card::before {
-        content: "";
-        position: absolute;
-        inset: -50% auto auto -30%;
-        width: 60%;
-        height: 60%;
-        background: radial-gradient(
-          circle at 30% 30%,
-          rgba(56, 189, 248, 0.55),
-          transparent 60%
-        );
-        filter: blur(12px);
-        opacity: 0.9;
-      }
-      .holo-card::after {
-        content: "";
-        position: absolute;
-        inset: auto -40% -40% auto;
-        width: 70%;
-        height: 70%;
-        background: radial-gradient(
-          circle at 60% 60%,
-          rgba(34, 197, 94, 0.45),
-          transparent 65%
-        );
-        filter: blur(20px);
-      }
-      .holo-card__title {
-        font-size: 22px;
-        margin-bottom: 10px;
-      }
-      .holo-card__list {
-        display: grid;
-        gap: 12px;
-        margin-top: 18px;
-      }
-      .holo-card__item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: rgba(8, 18, 42, 0.6);
-        border: 1px solid rgba(56, 189, 248, 0.25);
-        border-radius: 14px;
-        padding: 14px 16px;
-        font-size: 14px;
-        color: var(--muted);
-      }
-      .holo-card__status {
-        padding: 4px 10px;
-        border-radius: 999px;
-        background: rgba(34, 197, 94, 0.18);
-        color: var(--brand-alt);
-        font-weight: 600;
-        font-size: 12px;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-      .hero__floating {
-        position: absolute;
-        inset: auto;
-        bottom: calc(-12px - 30%);
-        right: -20px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-      }
-      .floating-chip {
-        border-radius: 14px;
-        padding: 14px 20px;
-        background: rgba(8, 20, 45, 0.75);
-        border: 1px solid rgba(56, 189, 248, 0.2);
-        color: var(--muted);
-        font-size: 13px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        backdrop-filter: blur(10px);
-        box-shadow: var(--shadow-sm);
-        animation: float 8s infinite ease-in-out;
-      }
-      .floating-chip:nth-child(2) {
-        animation-delay: -3s;
-      }
-      .floating-chip strong {
-        color: var(--txt);
-        font-size: 16px;
-      }
-      .section__head {
-        max-width: var(--grid-max);
-        margin: 0 auto 40px;
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-        text-align: left;
-      }
-      .section__head span {
-        font-size: 13px;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: var(--accent);
-      }
-      .section__head p {
-        max-width: 620px;
-        color: var(--muted);
-      }
-      .service-grid {
-        display: grid;
-        gap: 22px;
-        max-width: var(--grid-max);
-        margin: 0 auto;
-      }
-      .service-card {
-        position: relative;
-        padding: 28px;
-        border-radius: 20px;
-        background: linear-gradient(
-          180deg,
-          rgba(12, 23, 49, 0.82),
-          rgba(10, 20, 44, 0.72)
-        );
-        border: 1px solid rgba(56, 189, 248, 0.18);
-        box-shadow: var(--shadow-sm);
-        overflow: hidden;
-        transition:
-          transform 0.35s ease,
-          box-shadow 0.35s ease,
-          border-color 0.35s ease;
-      }
-      .service-card::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(
-          130deg,
-          rgba(56, 189, 248, 0.2),
-          transparent 35%
-        );
-        opacity: 0;
-        transition: opacity 0.35s ease;
-      }
-      .service-card:hover {
-        transform: translateY(-6px);
-        border-color: rgba(56, 189, 248, 0.35);
-        box-shadow: 0 30px 70px rgba(6, 17, 38, 0.55);
-      }
-      .service-card:hover::before {
-        opacity: 1;
-      }
-      .service-card__tag {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 12px;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: var(--accent);
-        background: rgba(56, 189, 248, 0.14);
-        border: 1px solid rgba(56, 189, 248, 0.32);
-        border-radius: 999px;
-        padding: 6px 12px;
-      }
-      .service-card__tag::before {
-        content: "★";
-        font-size: 12px;
-      }
-      .service-card__title {
-        margin-top: 18px;
-        color: var(--txt);
-      }
-      .service-card__summary {
-        margin-top: 12px;
-        color: var(--muted);
-        font-size: 15px;
-      }
-      .service-card__list {
-        margin-top: 18px;
-        display: grid;
-        gap: 10px;
-        color: var(--muted);
-        font-size: 14px;
-      }
-      .service-card__list li {
-        display: flex;
-        gap: 10px;
-      }
-      .service-card__list li::before {
-        content: "▹";
-        color: var(--brand-alt);
-        font-size: 16px;
-        line-height: 1;
-        margin-top: 1px;
-      }
-      .service-card__footer {
-        margin-top: 24px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        align-items: center;
-      }
-      .service-card__price {
-        font-family: var(--font-display);
-        font-size: 18px;
-        color: var(--brand-alt);
-      }
-      .badge-time {
-        font-size: 12px;
-        color: var(--muted);
-        background: rgba(129, 140, 248, 0.14);
-        border: 1px solid rgba(129, 140, 248, 0.32);
-        padding: 6px 10px;
-        border-radius: 8px;
-      }
-      .btn--chip {
-        font-size: 13px;
-        padding: 10px 16px;
-        border-radius: 999px;
-        border: 1px solid rgba(56, 189, 248, 0.3);
-        background: rgba(6, 12, 27, 0.6);
-        color: var(--accent);
-      }
-      .btn--chip:hover {
-        border-color: rgba(56, 189, 248, 0.6);
-      }
-      .process {
-        position: relative;
-      }
-      .process::before {
-        content: "";
-        position: absolute;
-        inset: 20% auto auto 50%;
-        width: 1px;
-        height: 60%;
-        background: linear-gradient(
-          180deg,
-          rgba(56, 189, 248, 0.2),
-          transparent
-        );
-        pointer-events: none;
-        transform: translateX(-50%);
-      }
-      .process__list {
-        max-width: var(--grid-max);
-        margin: 0 auto;
-        display: grid;
-        gap: 20px;
-        counter-reset: steps;
-      }
-      .process__item {
-        display: grid;
-        gap: 16px;
-        padding: 26px;
-        border-radius: 18px;
-        background: rgba(10, 22, 47, 0.68);
-        border: 1px solid rgba(56, 189, 248, 0.18);
-        position: relative;
-        overflow: hidden;
-      }
-      .process__item::before {
-        counter-increment: steps;
-        content: counter(steps, decimal-leading-zero);
-        position: absolute;
-        top: 18px;
-        right: 24px;
-        font-family: var(--font-display);
-        font-size: 32px;
-        color: rgba(56, 189, 248, 0.25);
-      }
-      .process__item strong {
-        font-size: 18px;
-        color: var(--txt);
-      }
-      .process__item span {
-        font-size: 14px;
-        color: var(--muted);
-      }
-      .stats-grid {
-        max-width: var(--grid-max);
-        margin: 0 auto;
-        display: grid;
-        gap: 20px;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      }
-      .stat-card {
-        padding: 26px;
-        border-radius: 18px;
-        background: linear-gradient(
-          160deg,
-          rgba(14, 30, 67, 0.8),
-          rgba(12, 24, 55, 0.7)
-        );
-        border: 1px solid rgba(34, 197, 94, 0.2);
-        position: relative;
-        overflow: hidden;
-      }
-      .stat-card strong {
-        display: block;
-        font-size: 36px;
-        color: var(--brand-alt);
-        font-family: var(--font-display);
-      }
-      .stat-card p {
-        margin-top: 10px;
-        color: var(--muted);
-        font-size: 15px;
-      }
-      .testimonials {
-        max-width: var(--grid-max);
-        margin: 0 auto;
-        display: grid;
-        gap: 20px;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      }
-      .quote {
-        padding: 26px;
-        border-radius: 20px;
-        border: 1px solid rgba(56, 189, 248, 0.18);
-        background: rgba(8, 18, 42, 0.6);
-        box-shadow: var(--shadow-sm);
-        position: relative;
-      }
-      .quote::before {
-        content: "\201C";
-        position: absolute;
-        top: 14px;
-        left: 18px;
-        font-size: 52px;
-        color: rgba(56, 189, 248, 0.26);
-        font-family: var(--font-display);
-      }
-      .quote p {
-        margin-top: 24px;
-        color: var(--muted);
-      }
-      .quote strong {
-        display: block;
-        margin-top: 18px;
-        font-size: 15px;
-        color: var(--txt);
-      }
-      .quote span {
-        font-size: 13px;
-        color: var(--muted);
-      }
-      .faq {
-        max-width: var(--grid-max);
-        margin: 0 auto;
-        display: grid;
-        gap: 16px;
-      }
-      details {
-        border-radius: 14px;
-        background: rgba(9, 21, 45, 0.7);
-        border: 1px solid rgba(56, 189, 248, 0.16);
-        padding: 18px 22px;
-      }
-      summary {
-        cursor: pointer;
-        font-weight: 600;
-        color: var(--txt);
-        list-style: none;
-        position: relative;
-      }
-      summary::-webkit-details-marker {
-        display: none;
-      }
-      summary::after {
-        content: "+";
-        position: absolute;
-        right: 0;
-        top: 0;
-        font-size: 20px;
-        color: var(--accent);
-        transition: transform 0.3s ease;
-      }
-      details[open] summary::after {
-        transform: rotate(45deg);
-      }
-      details p {
-        margin-top: 14px;
-        color: var(--muted);
-        font-size: 14px;
-      }
-      .cta-final {
-        max-width: var(--grid-max);
-        margin: 0 auto;
-        padding: 50px clamp(20px, 6vw, 60px);
-        border-radius: 28px;
-        background: linear-gradient(
-          135deg,
-          rgba(34, 197, 94, 0.22),
-          rgba(8, 17, 35, 0.82)
-        );
-        border: 1px solid rgba(34, 197, 94, 0.24);
-        text-align: center;
-        box-shadow: 0 40px 120px rgba(34, 197, 94, 0.22);
-        display: grid;
-        gap: 24px;
-      }
-      .cta-final p {
-        margin: 0 auto;
-        max-width: 520px;
-        color: var(--muted);
-        font-size: 16px;
-      }
-      footer.site-footer {
-        padding: 40px 20px 80px;
-        color: var(--muted);
-        font-size: 13px;
-      }
-      .site-footer__inner {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        align-items: center;
-        text-align: center;
-      }
-      .site-footer__links {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        flex-wrap: wrap;
-        justify-content: center;
-        font-size: 13px;
-        color: var(--muted);
-      }
-      .site-footer__links a {
-        color: var(--muted);
-        font-weight: 600;
-      }
-      .site-footer__links a:hover {
-        color: var(--accent);
-      }
-      .wa-float {
-        position: fixed;
-        right: 18px;
-        bottom: 18px;
-        background: linear-gradient(135deg, #25d366, #128c7e);
-        color: #002510;
-        padding: 14px 18px;
-        border-radius: 999px;
-        font-weight: 700;
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        box-shadow: 0 25px 40px rgba(37, 211, 102, 0.3);
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        animation: pulse 2.8s infinite;
-        z-index: 901;
-      }
-      .wa-float svg {
-        width: 20px;
-        height: 20px;
-      }
-      .update-toast {
-        position: fixed;
-        left: 50%;
-        bottom: 24px;
-        transform: translate(-50%, 40px);
-        background: rgba(7, 13, 29, 0.94);
-        border: 1px solid rgba(148, 163, 184, 0.24);
-        box-shadow: 0 30px 60px rgba(2, 8, 23, 0.45);
-        color: var(--txt);
-        padding: 18px 20px;
-        border-radius: 16px;
-        display: flex;
-        gap: 18px;
-        align-items: center;
-        z-index: 950;
-        opacity: 0;
-        pointer-events: none;
-        transition:
-          transform 0.24s ease,
-          opacity 0.24s ease;
-        max-width: min(480px, calc(100% - 32px));
-      }
-      .update-toast.is-visible {
-        transform: translate(-50%, 0);
-        opacity: 1;
-        pointer-events: auto;
-      }
-      .update-toast__text {
-        font-size: 14px;
-        font-weight: 600;
-        color: var(--txt);
-      }
-      .update-toast__actions {
-        display: flex;
-        gap: 12px;
-        flex-wrap: wrap;
-      }
-      .update-toast__btn {
-        border: none;
-        cursor: pointer;
-        font-weight: 600;
-        padding: 8px 16px;
-        border-radius: 12px;
-        background: rgba(56, 189, 248, 0.18);
-        color: var(--txt);
-        transition:
-          background 0.2s ease,
-          transform 0.2s ease;
-      }
-      .update-toast__btn:hover {
-        background: rgba(56, 189, 248, 0.28);
-        transform: translateY(-1px);
-      }
-      .update-toast__btn:disabled {
-        opacity: 0.6;
-        cursor: wait;
-        transform: none;
-      }
-      .update-toast__btn--ghost {
-        background: transparent;
-        border: 1px solid rgba(148, 163, 184, 0.28);
-      }
-      .update-toast__btn--ghost:hover {
-        background: rgba(148, 163, 184, 0.16);
-      }
-      @media (max-width: 640px) {
-        .update-toast {
-          left: 16px;
-          right: 16px;
-          transform: translate(0, 40px);
-          max-width: unset;
-        }
-        .update-toast.is-visible {
-          transform: translate(0, 0);
-        }
-      }
-      @media (min-width: 960px) {
-        .hero__grid {
-          grid-template-columns: repeat(12, 1fr);
-        }
-        .hero__text {
-          grid-column: span 6;
-        }
-        .hero__visual {
-          grid-column: span 6;
-        }
-        .service-grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-      }
-      @media (min-width: 1200px) {
-        .service-grid {
-          grid-template-columns: repeat(4, 1fr);
-        }
-        .hero__grid {
-          gap: 60px;
-        }
-      }
-      @media (max-width: 720px) {
-        .nav__links {
-          display: none;
-        }
-        .nav__controls {
-          flex-wrap: wrap;
-          justify-content: flex-end;
-          gap: 10px;
-        }
-        .nav__lang {
-          width: 100%;
-          display: flex;
-          justify-content: flex-end;
-        }
-        .nav__cta {
-          width: 100%;
-          justify-content: flex-end;
-        }
-        .hero__actions {
-          flex-direction: column;
-          align-items: center;
-        }
-        .hero__meta {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-        .process::before {
-          display: none;
-        }
-        .top-bar {
-          flex-direction: column;
-          gap: 6px;
-        }
-      }
-      @media (prefers-reduced-motion: reduce) {
-        *,
-        *::before,
-        *::after {
-          animation-duration: 0.01ms !important;
-          animation-iteration-count: 1 !important;
-          transition-duration: 0.01ms !important;
-          scroll-behavior: auto !important;
-        }
-      }
-      @keyframes drift {
-        from {
-          transform: translate3d(-20px, 0, 0) scale(1);
-        }
-        to {
-          transform: translate3d(30px, -30px, 0) scale(1.1);
-        }
-      }
-      @keyframes pulse {
-        0%,
-        100% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.05);
-        }
-      }
-      @keyframes float {
-        0%,
-        100% {
-          transform: translate3d(0, 0, 0);
-        }
-        50% {
-          transform: translate3d(0, -10px, 0);
-        }
-      }
-      #matomo-opt-out {
-        display: block;
-        position: relative;
-        bottom: 0;
-        max-width: 75%;
-        margin: 0 auto;
-        padding: 0 2em 4em;
-      }
-    </style>
+    <link rel="stylesheet" href="assets/css/language-flags.css" />
+    <link rel="stylesheet" href="assets/css/editorial.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -1812,26 +356,15 @@
     <!-- End Matomo Tag Manager -->
   </head>
   <body>
+    <a class="skip-link" href="#contenido" data-i18n="editorial.skip"
+      >Saltar al contenido</a
+    >
     <div class="reading-progress" data-progress aria-hidden="true"></div>
     <header class="site-header">
-      <div class="top-bar">
-        <span class="top-bar__badge" data-i18n="header.badge">72h o menos</span>
-        <span data-i18n="header.message"
-          >Misiones express para tiendas Shopify, BigCommerce y WordPress •
-          Prioridad para lanzamientos y ventas urgentes</span
-        >
-      </div>
       <nav class="nav" aria-label="Navegación principal">
         <a class="brand" href="#inicio" aria-label="Inicio IzignaMX SOS">
-          <img
-            src="assets/img/favicon.svg"
-            alt="IzignaMX"
-            width="36"
-            height="36"
-            decoding="async"
-            fetchpriority="high"
-          />
-          <span class="brand__text">IzignaMX SOS</span>
+          <span class="brand__mark" aria-hidden="true">sos<span>®</span></span
+          ><span class="brand__text">IZIGNA MX<br />EST. CDMX</span>
         </a>
         <div class="nav__links">
           <a href="#servicios" data-i18n="nav.services">Servicios</a>
@@ -1841,7 +374,10 @@
         </div>
         <div class="nav__controls">
           <div class="nav__lang lang-selector" data-lang-menu>
-            <span class="sr-only" data-i18n="nav.languageLabel"
+            <span
+              class="sr-only"
+              id="language-label"
+              data-i18n="nav.languageLabel"
               >Selecciona idioma</span
             >
             <button
@@ -1850,14 +386,19 @@
               data-lang-toggle
               aria-haspopup="true"
               aria-expanded="false"
-              data-i18n-attrs="aria-label:nav.languageLabel"
+              aria-labelledby="language-label current-language"
             >
               <span
                 class="lang-flag lang-flag--es"
                 data-lang-flag
                 aria-hidden="true"
               ></span>
-              <span class="lang-selector__label" data-lang-label>Español</span>
+              <span
+                class="lang-selector__label"
+                id="current-language"
+                data-lang-label
+                >Español</span
+              >
               <svg
                 class="lang-selector__icon"
                 viewBox="0 0 12 12"
@@ -2334,45 +875,41 @@
         </div>
       </nav>
     </header>
-    <main class="page">
-      <section class="hero" id="inicio">
-        <div class="hero__grid">
+    <main class="page" id="contenido" tabindex="-1">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero__edition shell">
+          <span data-i18n="editorial.edition"
+            >Diseño con intención. Código con oficio.</span
+          ><span
+            >CDMX
+            <svg
+              class="arrow-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M5 19 19 5M5 5h14v14"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+            </svg>
+            LATAM / USA</span
+          >
+        </div>
+        <div class="hero__grid shell">
           <div class="hero__text">
             <span class="hero__kicker" data-i18n="hero.kicker"
-              >Misiones express eCommerce</span
+              >Estudio independiente · Rescate digital</span
             >
-            <h1 data-i18n="hero.title">
-              Arreglos futuristas que rescatan ventas en tiempo récord.
+            <h1 id="hero-title" data-i18n="hero.title">
+              Tu tienda merece otra oportunidad.
             </h1>
             <p class="hero__lead" data-i18n="hero.lead">
-              Optimizo performance, checkout y UX de Shopify, BigCommerce y
-              WordPress para que recuperes conversiones sin esperar sprints
-              eternos. Entrego en 24-72h con enfoque clínico y reportes
-              accionables.
+              Diseño, velocidad y checkout para Shopify, BigCommerce y
+              WordPress. Rescato tu experiencia de compra en 24–72h, con
+              atención a cada detalle.
             </p>
-            <div class="hero__bulletlist">
-              <div class="hero__bullet">
-                <span>⚡</span>
-                <p data-i18n="hero.bullets.0">
-                  Diseño inmersivo con microanimaciones que elevan confianza y
-                  retención.
-                </p>
-              </div>
-              <div class="hero__bullet">
-                <span>🛰</span>
-                <p data-i18n="hero.bullets.1">
-                  Auditoría y roadmap visual incluidos: métricas antes/después y
-                  plan de mantenimiento.
-                </p>
-              </div>
-              <div class="hero__bullet">
-                <span>🤝</span>
-                <p data-i18n="hero.bullets.2">
-                  Trato directo conmigo vía WhatsApp y Notion Liveboard — sin
-                  intermediarios.
-                </p>
-              </div>
-            </div>
             <div class="hero__actions">
               <a
                 class="btn btn--primary"
@@ -2381,102 +918,114 @@
                 href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20quiero%20agendar%20un%20arreglo%20express%20esta%20semana%2E"
                 rel="noopener"
                 target="_blank"
-                >Agenda una misión</a
+                >Rescatemos tu tienda</a
               >
               <a
-                class="btn btn--ghost"
+                class="text-link"
                 data-i18n="hero.secondaryCta"
                 href="#servicios"
-                >Ver paquetes disponibles</a
+                >Explorar servicios</a
               >
             </div>
-            <div class="hero__meta">
-              <div class="metric">
-                <strong data-counter data-target="72" data-suffix="h"
-                  >72h</strong
-                >
-                <span data-i18n="hero.metrics.delivery">Entrega promedio</span>
-              </div>
-              <div class="metric">
-                <strong data-counter data-target="38">38</strong>
-                <span data-i18n="hero.metrics.checkout"
-                  >Checkouts optimizados</span
-                >
-              </div>
-              <div class="metric">
-                <strong data-counter data-target="92" data-suffix="%"
-                  >92%</strong
-                >
-                <span data-i18n="hero.metrics.satisfaction"
-                  >Satisfacción de clientes</span
-                >
-              </div>
-            </div>
+            <p class="hero__delivery">
+              <span aria-hidden="true">↳</span>
+              <span data-i18n="hero.metrics.delivery">Entrega promedio</span>
+              <strong>72h</strong>
+            </p>
           </div>
-          <div class="hero__visual" aria-hidden="true">
-            <div class="holo-card">
-              <h3 class="holo-card__title" data-i18n="hero.panel.title">
-                Panel de misión en curso
-              </h3>
-              <p data-i18n="hero.panel.subtitle">
-                Revisión integral con foco en ROI + Puntos críticos resueltos:
-              </p>
-              <div class="holo-card__list">
-                <div class="holo-card__item">
-                  <span data-i18n="hero.panel.items.0.label"
-                    >Core Web Vitals</span
-                  >
-                  <span
-                    class="holo-card__status"
-                    data-i18n="hero.panel.items.0.status"
-                    >+42%</span
-                  >
-                </div>
-                <div class="holo-card__item">
-                  <span data-i18n="hero.panel.items.1.label"
-                    >Fricción en checkout</span
-                  >
-                  <span
-                    class="holo-card__status"
-                    data-i18n="hero.panel.items.1.status"
-                    >-65%</span
-                  >
-                </div>
-                <div class="holo-card__item">
-                  <span data-i18n="hero.panel.items.2.label"
-                    >Confianza visual</span
-                  >
-                  <span
-                    class="holo-card__status"
-                    data-i18n="hero.panel.items.2.status"
-                    >Nivel A+</span
-                  >
-                </div>
-              </div>
+          <figure class="hero__art">
+            <div class="artwork-frame" data-artwork>
+              <img
+                src="assets/img/repair-sculpture-1024.webp"
+                srcset="
+                  assets/img/repair-sculpture-640.webp   640w,
+                  assets/img/repair-sculpture-1024.webp 1024w
+                "
+                sizes="(max-width: 760px) 92vw, 48vw"
+                width="1024"
+                height="1024"
+                alt=""
+                fetchpriority="high"
+              />
             </div>
-            <div class="hero__floating">
-              <div class="floating-chip">
-                <span>🚀</span>
-                <div>
-                  <strong data-i18n="hero.chips.launch.title"
-                    >Modo lanzamiento</strong
-                  >
-                  <div data-i18n="hero.chips.launch.body">
-                    Listo para despegar en 36h
-                  </div>
-                </div>
-              </div>
-              <div class="floating-chip">
-                <span>🧠</span>
-                <div>
-                  <strong data-i18n="hero.chips.ai.title"
-                    >UX asistida IA</strong
-                  >
-                  <div data-i18n="hero.chips.ai.body">
-                    Insights accionables + copia
-                  </div>
-                </div>
-              </div>
+            <span class="artwork-seal" aria-hidden="true"
+              >RE—<br />CONNECT<span
+                ><svg
+                  class="arrow-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M5 19 19 5M5 5h14v14"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  /></svg></span
+            ></span>
+            <figcaption>
+              <span data-i18n="editorial.artLabel"
+                >Estudio de una reparación / Nº 001</span
+              ><span data-i18n="editorial.artCaption"
+                >Reconectar lo que importa.</span
+              >
+            </figcaption>
+          </figure>
+        </div>
+        <div class="hero__bottom shell">
+          <a href="#manifiesto" data-i18n="editorial.scroll"
+            >Explora el taller</a
+          ><button
+            class="motion-toggle"
+            type="button"
+            data-motion-toggle
+            aria-pressed="false"
+            hidden
+          >
+            <span aria-hidden="true">◌</span>
+            <span data-motion-on data-i18n="editorial.motionOn"
+              >Pausar movimiento</span
+            ><span data-motion-off data-i18n="editorial.motionOff" hidden
+              >Activar movimiento</span
+            ></button
+          ><span aria-hidden="true">↓</span>
+        </div>
+      </section>
+      <div class="platforms shell">
+        <span data-i18n="editorial.platforms">Especialidad en</span
+        ><span>Shopify</span><span>BigCommerce</span><span>WordPress</span
+        ><span aria-hidden="true">✳</span>
+      </div>
+      <section
+        class="manifesto"
+        id="manifiesto"
+        aria-labelledby="manifesto-title"
+      >
+        <div class="shell manifesto__grid">
+          <span class="eyebrow" data-i18n="editorial.manifestoLabel"
+            >La idea detrás de SOS</span
+          >
+          <div>
+            <h2
+              id="manifesto-title"
+              data-reveal
+              data-i18n="editorial.manifestoTitle"
+            >
+              Lo urgente también puede estar bien hecho.
+            </h2>
+            <div class="manifesto__note">
+              <svg viewBox="0 0 160 90" fill="none" aria-hidden="true">
+                <path
+                  d="M8 48C38 5 147 5 149 42S24 97 17 59 135 13 132 48M100 73l34-6-17 20"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <p data-i18n="editorial.manifestoBody">
+                Una tienda es un recorrido. Cuando algo se rompe, recupero el
+                flujo y cuido cada detalle: lo que se ve, lo que se siente y lo
+                que hace que todo funcione.
+              </p>
             </div>
           </div>
         </div>
@@ -2486,17 +1035,18 @@
           <span data-i18n="services.sectionLabel">Servicios Express</span>
           <div>
             <h2 data-i18n="services.sectionTitle">
-              Elige la misión que mejor se alinea a tu urgencia.
+              Una solución para cada urgencia.
             </h2>
             <p data-i18n="services.sectionDescription">
-              Cada paquete se entrega con roadmap visual, check de
-              vulnerabilidades y sesión de handoff. Si necesitas algo híbrido,
-              mezclo entregables sin recargos sorpresa.
+              Cada servicio incluye una ruta visual, revisión de
+              vulnerabilidades y sesión de entrega. Combinamos lo que necesitas,
+              sin recargos sorpresa.
             </p>
           </div>
         </div>
         <div class="service-grid shell">
-          <article class="service-card">
+          <article class="service-card" data-reveal>
+            <span class="service-card__number" aria-hidden="true">01 /</span>
             <div
               class="service-card__tag"
               data-i18n="services.cards.performance.tag"
@@ -2507,15 +1057,14 @@
               class="service-card__title"
               data-i18n="services.cards.performance.title"
             >
-              SOS de performance + UI
+              Velocidad + diseño
             </h3>
             <p
               class="service-card__summary"
               data-i18n="services.cards.performance.summary"
             >
-              Arreglo quirúrgico de velocidad, apps conflictivas y experiencia
-              de compra. Incluye nuevo look &amp; feel responsive con lenguaje
-              visual futurista.
+              Resuelvo problemas de velocidad, conflictos entre apps y fricción
+              de compra. Renuevo la interfaz para que funcione en cada pantalla.
             </p>
             <ul class="service-card__list">
               <li data-i18n="services.cards.performance.bullets.0">
@@ -2550,7 +1099,8 @@
               >
             </div>
           </article>
-          <article class="service-card">
+          <article class="service-card" data-reveal>
+            <span class="service-card__number" aria-hidden="true">02 /</span>
             <div
               class="service-card__tag"
               data-i18n="services.cards.wordpress.tag"
@@ -2561,22 +1111,21 @@
               class="service-card__title"
               data-i18n="services.cards.wordpress.title"
             >
-              Hardening + limpieza futurista
+              Seguridad + limpieza
             </h3>
             <p
               class="service-card__summary"
               data-i18n="services.cards.wordpress.summary"
             >
-              Refuerzo de seguridad, limpieza de plugins y rediseño de landing
-              clave con componentes glow animados que generan confianza al
-              instante.
+              Refuerzo la seguridad, limpio plugins y rediseño tu página clave
+              con una interfaz clara y cuidada.
             </p>
             <ul class="service-card__list">
               <li data-i18n="services.cards.wordpress.bullets.0">
                 Escaneo malware, respaldo y reinstalación segura
               </li>
               <li data-i18n="services.cards.wordpress.bullets.1">
-                Rewire visual del hero y formularios con validaciones UX
+                Rediseño del hero y formularios con validaciones UX
               </li>
               <li data-i18n="services.cards.wordpress.bullets.2">
                 Implementación de panel de control visual para updates
@@ -2604,7 +1153,8 @@
               >
             </div>
           </article>
-          <article class="service-card">
+          <article class="service-card" data-reveal>
+            <span class="service-card__number" aria-hidden="true">03 /</span>
             <div class="service-card__tag" data-i18n="services.cards.audit.tag">
               UX + Velocidad
             </div>
@@ -2618,9 +1168,8 @@
               class="service-card__summary"
               data-i18n="services.cards.audit.summary"
             >
-              Evalúo una página clave con mapas de calor simulados, checklist de
-              Core Web Vitals y prototipo interactivo con microanimaciones
-              sugeridas.
+              Reviso una página clave: mapas de calor simulados, Core Web Vitals
+              y un prototipo interactivo con mejoras sugeridas.
             </p>
             <ul class="service-card__list">
               <li data-i18n="services.cards.audit.bullets.0">
@@ -2653,7 +1202,8 @@
               >
             </div>
           </article>
-          <article class="service-card">
+          <article class="service-card" data-reveal>
+            <span class="service-card__number" aria-hidden="true">04 /</span>
             <div
               class="service-card__tag"
               data-i18n="services.cards.checkout.tag"
@@ -2664,22 +1214,21 @@
               class="service-card__title"
               data-i18n="services.cards.checkout.title"
             >
-              Checkout Review + Fixes
+              Checkout sin fricción
             </h3>
             <p
               class="service-card__summary"
               data-i18n="services.cards.checkout.summary"
             >
-              Identifico puntos de fuga y aplico hasta tres mejoras
-              instantáneas: microcopys, validaciones y estados de carga
-              inspirados en fintech.
+              Localizo puntos de abandono y aplico hasta tres mejoras: textos,
+              validaciones y estados de carga más claros.
             </p>
             <ul class="service-card__list">
               <li data-i18n="services.cards.checkout.bullets.0">
                 Sesión de watching + mapa de fricción en tiempo real
               </li>
               <li data-i18n="services.cards.checkout.bullets.1">
-                Implementación de loader futurista + trust UI
+                Estados de carga e indicadores de confianza
               </li>
               <li data-i18n="services.cards.checkout.bullets.2">
                 Pruebas de campo en desktop y mobile
@@ -2709,18 +1258,82 @@
           </article>
         </div>
       </section>
+      <section class="lab" id="laboratorio" aria-labelledby="lab-title">
+        <div class="shell lab__grid">
+          <div class="lab__intro">
+            <span class="eyebrow" data-i18n="editorial.labLabel"
+              >Laboratorio de interacción</span
+            >
+            <h2 id="lab-title" data-i18n="editorial.labTitle">
+              Menos fricción. Más claridad.
+            </h2>
+            <p id="lab-description" data-i18n="editorial.labBody">
+              Una exploración de interfaz: mueve el control y descubre cómo
+              cambia la jerarquía visual. Es una demostración, no un caso de
+              cliente.
+            </p>
+            <div class="lab__controls" data-lab-controls hidden>
+              <label for="clarity" data-i18n="editorial.labControl"
+                >Nivel de claridad</label
+              ><output for="clarity" data-lab-value>75%</output
+              ><input
+                id="clarity"
+                aria-describedby="lab-description"
+                type="range"
+                min="0"
+                max="100"
+                value="75"
+                step="1"
+              />
+              <div class="lab__ends">
+                <span data-i18n="editorial.labBefore">Fricción</span
+                ><span data-i18n="editorial.labAfter">Claridad</span>
+              </div>
+            </div>
+          </div>
+          <div class="lab__stage" data-lab data-clarity="high">
+            <div class="lab__window" aria-hidden="true">
+              <div class="lab__chrome">
+                <span>ATELIER / 001</span><span>○ ○ ●</span>
+              </div>
+              <div class="lab__product">
+                <div class="lab__image">
+                  <img
+                    src="assets/img/repair-sculpture-640.webp"
+                    width="640"
+                    height="640"
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="lab__details">
+                  <span class="lab__index">COLLECTION — 01</span>
+                  <h3 data-i18n="editorial.labProduct">Objeto de estudio</h3>
+                  <div class="lab__swatches"><i></i><i></i><i></i></div>
+                  <span class="lab__buy" data-i18n="editorial.labAction"
+                    >Añadir a la bolsa</span
+                  >
+                </div>
+              </div>
+            </div>
+            <p class="lab__note" data-i18n="editorial.labNote">
+              Prototipo conceptual · Sin datos de ventas
+            </p>
+          </div>
+        </div>
+      </section>
       <section id="impacto">
         <div class="section__head shell">
           <span data-i18n="impact.sectionLabel">Resultados Tangibles</span>
           <div>
             <h2 data-i18n="impact.sectionTitle">
-              Una estética cool no basta: cada entrega viene con métricas y
-              experimentos sugeridos.
+              El detalle se siente. El resultado se mide.
             </h2>
             <p data-i18n="impact.sectionDescription">
-              Conecto dashboards de velocidad, capturo comparativos before/after
-              y dejo automations listos para detectar regresiones. Tus leads lo
-              sienten desde el primer scroll.
+              Métricas de velocidad, comparativos antes y después, y alertas
+              para detectar regresiones. Cada entrega incluye experimentos para
+              seguir mejorando.
             </p>
           </div>
         </div>
@@ -2757,20 +1370,17 @@
       </section>
       <section class="process" id="proceso">
         <div class="section__head shell">
-          <span data-i18n="process.sectionLabel">Cómo Opero</span>
+          <span data-i18n="process.sectionLabel">El método</span>
           <div>
-            <h2 data-i18n="process.sectionTitle">
-              Proceso lightning sin burocracia, optimizado para emergencias.
-            </h2>
+            <h2 data-i18n="process.sectionTitle">De la urgencia al detalle.</h2>
             <p data-i18n="process.sectionDescription">
-              Trabajo en tracks paralelos: UX/UI, performance y comunicación. Te
-              mantengo al tanto en un tablero vivo con próximos pasos y
-              métricas.
+              Diseño, desarrollo y comunicación avanzan juntos. Tú sigues cada
+              paso y sus métricas en un tablero compartido.
             </p>
           </div>
         </div>
         <div class="process__list shell">
-          <div class="process__item">
+          <div class="process__item" data-reveal>
             <strong data-i18n="process.steps.0.title"
               >Brief táctico en 20 minutos</strong
             >
@@ -2779,7 +1389,7 @@
               críticos. Sin PPT, voy directo al mapa de trabajo.</span
             >
           </div>
-          <div class="process__item">
+          <div class="process__item" data-reveal>
             <strong data-i18n="process.steps.1.title"
               >Scan + protoboard futurista</strong
             >
@@ -2788,7 +1398,7 @@
               Figma con animaciones sugeridas.</span
             >
           </div>
-          <div class="process__item">
+          <div class="process__item" data-reveal>
             <strong data-i18n="process.steps.2.title"
               >Implementación modular</strong
             >
@@ -2797,7 +1407,7 @@
               microinteracciones y validaciones.</span
             >
           </div>
-          <div class="process__item">
+          <div class="process__item" data-reveal>
             <strong data-i18n="process.steps.3.title"
               >Handoff + plan de crecimiento</strong
             >
@@ -2866,14 +1476,11 @@
       </section>
       <section id="faq">
         <div class="section__head shell">
-          <span data-i18n="faq.sectionLabel">FAQ Futurista</span>
+          <span data-i18n="faq.sectionLabel">Preguntas frecuentes</span>
           <div>
-            <h2 data-i18n="faq.sectionTitle">
-              Todo lo que necesitas saber antes de lanzar la misión.
-            </h2>
+            <h2 data-i18n="faq.sectionTitle">Antes de empezar.</h2>
             <p data-i18n="faq.sectionDescription">
-              Si algo no aparece aquí, envíame un audio por WhatsApp y lo
-              resolvemos al momento.
+              Si falta algo, envíame una nota de voz por WhatsApp.
             </p>
           </div>
         </div>
@@ -2910,16 +1517,14 @@
           </details>
         </div>
       </section>
-      <section>
+      <section class="contact-section">
         <div class="cta-final shell">
           <h2 data-i18n="ctaFinal.title">
-            ¿Listo para que tu eCommerce se vea —y convierta— como si viniera
-            del futuro?
+            Hagamos que tu tienda vuelva a fluir.
           </h2>
           <p data-i18n="ctaFinal.body">
-            Responde este CTA con tu urgencia actual y agenda un espacio
-            conmigo. Recibirás un mini diagnóstico gratuito en video con ideas
-            inmediatas.
+            Cuéntame qué urge. Agendamos una conversación y recibes un mini
+            diagnóstico gratuito en video con ideas para empezar.
           </p>
           <div class="hero__actions">
             <a
@@ -2943,6 +1548,22 @@
       </section>
     </main>
     <footer class="site-footer">
+      <div class="footer-wordmark" aria-hidden="true">
+        sos<span>®</span
+        ><span
+          ><svg
+            class="arrow-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M5 19 19 5M5 5h14v14"
+              stroke="currentColor"
+              stroke-width="1.5"
+            /></svg
+        ></span>
+      </div>
       <div class="site-footer__inner">
         <span class="site-footer__copy" data-i18n="footer.note"
           >IzignaMX · Arreglos Express 24-72h · Hecho en CDMX • Disponible LATAM
@@ -2979,7 +1600,8 @@
     </div>
     <a
       class="wa-float"
-      data-i18n-attrs="href:links.floatingWa"
+      data-i18n-attrs="href:links.floatingWa,aria-label:wa.button"
+      aria-label="Habla con Edgar"
       href="https://wa.me/525533760889?text=Hola%20Edgar%2C%20vengo%20del%20sitio%20futurista%20SOS%2E"
       rel="noopener"
       target="_blank"
@@ -2987,13 +1609,13 @@
       <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
         <path
           d="M16.04 5C10.51 5 6 9.34 6 14.68c0 2.87 1.38 5.45 3.7 7.2l-.54 4.13 3.98-2.1c1.13.32 2.32.5 3.56.5 5.53 0 10.04-4.34 10.04-9.68C26.74 9.34 21.57 5 16.04 5Zm.02 17.39c-1.1 0-2.17-.18-3.14-.52l-2.22 1.18.3-2.52c-1.86-1.33-2.94-3.2-2.94-5.29 0-4.04 3.61-7.32 8.04-7.32 4.44 0 8.05 3.28 8.05 7.32s-3.61 7.32-8.05 7.32Zm4.43-5.49c-.24-.12-1.41-.69-1.63-.77-.22-.08-.38-.12-.54.12-.16.24-.62.77-.76.93-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.21-1.43-1.35-1.67-.14-.24-.01-.37.1-.49.1-.1.24-.26.36-.39.12-.12.16-.2.24-.32.08-.12.04-.24-.02-.36-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.41-.54-.41-.14 0-.3 0-.46 0-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.66 4.14 3.62.58.24 1.03.38 1.38.49.58.18 1.1.16 1.52.1.46-.07 1.41-.58 1.61-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"
-          fill="#002510"
+          fill="currentColor"
         />
       </svg>
       <span data-i18n="wa.button">Habla con Edgar</span>
     </a>
-    <script src="assets/vendor/gpu-io/gpu-io.min.js" defer></script>
-    <script src="assets/js/fluid-background.js" defer></script>
+    <script src="assets/js/editorial.js" defer></script>
+    <script src="assets/js/laboratory.js" defer></script>
     <script src="assets/js/main.js" defer></script>
     <div id="matomo-opt-out"></div>
     <script src="https://analytics.izignamx.com/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>

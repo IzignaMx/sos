@@ -34,6 +34,11 @@ jobs:
           rsync -av --exclude='.git*' \
                     --exclude='.github' \
                     --exclude='_internal_docs' \
+                    --exclude='docs/' \
+                    --exclude='tests/' \
+                    --exclude='test-results/' \
+                    --exclude='playwright-report/' \
+                    --exclude='playwright.config.js' \
                     --exclude='whatsapp-bot' \
                     --exclude='.public-dist' \
                     --exclude='node_modules' \

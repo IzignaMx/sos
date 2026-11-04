@@ -231,4 +231,28 @@
     "ctaMail": "mailto:edgar@izignamx.com?subject=Nhi%E1%BB%87m%20V%E1%BB%A5%20T%E1%BB%91c%20%C4%90%E1%BB%99%20-%20brief%20ng%E1%BA%AFn",
     "floatingWa": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20v%E1%BB%ABa%20th%C4%83m%20trang%20SOS%20t%C6%B0%C6%A1ng%20lai%20c%E1%BB%A7a%20b%E1%BA%A1n%2E"
   }
+,
+  "editorial": {
+    "skip": "Chuyển đến nội dung",
+    "edition": "Thiết kế có chủ đích. Viết mã bằng tâm huyết.",
+    "artLabel": "Nghiên cứu về sự sửa chữa / Số 001",
+    "artCaption": "Kết nối lại những điều quan trọng.",
+    "scroll": "Khám phá xưởng",
+    "motionOn": "Tạm dừng chuyển động",
+    "motionOff": "Bật chuyển động",
+    "platforms": "Chuyên về",
+    "manifestoLabel": "Ý tưởng đằng sau SOS",
+    "manifestoTitle": "Việc gấp vẫn có thể làm chỉn chu.",
+    "manifestoBody": "Một cửa hàng là một hành trình. Khi một mắt xích bị đứt, tôi khôi phục dòng chảy và chăm chút từng chi tiết: điều bạn nhìn thấy, cảm nhận và những gì giúp mọi thứ vận hành.",
+    "labLabel": "Phòng thử nghiệm tương tác",
+    "labTitle": "Ít trở ngại hơn. Rõ ràng hơn.",
+    "labBody": "Một thử nghiệm giao diện: di chuyển thanh trượt để khám phá cách thứ bậc thị giác thay đổi. Đây là bản minh họa, không phải dự án thực tế của khách hàng.",
+    "labControl": "Mức độ rõ ràng",
+    "labBefore": "Trở ngại",
+    "labAfter": "Rõ ràng",
+    "labProduct": "Đối tượng nghiên cứu",
+    "labAction": "Thêm vào giỏ",
+    "labNote": "Nguyên mẫu ý tưởng · Không có dữ liệu bán hàng",
+    "footerTitle": "Cùng đưa mọi thứ trở lại nhịp vận hành."
+  }
 }
