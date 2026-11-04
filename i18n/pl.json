@@ -234,7 +234,7 @@
   "editorial": {
     "skip": "Przejdź do treści",
     "edition": "Przemyślany projekt. Kod tworzony z kunsztem.",
-    "artLabel": "Studium naprawy / Nr 001",
+    "artLabel": "Studium naprawy / Nr 002",
     "artCaption": "Połączyć na nowo to, co ważne.",
     "scroll": "Odkryj pracownię",
     "motionOn": "Wstrzymaj animacje",
@@ -253,5 +253,30 @@
     "labAction": "Dodaj do koszyka",
     "labNote": "Prototyp koncepcyjny · Bez danych sprzedażowych",
     "footerTitle": "Wprawmy wszystko ponownie w ruch."
+  },
+  "brandFlow": {
+    "family": "Specjalność IzignaMx",
+    "flowLabel": "Tak przywracamy płynność",
+    "flowTitle": "Od blokady do płynnego działania.",
+    "flowIntro": "Projekt, kod i ciągłość. Poznaj nasze podejście do Twojego sklepu.",
+    "flowNote": "Koncepcyjne przedstawienie procesu. To nie są wyniki klienta.",
+    "detect": "Rozpoznać",
+    "detectBody": "Ustalamy, co utrudnia korzystanie ze sklepu: szybkość, bezpieczeństwo czy zakupy.",
+    "connect": "Połączyć",
+    "connectBody": "Dopracowujemy kluczowe elementy i sprawdzamy, jak działają razem.",
+    "activate": "Uruchomić",
+    "activateBody": "Przekazujemy przejrzyste rozwiązanie wraz z weryfikacją i kolejnymi krokami.",
+    "chooseLabel": "Znajdź punkt wyjścia",
+    "chooseTitle": "Czego potrzebuje Twój sklep?",
+    "chooseBody": "Wybierz priorytet, aby zobaczyć sugestię. Wszystkie usługi pozostają dostępne.",
+    "slow": "Działa zbyt wolno",
+    "security": "Mój WordPress wymaga oczyszczenia",
+    "checkout": "Tracę zamówienia przy finalizacji zakupu",
+    "unsure": "Nie wiem, od czego zacząć",
+    "recommended": "Twój punkt wyjścia",
+    "viewService": "Zobacz zakres i cenę",
+    "reset": "Zobacz wszystkie opcje",
+    "scopeNote": "Cena wyjściowa. Zakres i termin potwierdzamy przed rozpoczęciem.",
+    "reassurance": "Porozmawiajmy na WhatsApp. Zakres i termin potwierdzamy przed rozpoczęciem."
   }
 }

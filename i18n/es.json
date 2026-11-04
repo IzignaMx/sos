@@ -17,11 +17,11 @@
     "impact": "Impacto",
     "faq": "FAQ",
     "contact": "Escríbeme",
-    "book": "Reserva 24h",
+    "book": "Consultar disponibilidad",
     "languageLabel": "Selecciona idioma"
   },
   "hero": {
-    "kicker": "Estudio independiente · Rescate digital",
+    "kicker": "SOS / Una especialidad de IzignaMx",
     "title": "Tu tienda merece otra oportunidad.",
     "lead": "Diseño, velocidad y checkout para Shopify, BigCommerce y WordPress. Rescato tu experiencia de compra en 24–72h, con atención a cada detalle.",
     "bullets": [
@@ -233,8 +233,8 @@
   },
   "editorial": {
     "skip": "Saltar al contenido",
-    "edition": "Diseño con intención. Código con oficio.",
-    "artLabel": "Estudio de una reparación / Nº 001",
+    "edition": "Diseño con intención. Tecnología con identidad.",
+    "artLabel": "Estudio de una reparación / Nº 002",
     "artCaption": "Reconectar lo que importa.",
     "scroll": "Explora el taller",
     "motionOn": "Pausar movimiento",
@@ -253,5 +253,30 @@
     "labAction": "Añadir a la bolsa",
     "labNote": "Prototipo conceptual · Sin datos de ventas",
     "footerTitle": "Volvamos a poner todo en movimiento."
+  },
+  "brandFlow": {
+    "family": "Una especialidad de IzignaMx",
+    "flowLabel": "Así recuperamos el flujo",
+    "flowTitle": "Del bloqueo al flujo.",
+    "flowIntro": "Diseño, código y continuidad. Descubre cómo abordamos tu tienda.",
+    "flowNote": "Representación conceptual del proceso. No son métricas de un cliente.",
+    "detect": "Detectar",
+    "detectBody": "Identificamos qué frena la experiencia: velocidad, seguridad o compra.",
+    "connect": "Reconectar",
+    "connectBody": "Ajustamos las piezas que importan y probamos cómo funcionan juntas.",
+    "activate": "Activar",
+    "activateBody": "Entregamos una experiencia clara, con comprobaciones y próximos pasos.",
+    "chooseLabel": "Encuentra tu punto de partida",
+    "chooseTitle": "¿Qué necesita tu tienda?",
+    "chooseBody": "Elige tu prioridad para ver una sugerencia. Todos los servicios siguen disponibles.",
+    "slow": "Va demasiado lenta",
+    "security": "Mi WordPress necesita limpieza",
+    "checkout": "Pierdo compras en el checkout",
+    "unsure": "No sé por dónde empezar",
+    "recommended": "Tu punto de partida",
+    "viewService": "Ver alcance y precio",
+    "reset": "Ver todas las opciones",
+    "scopeNote": "Precio de partida. Confirmamos alcance y plazo antes de comenzar.",
+    "reassurance": "Hablemos por WhatsApp. Confirmamos alcance y plazo antes de empezar."
   }
 }

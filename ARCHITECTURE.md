@@ -11,7 +11,7 @@
 
 ## Visión General
 
-El sistema se compone exclusivamente de la **PWA Landing Page (Frontend)**. Un sitio estático, optimizado para altísimo rendimiento, con una identidad editorial de taller digital (papel, tinta y rojo señal). Construido con HTML semántico y CSS/JS compartidos en `assets/` para lograr velocidades de carga óptimas, e incluye soporte offline garantizado a través de Web Workers (Progressive Web App).
+El sistema se compone exclusivamente de la **PWA Landing Page (Frontend)**. Un sitio estático, optimizado para altísimo rendimiento, con una identidad editorial propia de SOS dentro de IzignaMx (carbón, azul, cian, isotipo original y Aileron local). Construido con HTML semántico y CSS/JS compartidos en `assets/` para lograr velocidades de carga óptimas, e incluye soporte offline garantizado a través de Web Workers (Progressive Web App).
 
 Su propósito central es servir como el principal embudo de captación de leads (B2B/B2C) maximizando la tasa de conversión a través del perfomance y la accesibilidad.
 
@@ -57,6 +57,6 @@ Al escribir nuevas actualizaciones o scripts, se usarán prompts y descripciones
 
 ## Experiencia editorial (noviembre de 2026)
 
-`assets/css/editorial.css` centraliza los tokens y la composición responsive. `editorial.js` controla revelados y parallax bajo demanda, con pausa persistente y preferencia de movimiento reducido. `laboratory.js` implementa una demostración conceptual mediante un rango nativo. La simulación GPU anterior ya no se carga desde la landing; sus archivos se conservan como legado. Los contadores se muestran estáticos para evitar animaciones adicionales.
+`assets/css/editorial.css` centraliza los tokens y la composición responsive. `editorial.js` controla revelados, parallax y una secuencia SVG de tres etapas por scroll bajo demanda, con un único RAF, pausa persistente y preferencia de movimiento reducido. `laboratory.js` implementa una demostración conceptual mediante un rango nativo. `service-guide.js` recomienda un servicio a partir de una necesidad elegida, tomando títulos, alcance, precio y plazo de las tarjetas existentes. No requiere backend ni almacena datos personales. La simulación GPU anterior ya no se carga desde la landing; sus archivos se conservan como legado. Los contadores se muestran estáticos para evitar animaciones adicionales.
 
-Los 20 diccionarios incorporan el bloque `editorial`; el HTML inicial conserva el contenido español para funcionar sin JavaScript. La nueva versión del service worker precachea estilos, scripts y derivados WebP de la escultura. El fallback de navegación usa `/` para evitar respuestas redirigidas de `/index.html` en servidores con URLs limpias.
+Los 20 diccionarios incorporan el bloque `editorial`; el HTML inicial conserva el contenido español para funcionar sin JavaScript. La nueva versión del service worker precachea estilos, scripts y derivados WebP de la escultura. El fallback de navegación usa la raíz con query de versión para evitar respuestas redirigidas de `/index.html` y recursos obsoletos del CDN. Se precachean las dos fuentes locales y el isotipo.

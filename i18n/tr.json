@@ -40,14 +40,29 @@
       "title": "Aktif görev paneli",
       "subtitle": "ROI odaklı inceleme ve kapatılan kritik noktalar:",
       "items": [
-        { "label": "Core Web Vitals", "status": "+42%" },
-        { "label": "Checkout sürtünmesi", "status": "-65%" },
-        { "label": "Görsel güven", "status": "A+ seviyesi" }
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Checkout sürtünmesi",
+          "status": "-65%"
+        },
+        {
+          "label": "Görsel güven",
+          "status": "A+ seviyesi"
+        }
       ]
     },
     "chips": {
-      "launch": { "title": "Lansman modu", "body": "36 saatte yayına hazır" },
-      "ai": { "title": "Yapay zekâ destekli UX", "body": "Aksiyon alınabilir içgörüler + metin" }
+      "launch": {
+        "title": "Lansman modu",
+        "body": "36 saatte yayına hazır"
+      },
+      "ai": {
+        "title": "Yapay zekâ destekli UX",
+        "body": "Aksiyon alınabilir içgörüler + metin"
+      }
     }
   },
   "services": {
@@ -114,10 +129,18 @@
     "sectionTitle": "Havalı görünüm yetmez: her teslim metrikler ve deney önerileriyle gelir.",
     "sectionDescription": "Hız panellerini bağlar, önce/sonra karşılaştırmaları kaydeder ve regresyonları yakalamak için otomasyonlar bırakırım. Fark ilk scroll'da hissedilir.",
     "stats": [
-      { "description": "Son 12 ayda checkout ve hikaye anlatımında gözle görülür artış yaşayan mağaza sayısı." },
-      { "description": "Proje başına ortalama giderilen sürtünme noktası; raporda video walkthrough mevcut." },
-      { "description": "Lansmana hazır A/B deneyleri. Hipotez, asset ve doğrulama rehberi sunulur." },
-      { "description": "Görevi tekrarlayan ya da aylık UX bakımına geçen müşterilerin oranı." }
+      {
+        "description": "Son 12 ayda checkout ve hikaye anlatımında gözle görülür artış yaşayan mağaza sayısı."
+      },
+      {
+        "description": "Proje başına ortalama giderilen sürtünme noktası; raporda video walkthrough mevcut."
+      },
+      {
+        "description": "Lansmana hazır A/B deneyleri. Hipotez, asset ve doğrulama rehberi sunulur."
+      },
+      {
+        "description": "Görevi tekrarlayan ya da aylık UX bakımına geçen müşterilerin oranı."
+      }
     ]
   },
   "process": {
@@ -176,7 +199,7 @@
       },
       {
         "question": "Uygulama dahil mi yoksa sadece öneri mi?",
-        "answer": "Her paket kapsam dahilindeki düzeltmeleri içerir. Daha büyük bir şey çıkarsa, net saatli ekspres ek paket teklif ederim — sürpriz yok." 
+        "answer": "Her paket kapsam dahilindeki düzeltmeleri içerir. Daha büyük bir şey çıkarsa, net saatli ekspres ek paket teklif ederim — sürpriz yok."
       },
       {
         "question": "Dönüşüm artışını nasıl doğruluyorsunuz?",
@@ -211,7 +234,7 @@
   "editorial": {
     "skip": "İçeriğe geç",
     "edition": "Bilinçli tasarım. Özenli kod.",
-    "artLabel": "Bir onarım çalışması / No. 001",
+    "artLabel": "Bir onarım çalışması / No. 002",
     "artCaption": "Önemli olanı yeniden bağlamak.",
     "scroll": "Atölyeyi keşfet",
     "motionOn": "Hareketi duraklat",
@@ -230,5 +253,30 @@
     "labAction": "Sepete ekle",
     "labNote": "Kavramsal prototip · Satış verisi içermez",
     "footerTitle": "Her şeyi yeniden harekete geçirelim."
+  },
+  "brandFlow": {
+    "family": "IzignaMx’in uzmanlık alanlarından biri",
+    "flowLabel": "Akışı nasıl yeniden kuruyoruz",
+    "flowTitle": "Tıkanıklıktan akışa.",
+    "flowIntro": "Tasarım, kod ve süreklilik. Mağazanıza nasıl yaklaştığımızı keşfedin.",
+    "flowNote": "Sürecin kavramsal gösterimi. Bunlar müşteri ölçümleri değildir.",
+    "detect": "Tespit et",
+    "detectBody": "Deneyimi neyin yavaşlattığını belirleriz: hız, güvenlik veya satın alma.",
+    "connect": "Yeniden bağla",
+    "connectBody": "Önemli parçaları düzenler ve birlikte nasıl çalıştıklarını test ederiz.",
+    "activate": "Etkinleştir",
+    "activateBody": "Kontroller ve sonraki adımlarla birlikte anlaşılır bir deneyim sunarız.",
+    "chooseLabel": "Başlangıç noktanızı bulun",
+    "chooseTitle": "Mağazanızın neye ihtiyacı var?",
+    "chooseBody": "Bir öneri görmek için önceliğinizi seçin. Tüm hizmetler erişilebilir kalır.",
+    "slow": "Mağazam çok yavaş",
+    "security": "WordPress sitemin temizlenmesi gerek",
+    "checkout": "Ödeme aşamasında satış kaybediyorum",
+    "unsure": "Nereden başlayacağımı bilmiyorum",
+    "recommended": "Başlangıç noktanız",
+    "viewService": "Kapsamı ve fiyatı görün",
+    "reset": "Tüm seçenekleri görün",
+    "scopeNote": "Başlangıç fiyatıdır. Başlamadan önce kapsamı ve süreyi netleştiririz.",
+    "reassurance": "WhatsApp’ta konuşalım. Başlamadan önce kapsamı ve süreyi netleştiririz."
   }
 }

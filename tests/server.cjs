@@ -12,6 +12,7 @@ const tipos = {
   ".webmanifest": "application/manifest+json",
   ".svg": "image/svg+xml",
   ".webp": "image/webp",
+  ".woff2": "font/woff2",
   ".png": "image/png",
   ".ico": "image/x-icon",
   ".txt": "text/plain; charset=utf-8",

@@ -4,7 +4,7 @@
 
 IzignaMx (Arreglos Express) es una plataforma estructurada como una Landing Page estática altamente optimizada (enfocada en conversiones B2B y B2C).
 
-La experiencia editorial combina papel cálido, tinta y rojo señal con una pieza escultórica original creada con Higgsfield. Prioriza lectura, navegación accesible y movimiento breve bajo demanda.
+La experiencia editorial conserva carbón, azul, cian, isotipo y tipografía Aileron de IzignaMx, con una pieza escultórica original creada con Higgsfield. Prioriza lectura, navegación accesible y movimiento breve bajo demanda.
 
 ## Estructura del Proyecto
 
@@ -50,6 +50,9 @@ Este repositorio sigue de forma estricta:
 
 ## Experiencia editorial
 
+- [Identidad y activos públicos de IzignaMx](docs/IDENTIDAD-IZIGNAMX.md).
+- [Recorrido visual y contrato de scroll](docs/CONTRATO-RECORRIDO.md).
+- [Estrategia de conversión y fuentes](docs/ESTRATEGIA-CONVERSION.md).
 - [Dirección y referencia Form & Flow](docs/REFERENCIA-VISUAL.md).
 - [Validación, capturas y límites de entrega](docs/VALIDACION-VISUAL.md).
 - [Procedencia del recurso Higgsfield](docs/RECURSOS-VISUALES.md).

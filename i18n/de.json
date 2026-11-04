@@ -114,10 +114,18 @@
     "sectionTitle": "Nur cool aussehen reicht nicht: Jede Lieferung bringt KPIs und Experimente.",
     "sectionDescription": "Speed-Dashboards, Before/After-Vergleiche und Automationen gegen Regressionen – Leads spüren es ab dem ersten Scroll.",
     "stats": [
-      { "description": "Shops, die in den letzten 12 Monaten mit sichtbaren Checkout- und Storytelling-Gewinnen geboostet wurden." },
-      { "description": "Gelöste Reibungspunkte pro Projekt im Durchschnitt. Report inkl. Video-Walkthrough." },
-      { "description": "A/B-Experimente startklar. Du bekommst Hypothesen, Assets und Validierungsleitfaden." },
-      { "description": "Kunden, die erneut buchen oder in monatliche UX-Betreuung wechseln." }
+      {
+        "description": "Shops, die in den letzten 12 Monaten mit sichtbaren Checkout- und Storytelling-Gewinnen geboostet wurden."
+      },
+      {
+        "description": "Gelöste Reibungspunkte pro Projekt im Durchschnitt. Report inkl. Video-Walkthrough."
+      },
+      {
+        "description": "A/B-Experimente startklar. Du bekommst Hypothesen, Assets und Validierungsleitfaden."
+      },
+      {
+        "description": "Kunden, die erneut buchen oder in monatliche UX-Betreuung wechseln."
+      }
     ]
   },
   "process": {
@@ -211,7 +219,7 @@
   "editorial": {
     "skip": "Zum Inhalt springen",
     "edition": "Bewusstes Design. Sorgfältiger Code.",
-    "artLabel": "Studie einer Reparatur / Nr. 001",
+    "artLabel": "Studie einer Reparatur / Nr. 002",
     "artCaption": "Wieder verbinden, was zählt.",
     "scroll": "Die Werkstatt entdecken",
     "motionOn": "Animationen pausieren",
@@ -230,5 +238,30 @@
     "labAction": "In den Warenkorb",
     "labNote": "Konzeptprototyp · Keine Verkaufsdaten",
     "footerTitle": "Bringen wir alles wieder in Bewegung."
+  },
+  "brandFlow": {
+    "family": "Ein Spezialgebiet von IzignaMx",
+    "flowLabel": "So bringen wir den Ablauf wieder in Gang",
+    "flowTitle": "Von der Blockade zum reibungslosen Ablauf.",
+    "flowIntro": "Design, Code und Kontinuität. Entdecken Sie unseren Ansatz für Ihren Shop.",
+    "flowNote": "Konzeptionelle Darstellung des Prozesses. Keine Kennzahlen eines Kunden.",
+    "detect": "Erkennen",
+    "detectBody": "Wir finden heraus, was das Erlebnis bremst: Geschwindigkeit, Sicherheit oder Kaufablauf.",
+    "connect": "Verbinden",
+    "connectBody": "Wir optimieren die entscheidenden Elemente und testen ihr Zusammenspiel.",
+    "activate": "Aktivieren",
+    "activateBody": "Wir liefern ein klares Nutzungserlebnis mit Prüfungen und nächsten Schritten.",
+    "chooseLabel": "Finden Sie Ihren Einstieg",
+    "chooseTitle": "Was braucht Ihr Shop?",
+    "chooseBody": "Wählen Sie Ihre Priorität für einen Vorschlag. Alle Leistungen bleiben verfügbar.",
+    "slow": "Mein Shop ist zu langsam",
+    "security": "Mein WordPress braucht eine Bereinigung",
+    "checkout": "Im Checkout gehen Käufe verloren",
+    "unsure": "Ich weiß nicht, wo ich anfangen soll",
+    "recommended": "Ihr Einstieg",
+    "viewService": "Leistungsumfang und Preis ansehen",
+    "reset": "Alle Optionen ansehen",
+    "scopeNote": "Einstiegspreis. Umfang und Zeitrahmen bestätigen wir vor dem Start.",
+    "reassurance": "Sprechen wir über WhatsApp. Umfang und Zeitrahmen bestätigen wir vor dem Start."
   }
 }

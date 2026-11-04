@@ -2,6 +2,8 @@
 
 Fecha de la revisión: 4 de noviembre de 2026.
 
+Este documento registra la primera iteración. La paleta papel/rojo fue sustituida a petición del usuario por la identidad real de IzignaMx; ver [identidad vigente](IDENTIDAD-IZIGNAMX.md) y [contrato del recorrido](CONTRATO-RECORRIDO.md). Los criterios de composición y movimiento siguen siendo referencia.
+
 Referencia: [Form & Flow](https://github.com/CripterHack/form-and-flow), revisión
 `92746fec9323fe604faa57327effb47ca99e3aa6`.
 

@@ -234,7 +234,7 @@
   "editorial": {
     "skip": "Ga naar inhoud",
     "edition": "Design met een doel. Code met vakmanschap.",
-    "artLabel": "Studie van een reparatie / Nr. 001",
+    "artLabel": "Studie van een reparatie / Nr. 002",
     "artCaption": "Verbind opnieuw wat ertoe doet.",
     "scroll": "Ontdek de werkplaats",
     "motionOn": "Animaties pauzeren",
@@ -253,5 +253,30 @@
     "labAction": "In winkelmand",
     "labNote": "Conceptprototype · Geen verkoopgegevens",
     "footerTitle": "Laten we alles weer in beweging brengen."
+  },
+  "brandFlow": {
+    "family": "Een specialiteit van IzignaMx",
+    "flowLabel": "Zo herstellen we de doorstroming",
+    "flowTitle": "Van blokkade naar doorstroming.",
+    "flowIntro": "Design, code en continuïteit. Ontdek onze aanpak voor je winkel.",
+    "flowNote": "Conceptuele weergave van het proces. Dit zijn geen klantresultaten.",
+    "detect": "Signaleren",
+    "detectBody": "We onderzoeken wat de ervaring belemmert: snelheid, veiligheid of het aankoopproces.",
+    "connect": "Verbinden",
+    "connectBody": "We verbeteren de onderdelen die ertoe doen en testen hoe ze samenwerken.",
+    "activate": "Activeren",
+    "activateBody": "We leveren een heldere ervaring op, met controles en vervolgstappen.",
+    "chooseLabel": "Vind je startpunt",
+    "chooseTitle": "Wat heeft je winkel nodig?",
+    "chooseBody": "Kies je prioriteit voor een suggestie. Alle diensten blijven beschikbaar.",
+    "slow": "Mijn winkel is te traag",
+    "security": "Mijn WordPress heeft een opschoonbeurt nodig",
+    "checkout": "Ik verlies aankopen bij het afrekenen",
+    "unsure": "Ik weet niet waar ik moet beginnen",
+    "recommended": "Je startpunt",
+    "viewService": "Bekijk de werkzaamheden en prijs",
+    "reset": "Bekijk alle opties",
+    "scopeNote": "Vanafprijs. We bevestigen de werkzaamheden en planning voordat we beginnen.",
+    "reassurance": "Laten we praten via WhatsApp. We bevestigen de werkzaamheden en planning voordat we beginnen."
   }
 }

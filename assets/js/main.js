@@ -181,6 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
     });
+    document.dispatchEvent(new CustomEvent("sos:languagechange"));
   };
 
   const readInlineCatalog = (lang, url) => {

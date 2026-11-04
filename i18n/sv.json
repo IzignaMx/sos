@@ -234,7 +234,7 @@
   "editorial": {
     "skip": "Hoppa till innehållet",
     "edition": "Genomtänkt design. Kod med hantverkskänsla.",
-    "artLabel": "Studie av en reparation / Nr 001",
+    "artLabel": "Studie av en reparation / Nr 002",
     "artCaption": "Återknyt det som betyder något.",
     "scroll": "Utforska verkstaden",
     "motionOn": "Pausa animationer",
@@ -253,5 +253,30 @@
     "labAction": "Lägg i varukorgen",
     "labNote": "Konceptprototyp · Inga försäljningsdata",
     "footerTitle": "Låt oss få allt i rörelse igen."
+  },
+  "brandFlow": {
+    "family": "En specialitet från IzignaMx",
+    "flowLabel": "Så återställer vi flödet",
+    "flowTitle": "Från stopp till flöde.",
+    "flowIntro": "Design, kod och kontinuitet. Upptäck hur vi tar oss an din butik.",
+    "flowNote": "En konceptuell bild av processen. Det här är inte kundresultat.",
+    "detect": "Upptäcka",
+    "detectBody": "Vi identifierar vad som bromsar upplevelsen: hastighet, säkerhet eller köpflöde.",
+    "connect": "Koppla samman",
+    "connectBody": "Vi förbättrar de viktiga delarna och testar hur de fungerar tillsammans.",
+    "activate": "Aktivera",
+    "activateBody": "Vi levererar en tydlig upplevelse, med kontroller och nästa steg.",
+    "chooseLabel": "Hitta din startpunkt",
+    "chooseTitle": "Vad behöver din butik?",
+    "chooseBody": "Välj din prioritet för att få ett förslag. Alla tjänster finns fortfarande tillgängliga.",
+    "slow": "Butiken är för långsam",
+    "security": "Min WordPress behöver rensas",
+    "checkout": "Jag tappar köp i kassan",
+    "unsure": "Jag vet inte var jag ska börja",
+    "recommended": "Din startpunkt",
+    "viewService": "Se omfattning och pris",
+    "reset": "Se alla alternativ",
+    "scopeNote": "Frånpris. Vi bekräftar omfattning och tidsplan innan vi börjar.",
+    "reassurance": "Låt oss prata på WhatsApp. Vi bekräftar omfattning och tidsplan innan vi börjar."
   }
 }

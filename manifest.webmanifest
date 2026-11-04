@@ -9,36 +9,36 @@
   "display": "standalone",
   "display_override": ["window-controls-overlay", "standalone"],
   "orientation": "portrait",
-  "background_color": "#eeeae2",
-  "theme_color": "#eeeae2",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
   "categories": ["business", "productivity", "utilities"],
   "icons": [
     {
-      "src": "assets/img/favicon-96x96.png?v=20261104-editorial-2",
+      "src": "assets/img/favicon-96x96.png?v=20261104-izigna-flow-1",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/img/favicon-144x144.png?v=20261104-editorial-2",
+      "src": "assets/img/favicon-144x144.png?v=20261104-izigna-flow-1",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/img/favicon-192x192.png?v=20261104-editorial-2",
+      "src": "assets/img/favicon-192x192.png?v=20261104-izigna-flow-1",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/img/favicon-512x512.png?v=20261104-editorial-2",
+      "src": "assets/img/favicon-512x512.png?v=20261104-izigna-flow-1",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/img/favicon-512x512.png?v=20261104-editorial-2",
+      "src": "assets/img/favicon-512x512.png?v=20261104-izigna-flow-1",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -46,13 +46,13 @@
   ],
   "screenshots": [
     {
-      "src": "assets/img/og-izigna-sos@1200.png?v=20261104-editorial-2",
+      "src": "assets/img/og-izigna-sos@1200.png?v=20261104-izigna-flow-1",
       "sizes": "1200x720",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "assets/img/pwa-screenshot-mobile.png?v=20261104-editorial-2",
+      "src": "assets/img/pwa-screenshot-mobile.png?v=20261104-izigna-flow-1",
       "sizes": "720x1200",
       "type": "image/png"
     }
@@ -65,7 +65,7 @@
       "description": "Revisa paquetes SOS y agenda una mision express.",
       "icons": [
         {
-          "src": "assets/img/favicon-96x96.png?v=20261104-editorial-2",
+          "src": "assets/img/favicon-96x96.png?v=20261104-izigna-flow-1",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -78,7 +78,7 @@
       "description": "Explora servicios de performance, auditoria y checkout.",
       "icons": [
         {
-          "src": "assets/img/favicon-96x96.png?v=20261104-editorial-2",
+          "src": "assets/img/favicon-96x96.png?v=20261104-izigna-flow-1",
           "sizes": "96x96",
           "type": "image/png"
         }
