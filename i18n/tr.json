@@ -2,37 +2,37 @@
   "meta": {
     "lang": "tr",
     "dir": "ltr",
-    "title": "Ekspres Görevler | IzignaMX",
-    "description": "Shopify, BigCommerce ve WordPress'i 24-72 saatte optimize eden SOS görevleri. Gerçek dönüşümleri hedefleyen futuristik arayüzler.",
-    "ogTitle": "Ekspres Görevler | IzignaMX",
-    "ogDescription": "Mağazanızı 72 saatten kısa sürede geleceğe taşıyın: ekspres düzeltmeler, performans artışı ve optimize checkout deneyimleri."
+    "title": "Online mağazanız için düzeltmeler ve iyileştirmeler | IzignaMx SOS",
+    "description": "Mağazanız yavaş mı açılıyor, hata mı veriyor, alışveriş zor mu? Shopify, BigCommerce ve WordPress için iyileştirmeler. Fiyatlara bakın, sorununuzu anlatın.",
+    "ogTitle": "Online mağazanız daha iyi çalışabilir | IzignaMx SOS",
+    "ogDescription": "Yavaş mağazalar, WordPress sorunları ve karmaşık ödemeler için yardım. İhtiyacınızı seçin veya WhatsApp üzerinden sorununuzu anlatın."
   },
   "header": {
     "badge": "72 saat veya daha az",
     "message": "Shopify, BigCommerce ve WordPress mağazaları için ekspres görevler • Lansmanlar ve acil kampanyalara öncelik"
   },
   "nav": {
-    "services": "Hizmetler",
-    "process": "Süreç",
-    "impact": "Sonuçlar",
-    "faq": "SSS",
-    "contact": "E-posta gönder",
-    "book": "24 saatte rezervasyon",
+    "services": "Çözümler",
+    "process": "Nasıl çalışır?",
+    "impact": "Deneyimimiz",
+    "faq": "Sorular",
+    "contact": "E-posta yazın",
+    "book": "WhatsApp'ta konuşalım",
     "languageLabel": "Dil seçin"
   },
   "hero": {
     "kicker": "Ekspres e-ticaret görevleri",
-    "title": "Satışları rekor sürede kurtaran futuristik çözümler.",
-    "lead": "Shopify, BigCommerce ve WordPress üzerinde performans, checkout ve UX'i optimize ediyorum; uzun sprintler olmadan dönüşümlerin geri gelmesini sağlıyorum. 24-72 saat içinde teslim, cerrahi odak ve uygulanabilir raporlarla.",
+    "title": "Online mağazanız için düzeltmeler ve iyileştirmeler.",
+    "lead": "Mağazanız yavaş açılıyorsa, hata veriyorsa veya alışveriş yapmak zorsa çözmenize yardımcı olurum. Shopify, BigCommerce ve WordPress ile çalışırım.",
     "bullets": [
       "Güveni ve elde tutmayı artıran immersif tasarım ve mikro animasyonlar.",
       "Denetim ve görsel yol haritası dahildir: önce/sonra metrikleri ve bakım planı.",
       "WhatsApp ve Notion Liveboard üzerinden doğrudan benimle iletişim — aracı yok."
     ],
-    "primaryCta": "Görev ayır",
-    "secondaryCta": "Paketleri gör",
+    "primaryCta": "Sorunumu anlatayım",
+    "secondaryCta": "Çözümleri ve fiyatları gör",
     "metrics": {
-      "delivery": "Ortalama teslim",
+      "delivery": "Hizmete göre",
       "checkout": "Optimize checkout sayısı",
       "satisfaction": "Müşteri memnuniyeti"
     },
@@ -66,110 +66,110 @@
     }
   },
   "services": {
-    "sectionLabel": "Ekspres hizmetler",
-    "sectionTitle": "Aciliyetinize en uygun görevi seçin.",
-    "sectionDescription": "Her paket görsel yol haritası, güvenlik kontrolü ve handoff oturumu ile gelir. Hibrit bir kurguya mı ihtiyacınız var? Teslim kalemlerini sürpriz ücret olmadan birleştiririm.",
+    "sectionLabel": "Nasıl yardımcı olurum?",
+    "sectionTitle": "Mağazanızın ihtiyacını seçin.",
+    "sectionDescription": "Belirli bir sorundan başlayabilir veya neyin aksadığını bilmiyorsanız inceleme isteyebilirsiniz.",
     "cards": {
       "performance": {
         "tag": "Shopify / BigCommerce",
-        "title": "Performans + UI SOS",
-        "summary": "Hız optimizasyonu, uygulama çatışmalarının çözümü ve alışveriş deneyimi yenilemesi. Gelecek tonunda responsive bir görünüm içerir.",
+        "title": "Daha hızlı bir mağaza",
+        "summary": "Yavaş açılan veya kullanımı zor mağazalar için. Anlaştığımız sayfaların yüklenmesini ve tasarımını iyileştiririm.",
         "bullets": [
-          "Notlu Lighthouse raporu",
-          "Kritik bölümlerin hafif refaktörü ve animasyonlu hero",
-          "Güven rozeti ve yerel modallerin uygulanması"
+          "Hız incelemesi ve anlaşılır bir rapor.",
+          "Mağazanızın ana bölümlerinde düzenlemeler.",
+          "Daha anlaşılır bildirimler ve güven veren öğeler."
         ],
         "price": "1.200 MXN'den itibaren",
         "duration": "Teslim 24-48h",
-        "cta": "Rezervasyon yap"
+        "cta": "WhatsApp'tan danışın"
       },
       "wordpress": {
         "tag": "WordPress",
-        "title": "Futuristik hardening + temizlik",
-        "summary": "Güvenlik güçlendirme, eklenti temizliği ve güven uyandıran glow bileşenleriyle ana landing yeniden tasarımı.",
+        "title": "Daha güvenli WordPress",
+        "summary": "Hata veya güvenlik sorunu olan siteler için. Dosyaları inceler, eklentileri temizler ve önemli bir sayfayı iyileştiririm.",
         "bullets": [
-          "Kötü amaçlı kod taraması, yedek alma ve güvenli kurulum",
-          "Hero ve formların UX doğrulamalı yeniden kablolaması",
-          "Güncellemeler için görsel kontrol paneli"
+          "Yedekleme, zararlı dosyaları arama ve temizleme.",
+          "Ana sayfada ve anlaştığımız formlarda iyileştirmeler.",
+          "Güncellemeleri yönetmek için basit bir panel."
         ],
         "price": "1.500 MXN'den itibaren",
         "duration": "Teslim 48-72h",
-        "cta": "Rezervasyon yap"
+        "cta": "WhatsApp'tan danışın"
       },
       "audit": {
-        "tag": "UX + hız",
-        "summary": "Simüle ısı haritaları, Core Web Vitals kontrol listesi ve önerilen mikro animasyonlara sahip etkileşimli prototiple kritik sayfayı derinlemesine inceliyorum.",
-        "title": "Flash Denetim 360°",
+        "tag": "Mağaza incelemesi",
+        "summary": "Bir sayfayı inceler, önce neyin değişmesi gerektiğini açıklarım. Öneriler ve görsel bir taslak alırsınız; sitedeki değişikliklerin uygulanması ayrıca kararlaştırılır.",
+        "title": "Önce neyi iyileştireceğinizi öğrenin",
         "bullets": [
-          "Önceliklendirilmiş checklist (etki / çaba)",
-          "Önerilen animasyonlu Figma mockup'ları",
-          "A/B deneyi planı ve hazır scriptler"
+          "Öneme ve gereken emeğe göre sıralanmış iyileştirmeler.",
+          "Sayfanın nasıl görünebileceğini anlatan görsel bir taslak.",
+          "Farklı seçenekleri denemek için plan ve materyaller."
         ],
         "price": "1.200 MXN'den itibaren",
         "duration": "Teslim 48h",
-        "cta": "Rezervasyon yap"
+        "cta": "WhatsApp'tan danışın"
       },
       "checkout": {
-        "tag": "Checkout",
-        "title": "Checkout Review + Fixes",
-        "summary": "Kaçış noktalarını tespit eder ve üç hızlı iyileştirme uygularım: mikro metinler, doğrulamalar ve fintech esintili yüklenme durumları.",
+        "tag": "Sepet ve ödeme",
+        "title": "Daha kolay ödeme",
+        "summary": "Son adımda karmaşıklaşan alışverişler için. Süreci inceler, metinlerde, formlarda veya mesajlarda en fazla üç iyileştirme yaparım.",
         "bullets": [
-          "Canlı friction haritası ile watching oturumu",
-          "Futuristik loader ve güven UI'ı",
-          "Masaüstü ve mobil saha testleri"
+          "Sepetten ödemeye kadar tüm adımların incelenmesi.",
+          "Yükleme sırasında veya hata olduğunda anlaşılır mesajlar.",
+          "Bilgisayar ve telefonda kontrol."
         ],
         "price": "1.800 MXN'den itibaren",
         "duration": "Teslim 48-72h",
-        "cta": "Rezervasyon yap"
+        "cta": "WhatsApp'tan danışın"
       }
     }
   },
   "impact": {
-    "sectionLabel": "Somut sonuçlar",
-    "sectionTitle": "Havalı görünüm yetmez: her teslim metrikler ve deney önerileriyle gelir.",
-    "sectionDescription": "Hız panellerini bağlar, önce/sonra karşılaştırmaları kaydeder ve regresyonları yakalamak için otomasyonlar bırakırım. Fark ilk scroll'da hissedilir.",
+    "sectionLabel": "Deneyimimiz",
+    "sectionTitle": "Kontrol edebileceğiniz değişiklikler.",
+    "sectionDescription": "Karşılaştırmalar ve videolu anlatımla neyin değiştiğini, nasıl çalıştığını ve sonrasında nelere dikkat etmeniz gerektiğini gösteririm.",
     "stats": [
       {
-        "description": "Son 12 ayda checkout ve hikaye anlatımında gözle görülür artış yaşayan mağaza sayısı."
+        "description": "Son 12 ayda iyileştirilen mağazalar."
       },
       {
-        "description": "Proje başına ortalama giderilen sürtünme noktası; raporda video walkthrough mevcut."
+        "description": "Proje başına çözülen ortalama sorun sayısı."
       },
       {
-        "description": "Lansmana hazır A/B deneyleri. Hipotez, asset ve doğrulama rehberi sunulur."
+        "description": "İyileştirme seçeneklerini karşılaştırmak için hazırlanan testler."
       },
       {
-        "description": "Görevi tekrarlayan ya da aylık UX bakımına geçen müşterilerin oranı."
+        "description": "Tekrar gelen veya aylık bakım alan müşteriler."
       }
     ]
   },
   "process": {
-    "sectionLabel": "Nasıl çalışıyorum",
-    "sectionTitle": "Acil durumlar için tasarlanan lightning süreç — bürokrasi yok.",
-    "sectionDescription": "UX/UI, performans ve iletişimi paralel yürütüyorum. Notion canlı panosu ile görev durumlarını ve metrikleri anlık görüyorsunuz.",
+    "sectionLabel": "Nasıl başlarız?",
+    "sectionTitle": "Siz sorunu anlatın. İşi ben üstlenirim.",
+    "sectionDescription": "Doğrudan benimle, Edgar ile konuşursunuz. Tasarım veya yazılım bilmeniz gerekmez.",
     "steps": [
       {
-        "title": "20 dakikalık taktik brifing",
-        "description": "Arama veya sesli mesajla hipotez, erişimler ve kritik göstergeleri netleştiriyoruz. Sunum yok, direkt aksiyon haritası."
+        "title": "Neler olduğunu anlatın",
+        "description": "Mağazanızın bağlantısını ve sizi endişelendiren durumu gönderin. Yazılı mesaj veya sesli not olabilir."
       },
       {
-        "title": "Futuristik tarama + protoboard",
-        "description": "Teknik audit, görsel benchmark ve önerilen animasyonlarla tıklanabilir Figma prototipi."
+        "title": "Yapılacak işi kararlaştırırız",
+        "description": "Neyi çözebileceğimi, ücretini ve ne zaman hazır olacağını açıklarım. Başlamadan önce siz karar verirsiniz."
       },
       {
-        "title": "Modüler uygulama",
-        "description": "Bileşenleri kodlar, glow efektlerle assetleri optimize eder, mikro etkileşim ve doğrulamaları yapılandırırım."
+        "title": "İyileştirmeleri yaparım",
+        "description": "Anlaştığımız değişiklikleri yapar, sizi bilgilendiririm. İncelemeyi seçerseniz önerileri hazırlarım."
       },
       {
-        "title": "Handoff + büyüme planı",
-        "description": "Önce/sonra raporu, Loom videoları, bakım checklist'i ve sonraki deney fikirleri."
+        "title": "Birlikte kontrol ederiz",
+        "description": "Tamamlanan işi ve nasıl kullanacağınızı gösteririm. Bir rehber ve sonraki adımları alırsınız."
       }
     ]
   },
   "testimonials": {
-    "sectionLabel": "Başarı öyküleri",
-    "sectionTitle": "SOS modunu kullanan ekipler artık bir seviye ileride.",
-    "sectionDescription": "Her görevde metriklerin stabil kaldığından emin olmak için 7 günlük takip bulunur.",
+    "sectionLabel": "Müşteri görüşleri",
+    "sectionTitle": "Müşterilerimiz ne anlatıyor?",
+    "sectionDescription": "Teslimattan sonra 7 gün boyunca takip ederiz.",
     "quotes": [
       {
         "text": "“48 saat içinde checkout'umuz sürtünme tünelinden özenli bir deneyime dönüştü. Animasyonlar güven verdi ve mobil dönüşümler %23 arttı.”",
@@ -190,93 +190,107 @@
   },
   "faq": {
     "sectionLabel": "Gelecek tarzı SSS",
-    "sectionTitle": "Görevi başlatmadan önce bilmeniz gerekenler.",
-    "sectionDescription": "Sorunuz mu var? WhatsApp'tan sesli mesaj gönderin, hemen çözelim.",
+    "sectionTitle": "Bilmeniz gerekenler.",
+    "sectionDescription": "Başka sorunuz varsa WhatsApp'tan yazın.",
     "items": [
       {
-        "question": "24 saatten kısa sürede başlamak için ne gerekiyor?",
-        "answer": "Admin, analytics ve siteye geçici erişim ile net hedefler (satış, lead, istikrar). Bunlarla planı hazırlayıp teslim penceresini teyit ediyorum."
+        "question": "Başlamak için ne gerekiyor?",
+        "answer": "Önce mağazanızın bağlantısı ve sorunun açıklaması. Sitenize girmem gerekirse hangi geçici erişime ihtiyaç duyduğumu ve nasıl paylaşacağınızı anlatırım."
       },
       {
-        "question": "Uygulama dahil mi yoksa sadece öneri mi?",
-        "answer": "Her paket kapsam dahilindeki düzeltmeleri içerir. Daha büyük bir şey çıkarsa, net saatli ekspres ek paket teklif ederim — sürpriz yok."
+        "question": "Değişiklikleri yapacak mısınız, yoksa sadece öneri mi vereceksiniz?",
+        "answer": "Hız, WordPress ve ödeme hizmetleri, anlaştığımız değişiklikleri içerir. Mağaza incelemesi ise öneriler ve görsel bir taslak içerir. Bunları uygulamamı isterseniz o işi ayrıca kararlaştırırız."
       },
       {
-        "question": "Dönüşüm artışını nasıl doğruluyorsunuz?",
-        "answer": "Ana olay karşılaştırmalarıyla paneller kuruyor, KPI'ları tanımlıyor ve A/B test scriptleri veriyorum. 7 günlük takip ve gerekirse ince ayar da dahil."
+        "question": "Ücreti ne kadar ve ne zaman hazır olur?",
+        "answer": "Her hizmetin başlangıç fiyatı ve tahmini süresi belirtilir. Soruna ve uygunluğuma göre son fiyatı, kapsamı ve tarihi başlamadan önce netleştiririm. Ek işler için size danışırım."
+      },
+      {
+        "question": "Mağazamın neye ihtiyacı olduğunu bilmiyorsam?",
+        "answer": "Bağlantısını gönderin ve neyi iyileştirmek istediğinizi anlatın. Teknik sorunu veya hangi platformu kullandığını bilmeniz gerekmez. Nereden başlayacağınızı bulmanıza yardımcı olurum."
+      },
+      {
+        "question": "Neyin iyileştiğini nasıl anlayacağım?",
+        "answer": "Anlaştığımız işi birlikte kontrol ederiz: örneğin bir sayfanın ne kadar sürede açıldığını veya formun düzgün çalışıp çalışmadığını. Değişiklikleri ve nasıl kontrol edeceğinizi açıklarım. Satışlara etkisini anlamak için gerçek alışverişleri zaman içinde izlemek gerekir."
       }
     ]
   },
   "ctaFinal": {
-    "title": "e-ticaretinizin gelecekten gelmiş gibi görünmeye ve dönüştürmeye hazır mı?",
-    "body": "Acil durumunuzu paylaşın ve benimle bir slot ayarlayın. Hemen uygulanabilir fikirlerle ücretsiz video mini-diagnostik alın.",
-    "primary": "Diagnostik iste",
-    "secondary": "Brifi e-postayla gönder"
+    "title": "Sizi endişelendiren konudan başlayalım.",
+    "body": "Mağazanızın bağlantısını gönderin ve neler olduğunu anlatın. Nereden başlayacağınızı anlamanız için ücretsiz bir ilk değerlendirme videosu sunarım.",
+    "primary": "WhatsApp'ta konuş",
+    "secondary": "E-posta yazmayı tercih ederim"
   },
   "footer": {
-    "note": "IzignaMX · Ekspres düzeltmeler 24-72h · Meksika Şehri'nde üretildi • LATAM / USA hizmetinde · WhatsApp +52 55 3376 0889"
+    "note": "IzignaMx SOS · Online mağazanız için iyileştirmeler · Meksiko'dan Latin Amerika ve ABD'ye · WhatsApp +52 55 3376 0889"
   },
   "wa": {
     "button": "Edgar ile konuş"
   },
   "links": {
-    "navMail": "mailto:edgar@izignamx.com?subject=Ekspres%20g%C3%B6revler%20-%20talep",
-    "navWhatsApp": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20bir%20SOS%20g%C3%B6revi%20ba%C5%9Flatmak%20istiyorum%2E",
-    "heroPrimary": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20bu%20hafta%20ekspres%20g%C3%B6rev%20rezervasyonu%20yapmak%20istiyorum%2E",
-    "servicePerformance": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20Shopify%20veya%20BigCommerce%20i%C3%A7in%20SOS%20paketine%20ihtiyac%C4%B1m%20var%2E",
-    "serviceWordpress": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20WordPress%20i%C3%A7in%20futuristik%20hardening%20paketini%20istiyorum%2E",
-    "serviceAudit": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20Flash%20Audit%20360%20talep%20ediyorum%2E",
-    "serviceCheckout": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20Checkout%20Review%20ve%20fix%20paketini%20rezervasyon%20yapmak%20istiyorum%2E",
-    "ctaWhatsApp": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20l%C3%BCtfen%20futuristik%20mini%20diagnosti%C4%9Fi%20payla%C5%9F%2E",
-    "ctaMail": "mailto:edgar@izignamx.com?subject=Ekspres%20g%C3%B6revler%20-%20h%C4%B1zl%C4%B1%20brif",
-    "floatingWa": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20futuristik%20SOS%20sayfandan%20geldim%2E"
+    "navMail": "mailto:edgar@izignamx.com?subject=Online%20ma%C4%9Fazam%20i%C3%A7in%20yard%C4%B1m",
+    "navWhatsApp": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20online%20ma%C4%9Fazam%20i%C3%A7in%20yard%C4%B1ma%20ihtiyac%C4%B1m%20var.",
+    "heroPrimary": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20online%20ma%C4%9Fazamdaki%20bir%20sorunu%20anlatmak%20istiyorum.",
+    "servicePerformance": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20ma%C4%9Fazam%20yava%C5%9F%20a%C3%A7%C4%B1l%C4%B1yor%20ve%20iyile%C5%9Ftirmek%20istiyorum.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20WordPress%20sitem%20i%C3%A7in%20yard%C4%B1ma%20ihtiyac%C4%B1m%20var.",
+    "serviceAudit": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20ma%C4%9Fazamda%20neyi%20iyile%C5%9Ftirmem%20gerekti%C4%9Fini%20%C3%B6%C4%9Frenmek%20istiyorum.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20ma%C4%9Fazamda%20al%C4%B1%C5%9Fveri%C5%9Fi%20tamamlamay%C4%B1%20kolayla%C5%9Ft%C4%B1rmak%20istiyorum.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20online%20ma%C4%9Fazam%20i%C3%A7in%20ilk%20de%C4%9Ferlendirme%20almak%20istiyorum.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Online%20ma%C4%9Fazam%20i%C3%A7in%20yard%C4%B1m",
+    "floatingWa": "https://wa.me/525533760889?text=Merhaba%20Edgar%2C%20SOS%20%C3%BCzerinden%20geldim%20ve%20online%20ma%C4%9Fazam%20i%C3%A7in%20yard%C4%B1ma%20ihtiyac%C4%B1m%20var."
   },
   "editorial": {
     "skip": "İçeriğe geç",
     "edition": "Bilinçli tasarım. Özenli kod.",
     "artLabel": "Bir onarım çalışması / No. 002",
     "artCaption": "Önemli olanı yeniden bağlamak.",
-    "scroll": "Atölyeyi keşfet",
+    "scroll": "Mağazanızla nasıl ilgileniyoruz?",
     "motionOn": "Hareketi duraklat",
     "motionOff": "Hareketi etkinleştir",
-    "platforms": "Uzmanlık alanları",
+    "platforms": "Çalıştığımız platformlar",
     "manifestoLabel": "SOS’un ardındaki fikir",
     "manifestoTitle": "Acil işler de özenle yapılabilir.",
     "manifestoBody": "Bir mağaza bir yolculuktur. Bir şeyler aksadığında akışı yeniden kurar, her ayrıntıyla ilgilenirim: gördükleriniz, hissettikleriniz ve her şeyin çalışmasını sağlayan yapı.",
-    "labLabel": "Etkileşim laboratuvarı",
-    "labTitle": "Daha az sürtünme. Daha fazla netlik.",
-    "labBody": "Bir arayüz keşfi: kaydırıcıyı hareket ettirerek görsel hiyerarşinin nasıl değiştiğini görün. Bu bir gösterimdir, müşteri vaka çalışması değildir.",
+    "labLabel": "Deneyin",
+    "labTitle": "Anlaşılır olduğunda alışveriş kolaylaşır.",
+    "labBody": "Kontrolü kaydırın, satın alma düğmesini bulmanın ne kadar kolaylaştığını karşılaştırın. Bu bir örnektir, gerçek mağaza değildir.",
     "labControl": "Netlik düzeyi",
-    "labBefore": "Sürtünme",
-    "labAfter": "Netlik",
-    "labProduct": "İnceleme nesnesi",
+    "labBefore": "Daha karışık",
+    "labAfter": "Daha anlaşılır",
+    "labProduct": "Örnek ürün",
     "labAction": "Sepete ekle",
-    "labNote": "Kavramsal prototip · Satış verisi içermez",
+    "labNote": "Tasarım örneği · Satış sonuçlarını göstermez",
     "footerTitle": "Her şeyi yeniden harekete geçirelim."
   },
   "brandFlow": {
     "family": "IzignaMx’in uzmanlık alanlarından biri",
-    "flowLabel": "Akışı nasıl yeniden kuruyoruz",
-    "flowTitle": "Tıkanıklıktan akışa.",
-    "flowIntro": "Tasarım, kod ve süreklilik. Mağazanıza nasıl yaklaştığımızı keşfedin.",
-    "flowNote": "Sürecin kavramsal gösterimi. Bunlar müşteri ölçümleri değildir.",
-    "detect": "Tespit et",
-    "detectBody": "Deneyimi neyin yavaşlattığını belirleriz: hız, güvenlik veya satın alma.",
-    "connect": "Yeniden bağla",
-    "connectBody": "Önemli parçaları düzenler ve birlikte nasıl çalıştıklarını test ederiz.",
-    "activate": "Etkinleştir",
-    "activateBody": "Kontroller ve sonraki adımlarla birlikte anlaşılır bir deneyim sunarız.",
-    "chooseLabel": "Başlangıç noktanızı bulun",
-    "chooseTitle": "Mağazanızın neye ihtiyacı var?",
-    "chooseBody": "Bir öneri görmek için önceliğinizi seçin. Tüm hizmetler erişilebilir kalır.",
-    "slow": "Mağazam çok yavaş",
-    "security": "WordPress sitemin temizlenmesi gerek",
-    "checkout": "Ödeme aşamasında satış kaybediyorum",
-    "unsure": "Nereden başlayacağımı bilmiyorum",
-    "recommended": "Başlangıç noktanız",
-    "viewService": "Kapsamı ve fiyatı görün",
-    "reset": "Tüm seçenekleri görün",
-    "scopeNote": "Başlangıç fiyatıdır. Başlamadan önce kapsamı ve süreyi netleştiririz.",
-    "reassurance": "WhatsApp’ta konuşalım. Başlamadan önce kapsamı ve süreyi netleştiririz."
+    "flowLabel": "Her adımla ilgileniriz",
+    "flowTitle": "Sorunu bulmaktan çözmeye kadar.",
+    "flowIntro": "Hizmetiniz mağazada değişiklik yapmayı içeriyorsa böyle çalışırız.",
+    "flowNote": "Müşteri sonuçlarını değil, çalışma şeklimizi anlatan bir çizim.",
+    "detect": "İncele",
+    "detectBody": "Mağazayı neyin yavaşlattığını, neyin bozulduğunu veya alışverişi neyin zorlaştırdığını araştırırız.",
+    "connect": "İyileştir",
+    "connectBody": "Anlaştığımız sorunları giderir, parçaların birlikte çalıştığını kontrol ederiz.",
+    "activate": "Kontrol et",
+    "activateBody": "Değişiklikleri ve teslimattan sonra mağazanızı nasıl kullanacağınızı gösteririz.",
+    "chooseLabel": "Fark ettiğiniz sorundan başlayın",
+    "chooseTitle": "Sizi ne endişelendiriyor?",
+    "chooseBody": "Bir seçenek seçin, size bir hizmet önereyim. Aşağıda tüm hizmetleri de görebilirsiniz.",
+    "slow": "Mağazam yavaş açılıyor",
+    "security": "WordPress sitemde sorun var",
+    "checkout": "Alışverişi tamamlamak zor",
+    "unsure": "Neye ihtiyacı var bilmiyorum",
+    "recommended": "Yardımcı olabilir",
+    "viewService": "Bu hizmeti gör",
+    "reset": "Seçimimi kaldır",
+    "scopeNote": "Başlamadan önce fiyatı, kapsamı ve tarihi netleştiririz.",
+    "reassurance": "Düğme WhatsApp'ı açar. Teknik terimler kullanmadan sorununuzu anlatın."
+  },
+  "plainContent": {
+    "detailsLabel": "Neler dahil?",
+    "timingNote": "Süreler tahminidir. İşi kararlaştırıp gerekli erişimleri aldıktan sonra tarihi netleştiririz.",
+    "experienceDetails": "Deneyimimizi rakamlarla gör",
+    "testimonialsDetails": "Müşteri görüşlerini oku"
   }
 }
