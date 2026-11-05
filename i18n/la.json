@@ -79,7 +79,7 @@
           "Emendationes praecipuarum tabernae partium.",
           "Monita et indicia fidei clariora."
         ],
-        "price": "Ab 1 200 MXN",
+        "price": "Ab ≈USD 64.49",
         "duration": "Traditio 24-48h",
         "cta": "Per WhatsApp quaere"
       },
@@ -92,7 +92,7 @@
           "Emendationes paginae primae et formulariorum de quibus convenimus.",
           "Tabula simplex ad renovationes administrandas."
         ],
-        "price": "Ab 1 500 MXN",
+        "price": "Ab ≈USD 80.61",
         "duration": "Traditio 48-72h",
         "cta": "Per WhatsApp quaere"
       },
@@ -105,7 +105,7 @@
           "Exemplar visibile ut intellegas qualis pagina esse possit.",
           "Consilium et instrumenta ad varias optiones probandas."
         ],
-        "price": "Ab 1 200 MXN",
+        "price": "Ab ≈USD 64.49",
         "duration": "Traditio 48h",
         "cta": "Per WhatsApp quaere"
       },
@@ -118,7 +118,7 @@
           "Nuntii clari dum pagina aperitur aut cum error accidit.",
           "Probatio in computatro et telephono mobili."
         ],
-        "price": "Ab 1 800 MXN",
+        "price": "Ab ≈USD 96.73",
         "duration": "Traditio 48-72h",
         "cta": "Per WhatsApp quaere"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Experientia",
     "sectionTitle": "Mutationes quas comprobare potes.",
-    "sectionDescription": "Tibi ostendo quid mutatum sit, quomodo operetur et quid postea curandum sit, comparationibus et explicatione per pelliculam.",
+    "sectionDescription": "Tibi ostendo quid mutatum sit, quomodo operetur et quid postea curandum sit, comparationibus et clara explicatione.",
     "stats": [
       {
         "description": "Tabernae emendatae per ultimos 12 menses."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Ab eo quod te sollicitat incipiamus.",
-    "body": "Mitte vinculum tabernae et narra quid accidat. Primam consultationem gratuitam per pelliculam do, ut scias unde incipias.",
+    "body": "Mitte vinculum tabernae et narra quid accidat. Primam consultationem gratuitam do, ut scias unde incipias.",
     "primary": "Per WhatsApp loqui",
     "secondary": "Malo epistulam mittere"
   },
@@ -299,5 +299,9 @@
     "label": "Sculptura IzignaMx quam vertere potes",
     "keyboard": "Clavibus sagittarum utere ut vertas, et clave Home ut ad aspectum initialem redeas.",
     "ready": "Sculptura ad vertendum parata est."
+  },
+  "pricing": {
+    "from": "Ab ≈{{amount}}",
+    "note": "Pretia in USD aestimata sunt. Pretium finale ante initium operis confirmo."
   }
 }

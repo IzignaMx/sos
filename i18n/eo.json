@@ -79,7 +79,7 @@
           "Ŝanĝoj en la ĉefaj partoj de via vendejo.",
           "Pli klaraj avizoj kaj informoj, kiuj helpas fidi la vendejon."
         ],
-        "price": "Ekde 1 200 MXN",
+        "price": "Ekde ≈64,49 USD",
         "duration": "Livero 24-48h",
         "cta": "Demandi per WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Plibonigoj de la komenca paĝo kaj la interkonsentitaj formularoj.",
           "Simpla panelo por administri ĝisdatigojn."
         ],
-        "price": "Ekde 1 500 MXN",
+        "price": "Ekde ≈80,61 USD",
         "duration": "Livero 48-72h",
         "cta": "Demandi per WhatsApp"
       },
@@ -105,7 +105,7 @@
           "Vida propono por kompreni, kiel ĝi povus aspekti.",
           "Plano kaj materialoj por testi diversajn eblojn."
         ],
-        "price": "Ekde 1 200 MXN",
+        "price": "Ekde ≈64,49 USD",
         "duration": "Livero 48h",
         "cta": "Demandi per WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Klaraj mesaĝoj dum ŝargado aŭ kiam okazas eraro.",
           "Kontrolo per komputilo kaj poŝtelefono."
         ],
-        "price": "Ekde 1 800 MXN",
+        "price": "Ekde ≈96,73 USD",
         "duration": "Livero 48-72h",
         "cta": "Demandi per WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Sperto",
     "sectionTitle": "Ŝanĝoj, kiujn vi povas kontroli.",
-    "sectionDescription": "Mi montras, kio ŝanĝiĝis, kiel ĝi funkcias kaj kion poste prizorgi, per komparoj kaj videa klarigo.",
+    "sectionDescription": "Mi montras, kio ŝanĝiĝis, kiel ĝi funkcias kaj kion poste prizorgi, per komparoj kaj klara klarigo.",
     "stats": [
       {
         "description": "Vendejoj plibonigitaj dum la lastaj 12 monatoj."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Ni komencu per tio, kio vin zorgigas.",
-    "body": "Sendu la ligilon de via vendejo kaj rakontu, kio okazas. Mi donas unuan senpagan videan konsilon por trovi, kie komenci.",
+    "body": "Sendu la ligilon de via vendejo kaj rakontu, kio okazas. Mi donas unuan senpagan konsilon por trovi, kie komenci.",
     "primary": "Paroli per WhatsApp",
     "secondary": "Mi preferas retpoŝton"
   },
@@ -299,5 +299,9 @@
     "label": "Interaga skulptaĵo de IzignaMx",
     "keyboard": "Uzu la sagoklavojn por turni kaj la klavon Home por reveni al la komenca vido.",
     "ready": "La skulptaĵo estas preta por turniĝi."
+  },
+  "pricing": {
+    "from": "Ekde ≈{{amount}}",
+    "note": "Proksimumaj prezoj en USD. Mi konfirmas la finan prezon antaŭ ol komenci."
   }
 }

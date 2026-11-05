@@ -79,7 +79,7 @@
           "Justeringar i butikens viktigaste delar.",
           "Tydligare meddelanden och information som skapar trygghet."
         ],
-        "price": "Från 1 200 MXN",
+        "price": "Från ≈64,49 USD",
         "duration": "Leverans 24-48 h",
         "cta": "Fråga via WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Förbättringar av startsidan och de formulär vi kommer överens om.",
           "En enkel panel för att hantera uppdateringar."
         ],
-        "price": "Från 1 500 MXN",
+        "price": "Från ≈80,61 USD",
         "duration": "Leverans 48-72 h",
         "cta": "Fråga via WhatsApp"
       },
@@ -105,7 +105,7 @@
           "Ett visuellt förslag som visar hur det skulle kunna se ut.",
           "En plan och material för att prova olika alternativ."
         ],
-        "price": "Från 1 200 MXN",
+        "price": "Från ≈64,49 USD",
         "duration": "Leverans 48 h",
         "cta": "Fråga via WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Tydliga meddelanden vid laddning och fel.",
           "Kontroll på dator och mobil."
         ],
-        "price": "Från 1 800 MXN",
+        "price": "Från ≈96,73 USD",
         "duration": "Leverans 48-72 h",
         "cta": "Fråga via WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Erfarenhet",
     "sectionTitle": "Förändringar du kan kontrollera.",
-    "sectionDescription": "Jag visar vad som ändrats, hur det fungerar och vad du behöver tänka på framöver, med jämförelser och en videoförklaring.",
+    "sectionDescription": "Jag visar vad som ändrats, hur det fungerar och vad du behöver tänka på framöver, med jämförelser och en tydlig förklaring.",
     "stats": [
       {
         "description": "Butiker som förbättrats under de senaste 12 månaderna."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Vi börjar med det som bekymrar dig.",
-    "body": "Skicka länken till din butik och berätta vad som händer. Du får en första kostnadsfri vägledning i videoform för att hitta var du kan börja.",
+    "body": "Skicka länken till din butik och berätta vad som händer. Du får en första kostnadsfri vägledning för att hitta var du kan börja.",
     "primary": "Prata på WhatsApp",
     "secondary": "Jag föredrar mejl"
   },
@@ -299,5 +299,9 @@
     "label": "Interaktiv skulptur av IzignaMx",
     "keyboard": "Använd piltangenterna för att rotera och Home-tangenten för att återgå till ursprungsvyn.",
     "ready": "Skulpturen är redo att roteras."
+  },
+  "pricing": {
+    "from": "Från ≈{{amount}}",
+    "note": "Ungefärliga priser i USD. Jag bekräftar det slutliga priset innan arbetet börjar."
   }
 }

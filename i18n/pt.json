@@ -79,7 +79,7 @@
           "Ajustes nas principais seções da sua loja.",
           "Avisos e informações que passam confiança com mais clareza."
         ],
-        "price": "A partir de $1.200 MXN",
+        "price": "A partir de ≈USD 64,49",
         "duration": "Entrega 24-48h",
         "cta": "Consultar pelo WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Melhorias na página inicial e nos formulários combinados.",
           "Um painel simples para gerenciar atualizações."
         ],
-        "price": "A partir de $1.500 MXN",
+        "price": "A partir de ≈USD 80,61",
         "duration": "Entrega 48-72h",
         "cta": "Consultar pelo WhatsApp"
       },
@@ -105,7 +105,7 @@
           "Uma proposta visual para entender como poderia ficar.",
           "Um plano e materiais para testar diferentes opções."
         ],
-        "price": "A partir de $1.200 MXN",
+        "price": "A partir de ≈USD 64,49",
         "duration": "Entrega 48h",
         "cta": "Consultar pelo WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Mensagens claras durante o carregamento ou quando há um erro.",
           "Verificação no computador e no celular."
         ],
-        "price": "A partir de $1.800 MXN",
+        "price": "A partir de ≈USD 96,73",
         "duration": "Entrega 48-72h",
         "cta": "Consultar pelo WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Experiência",
     "sectionTitle": "Mudanças que você pode conferir.",
-    "sectionDescription": "Mostro o que mudou, como funciona e o que cuidar depois, com comparações e uma explicação em vídeo.",
+    "sectionDescription": "Mostro o que mudou, como funciona e o que cuidar depois, com comparações e uma explicação clara.",
     "stats": [
       {
         "description": "Lojas melhoradas nos últimos 12 meses."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Vamos começar pelo que preocupa você.",
-    "body": "Envie o link da sua loja e conte o que acontece. Dou uma primeira orientação gratuita em vídeo para você saber por onde começar.",
+    "body": "Envie o link da sua loja e conte o que acontece. Dou uma primeira orientação gratuita para você saber por onde começar.",
     "primary": "Conversar pelo WhatsApp",
     "secondary": "Prefiro escrever por e-mail"
   },
@@ -299,5 +299,9 @@
     "label": "Escultura interativa da IzignaMx",
     "keyboard": "Use as setas para girar e a tecla Home para voltar à vista inicial.",
     "ready": "Escultura pronta para girar."
+  },
+  "pricing": {
+    "from": "A partir de ≈{{amount}}",
+    "note": "Preços aproximados em USD. Confirmo o preço final antes de começar."
   }
 }

@@ -79,7 +79,7 @@
           "Des ajustements dans les principales parties de votre boutique.",
           "Des messages et des informations rassurantes plus clairs."
         ],
-        "price": "À partir de 1 200 $ MXN",
+        "price": "À partir de ≈64,49 USD",
         "duration": "Livraison 24-48h",
         "cta": "Demander sur WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Des améliorations de la page d'accueil et des formulaires convenus ensemble.",
           "Un tableau simple pour gérer les mises à jour."
         ],
-        "price": "À partir de 1 500 $ MXN",
+        "price": "À partir de ≈80,61 USD",
         "duration": "Livraison 48-72h",
         "cta": "Demander sur WhatsApp"
       },
@@ -105,7 +105,7 @@
           "Une proposition visuelle pour comprendre à quoi la page pourrait ressembler.",
           "Un plan et des éléments pour essayer différentes options."
         ],
-        "price": "À partir de 1 200 $ MXN",
+        "price": "À partir de ≈64,49 USD",
         "duration": "Livraison 48h",
         "cta": "Demander sur WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Des messages clairs pendant le chargement ou en cas d'erreur.",
           "Une vérification sur ordinateur et téléphone."
         ],
-        "price": "À partir de 1 800 $ MXN",
+        "price": "À partir de ≈96,73 USD",
         "duration": "Livraison 48-72h",
         "cta": "Demander sur WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Expérience",
     "sectionTitle": "Des changements que vous pouvez vérifier.",
-    "sectionDescription": "Je vous montre ce qui a changé, comment cela fonctionne et les points à surveiller ensuite, avec des comparaisons et une explication en vidéo.",
+    "sectionDescription": "Je vous montre ce qui a changé, comment cela fonctionne et les points à surveiller ensuite, avec des comparaisons et une explication claire.",
     "stats": [
       {
         "description": "Boutiques améliorées au cours des 12 derniers mois."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Commençons par ce qui vous préoccupe.",
-    "body": "Envoyez-moi le lien de votre boutique et dites-moi ce qui se passe. Je vous donne de premiers conseils gratuits en vidéo pour trouver par où commencer.",
+    "body": "Envoyez-moi le lien de votre boutique et dites-moi ce qui se passe. Je vous donne de premiers conseils gratuits pour trouver par où commencer.",
     "primary": "Parler sur WhatsApp",
     "secondary": "Je préfère écrire par e-mail"
   },
@@ -299,5 +299,9 @@
     "label": "Sculpture interactive d’IzignaMx",
     "keyboard": "Utilisez les flèches pour tourner et la touche Début pour revenir à la vue initiale.",
     "ready": "La sculpture est prête à tourner."
+  },
+  "pricing": {
+    "from": "À partir de ≈{{amount}}",
+    "note": "Prix approximatifs en USD. Je confirme le prix final avant de commencer."
   }
 }

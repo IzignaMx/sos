@@ -1,7 +1,7 @@
 /* Identidad IzignaMx: tokens públicos de marca y composición propia de SOS. */
 @font-face {
   font-family: "Aileron";
-  src: url("../fonts/Aileron-Regular.woff2?v=20261105-hero-hd-1")
+  src: url("../fonts/Aileron-Regular.woff2?v=20261105-usd-pricing-1")
     format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: "Aileron";
-  src: url("../fonts/Aileron-Bold.woff2?v=20261105-hero-hd-1")
+  src: url("../fonts/Aileron-Bold.woff2?v=20261105-usd-pricing-1")
     format("woff2");
   font-weight: 700;
   font-style: normal;
@@ -549,6 +549,11 @@ h1 {
   margin-top: 22px;
   color: var(--muted);
   font-size: 14px;
+}
+.pricing-note {
+  margin-block: 0 20px;
+  color: var(--muted);
+  font-size: 13px;
 }
 .service-grid {
   display: grid;

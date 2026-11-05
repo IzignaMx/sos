@@ -1,5 +1,5 @@
 // Mantener esta versión sincronizada con data-release del HTML.
-const RELEASE = "20261105-hero-hd-1";
+const RELEASE = "20261105-usd-pricing-1";
 const PRECACHE = "sos-precache-" + RELEASE;
 const RUNTIME = "sos-runtime-" + RELEASE;
 const versionedUrl = (path) => path + "?v=" + RELEASE;
@@ -10,6 +10,7 @@ const PRECACHE_URLS = [
   "/assets/css/language-flags.css",
   "/assets/js/main.js",
   "/assets/js/service-guide.js",
+  "/assets/js/pricing.js",
   "/assets/fonts/Aileron-Regular.woff2",
   "/assets/fonts/Aileron-Bold.woff2",
   "/assets/img/izignamx-mark.svg",

@@ -79,7 +79,7 @@
           "Adjustments to the main sections of your store.",
           "Clearer notices and information that helps customers feel confident."
         ],
-        "price": "From $1,200 MXN",
+        "price": "From ≈USD 64.49",
         "duration": "Delivery 24-48h",
         "cta": "Ask on WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Improvements to the homepage and the forms we agree on.",
           "A simple panel for managing updates."
         ],
-        "price": "From $1,500 MXN",
+        "price": "From ≈USD 80.61",
         "duration": "Delivery 48-72h",
         "cta": "Ask on WhatsApp"
       },
@@ -105,7 +105,7 @@
           "A visual proposal to show how the page could look.",
           "A plan and materials for trying different options."
         ],
-        "price": "From $1,200 MXN",
+        "price": "From ≈USD 64.49",
         "duration": "Delivery 48h",
         "cta": "Ask on WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Clear messages when something is loading or an error occurs.",
           "Checks on a computer and a phone."
         ],
-        "price": "From $1,800 MXN",
+        "price": "From ≈USD 96.73",
         "duration": "Delivery 48-72h",
         "cta": "Ask on WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Experience",
     "sectionTitle": "Changes you can check.",
-    "sectionDescription": "I show you what changed, how it works and what to look after next, with comparisons and a video explanation.",
+    "sectionDescription": "I show you what changed, how it works and what to look after next, with comparisons and a clear explanation.",
     "stats": [
       {
         "description": "Stores improved in the last 12 months."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Let's start with what concerns you.",
-    "body": "Send me your store's link and tell me what is happening. I will give you some initial guidance in a free video to help you find a starting point.",
+    "body": "Send me your store's link and tell me what is happening. I will give you some free initial guidance to help you find a starting point.",
     "primary": "Talk on WhatsApp",
     "secondary": "I prefer email"
   },
@@ -299,5 +299,9 @@
     "label": "Interactive sculpture by IzignaMx",
     "keyboard": "Use the arrow keys to rotate and the Home key to return to the starting view.",
     "ready": "Sculpture ready to rotate."
+  },
+  "pricing": {
+    "from": "From ≈{{amount}}",
+    "note": "Approximate prices in USD. I confirm the final price before starting."
   }
 }
