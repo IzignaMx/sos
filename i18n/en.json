@@ -294,7 +294,6 @@
     "testimonialsDetails": "Read customer reviews"
   },
   "hero3d": {
-    "load": "Explore in 3D",
     "loading": "Preparing the sculpture…",
     "error": "The 3D view is unavailable. You can keep exploring the page.",
     "label": "Interactive sculpture by IzignaMx",

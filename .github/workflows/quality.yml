@@ -42,12 +42,12 @@ jobs:
       - name: Comprobar que el visor publicado coincide con su fuente
         run: |
           npm run build:hero3d
-          git diff --exit-code -- assets/js/hero3d-renderer.js assets/js/hero3d-renderer.js.LEGAL.txt
+          git diff --exit-code -- assets/js/hero3d-renderer.js* assets/js/hero3d-worker.js* assets/js/hero3d-scene.js*
 
       - name: Comprobar formato de HTML y documentación
         run: npx prettier "**/*.html" "**/*.md" --check
 
-      - name: Verificar automatización de caché sin credenciales
+      - name: Verificar caché y recursos 3D sin credenciales
         run: node --test .github/tests/*.test.cjs
 
       - name: Instalar Chromium, WebKit y dependencias del sistema

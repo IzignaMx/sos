@@ -294,7 +294,6 @@
     "testimonialsDetails": "Müşteri görüşlerini oku"
   },
   "hero3d": {
-    "load": "3D olarak keşfet",
     "loading": "Heykel hazırlanıyor…",
     "error": "3D görünüm kullanılamıyor. Sayfayı keşfetmeye devam edebilirsiniz.",
     "label": "IzignaMx’in etkileşimli heykeli",

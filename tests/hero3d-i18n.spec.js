@@ -9,7 +9,7 @@ test("todos los idiomas incluyen instrucciones y estados accesibles del visor 3D
   const archivos = fs
     .readdirSync(directorio)
     .filter((archivo) => archivo.endsWith(".json"));
-  const claves = ["load", "loading", "error", "label", "keyboard", "ready"];
+  const claves = ["loading", "error", "label", "keyboard", "ready"];
   expect(archivos).toHaveLength(20);
   for (const archivo of archivos) {
     const catalogo = JSON.parse(

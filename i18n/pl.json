@@ -294,7 +294,6 @@
     "testimonialsDetails": "Przeczytaj opinie klientów"
   },
   "hero3d": {
-    "load": "Odkryj w 3D",
     "loading": "Przygotowywanie rzeźby…",
     "error": "Widok 3D jest niedostępny. Możesz dalej przeglądać stronę.",
     "label": "Interaktywna rzeźba IzignaMx",

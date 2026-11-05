@@ -294,7 +294,6 @@
     "testimonialsDetails": "Ler opiniões de clientes"
   },
   "hero3d": {
-    "load": "Explorar em 3D",
     "loading": "Preparando a escultura…",
     "error": "A visualização em 3D não está disponível. Você pode continuar explorando a página.",
     "label": "Escultura interativa da IzignaMx",
