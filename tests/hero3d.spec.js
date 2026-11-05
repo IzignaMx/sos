@@ -1,5 +1,8 @@
 const { test, expect } = require("@playwright/test");
 
+// CI prepara WebGL por software; un reintento puede consumir dos cargas de 20 s.
+test.setTimeout(45000);
+
 // Malla asimétrica diminuta: prueba el renderizado y los gestos sin depender del proveedor.
 function modeloDePrueba({ texturaFallida = false } = {}) {
   const posiciones = new Float32Array([
@@ -120,7 +123,7 @@ async function activar(page) {
   await expect(page.locator("[data-hero3d]")).toHaveAttribute(
     "data-state",
     "ready",
-    { timeout: 12000 },
+    { timeout: 20000 },
   );
   return page.locator("[data-hero3d-canvas] canvas");
 }
@@ -207,7 +210,7 @@ test("mantiene el foco durante la carga y respeta que se continúe leyendo", asy
   await expect(page.locator("[data-hero3d]")).toHaveAttribute(
     "data-state",
     "ready",
-    { timeout: 12000 },
+    { timeout: 20000 },
   );
   await expect(
     page.getByRole("link", { name: "Continuar leyendo" }),
@@ -298,7 +301,7 @@ test("conserva la fotografía si no se pueden cargar las texturas del modelo", a
   await expect(page.locator("[data-hero3d]")).toHaveAttribute(
     "data-state",
     "error",
-    { timeout: 12000 },
+    { timeout: 20000 },
   );
   await expect(page.locator("[data-hero3d-poster]")).toHaveCSS("opacity", "1");
 });
