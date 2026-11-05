@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "lang": "zh-CN",
+    "dir": "ltr",
+    "title": "网店修复与改进 | IzignaMx SOS",
+    "description": "网店打开慢、有故障，或购物步骤太复杂？为Shopify、BigCommerce和WordPress提供改进服务。查看价格，告诉我们你的问题。",
+    "ogTitle": "让你的网店更好用 | IzignaMx SOS",
+    "ogDescription": "帮你解决网店卡慢、WordPress故障和付款不便。选择所需服务，或通过WhatsApp告诉我们你的问题。"
+  },
+  "header": {
+    "badge": "72 小时以内",
+    "message": "面向 Shopify、BigCommerce、WordPress 的极速任务 • 优先处理上线与紧急营销"
+  },
+  "nav": {
+    "services": "服务",
+    "process": "服务流程",
+    "impact": "服务经验",
+    "faq": "常见问题",
+    "contact": "邮件咨询",
+    "book": "WhatsApp咨询",
+    "languageLabel": "选择语言"
+  },
+  "hero": {
+    "kicker": "电商 SOS 任务",
+    "title": "修复问题，让网店更好用。",
+    "lead": "如果你的网店打开慢、出现故障，或购买过程很麻烦，我可以帮你改善。支持Shopify、BigCommerce和WordPress。",
+    "bullets": [
+      "沉浸式设计与微动画，提升信任与留存。",
+      "包含审计与可视化路线图：前后对比指标与维护计划。",
+      "通过 WhatsApp 与 Notion Liveboard 直接沟通，无需中间人。"
+    ],
+    "primaryCta": "说说我的问题",
+    "secondaryCta": "查看服务和价格",
+    "metrics": {
+      "delivery": "视服务而定",
+      "checkout": "已优化结账",
+      "satisfaction": "客户满意度"
+    },
+    "panel": {
+      "title": "任务控制面板",
+      "subtitle": "聚焦 ROI 的审计与关键项修复：",
+      "items": [
+        {
+          "label": "核心网页指标",
+          "status": "+42%"
+        },
+        {
+          "label": "结账摩擦",
+          "status": "-65%"
+        },
+        {
+          "label": "视觉信任度",
+          "status": "A+ 等级"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "上线模式",
+        "body": "36 小时即可投入使用"
+      },
+      "ai": {
+        "title": "AI 辅助 UX",
+        "body": "可执行洞察 + 文案"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "我能帮你什么",
+    "sectionTitle": "选择适合你网店的服务。",
+    "sectionDescription": "可以先解决一个具体问题；如果还不清楚原因，也可以先做检查。",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "让网店打开更快",
+        "summary": "适合打开慢或不易使用的网店。改善事先约定页面的加载速度和设计。",
+        "bullets": [
+          "检查打开速度，提供易懂的报告。",
+          "调整网店的主要页面区域。",
+          "让提示和帮助顾客放心购买的信息更清楚。"
+        ],
+        "price": "≈USD 64.49 起",
+        "duration": "交付 24-48h",
+        "cta": "WhatsApp咨询"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "让WordPress更安全",
+        "summary": "适合有故障或安全问题的网站。检查文件、清理扩展功能，并改善一个重要页面。",
+        "bullets": [
+          "备份数据，查找并清除有害文件。",
+          "改善约定的首页内容和表单。",
+          "提供简单易用的更新管理页面。"
+        ],
+        "price": "≈USD 80.61 起",
+        "duration": "交付 48-72h",
+        "cta": "WhatsApp咨询"
+      },
+      "audit": {
+        "tag": "网店检查",
+        "title": "了解应该先改什么",
+        "summary": "检查一个页面，说明优先改进的地方。你会收到建议和设计示意方案；实际修改网站需另行约定。",
+        "bullets": [
+          "按重要程度和工作量排序的改进清单。",
+          "展示改进后页面样子的设计方案。",
+          "用于比较不同方案的计划和材料。"
+        ],
+        "price": "≈USD 64.49 起",
+        "duration": "交付 48h",
+        "cta": "WhatsApp咨询"
+      },
+      "checkout": {
+        "tag": "购物车与付款",
+        "title": "让付款更简单",
+        "summary": "适合顾客在购物最后一步遇到困难的网店。检查购买流程，在文字、表单或提示中完成最多三项改进。",
+        "bullets": [
+          "检查从购物车到付款的整个过程。",
+          "让加载中和出错时的提示更清楚。",
+          "在电脑和手机上检查使用情况。"
+        ],
+        "price": "≈USD 96.73 起",
+        "duration": "交付 48-72h",
+        "cta": "WhatsApp咨询"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "服务经验",
+    "sectionTitle": "改进看得见，也能检查。",
+    "sectionDescription": "通过前后对比和清晰的说明，介绍改了什么、怎么使用，以及后续需要注意什么。",
+    "stats": [
+      {
+        "description": "过去12个月改善的网店数量。"
+      },
+      {
+        "description": "每个项目平均解决的问题数量。"
+      },
+      {
+        "description": "为比较改进方案准备的测试数量。"
+      },
+      {
+        "description": "再次委托或选择每月维护的客户比例。"
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "如何开始",
+    "sectionTitle": "你说出问题，我来处理。",
+    "sectionDescription": "直接与我Edgar沟通。你不需要懂设计或编程。",
+    "steps": [
+      {
+        "title": "告诉我遇到的问题",
+        "description": "发来网店链接和你担心的问题。文字或语音消息都可以。"
+      },
+      {
+        "title": "一起确定工作内容",
+        "description": "我会说明能解决什么、费用多少、何时完成。开始前由你决定。"
+      },
+      {
+        "title": "进行改进",
+        "description": "按约定进行修改，并告知进展。如果选择检查服务，我会准备改进建议。"
+      },
+      {
+        "title": "一起检查交付内容",
+        "description": "我会展示交付成果和使用方法。你还会收到操作指南和后续建议。"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "客户评价",
+    "sectionTitle": "听听客户怎么说。",
+    "sectionDescription": "交付后，我们还会跟进7天。",
+    "quotes": [
+      {
+        "text": "“48 小时内，我们的结账流程从卡顿的漏斗变成顺滑体验。动画建立了信任，移动端转化提升 23%。”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Before/After 报告一目了然：速度、安全、视觉叙事全面升级。Edgar 全程用 Notion 和 Slack 协调，没有噪音。我们将按季度复用。”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · 维护套餐"
+      },
+      {
+        "text": "“Flash Audit 让我们瞬间看清问题。交付动画稿和脚本，部署不到一个冲刺。现在我们把这些流程复制到全站。”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "未来式 FAQ",
+    "sectionTitle": "开始前，你需要了解这些。",
+    "sectionDescription": "有其他问题，可以通过WhatsApp联系我。",
+    "items": [
+      {
+        "question": "开始需要准备什么？",
+        "answer": "先发来网店链接，说明遇到的问题。如果需要登录网站，我会告诉你需要哪些临时访问权限，以及如何提供。"
+      },
+      {
+        "question": "你会实际修改网站，还是只给建议？",
+        "answer": "速度、WordPress和付款服务包含约定的修改。网店检查包含建议和设计示意方案。如需我实际修改网站，我们会另行确定这部分工作。"
+      },
+      {
+        "question": "费用多少，什么时候完成？",
+        "answer": "每项服务都列出了起价和预计时间。开始前，我会根据问题和可安排的时间，确认最终价格、包含内容和交付日期。任何额外工作都会先与你商量。"
+      },
+      {
+        "question": "不知道网店需要什么，怎么办？",
+        "answer": "发来链接，告诉我你希望改善什么。不需要知道技术原因，也不需要知道网站用了什么平台。我会帮你找到合适的第一步。"
+      },
+      {
+        "question": "怎么知道哪里改善了？",
+        "answer": "我们一起检查约定的内容，例如页面打开需要多久，或表单能否正常使用。我会解释改了什么以及如何验证。要了解对销售的影响，需要持续观察实际购买情况。"
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "从你担心的问题开始。",
+    "body": "发来网店链接，告诉我发生了什么。我会提供免费的初步建议，帮你了解可以从哪里开始。",
+    "primary": "通过WhatsApp咨询",
+    "secondary": "我想用邮件咨询"
+  },
+  "footer": {
+    "note": "IzignaMx SOS · 网店改进服务 · 从墨西哥城服务拉丁美洲和美国 · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "联系 Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=%E5%92%A8%E8%AF%A2%E7%BD%91%E5%BA%97%E9%97%AE%E9%A2%98",
+    "navWhatsApp": "https://wa.me/525533760889?text=%E4%BD%A0%E5%A5%BDEdgar%EF%BC%8C%E6%88%91%E7%9A%84%E7%BD%91%E5%BA%97%E9%9C%80%E8%A6%81%E5%B8%AE%E5%8A%A9%E3%80%82",
+    "heroPrimary": "https://wa.me/525533760889?text=%E4%BD%A0%E5%A5%BDEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E8%AF%B4%E8%AF%B4%E7%BD%91%E5%BA%97%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98%E3%80%82",
+    "servicePerformance": "https://wa.me/525533760889?text=%E4%BD%A0%E5%A5%BDEdgar%EF%BC%8C%E6%88%91%E7%9A%84%E7%BD%91%E5%BA%97%E6%89%93%E5%BC%80%E5%BE%88%E6%85%A2%EF%BC%8C%E6%83%B3%E6%94%B9%E5%96%84%E4%B8%80%E4%B8%8B%E3%80%82",
+    "serviceWordpress": "https://wa.me/525533760889?text=%E4%BD%A0%E5%A5%BDEdgar%EF%BC%8C%E6%88%91%E7%9A%84WordPress%E7%BD%91%E7%AB%99%E9%9C%80%E8%A6%81%E5%B8%AE%E5%8A%A9%E3%80%82",
+    "serviceAudit": "https://wa.me/525533760889?text=%E4%BD%A0%E5%A5%BDEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E7%9F%A5%E9%81%93%E7%BD%91%E5%BA%97%E5%BA%94%E8%AF%A5%E5%85%88%E6%94%B9%E5%96%84%E5%93%AA%E4%BA%9B%E5%9C%B0%E6%96%B9%E3%80%82",
+    "serviceCheckout": "https://wa.me/525533760889?text=%E4%BD%A0%E5%A5%BDEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E8%AE%A9%E9%A1%BE%E5%AE%A2%E6%9B%B4%E5%AE%B9%E6%98%93%E5%AE%8C%E6%88%90%E8%B4%AD%E4%B9%B0%E3%80%82",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=%E4%BD%A0%E5%A5%BDEdgar%EF%BC%8C%E6%88%91%E6%83%B3%E8%8E%B7%E5%BE%97%E5%85%B3%E4%BA%8E%E7%BD%91%E5%BA%97%E7%9A%84%E5%88%9D%E6%AD%A5%E5%BB%BA%E8%AE%AE%E3%80%82",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=%E5%92%A8%E8%AF%A2%E7%BD%91%E5%BA%97%E9%97%AE%E9%A2%98",
+    "floatingWa": "https://wa.me/525533760889?text=%E4%BD%A0%E5%A5%BDEdgar%EF%BC%8C%E6%88%91%E4%BB%8ESOS%E7%BD%91%E7%AB%99%E8%BF%87%E6%9D%A5%EF%BC%8C%E6%83%B3%E5%92%A8%E8%AF%A2%E7%BD%91%E5%BA%97%E7%9A%84%E9%97%AE%E9%A2%98%E3%80%82"
+  },
+  "editorial": {
+    "skip": "跳至正文",
+    "edition": "设计有意，代码有工。",
+    "artLabel": "修复习作 / 第 002 号",
+    "artCaption": "重新连接重要之物。",
+    "scroll": "我们如何改善你的网店",
+    "motionOn": "暂停动效",
+    "motionOff": "启用动效",
+    "platforms": "支持的平台",
+    "manifestoLabel": "SOS 背后的理念",
+    "manifestoTitle": "紧急的工作，也可以精雕细琢。",
+    "manifestoBody": "一家商店，是一段旅程。当某个环节断裂，我会恢复顺畅，照顾每一处细节：看得见的、感受得到的，以及让一切运转的机制。",
+    "labLabel": "试试看",
+    "labTitle": "看得懂，买起来才更容易。",
+    "labBody": "移动滑块，比较购买按钮是否容易找到。这只是示例，不是真实网店。",
+    "labControl": "清晰程度",
+    "labBefore": "更难看懂",
+    "labAfter": "更清楚",
+    "labProduct": "示例商品",
+    "labAction": "加入购物袋",
+    "labNote": "设计演示 · 不代表销售结果",
+    "footerTitle": "让一切重新运转起来。"
+  },
+  "brandFlow": {
+    "family": "IzignaMx 专项服务",
+    "flowLabel": "认真做好每一步",
+    "flowTitle": "从找出问题，到完成修复。",
+    "flowIntro": "当你选择的服务包含网站修改时，我们会这样开展工作。",
+    "flowNote": "这是工作过程的示意，不是客户成果展示。",
+    "detect": "检查",
+    "detectBody": "找出网店变慢、发生故障或让购物变困难的原因。",
+    "connect": "改进",
+    "connectBody": "完成约定的修改，并检查各个部分能否正常配合。",
+    "activate": "确认",
+    "activateBody": "展示改进内容，并说明交付后如何使用你的网店。",
+    "chooseLabel": "从你发现的问题开始",
+    "chooseTitle": "你在担心什么？",
+    "chooseBody": "选择一项，我会推荐可能适合的服务。下方也可以查看所有服务。",
+    "slow": "网店打开太慢",
+    "security": "WordPress出了问题",
+    "checkout": "购买过程难以完成",
+    "unsure": "不知道需要改什么",
+    "recommended": "这项服务可能适合你",
+    "viewService": "查看这项服务",
+    "reset": "取消选择",
+    "scopeNote": "开始前确认价格、包含内容和交付日期。",
+    "reassurance": "点击按钮会打开WhatsApp。直接说说问题，不需要使用专业术语。"
+  },
+  "plainContent": {
+    "detailsLabel": "包含什么",
+    "timingNote": "时间为预估。约定工作内容并获得必要的访问权限后，确认具体日期。",
+    "experienceDetails": "查看服务经验数据",
+    "testimonialsDetails": "阅读客户评价"
+  },
+  "hero3d": {
+    "loading": "正在准备雕塑…",
+    "error": "3D视图暂不可用。你仍可继续浏览页面。",
+    "label": "IzignaMx互动雕塑",
+    "keyboard": "使用方向键旋转，按Home键返回初始视角。",
+    "ready": "雕塑已准备好，可以旋转了。"
+  },
+  "pricing": {
+    "from": "≈{{amount}} 起",
+    "note": "USD价格为估算金额。开始工作前，我会确认最终价格。"
+  }
+}

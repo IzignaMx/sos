@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "lang": "vi",
+    "dir": "ltr",
+    "title": "Sửa lỗi và cải thiện cửa hàng trực tuyến | IzignaMx SOS",
+    "description": "Cửa hàng mở chậm, gặp lỗi hoặc khó mua hàng? Tôi giúp cải thiện Shopify, BigCommerce và WordPress. Xem giá và cho tôi biết vấn đề của bạn.",
+    "ogTitle": "Cửa hàng trực tuyến có thể hoạt động tốt hơn | IzignaMx SOS",
+    "ogDescription": "Hỗ trợ cửa hàng tải chậm, lỗi WordPress và thanh toán rắc rối. Chọn dịch vụ hoặc kể vấn đề qua WhatsApp."
+  },
+  "header": {
+    "badge": "72h hoặc ít hơn",
+    "message": "Nhiệm vụ tốc độ cho cửa hàng Shopify, BigCommerce, WordPress • Ưu tiên cho launch và chiến dịch khẩn"
+  },
+  "nav": {
+    "services": "Giải pháp",
+    "process": "Cách làm việc",
+    "impact": "Kinh nghiệm",
+    "faq": "Câu hỏi",
+    "contact": "Gửi email",
+    "book": "Trao đổi qua WhatsApp",
+    "languageLabel": "Chọn ngôn ngữ"
+  },
+  "hero": {
+    "kicker": "Nhiệm vụ eCommerce tốc độ",
+    "title": "Sửa lỗi và cải thiện cửa hàng trực tuyến.",
+    "lead": "Nếu cửa hàng mở chậm, có lỗi hoặc khó mua hàng, tôi sẽ giúp bạn xử lý. Tôi làm việc với Shopify, BigCommerce và WordPress.",
+    "bullets": [
+      "Thiết kế immersive với micro-animation tăng niềm tin và giữ chân người dùng.",
+      "Bao gồm audit và roadmap trực quan: số liệu trước/sau cùng kế hoạch duy trì.",
+      "Liên hệ trực tiếp qua WhatsApp và bảng Notion live—không qua trung gian."
+    ],
+    "primaryCta": "Kể vấn đề của tôi",
+    "secondaryCta": "Xem dịch vụ và giá",
+    "metrics": {
+      "delivery": "Tùy dịch vụ",
+      "checkout": "Checkout tối ưu",
+      "satisfaction": "Hài lòng khách hàng"
+    },
+    "panel": {
+      "title": "Mission control đang hoạt động",
+      "subtitle": "Đánh giá xoay quanh ROI + xử lý điểm nghẽn:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Ma sát checkout",
+          "status": "-65%"
+        },
+        {
+          "label": "Niềm tin thị giác",
+          "status": "Xếp hạng A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Chế độ launch",
+        "body": "Sẵn sàng go-live trong 36h"
+      },
+      "ai": {
+        "title": "UX hỗ trợ AI",
+        "body": "Insight hành động + copy"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "Tôi có thể giúp gì",
+    "sectionTitle": "Chọn điều cửa hàng của bạn cần.",
+    "sectionDescription": "Bạn có thể bắt đầu từ một vấn đề cụ thể hoặc nhờ kiểm tra nếu chưa biết lỗi ở đâu.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Cửa hàng tải nhanh hơn",
+        "summary": "Dành cho cửa hàng mở chậm hoặc khó sử dụng. Tôi cải thiện tốc độ tải và thiết kế của các trang đã thống nhất.",
+        "bullets": [
+          "Kiểm tra tốc độ kèm báo cáo dễ hiểu.",
+          "Điều chỉnh các phần chính của cửa hàng.",
+          "Thông báo và thông tin giúp khách yên tâm mua hàng rõ ràng hơn."
+        ],
+        "price": "Từ ≈64,49 USD",
+        "duration": "Giao 24-48h",
+        "cta": "Hỏi qua WhatsApp"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "WordPress an toàn hơn",
+        "summary": "Dành cho website có lỗi hoặc vấn đề bảo mật. Tôi kiểm tra tệp, dọn các tiện ích bổ sung và cải thiện một trang quan trọng.",
+        "bullets": [
+          "Sao lưu dữ liệu, tìm và loại bỏ tệp gây hại.",
+          "Cải thiện trang đầu và các biểu mẫu đã thống nhất.",
+          "Màn hình quản lý cập nhật đơn giản."
+        ],
+        "price": "Từ ≈80,61 USD",
+        "duration": "Giao 48-72h",
+        "cta": "Hỏi qua WhatsApp"
+      },
+      "audit": {
+        "tag": "Kiểm tra cửa hàng",
+        "title": "Biết nên cải thiện gì trước",
+        "summary": "Tôi xem một trang và giải thích nên thay đổi gì trước. Bạn nhận được đề xuất và bản thiết kế minh họa; việc sửa website được thỏa thuận riêng.",
+        "bullets": [
+          "Danh sách cải thiện xếp theo mức quan trọng và công sức.",
+          "Bản thiết kế để hình dung trang sau khi thay đổi.",
+          "Kế hoạch và tài liệu để thử các phương án khác nhau."
+        ],
+        "price": "Từ ≈64,49 USD",
+        "duration": "Giao 48h",
+        "cta": "Hỏi qua WhatsApp"
+      },
+      "checkout": {
+        "tag": "Giỏ hàng và thanh toán",
+        "title": "Thanh toán đơn giản hơn",
+        "summary": "Dành cho cửa hàng có bước mua cuối cùng phức tạp. Tôi kiểm tra quá trình mua và thực hiện tối đa ba cải thiện về nội dung, biểu mẫu hoặc thông báo.",
+        "bullets": [
+          "Kiểm tra các bước từ giỏ hàng đến thanh toán.",
+          "Thông báo rõ ràng khi đang tải hoặc có lỗi.",
+          "Kiểm tra trên máy tính và điện thoại."
+        ],
+        "price": "Từ ≈96,73 USD",
+        "duration": "Giao 48-72h",
+        "cta": "Hỏi qua WhatsApp"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Kinh nghiệm",
+    "sectionTitle": "Những thay đổi bạn có thể kiểm tra.",
+    "sectionDescription": "Tôi dùng hình ảnh so sánh và lời giải thích rõ ràng để bạn biết đã đổi gì, cách sử dụng và những gì cần chăm sóc về sau.",
+    "stats": [
+      {
+        "description": "Cửa hàng được cải thiện trong 12 tháng qua."
+      },
+      {
+        "description": "Số vấn đề được giải quyết trung bình mỗi dự án."
+      },
+      {
+        "description": "Thử nghiệm được chuẩn bị để so sánh các phương án cải thiện."
+      },
+      {
+        "description": "Khách hàng quay lại hoặc dùng dịch vụ bảo trì hằng tháng."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Bắt đầu thế nào",
+    "sectionTitle": "Bạn kể vấn đề. Tôi lo phần công việc.",
+    "sectionDescription": "Bạn trao đổi trực tiếp với tôi, Edgar. Không cần biết thiết kế hay lập trình.",
+    "steps": [
+      {
+        "title": "Kể tôi nghe vấn đề",
+        "description": "Gửi đường dẫn cửa hàng và điều bạn đang lo. Bạn có thể nhắn tin hoặc gửi tin nhắn thoại."
+      },
+      {
+        "title": "Thống nhất công việc",
+        "description": "Tôi giải thích có thể xử lý gì, giá bao nhiêu và khi nào xong. Bạn quyết định trước khi bắt đầu."
+      },
+      {
+        "title": "Thực hiện cải thiện",
+        "description": "Tôi làm những thay đổi đã thống nhất và cập nhật tiến độ. Nếu bạn chọn kiểm tra cửa hàng, tôi chuẩn bị các đề xuất."
+      },
+      {
+        "title": "Cùng kiểm tra",
+        "description": "Tôi trình bày phần đã hoàn thành và cách sử dụng. Bạn nhận hướng dẫn và các bước tiếp theo."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Ý kiến khách hàng",
+    "sectionTitle": "Khách hàng chia sẻ điều gì.",
+    "sectionDescription": "Sau khi bàn giao, chúng tôi tiếp tục theo dõi trong 7 ngày.",
+    "quotes": [
+      {
+        "text": "“Trong 48h checkout của chúng tôi chuyển từ đường hầm rối rắm thành trải nghiệm mượt mà. Animation tăng niềm tin và chuyển đổi mobile tăng 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Báo cáo trước/sau mang tính quyết định: tốc độ, bảo mật, câu chuyện thị giác. Edgar điều phối mọi thứ qua Notion & Slack không tiếng ồn. Chúng tôi quay lại mỗi quý.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Lộ trình duy trì"
+      },
+      {
+        "text": "“Flash Audit cho insight tức thì. Nhận mockup animate và script sẵn; triển khai chưa tới một sprint. Giờ chúng tôi nhân rộng flow cho toàn site.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ tương lai",
+    "sectionTitle": "Những điều bạn cần biết.",
+    "sectionDescription": "Nếu còn thắc mắc, hãy nhắn tôi qua WhatsApp.",
+    "items": [
+      {
+        "question": "Cần chuẩn bị gì để bắt đầu?",
+        "answer": "Trước hết, gửi đường dẫn cửa hàng và giải thích vấn đề. Nếu cần vào website, tôi sẽ nói rõ cần quyền truy cập tạm thời nào và cách chia sẻ."
+      },
+      {
+        "question": "Bạn sẽ sửa trực tiếp hay chỉ đề xuất?",
+        "answer": "Các dịch vụ tốc độ, WordPress và thanh toán bao gồm những thay đổi đã thống nhất. Dịch vụ kiểm tra cửa hàng gồm đề xuất và bản thiết kế minh họa. Nếu muốn tôi áp dụng, chúng ta sẽ thỏa thuận riêng phần việc đó."
+      },
+      {
+        "question": "Giá bao nhiêu và khi nào hoàn thành?",
+        "answer": "Mỗi dịch vụ có giá khởi điểm và thời gian dự kiến. Trước khi bắt đầu, tôi xác nhận giá cuối cùng, nội dung công việc và ngày bàn giao dựa trên vấn đề và lịch làm việc. Mọi việc phát sinh đều được trao đổi với bạn trước."
+      },
+      {
+        "question": "Nếu tôi không biết cửa hàng cần gì thì sao?",
+        "answer": "Gửi đường dẫn và kể điều bạn muốn cải thiện. Bạn không cần biết nguyên nhân kỹ thuật hay cửa hàng dùng nền tảng nào. Tôi sẽ giúp tìm điểm bắt đầu phù hợp."
+      },
+      {
+        "question": "Làm sao biết đã cải thiện điều gì?",
+        "answer": "Chúng ta cùng kiểm tra những gì đã thống nhất: ví dụ trang mất bao lâu để mở hoặc biểu mẫu có hoạt động đúng không. Tôi giải thích thay đổi và cách kiểm tra. Để biết ảnh hưởng đến doanh số, cần theo dõi các giao dịch thực tế theo thời gian."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Bắt đầu từ điều bạn đang lo.",
+    "body": "Gửi đường dẫn cửa hàng và kể vấn đề. Tôi tư vấn ban đầu miễn phí để bạn biết nên bắt đầu từ đâu.",
+    "primary": "Trao đổi qua WhatsApp",
+    "secondary": "Tôi muốn gửi email"
+  },
+  "footer": {
+    "note": "IzignaMx SOS · Cải thiện cửa hàng trực tuyến · Từ Mexico City đến Mỹ Latinh và Hoa Kỳ · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Chat với Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=H%E1%BB%97%20tr%E1%BB%A3%20c%E1%BB%ADa%20h%C3%A0ng%20tr%E1%BB%B1c%20tuy%E1%BA%BFn",
+    "navWhatsApp": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20c%E1%BA%A7n%20h%E1%BB%97%20tr%E1%BB%A3%20c%E1%BB%ADa%20h%C3%A0ng%20tr%E1%BB%B1c%20tuy%E1%BA%BFn.",
+    "heroPrimary": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20mu%E1%BB%91n%20k%E1%BB%83%20m%E1%BB%99t%20v%E1%BA%A5n%20%C4%91%E1%BB%81%20v%E1%BB%9Bi%20c%E1%BB%ADa%20h%C3%A0ng%20tr%E1%BB%B1c%20tuy%E1%BA%BFn%20c%E1%BB%A7a%20m%C3%ACnh.",
+    "servicePerformance": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20c%E1%BB%ADa%20h%C3%A0ng%20c%E1%BB%A7a%20t%C3%B4i%20m%E1%BB%9F%20ch%E1%BA%ADm%20v%C3%A0%20t%C3%B4i%20mu%E1%BB%91n%20c%E1%BA%A3i%20thi%E1%BB%87n.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20c%E1%BA%A7n%20h%E1%BB%97%20tr%E1%BB%A3%20website%20WordPress.",
+    "serviceAudit": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20mu%E1%BB%91n%20bi%E1%BA%BFt%20n%C3%AAn%20c%E1%BA%A3i%20thi%E1%BB%87n%20g%C3%AC%20%E1%BB%9F%20c%E1%BB%ADa%20h%C3%A0ng.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20mu%E1%BB%91n%20kh%C3%A1ch%20d%E1%BB%85%20ho%C3%A0n%20t%E1%BA%A5t%20mua%20h%C3%A0ng%20h%C6%A1n.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20mu%E1%BB%91n%20%C4%91%C6%B0%E1%BB%A3c%20t%C6%B0%20v%E1%BA%A5n%20ban%20%C4%91%E1%BA%A7u%20v%E1%BB%81%20c%E1%BB%ADa%20h%C3%A0ng%20tr%E1%BB%B1c%20tuy%E1%BA%BFn.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=H%E1%BB%97%20tr%E1%BB%A3%20c%E1%BB%ADa%20h%C3%A0ng%20tr%E1%BB%B1c%20tuy%E1%BA%BFn",
+    "floatingWa": "https://wa.me/525533760889?text=Ch%C3%A0o%20Edgar%2C%20t%C3%B4i%20%C4%91%E1%BA%BFn%20t%E1%BB%AB%20SOS%20v%C3%A0%20c%E1%BA%A7n%20h%E1%BB%97%20tr%E1%BB%A3%20c%E1%BB%ADa%20h%C3%A0ng%20tr%E1%BB%B1c%20tuy%E1%BA%BFn."
+  },
+  "editorial": {
+    "skip": "Chuyển đến nội dung",
+    "edition": "Thiết kế có chủ đích. Viết mã bằng tâm huyết.",
+    "artLabel": "Nghiên cứu về sự sửa chữa / Số 002",
+    "artCaption": "Kết nối lại những điều quan trọng.",
+    "scroll": "Cách chúng tôi chăm sóc cửa hàng",
+    "motionOn": "Tạm dừng chuyển động",
+    "motionOff": "Bật chuyển động",
+    "platforms": "Nền tảng hỗ trợ",
+    "manifestoLabel": "Ý tưởng đằng sau SOS",
+    "manifestoTitle": "Việc gấp vẫn có thể làm chỉn chu.",
+    "manifestoBody": "Một cửa hàng là một hành trình. Khi một mắt xích bị đứt, tôi khôi phục dòng chảy và chăm chút từng chi tiết: điều bạn nhìn thấy, cảm nhận và những gì giúp mọi thứ vận hành.",
+    "labLabel": "Thử xem",
+    "labTitle": "Dễ hiểu hơn, mua hàng cũng dễ hơn.",
+    "labBody": "Di chuyển thanh trượt và so sánh mức độ dễ tìm nút mua hàng. Đây là ví dụ, không phải cửa hàng thật.",
+    "labControl": "Mức độ rõ ràng",
+    "labBefore": "Khó hiểu hơn",
+    "labAfter": "Rõ ràng hơn",
+    "labProduct": "Sản phẩm mẫu",
+    "labAction": "Thêm vào giỏ",
+    "labNote": "Minh họa thiết kế · Không thể hiện kết quả bán hàng",
+    "footerTitle": "Cùng đưa mọi thứ trở lại nhịp vận hành."
+  },
+  "brandFlow": {
+    "family": "Một dịch vụ chuyên biệt của IzignaMx",
+    "flowLabel": "Chăm chút từng bước",
+    "flowTitle": "Từ tìm ra vấn đề đến giải quyết xong.",
+    "flowIntro": "Đây là cách chúng tôi làm việc khi dịch vụ bao gồm thay đổi trên cửa hàng.",
+    "flowNote": "Minh họa công việc của chúng tôi, không phải kết quả của khách hàng.",
+    "detect": "Kiểm tra",
+    "detectBody": "Tìm nguyên nhân khiến cửa hàng chậm, gặp lỗi hoặc khó mua hàng.",
+    "connect": "Cải thiện",
+    "connectBody": "Sửa những phần đã thống nhất và kiểm tra chúng có hoạt động cùng nhau đúng cách không.",
+    "activate": "Xác nhận",
+    "activateBody": "Cho bạn xem thay đổi và cách sử dụng cửa hàng sau khi bàn giao.",
+    "chooseLabel": "Bắt đầu từ điều bạn nhận thấy",
+    "chooseTitle": "Bạn đang lo điều gì?",
+    "chooseBody": "Chọn một mục để tôi gợi ý dịch vụ. Bạn cũng có thể xem tất cả bên dưới.",
+    "slow": "Cửa hàng mở chậm",
+    "security": "WordPress của tôi có vấn đề",
+    "checkout": "Khó hoàn tất mua hàng",
+    "unsure": "Tôi chưa biết cần gì",
+    "recommended": "Có thể giúp bạn",
+    "viewService": "Xem dịch vụ này",
+    "reset": "Bỏ lựa chọn",
+    "scopeNote": "Xác nhận giá, nội dung công việc và ngày bàn giao trước khi bắt đầu.",
+    "reassurance": "Nút này mở WhatsApp. Cứ kể điều đang xảy ra, không cần dùng thuật ngữ kỹ thuật."
+  },
+  "plainContent": {
+    "detailsLabel": "Bao gồm những gì",
+    "timingNote": "Thời gian chỉ là dự kiến. Ngày bàn giao được xác nhận sau khi thống nhất công việc và có quyền truy cập cần thiết.",
+    "experienceDetails": "Xem kinh nghiệm qua con số",
+    "testimonialsDetails": "Đọc ý kiến khách hàng"
+  },
+  "hero3d": {
+    "loading": "Đang chuẩn bị tác phẩm điêu khắc…",
+    "error": "Chế độ xem 3D hiện không khả dụng. Bạn vẫn có thể tiếp tục khám phá trang.",
+    "label": "Tác phẩm điêu khắc tương tác của IzignaMx",
+    "keyboard": "Dùng các phím mũi tên để xoay và phím Home để trở về góc nhìn ban đầu.",
+    "ready": "Tác phẩm đã sẵn sàng để xoay."
+  },
+  "pricing": {
+    "from": "Từ ≈{{amount}}",
+    "note": "Giá bằng USD là giá ước tính. Tôi xác nhận giá cuối cùng trước khi bắt đầu."
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "lang": "sv",
+    "dir": "ltr",
+    "title": "Rättningar och förbättringar för din webbutik | IzignaMx SOS",
+    "description": "Laddar din butik långsamt, uppstår fel eller är det svårt att handla? Hjälp med Shopify, BigCommerce och WordPress. Se priser och berätta vad som händer.",
+    "ogTitle": "Din webbutik kan fungera bättre | IzignaMx SOS",
+    "ogDescription": "Hjälp med långsamma butiker, problem i WordPress och krångliga betalningar. Välj det du behöver eller berätta om problemet på WhatsApp."
+  },
+  "header": {
+    "badge": "72 h eller mindre",
+    "message": "Expressuppdrag för Shopify-, BigCommerce- och WordPress-butiker • Prioritet för lanseringar och akuta kampanjer"
+  },
+  "nav": {
+    "services": "Lösningar",
+    "process": "Så fungerar det",
+    "impact": "Erfarenhet",
+    "faq": "Frågor",
+    "contact": "Skriv ett mejl",
+    "book": "Prata på WhatsApp",
+    "languageLabel": "Välj språk"
+  },
+  "hero": {
+    "kicker": "Expressuppdrag för e-handel",
+    "title": "Rättningar och förbättringar för din webbutik.",
+    "lead": "Om butiken laddar långsamt, har fel eller gör det svårt att handla hjälper jag dig. Jag arbetar med Shopify, BigCommerce och WordPress.",
+    "bullets": [
+      "Immersiv design med mikroanimationer som bygger förtroende och retention.",
+      "Audit och visuell roadmap ingår: siffror före/efter samt underhållsplan.",
+      "Direktkontakt med mig via WhatsApp och ett Notion-liveboard—inga mellanhänder."
+    ],
+    "primaryCta": "Berätta om mitt problem",
+    "secondaryCta": "Se lösningar och priser",
+    "metrics": {
+      "delivery": "Beror på tjänsten",
+      "checkout": "Checkout optimerade",
+      "satisfaction": "Kundnöjdhet"
+    },
+    "panel": {
+      "title": "Mission control i realtid",
+      "subtitle": "ROI-fokuserad review + lösta kritiska punkter:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Checkout-friktion",
+          "status": "-65%"
+        },
+        {
+          "label": "Visuellt förtroende",
+          "status": "Betyg A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Launchläge",
+        "body": "Redo för go-live på 36 h"
+      },
+      "ai": {
+        "title": "AI-stödd UX",
+        "body": "Konkreta insikter + copy"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "Så kan jag hjälpa dig",
+    "sectionTitle": "Välj det din butik behöver.",
+    "sectionDescription": "Börja med ett visst problem eller be om en genomgång om du inte vet vad som är fel.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "En snabbare butik",
+        "summary": "För butiker som laddar långsamt eller är svåra att använda. Jag förbättrar laddningen och utformningen på de sidor vi kommer överens om.",
+        "bullets": [
+          "Hastighetskontroll med en förklarad rapport.",
+          "Justeringar i butikens viktigaste delar.",
+          "Tydligare meddelanden och information som skapar trygghet."
+        ],
+        "price": "Från ≈64,49 USD",
+        "duration": "Leverans 24-48 h",
+        "cta": "Fråga via WhatsApp"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Ett säkrare WordPress",
+        "summary": "För webbplatser med fel eller säkerhetsproblem. Jag granskar filer, rensar tillägg och förbättrar en viktig sida.",
+        "bullets": [
+          "Säkerhetskopia, sökning efter skadliga filer och rensning.",
+          "Förbättringar av startsidan och de formulär vi kommer överens om.",
+          "En enkel panel för att hantera uppdateringar."
+        ],
+        "price": "Från ≈80,61 USD",
+        "duration": "Leverans 48-72 h",
+        "cta": "Fråga via WhatsApp"
+      },
+      "audit": {
+        "tag": "Genomgång av din butik",
+        "title": "Se vad som bör förbättras",
+        "summary": "Jag granskar en sida och förklarar vad som bör ändras först. Du får råd och ett visuellt förslag. Ändringar på webbplatsen avtalas separat.",
+        "bullets": [
+          "En lista med förbättringar ordnade efter betydelse och arbetsinsats.",
+          "Ett visuellt förslag som visar hur det skulle kunna se ut.",
+          "En plan och material för att prova olika alternativ."
+        ],
+        "price": "Från ≈64,49 USD",
+        "duration": "Leverans 48 h",
+        "cta": "Fråga via WhatsApp"
+      },
+      "checkout": {
+        "tag": "Varukorg och betalning",
+        "title": "En enklare betalning",
+        "summary": "För köp som blir krångliga i sista steget. Jag granskar vägen dit och gör upp till tre förbättringar i texter, formulär eller meddelanden.",
+        "bullets": [
+          "Genomgång från varukorg till betalning.",
+          "Tydliga meddelanden vid laddning och fel.",
+          "Kontroll på dator och mobil."
+        ],
+        "price": "Från ≈96,73 USD",
+        "duration": "Leverans 48-72 h",
+        "cta": "Fråga via WhatsApp"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Erfarenhet",
+    "sectionTitle": "Förändringar du kan kontrollera.",
+    "sectionDescription": "Jag visar vad som ändrats, hur det fungerar och vad du behöver tänka på framöver, med jämförelser och en tydlig förklaring.",
+    "stats": [
+      {
+        "description": "Butiker som förbättrats under de senaste 12 månaderna."
+      },
+      {
+        "description": "Problem som lösts per projekt i genomsnitt."
+      },
+      {
+        "description": "Förberedda tester för att jämföra olika förbättringar."
+      },
+      {
+        "description": "Kunder som återkommer eller väljer månatligt underhåll."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Så börjar vi",
+    "sectionTitle": "Du beskriver problemet. Jag tar hand om arbetet.",
+    "sectionDescription": "Du pratar direkt med mig, Edgar. Du behöver inte kunna design eller programmering.",
+    "steps": [
+      {
+        "title": "Berätta vad som händer",
+        "description": "Skicka länken till din butik och det du oroar dig för, i ett meddelande eller röstmeddelande."
+      },
+      {
+        "title": "Vi bestämmer arbetet",
+        "description": "Jag förklarar vad jag kan lösa, vad det kostar och när det blir klart. Du bestämmer innan vi börjar."
+      },
+      {
+        "title": "Jag gör förbättringarna",
+        "description": "Jag gör de ändringar vi avtalat och håller dig uppdaterad. Väljer du en genomgång tar jag fram rekommendationer."
+      },
+      {
+        "title": "Vi går igenom det tillsammans",
+        "description": "Jag visar leveransen och hur du använder den. Du får en guide och nästa steg."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Omdömen",
+    "sectionTitle": "Det våra kunder berättar.",
+    "sectionDescription": "Efter leveransen följer vi upp under 7 dagar.",
+    "quotes": [
+      {
+        "text": "“På 48 timmar gick vår checkout från trög tunnel till polerad upplevelse. Animationerna byggde förtroende och mobila konverteringar ökade 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Rapporten före/efter var avgörande: hastighet, säkerhet, visuell berättelse. Edgar styrde allt via Notion och Slack utan brus. Vi återkommer varje kvartal.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Underhållsspår"
+      },
+      {
+        "text": "“Flash Audit gav omedelbar klarhet. Vi fick animerade mockups och körklara skript; live på under en sprint. Nu rullar vi ut flödena över hela sajten.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Futuristisk FAQ",
+    "sectionTitle": "Det du behöver veta.",
+    "sectionDescription": "Har du fler frågor? Skriv till mig på WhatsApp.",
+    "items": [
+      {
+        "question": "Vad behöver du för att börja?",
+        "answer": "Först länken till din butik och en beskrivning av problemet. Om jag behöver logga in förklarar jag vilken tillfällig åtkomst som behövs och hur du delar den."
+      },
+      {
+        "question": "Gör du ändringarna eller ger du bara råd?",
+        "answer": "Tjänsterna för hastighet, WordPress och betalning omfattar de avtalade ändringarna. En genomgång av butiken ger rekommendationer och ett visuellt förslag. Vill du att jag genomför dem avtalar vi om det separat."
+      },
+      {
+        "question": "Vad kostar det och när blir det klart?",
+        "answer": "Varje tjänst visar ett frånpris och en uppskattad leveranstid. Vi bekräftar slutpriset, innehållet och datumet innan arbetet börjar, utifrån problemet och min tillgänglighet. Extra arbete stäms alltid av med dig."
+      },
+      {
+        "question": "Om jag inte vet vad butiken behöver?",
+        "answer": "Skicka länken och berätta vad du vill förbättra. Du behöver inte känna till det tekniska problemet eller vilken plattform butiken använder. Jag hjälper dig att hitta en början."
+      },
+      {
+        "question": "Hur vet jag vad som blivit bättre?",
+        "answer": "Vi kontrollerar det vi avtalat tillsammans, till exempel hur snabbt en sida öppnas eller om ett formulär fungerar. Jag förklarar ändringarna och hur du kontrollerar dem. Effekten på försäljningen kräver att vi följer riktiga köp över tid."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Vi börjar med det som bekymrar dig.",
+    "body": "Skicka länken till din butik och berätta vad som händer. Du får en första kostnadsfri vägledning för att hitta var du kan börja.",
+    "primary": "Prata på WhatsApp",
+    "secondary": "Jag föredrar mejl"
+  },
+  "footer": {
+    "note": "IzignaMx SOS · Förbättringar för din webbutik · Från Mexico City till Latinamerika och USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Chatta med Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Hj%C3%A4lp%20med%20min%20webbutik",
+    "navWhatsApp": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20beh%C3%B6ver%20hj%C3%A4lp%20med%20min%20webbutik.",
+    "heroPrimary": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20vill%20ber%C3%A4tta%20om%20ett%20problem%20med%20min%20webbutik.",
+    "servicePerformance": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20min%20butik%20laddar%20l%C3%A5ngsamt%20och%20jag%20vill%20f%C3%B6rb%C3%A4ttra%20den.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20beh%C3%B6ver%20hj%C3%A4lp%20med%20min%20WordPress-webbplats.",
+    "serviceAudit": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20vill%20veta%20vad%20som%20b%C3%B6r%20f%C3%B6rb%C3%A4ttras%20i%20min%20butik.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20vill%20g%C3%B6ra%20det%20enklare%20att%20slutf%C3%B6ra%20k%C3%B6p%20i%20min%20butik.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20vill%20ha%20en%20f%C3%B6rsta%20v%C3%A4gledning%20om%20min%20webbutik.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Hj%C3%A4lp%20med%20min%20webbutik",
+    "floatingWa": "https://wa.me/525533760889?text=Hej%20Edgar%2C%20jag%20kommer%20fr%C3%A5n%20SOS%20och%20beh%C3%B6ver%20hj%C3%A4lp%20med%20min%20webbutik."
+  },
+  "editorial": {
+    "skip": "Hoppa till innehållet",
+    "edition": "Genomtänkt design. Kod med hantverkskänsla.",
+    "artLabel": "Studie av en reparation / Nr 002",
+    "artCaption": "Återknyt det som betyder något.",
+    "scroll": "Så tar vi hand om din butik",
+    "motionOn": "Pausa animationer",
+    "motionOff": "Aktivera animationer",
+    "platforms": "Vi arbetar med",
+    "manifestoLabel": "Idén bakom SOS",
+    "manifestoTitle": "Även brådskande arbete kan vara genomtänkt.",
+    "manifestoBody": "En butik är en resa. När något går sönder återställer jag flödet och tar hand om varje detalj: det du ser, det du känner och det som får allt att fungera.",
+    "labLabel": "Prova själv",
+    "labTitle": "När det är tydligt blir det lättare att handla.",
+    "labBody": "Dra i reglaget och jämför hur lätt det är att hitta köpknappen. Det är ett exempel, ingen riktig butik.",
+    "labControl": "Grad av tydlighet",
+    "labBefore": "Mer förvirrande",
+    "labAfter": "Tydligare",
+    "labProduct": "Exempelprodukt",
+    "labAction": "Lägg i varukorgen",
+    "labNote": "Designexempel · Visar inte försäljningsresultat",
+    "footerTitle": "Låt oss få allt i rörelse igen."
+  },
+  "brandFlow": {
+    "family": "En specialitet från IzignaMx",
+    "flowLabel": "Omsorg i varje steg",
+    "flowTitle": "Från att hitta problemet till att lösa det.",
+    "flowIntro": "Så arbetar vi när din tjänst omfattar ändringar i butiken.",
+    "flowNote": "En bild av vårt arbete, inte av kundresultat.",
+    "detect": "Granska",
+    "detectBody": "Vi undersöker vad som gör butiken långsam, vad som är fel och vad som gör det svårt att handla.",
+    "connect": "Förbättra",
+    "connectBody": "Vi rättar det vi avtalat och kontrollerar att delarna fungerar tillsammans.",
+    "activate": "Kontrollera",
+    "activateBody": "Vi visar ändringarna och hur du använder butiken efter leveransen.",
+    "chooseLabel": "Börja med det du märker",
+    "chooseTitle": "Vad bekymrar dig?",
+    "chooseBody": "Välj ett alternativ så föreslår jag en tjänst. Du kan också se alla nedan.",
+    "slow": "Min butik laddar långsamt",
+    "security": "Mitt WordPress har problem",
+    "checkout": "Det är svårt att slutföra köp",
+    "unsure": "Jag vet inte vad som behövs",
+    "recommended": "Det här kan hjälpa",
+    "viewService": "Se tjänsten",
+    "reset": "Ta bort mitt val",
+    "scopeNote": "Vi bekräftar pris, innehåll och datum innan vi börjar.",
+    "reassurance": "Knappen öppnar WhatsApp. Berätta vad som händer, utan tekniska ord."
+  },
+  "plainContent": {
+    "detailsLabel": "Det här ingår",
+    "timingNote": "Uppskattade tider. Vi bekräftar datumet när arbetet är avtalat och vi har den åtkomst som behövs.",
+    "experienceDetails": "Se erfarenhet i siffror",
+    "testimonialsDetails": "Läs kundomdömen"
+  },
+  "hero3d": {
+    "loading": "Förbereder skulpturen…",
+    "error": "3D-vyn är inte tillgänglig. Du kan fortsätta utforska sidan.",
+    "label": "Interaktiv skulptur av IzignaMx",
+    "keyboard": "Använd piltangenterna för att rotera och Home-tangenten för att återgå till ursprungsvyn.",
+    "ready": "Skulpturen är redo att roteras."
+  },
+  "pricing": {
+    "from": "Från ≈{{amount}}",
+    "note": "Ungefärliga priser i USD. Jag bekräftar det slutliga priset innan arbetet börjar."
+  }
+}

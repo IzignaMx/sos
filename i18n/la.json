@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "lang": "la",
+    "dir": "ltr",
+    "title": "Reparationes et emendationes tabernae interretialis | IzignaMx SOS",
+    "description": "Taberna tua tarde aperitur, errores habet aut emere difficile est? Auxilium pro Shopify, BigCommerce et WordPress. Pretia vide et quid accidat narra.",
+    "ogTitle": "Taberna tua interretialis melius fungi potest | IzignaMx SOS",
+    "ogDescription": "Auxilium tabernis tardis, difficultatibus WordPress et solutionibus pecuniae impeditis. Elige quod opus est aut per WhatsApp problema narra."
+  },
+  "header": {
+    "badge": "72h aut minus",
+    "message": "Missiones celeres pro tabernis Shopify, BigCommerce atque WordPress • Praerogativa pro lancementis et venditionibus urgentibus"
+  },
+  "nav": {
+    "services": "Solutiones",
+    "process": "Quomodo fit",
+    "impact": "Experientia",
+    "faq": "Quaestiones",
+    "contact": "Epistulam mitte",
+    "book": "Per WhatsApp colloquamur",
+    "languageLabel": "Linguam elige"
+  },
+  "hero": {
+    "kicker": "Missiones eCommerce celeres",
+    "title": "Reparationes et emendationes tabernae tuae interretialis.",
+    "lead": "Si tarde aperitur, errores habet aut emere difficile est, te ad rem solvendam adiuvabo. Cum Shopify, BigCommerce et WordPress laboro.",
+    "bullets": [
+      "Designatio immersiva cum microanimationibus fidem et retentionem auget.",
+      "Auditio cum tabula visuali includitur: indices ante et post plus consilium conservationis.",
+      "Accessus directus ad me per WhatsApp et Notion Liveboard — nulli mediarii."
+    ],
+    "primaryCta": "Problema meum narrare",
+    "secondaryCta": "Solutiones et pretia videre",
+    "metrics": {
+      "delivery": "Secundum officium",
+      "checkout": "Checkout emendati",
+      "satisfaction": "Satisfactio clientium"
+    },
+    "panel": {
+      "title": "Tabula missionis in actu",
+      "subtitle": "Recognitio ad ROI directa et nodi critici resoluti:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Attritus checkout",
+          "status": "-65%"
+        },
+        {
+          "label": "Fiducia visualis",
+          "status": "Gradus A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Modus lancementis",
+        "body": "Parata ad go-live in 36h"
+      },
+      "ai": {
+        "title": "UX ope AI",
+        "body": "Argumenta praeparata + copia"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "Quomodo te adiuvem",
+    "sectionTitle": "Elige quod tabernae tuae opus est.",
+    "sectionDescription": "A certo problemate incipere potes, aut inspectionem petere si quid male fiat nescis.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Taberna celerior",
+        "summary": "Pro tabernis quae tarde aperiuntur aut usu difficiles sunt. Celeritatem et speciem paginarum de quibus convenimus emendo.",
+        "bullets": [
+          "Inspectio celeritatis cum relatione explicata.",
+          "Emendationes praecipuarum tabernae partium.",
+          "Monita et indicia fidei clariora."
+        ],
+        "price": "Ab ≈USD 64.49",
+        "duration": "Traditio 24-48h",
+        "cta": "Per WhatsApp quaere"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "WordPress tutior",
+        "summary": "Pro sitibus cum erroribus vel difficultatibus securitatis. Fasciculos inspicio, additamenta purgo et paginam magni momenti emendo.",
+        "bullets": [
+          "Exemplar tutelae, inquisitio fasciculorum noxiorum et purgatio.",
+          "Emendationes paginae primae et formulariorum de quibus convenimus.",
+          "Tabula simplex ad renovationes administrandas."
+        ],
+        "price": "Ab ≈USD 80.61",
+        "duration": "Traditio 48-72h",
+        "cta": "Per WhatsApp quaere"
+      },
+      "audit": {
+        "tag": "Inspectio tabernae tuae",
+        "title": "Scire quid emendandum sit",
+        "summary": "Unam paginam inspicio et quid primum mutandum sit explico. Consilia et exemplar visibile accipis; de mutationibus situs separatim convenimus.",
+        "bullets": [
+          "Index emendationum secundum momentum et laborem ordinatus.",
+          "Exemplar visibile ut intellegas qualis pagina esse possit.",
+          "Consilium et instrumenta ad varias optiones probandas."
+        ],
+        "price": "Ab ≈USD 64.49",
+        "duration": "Traditio 48h",
+        "cta": "Per WhatsApp quaere"
+      },
+      "checkout": {
+        "tag": "Cophinus et solutio",
+        "title": "Solutio facilior",
+        "summary": "Pro emptionibus quae ad finem difficiles fiunt. Iter inspicio et usque ad tres emendationes textuum, formulariorum vel nuntiorum facio.",
+        "bullets": [
+          "Inspectio itineris a cophino ad solutionem.",
+          "Nuntii clari dum pagina aperitur aut cum error accidit.",
+          "Probatio in computatro et telephono mobili."
+        ],
+        "price": "Ab ≈USD 96.73",
+        "duration": "Traditio 48-72h",
+        "cta": "Per WhatsApp quaere"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Experientia",
+    "sectionTitle": "Mutationes quas comprobare potes.",
+    "sectionDescription": "Tibi ostendo quid mutatum sit, quomodo operetur et quid postea curandum sit, comparationibus et clara explicatione.",
+    "stats": [
+      {
+        "description": "Tabernae emendatae per ultimos 12 menses."
+      },
+      {
+        "description": "Difficultates in singulis operibus solutae, numero medio."
+      },
+      {
+        "description": "Probationes paratae ad optiones emendationis comparandas."
+      },
+      {
+        "description": "Clientes qui redeunt aut curam menstruam petunt."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Quomodo incipiamus",
+    "sectionTitle": "Tu problema narras. Ego opus curo.",
+    "sectionDescription": "Mecum, Edgar, directe loqueris. Nec artem designandi nec programmata scribendi scire debes.",
+    "steps": [
+      {
+        "title": "Narra quid accidat",
+        "description": "Mitte vinculum tabernae tuae et quid te sollicitat. Nuntium scriptum vel vocalem mittere potes."
+      },
+      {
+        "title": "De opere convenimus",
+        "description": "Explico quid solvere possim, quanti constet et quando paratum sit. Ante initium tu decernis."
+      },
+      {
+        "title": "Emendationes facio",
+        "description": "Mutationes conventas facio et te certiorem teneo. Si inspectionem eligis, consilia paro."
+      },
+      {
+        "title": "Una inspicimus",
+        "description": "Opus traditum et eius usum tibi ostendo. Ducem et proximos gradus accipis."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Sententiae",
+    "sectionTitle": "Quid clientes nostri narrent.",
+    "sectionDescription": "Post traditionem per 7 dies rem sequimur.",
+    "quotes": [
+      {
+        "text": "“Intra 48 horas checkout noster ab canaliculo asperitatis ad experientiam politam transiit. Animationes fidem auxerunt et conversiones mobiles 23% creverunt.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS perficientia"
+      },
+      {
+        "text": "“Relatio ante/post convincens fuit: velocitas, securitas, narratio visualis. Edgar omnia per Notion et Slack sine strepitu composuit. Singulis trimestribus redibimus.”",
+        "author": "Angelus G. — CTO, Escala B2B",
+        "role": "WordPress fortificatio · Tractus sustentationis"
+      },
+      {
+        "text": "“Flash Audit statim claritatem dedit. Mockups animatos et scripta parata accepimus; minus quam uno sprinte distribimus. Nunc fluxus in toto situ replicamus.”",
+        "author": "Maria P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "FAQ futuristica",
+    "sectionTitle": "Quae scire debes.",
+    "sectionDescription": "Si aliam quaestionem habes, per WhatsApp scribe.",
+    "items": [
+      {
+        "question": "Quid tibi opus est ut incipias?",
+        "answer": "Primum, vinculum tabernae tuae et explicatio eius quod accidit. Si situm ingredi debeo, tibi dicam quem aditum temporarium requiram et quomodo eum concedas."
+      },
+      {
+        "question": "Mutationes facies an tantum quid emendandum sit dices?",
+        "answer": "Officia celeritatis, WordPress et solutionis mutationes conventas includunt. Inspectio tabernae consilia et exemplar visibile includit. Si ea exsequi me vis, de illo opere separatim convenimus."
+      },
+      {
+        "question": "Quanti constat et quando paratum erit?",
+        "answer": "Quodque officium pretium initiale et tempus aestimatum ostendit. Ante initium pretium finale, quae includantur et diem confirmo, pro problemate et tempore mihi libero. De omni opere addito tecum consulo."
+      },
+      {
+        "question": "Quid si nescio quid tabernae meae opus sit?",
+        "answer": "Mitte eius vinculum et narra quid emendari velis. Nec problema technicum nec quo systemate utatur scire debes: te adiuvabo ut initium invenias."
+      },
+      {
+        "question": "Quomodo sciam quid melius factum sit?",
+        "answer": "Una inspicimus quae convenimus: exempli gratia, quam diu pagina aperiatur aut num formularium bene operetur. Mutationes et quomodo eas comprobes explico. Ut effectum in venditiones sciamus, emptiones verae per tempus observandae sunt."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Ab eo quod te sollicitat incipiamus.",
+    "body": "Mitte vinculum tabernae et narra quid accidat. Primam consultationem gratuitam do, ut scias unde incipias.",
+    "primary": "Per WhatsApp loqui",
+    "secondary": "Malo epistulam mittere"
+  },
+  "footer": {
+    "note": "IzignaMx SOS · Emendationes tabernae interretialis · Ex urbe Mexicana pro America Latina et USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Colloquere cum Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Auxilium%20pro%20taberna%20mea%20interretiali",
+    "navWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20auxilio%20pro%20taberna%20mea%20interretiali%20egeo.",
+    "heroPrimary": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20problema%20tabernae%20meae%20interretialis%20tibi%20narrare%20volo.",
+    "servicePerformance": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20taberna%20mea%20tarde%20aperitur%20et%20eam%20emendare%20volo.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20auxilio%20pro%20situ%20meo%20WordPress%20egeo.",
+    "serviceAudit": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20scire%20volo%20quid%20in%20taberna%20mea%20emendandum%20sit.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20volo%20ut%20emptionem%20in%20taberna%20mea%20perficere%20facilius%20sit.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20primam%20consultationem%20de%20taberna%20mea%20interretiali%20peto.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Auxilium%20pro%20taberna%20mea%20interretiali",
+    "floatingWa": "https://wa.me/525533760889?text=Salve%20Edgar%2C%20a%20SOS%20venio%20et%20auxilio%20pro%20taberna%20mea%20interretiali%20egeo."
+  },
+  "editorial": {
+    "skip": "Ad materiam transire",
+    "edition": "Forma cum consilio. Codex cum arte.",
+    "artLabel": "Studium refectionis / N. 002",
+    "artCaption": "Quae valent denuo coniungere.",
+    "scroll": "Quomodo tabernam tuam curemus",
+    "motionOn": "Motum intermittere",
+    "motionOff": "Motum permittere",
+    "platforms": "Laboramus cum",
+    "manifestoLabel": "Consilium post SOS",
+    "manifestoTitle": "Etiam urgens opus bene fieri potest.",
+    "manifestoBody": "Taberna iter est. Si quid frangitur, cursum restituo et singula curo: quae vides, quae sentis, et quae omnia operari faciunt.",
+    "labLabel": "Experire",
+    "labTitle": "Cum res clara est, emere facilius est.",
+    "labBody": "Moderamen move et compara quam facile globulus emendi inveniatur. Exemplum est, non vera taberna.",
+    "labControl": "Gradus claritatis",
+    "labBefore": "Confusius",
+    "labAfter": "Clarius",
+    "labProduct": "Merx exempli causa",
+    "labAction": "In corbem addere",
+    "labNote": "Demonstratio formae · Non ostendit eventus venditionum",
+    "footerTitle": "Omnia rursus in motum ponamus."
+  },
+  "brandFlow": {
+    "family": "Munus proprium IzignaMx",
+    "flowLabel": "Quemque gradum curamus",
+    "flowTitle": "A problemate inveniendo ad illud solvendum.",
+    "flowIntro": "Sic laboramus cum officium tuum mutationes tabernae includit.",
+    "flowNote": "Imago operis nostri, non eventuum clientium.",
+    "detect": "Inspicere",
+    "detectBody": "Quaerimus quid tabernam retardet, quid deficiat aut emptionem difficilem faciat.",
+    "connect": "Emendare",
+    "connectBody": "Conventa corrigimus et partes una bene operari comprobamus.",
+    "activate": "Comprobare",
+    "activateBody": "Mutationes et usum tabernae post traditionem tibi ostendimus.",
+    "chooseLabel": "Ab eo quod animadvertis incipe",
+    "chooseTitle": "Quid te sollicitat?",
+    "chooseBody": "Elige optionem et officium tibi suadebo. Omnia etiam infra videre potes.",
+    "slow": "Taberna mea tarde aperitur",
+    "security": "Situs meus WordPress difficultates habet",
+    "checkout": "Emptionem perficere difficile est",
+    "unsure": "Nescio quid opus sit",
+    "recommended": "Te adiuvare potest",
+    "viewService": "Hoc officium videre",
+    "reset": "Electionem meam removere",
+    "scopeNote": "Pretium, quae includantur et diem ante initium confirmamus.",
+    "reassurance": "Hic globulus WhatsApp aperit. Narra quid accidat, sine verbis technicis."
+  },
+  "plainContent": {
+    "detailsLabel": "Quae includuntur",
+    "timingNote": "Tempora aestimata. Diem confirmamus cum de opere convenimus et aditus necessarios habemus.",
+    "experienceDetails": "Experientiam numeris videre",
+    "testimonialsDetails": "Sententias clientium legere"
+  },
+  "hero3d": {
+    "loading": "Sculptura paratur…",
+    "error": "Aspectus trium dimensionum praesto non est. Paginam explorare pergere potes.",
+    "label": "Sculptura IzignaMx quam vertere potes",
+    "keyboard": "Clavibus sagittarum utere ut vertas, et clave Home ut ad aspectum initialem redeas.",
+    "ready": "Sculptura ad vertendum parata est."
+  },
+  "pricing": {
+    "from": "Ab ≈{{amount}}",
+    "note": "Pretia in USD aestimata sunt. Pretium finale ante initium operis confirmo."
+  }
+}

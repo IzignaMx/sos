@@ -1,0 +1,268 @@
+/* Banderas del selector de idiomas existente. */
+.lang-flag {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 22px;
+  height: 14px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.4);
+  background-size: cover;
+  background-position: center;
+}
+.lang-flag--es {
+  background-image: linear-gradient(
+    180deg,
+    #c1121f 0 33%,
+    #f6c71b 33% 66%,
+    #c1121f 66%
+  );
+}
+.lang-flag--en {
+  background-image:
+    linear-gradient(
+      180deg,
+      #b22234 0 14%,
+      #fff 14% 28%,
+      #b22234 28% 42%,
+      #fff 42% 56%,
+      #b22234 56% 70%,
+      #fff 70% 84%,
+      #b22234 84% 100%
+    ),
+    linear-gradient(90deg, #3c3b6e 0 40%, transparent 40%);
+  background-size:
+    100% 100%,
+    40% 60%;
+  background-repeat: no-repeat;
+}
+.lang-flag--pt {
+  background-image: linear-gradient(90deg, #046a38 0 40%, #ce1126 40% 100%);
+}
+.lang-flag--pt::after {
+  content: \"\";
+  position: absolute;
+  left: 38%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f8e44d;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.3);
+}
+.lang-flag--fr {
+  background-image: linear-gradient(
+    90deg,
+    #0055a4 0 33%,
+    #fff 33% 66%,
+    #ef4135 66%
+  );
+}
+.lang-flag--de {
+  background-image: linear-gradient(
+    180deg,
+    #000 0 33%,
+    #dd0000 33% 66%,
+    #ffce00 66%
+  );
+}
+.lang-flag--it {
+  background-image: linear-gradient(
+    90deg,
+    #008c45 0 33%,
+    #f4f5f0 33% 66%,
+    #cd212a 66%
+  );
+}
+.lang-flag--ja {
+  background-image:
+    radial-gradient(circle at 50% 50%, #bc002d 0 42%, transparent 43%),
+    linear-gradient(#fff, #fff);
+}
+.lang-flag--zh {
+  background-image: linear-gradient(#de2910, #de2910);
+}
+.lang-flag--zh::after {
+  content: \"\";
+  position: absolute;
+  left: 18%;
+  top: 32%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3.5px 3.5px 3.5px 0;
+  border-color: transparent #ffde00 transparent transparent;
+}
+.lang-flag--ar {
+  background-image: linear-gradient(
+    180deg,
+    #007a3d 0 33%,
+    #fff 33% 66%,
+    #000 66%
+  );
+}
+.lang-flag--ar::before {
+  content: \"\";
+  position: absolute;
+  left: -2px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-style: solid;
+  border-width: 7px 8px 7px 0;
+  border-color: transparent #ce1126 transparent transparent;
+}
+.lang-flag--ru {
+  background-image: linear-gradient(
+    180deg,
+    #fff 0 33%,
+    #0039a6 33% 66%,
+    #d52b1e 66%
+  );
+}
+.lang-flag--tr {
+  background: #e30a17;
+}
+.lang-flag--tr::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+}
+.lang-flag--tr::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e30a17;
+  box-shadow: -4px 0 0 0 #fff;
+}
+.lang-flag--hi {
+  background-image: linear-gradient(
+    180deg,
+    #ff9933 0 33%,
+    #fff 33% 66%,
+    #138808 66%
+  );
+}
+.lang-flag--hi::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  border: 1px solid #1a4ba0;
+  border-radius: 50%;
+}
+.lang-flag--ko {
+  background: #fff;
+}
+.lang-flag--ko::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #cd2e3a 0 50%, #0047a0 50%);
+}
+.lang-flag--la {
+  background-image: linear-gradient(90deg, #ffd100 0 50%, #ffffff 50%);
+}
+.lang-flag--eo {
+  background: #009b48;
+}
+.lang-flag--eo::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  clip-path: polygon(
+    50% 0%,
+    63% 35%,
+    100% 38%,
+    71% 60%,
+    82% 100%,
+    50% 78%,
+    18% 100%,
+    29% 60%,
+    0% 38%,
+    37% 35%
+  );
+}
+.lang-flag--nl {
+  background-image: linear-gradient(
+    180deg,
+    #ae1c28 0 33%,
+    #fff 33% 66%,
+    #21468b 66%
+  );
+}
+.lang-flag--sv {
+  background: #0057b8;
+}
+.lang-flag--sv::before {
+  content: "";
+  position: absolute;
+  left: 30%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #fecd00;
+}
+.lang-flag--sv::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45%;
+  height: 4px;
+  background: #fecd00;
+}
+.lang-flag--pl {
+  background-image: linear-gradient(180deg, #fff 0 50%, #dc143c 50%);
+}
+.lang-flag--uk {
+  background-image: linear-gradient(180deg, #0057b7 0 50%, #ffd700 50%);
+}
+.lang-flag--vi {
+  background: #da251d;
+}
+.lang-flag--vi::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: #ffde00;
+  clip-path: polygon(
+    50% 0%,
+    61% 38%,
+    100% 38%,
+    68% 59%,
+    79% 100%,
+    50% 75%,
+    21% 100%,
+    32% 59%,
+    0% 38%,
+    39% 38%
+  );
+}

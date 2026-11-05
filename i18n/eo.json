@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "lang": "eo",
+    "dir": "ltr",
+    "title": "Riparoj kaj plibonigoj por via reta vendejo | IzignaMx SOS",
+    "description": "Ĉu via vendejo malrapide malfermiĝas, havas erarojn aŭ malfaciligas aĉetadon? Plibonigoj por Shopify, BigCommerce kaj WordPress. Vidu prezojn kaj rakontu, kio okazas.",
+    "ogTitle": "Via reta vendejo povas funkcii pli bone | IzignaMx SOS",
+    "ogDescription": "Helpo pri malrapidaj vendejoj, problemoj en WordPress kaj komplikaj pagoj. Elektu, kion vi bezonas, aŭ rakontu vian problemon per WhatsApp."
+  },
+  "header": {
+    "badge": "72h aŭ malpli",
+    "message": "Ekspresaj misioj por Shopify, BigCommerce kaj WordPress • Prioritato por lanĉoj kaj urĝaj vendoj"
+  },
+  "nav": {
+    "services": "Solvoj",
+    "process": "Kiel ĝi funkcias",
+    "impact": "Sperto",
+    "faq": "Demandoj",
+    "contact": "Skribi retpoŝton",
+    "book": "Ni parolu per WhatsApp",
+    "languageLabel": "Elektu lingvon"
+  },
+  "hero": {
+    "kicker": "Ekspresaj e-komercaj misioj",
+    "title": "Riparoj kaj plibonigoj por via reta vendejo.",
+    "lead": "Se ĝi malrapide malfermiĝas, havas erarojn aŭ malfaciligas aĉetadon, mi helpas solvi tion. Mi laboras kun Shopify, BigCommerce kaj WordPress.",
+    "bullets": [
+      "Enmersiĝa dezajno kun mikroanimacioj por pli granda fido kaj reteno.",
+      "Aŭdito kaj vida vojmapo inkluzivitaj: antaŭ/post metrikoj kaj prizorga plano.",
+      "Rekta komunikado kun mi per WhatsApp kaj Notion Liveboard — neniuj perantoj."
+    ],
+    "primaryCta": "Rakonti mian problemon",
+    "secondaryCta": "Vidi solvojn kaj prezojn",
+    "metrics": {
+      "delivery": "Laŭ la servo",
+      "checkout": "Optimigitaj check-out'oj",
+      "satisfaction": "Klienta kontento"
+    },
+    "panel": {
+      "title": "Kontrolpanelo de aktiva misio",
+      "subtitle": "ROI-fokusa rigardo kun solvitaj kritikaj punktoj:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Frotado en check-out",
+          "status": "-65%"
+        },
+        {
+          "label": "Vida konfido",
+          "status": "Nivelo A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Lanĉa reĝimo",
+        "body": "Preta en 36h"
+      },
+      "ai": {
+        "title": "UX helpata de AI",
+        "body": "Agendaj komprenoj + teksto"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "Kiel mi helpas vin",
+    "sectionTitle": "Elektu, kion via vendejo bezonas.",
+    "sectionDescription": "Vi povas komenci per konkreta problemo aŭ peti revizion, se vi ne scias, kio misas.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Pli rapida vendejo",
+        "summary": "Por vendejoj, kiuj malrapide malfermiĝas aŭ estas malfacile uzeblaj. Mi plibonigas la ŝargadon kaj aspekton de la interkonsentitaj paĝoj.",
+        "bullets": [
+          "Kontrolo de rapideco kun klarigita raporto.",
+          "Ŝanĝoj en la ĉefaj partoj de via vendejo.",
+          "Pli klaraj avizoj kaj informoj, kiuj helpas fidi la vendejon."
+        ],
+        "price": "Ekde ≈64,49 USD",
+        "duration": "Livero 24-48h",
+        "cta": "Demandi per WhatsApp"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Pli sekura WordPress",
+        "summary": "Por retejoj kun eraroj aŭ sekurecaj problemoj. Mi kontrolas dosierojn, purigas aldonaĵojn kaj plibonigas unu gravan paĝon.",
+        "bullets": [
+          "Sekurkopio, serĉado de malutilaj dosieroj kaj purigado.",
+          "Plibonigoj de la komenca paĝo kaj la interkonsentitaj formularoj.",
+          "Simpla panelo por administri ĝisdatigojn."
+        ],
+        "price": "Ekde ≈80,61 USD",
+        "duration": "Livero 48-72h",
+        "cta": "Demandi per WhatsApp"
+      },
+      "audit": {
+        "tag": "Revizio de via vendejo",
+        "title": "Scii, kion indas plibonigi",
+        "summary": "Mi revizias unu paĝon kaj klarigas, kion ŝanĝi unue. Vi ricevas rekomendojn kaj vidan proponon; pri ŝanĝoj en la retejo ni interkonsentas aparte.",
+        "bullets": [
+          "Listo de plibonigoj laŭ graveco kaj bezonata laboro.",
+          "Vida propono por kompreni, kiel ĝi povus aspekti.",
+          "Plano kaj materialoj por testi diversajn eblojn."
+        ],
+        "price": "Ekde ≈64,49 USD",
+        "duration": "Livero 48h",
+        "cta": "Demandi per WhatsApp"
+      },
+      "checkout": {
+        "tag": "Ĉareto kaj pago",
+        "title": "Pli simpla pago",
+        "summary": "Por aĉetoj, kiuj komplikiĝas ĉe la fino. Mi revizias la vojon kaj faras ĝis tri plibonigojn en tekstoj, formularoj aŭ mesaĝoj.",
+        "bullets": [
+          "Revizio de la vojo de la ĉareto ĝis la pago.",
+          "Klaraj mesaĝoj dum ŝargado aŭ kiam okazas eraro.",
+          "Kontrolo per komputilo kaj poŝtelefono."
+        ],
+        "price": "Ekde ≈96,73 USD",
+        "duration": "Livero 48-72h",
+        "cta": "Demandi per WhatsApp"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Sperto",
+    "sectionTitle": "Ŝanĝoj, kiujn vi povas kontroli.",
+    "sectionDescription": "Mi montras, kio ŝanĝiĝis, kiel ĝi funkcias kaj kion poste prizorgi, per komparoj kaj klara klarigo.",
+    "stats": [
+      {
+        "description": "Vendejoj plibonigitaj dum la lastaj 12 monatoj."
+      },
+      {
+        "description": "Malfacilaĵoj solvitaj en ĉiu projekto, averaĝe."
+      },
+      {
+        "description": "Testoj pretigitaj por kompari eblojn de plibonigo."
+      },
+      {
+        "description": "Klientoj, kiuj revenas aŭ mendas monatan prizorgadon."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Kiel ni komencas",
+    "sectionTitle": "Vi rakontas la problemon. Mi zorgas pri la laboro.",
+    "sectionDescription": "Vi parolas rekte kun mi, Edgar. Vi ne bezonas scii pri dezajno aŭ programado.",
+    "steps": [
+      {
+        "title": "Rakontu, kio okazas",
+        "description": "Sendu la ligilon de via vendejo kaj tion, kio vin zorgigas. Vi povas skribi aŭ sendi voĉmesaĝon."
+      },
+      {
+        "title": "Ni interkonsentas pri la laboro",
+        "description": "Mi klarigas, kion mi povas solvi, kiom ĝi kostas kaj kiam ĝi estos preta. Vi decidas antaŭ la komenco."
+      },
+      {
+        "title": "Mi faras la plibonigojn",
+        "description": "Mi laboras pri la interkonsentitaj ŝanĝoj kaj informas vin. Se vi elektas la revizion, mi preparas la rekomendojn."
+      },
+      {
+        "title": "Ni kontrolas kune",
+        "description": "Mi montras la finitan laboron kaj kiel uzi ĝin. Vi ricevas gvidilon kaj la sekvajn paŝojn."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Opinioj",
+    "sectionTitle": "Kion rakontas niaj klientoj.",
+    "sectionDescription": "Post la livero, ni sekvas la laboron dum 7 tagoj.",
+    "quotes": [
+      {
+        "text": "“Post 48 horoj nia check-out iris de frikcia funelo al zorgeme polurita sperto. La animacioj donis fidon kaj poŝtelefonaj konvertoj kreskis je 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“La raporto antaŭ/post estis decidiga: rapido, sekureco, vida rakontado. Edgar ĉion kunordigis per Notion kaj Slack sen bruo. Ni revenos ĉiun kvaronjaron.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Subtena trako"
+      },
+      {
+        "text": "“La Flash-aŭdito tuj klarigis situacion. Li liveris animitajn mockup'ojn kaj pretajn skriptojn; ni deplojis ene de unu sprinte. Nun ni replicas la fluon tutrete.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Estonta FAQ",
+    "sectionTitle": "Kion vi bezonas scii.",
+    "sectionDescription": "Se vi havas alian demandon, skribu al mi per WhatsApp.",
+    "items": [
+      {
+        "question": "Kion vi bezonas por komenci?",
+        "answer": "Unue, la ligilon de via vendejo kaj klarigon pri tio, kio okazas. Se mi bezonas eniri vian retejon, mi diros, kian provizoran aliron mi bezonas kaj kiel doni ĝin."
+      },
+      {
+        "question": "Ĉu vi faros la ŝanĝojn aŭ nur diros, kion plibonigi?",
+        "answer": "La servoj pri rapideco, WordPress kaj pago inkluzivas la interkonsentitajn ŝanĝojn. La revizio de via vendejo inkluzivas rekomendojn kaj vidan proponon. Se vi volas, ke mi realigu ilin, ni interkonsentas pri tiu laboro aparte."
+      },
+      {
+        "question": "Kiom ĝi kostas kaj kiam ĝi estos preta?",
+        "answer": "Ĉiu servo montras komencan prezon kaj taksitan tempon. Mi konfirmas la finan prezon, kion ĝi inkluzivas kaj la daton antaŭ ol komenci, laŭ la problemo kaj mia disponeblo. Pri ĉiu kroma laboro mi konsultas vin."
+      },
+      {
+        "question": "Kaj se mi ne scias, kion mia vendejo bezonas?",
+        "answer": "Sendu ĝian ligilon kaj rakontu, kion vi ŝatus plibonigi. Vi ne bezonas koni la teknikan problemon aŭ la uzatan platformon: mi helpas trovi deirpunkton."
+      },
+      {
+        "question": "Kiel mi scios, kio pliboniĝis?",
+        "answer": "Ni kune kontrolas tion, pri kio ni interkonsentis: ekzemple, kiom longe paĝo ŝargas aŭ ĉu formularo bone funkcias. Mi klarigas la ŝanĝojn kaj kiel kontroli ilin. Por scii ilian efikon sur vendoj, necesas observi verajn aĉetojn dum iom da tempo."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Ni komencu per tio, kio vin zorgigas.",
+    "body": "Sendu la ligilon de via vendejo kaj rakontu, kio okazas. Mi donas unuan senpagan konsilon por trovi, kie komenci.",
+    "primary": "Paroli per WhatsApp",
+    "secondary": "Mi preferas retpoŝton"
+  },
+  "footer": {
+    "note": "IzignaMx SOS · Plibonigoj por via reta vendejo · El Meksikurbo por Latinameriko kaj Usono · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Parolu kun Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Helpo%20pri%20mia%20reta%20vendejo",
+    "navWhatsApp": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20bezonas%20helpon%20pri%20mia%20reta%20vendejo.",
+    "heroPrimary": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20volas%20rakonti%20al%20vi%20problemon%20pri%20mia%20reta%20vendejo.",
+    "servicePerformance": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mia%20vendejo%20malrapide%20malfermi%C4%9Das%20kaj%20mi%20volas%20plibonigi%20%C4%9Din.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20bezonas%20helpon%20pri%20mia%20WordPress-retejo.",
+    "serviceAudit": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20volas%20scii%2C%20kion%20indas%20plibonigi%20en%20mia%20vendejo.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20volas%20faciligi%20la%20finon%20de%20a%C4%89eto%20en%20mia%20vendejo.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20%C5%9Datus%20unuan%20konsilon%20pri%20mia%20reta%20vendejo.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Helpo%20pri%20mia%20reta%20vendejo",
+    "floatingWa": "https://wa.me/525533760889?text=Saluton%20Edgar%2C%20mi%20venas%20de%20SOS%20kaj%20bezonas%20helpon%20pri%20mia%20reta%20vendejo."
+  },
+  "editorial": {
+    "skip": "Salti al la enhavo",
+    "edition": "Dezajno kun celo. Kodo kun metia zorgo.",
+    "artLabel": "Studo de riparo / N-ro 002",
+    "artCaption": "Rekonekti tion, kio gravas.",
+    "scroll": "Kiel ni zorgas pri via vendejo",
+    "motionOn": "Paŭzigi animaciojn",
+    "motionOff": "Ebligi animaciojn",
+    "platforms": "Ni laboras kun",
+    "manifestoLabel": "La ideo malantaŭ SOS",
+    "manifestoTitle": "Eĉ urĝa laboro povas esti zorge farita.",
+    "manifestoBody": "Butiko estas vojaĝo. Kiam io rompiĝas, mi restarigas ĝian fluon kaj zorgas pri ĉiu detalo: tio, kion oni vidas, tio, kion oni sentas, kaj tio, kio funkciigas ĉion.",
+    "labLabel": "Provu ĝin",
+    "labTitle": "Kiam ĝi estas klara, aĉeti estas pli facile.",
+    "labBody": "Movu la regilon kaj komparu, kiom facile estas trovi la aĉetbutonon. Tio estas ekzemplo, ne vera vendejo.",
+    "labControl": "Nivelo de klareco",
+    "labBefore": "Pli konfuza",
+    "labAfter": "Pli klara",
+    "labProduct": "Ekzempla produkto",
+    "labAction": "Aldoni al la korbo",
+    "labNote": "Dezajna demonstraĵo · Ne montras vendorezultojn",
+    "footerTitle": "Ni denove ekmovu ĉion."
+  },
+  "brandFlow": {
+    "family": "Specialaĵo de IzignaMx",
+    "flowLabel": "Ni zorgas pri ĉiu paŝo",
+    "flowTitle": "De trovi la problemon ĝis solvi ĝin.",
+    "flowIntro": "Tiel ni laboras, kiam via servo inkluzivas ŝanĝojn en la vendejo.",
+    "flowNote": "Ilustraĵo de nia laboro, ne de rezultoj de klientoj.",
+    "detect": "Revizii",
+    "detectBody": "Ni serĉas, kio malrapidigas la vendejon, kio misfunkcias aŭ malfaciligas aĉetadon.",
+    "connect": "Plibonigi",
+    "connectBody": "Ni korektas la interkonsentitajn aferojn kaj kontrolas, ke la partoj funkcias kune.",
+    "activate": "Kontroli",
+    "activateBody": "Ni montras la ŝanĝojn kaj kiel uzi vian vendejon post la livero.",
+    "chooseLabel": "Komencu per tio, kion vi rimarkas",
+    "chooseTitle": "Kio vin zorgigas?",
+    "chooseBody": "Elektu opcion kaj mi sugestos servon. Vi ankaŭ povas vidi ĉiujn sube.",
+    "slow": "Mia vendejo malrapide malfermiĝas",
+    "security": "Mia WordPress havas problemojn",
+    "checkout": "Estas malfacile fini la aĉeton",
+    "unsure": "Mi ne scias, kion ĝi bezonas",
+    "recommended": "Povas helpi vin",
+    "viewService": "Vidi ĉi tiun servon",
+    "reset": "Nuligi mian elekton",
+    "scopeNote": "Ni konfirmas prezon, enhavon kaj daton antaŭ ol komenci.",
+    "reassurance": "La butono malfermas WhatsApp. Rakontu, kio okazas, sen teknikaj terminoj."
+  },
+  "plainContent": {
+    "detailsLabel": "Kion ĝi inkluzivas",
+    "timingNote": "Taksitaj tempoj. Ni konfirmas la daton, kiam ni interkonsentas pri la laboro kaj havas la necesajn alirojn.",
+    "experienceDetails": "Vidi la sperton per nombroj",
+    "testimonialsDetails": "Legi opiniojn de klientoj"
+  },
+  "hero3d": {
+    "loading": "Preparante la skulptaĵon…",
+    "error": "La tridimensia vido ne disponeblas. Vi povas plu esplori la paĝon.",
+    "label": "Interaga skulptaĵo de IzignaMx",
+    "keyboard": "Uzu la sagoklavojn por turni kaj la klavon Home por reveni al la komenca vido.",
+    "ready": "La skulptaĵo estas preta por turniĝi."
+  },
+  "pricing": {
+    "from": "Ekde ≈{{amount}}",
+    "note": "Proksimumaj prezoj en USD. Mi konfirmas la finan prezon antaŭ ol komenci."
+  }
+}

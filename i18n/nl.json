@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "lang": "nl",
+    "dir": "ltr",
+    "title": "Reparaties en verbeteringen voor je webwinkel | IzignaMx SOS",
+    "description": "Opent je winkel langzaam, zijn er fouten of is kopen lastig? Verbeteringen voor Shopify, BigCommerce en WordPress. Bekijk de prijzen en vertel me wat er speelt.",
+    "ogTitle": "Je webwinkel kan beter werken | IzignaMx SOS",
+    "ogDescription": "Hulp bij trage winkels, WordPress-problemen en ingewikkeld betalen. Kies wat je nodig hebt of vertel me over je probleem op WhatsApp."
+  },
+  "header": {
+    "badge": "72u of minder",
+    "message": "Expressmissies voor Shopify-, BigCommerce- en WordPress-shops • Prioriteit voor launches en urgente sales"
+  },
+  "nav": {
+    "services": "Oplossingen",
+    "process": "Zo werkt het",
+    "impact": "Ervaring",
+    "faq": "Vragen",
+    "contact": "Een e-mail sturen",
+    "book": "Praten via WhatsApp",
+    "languageLabel": "Kies taal"
+  },
+  "hero": {
+    "kicker": "Express e-commerce missies",
+    "title": "Reparaties en verbeteringen voor je webwinkel.",
+    "lead": "Als je winkel langzaam opent, fouten heeft of kopen lastig maakt, help ik je dat op te lossen. Ik werk met Shopify, BigCommerce en WordPress.",
+    "bullets": [
+      "Immersive design met micro-animaties die vertrouwen en retentie verhogen.",
+      "Inclusief audit en visuele roadmap: metrics voor/na plus onderhoudsplan.",
+      "Direct contact met mij via WhatsApp en een live Notion-board—geen tussenpersonen."
+    ],
+    "primaryCta": "Mijn probleem vertellen",
+    "secondaryCta": "Oplossingen en prijzen bekijken",
+    "metrics": {
+      "delivery": "Afhankelijk van de dienst",
+      "checkout": "Checkouts geoptimaliseerd",
+      "satisfaction": "Klanttevredenheid"
+    },
+    "panel": {
+      "title": "Mission control in uitvoering",
+      "subtitle": "ROI-gericht overzicht + opgeloste knelpunten:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Checkout-frictie",
+          "status": "-65%"
+        },
+        {
+          "label": "Visueel vertrouwen",
+          "status": "Score A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Launchmodus",
+        "body": "Live-klaar in 36u"
+      },
+      "ai": {
+        "title": "AI-ondersteunde UX",
+        "body": "Directe inzichten + copy"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "Waarmee ik je help",
+    "sectionTitle": "Kies wat je winkel nodig heeft.",
+    "sectionDescription": "Je kunt beginnen met een concreet probleem of een controle aanvragen als je niet weet wat er misgaat.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Een snellere winkel",
+        "summary": "Voor winkels die langzaam laden of moeilijk te gebruiken zijn. Ik verbeter de laadtijd en het ontwerp van de afgesproken pagina's.",
+        "bullets": [
+          "Een snelheidscontrole met een uitgelegd verslag.",
+          "Aanpassingen aan de belangrijkste onderdelen van je winkel.",
+          "Duidelijkere meldingen en informatie die vertrouwen geeft."
+        ],
+        "price": "Vanaf ≈USD 64,49",
+        "duration": "Oplevering 24-48u",
+        "cta": "Vragen via WhatsApp"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Een veiligere WordPress-site",
+        "summary": "Voor sites met fouten of beveiligingsproblemen. Ik controleer bestanden, ruim uitbreidingen op en verbeter een belangrijke pagina.",
+        "bullets": [
+          "Een reservekopie, een controle op schadelijke bestanden en een opschoning.",
+          "Verbeteringen aan de startpagina en de afgesproken formulieren.",
+          "Een eenvoudig overzicht om updates te beheren."
+        ],
+        "price": "Vanaf ≈USD 80,61",
+        "duration": "Oplevering 48-72u",
+        "cta": "Vragen via WhatsApp"
+      },
+      "audit": {
+        "tag": "Controle van je winkel",
+        "title": "Weten wat beter kan",
+        "summary": "Ik bekijk één pagina en leg uit wat je het beste eerst kunt veranderen. Je krijgt aanbevelingen en een voorbeeldontwerp; wijzigingen aan de site spreken we apart af.",
+        "bullets": [
+          "Een lijst met verbeteringen, gerangschikt op belang en benodigde moeite.",
+          "Een voorbeeldontwerp dat laat zien hoe de pagina eruit kan zien.",
+          "Een plan en materiaal om verschillende opties te proberen."
+        ],
+        "price": "Vanaf ≈USD 64,49",
+        "duration": "Oplevering 48u",
+        "cta": "Vragen via WhatsApp"
+      },
+      "checkout": {
+        "tag": "Winkelmand en betaling",
+        "title": "Makkelijker betalen",
+        "summary": "Voor aankopen die bij de laatste stap lastig worden. Ik bekijk de stappen en voer tot drie verbeteringen door in teksten, formulieren of meldingen.",
+        "bullets": [
+          "Een controle van de stappen van winkelmand tot betaling.",
+          "Duidelijke meldingen tijdens het laden of als er een fout optreedt.",
+          "Een controle op computer en telefoon."
+        ],
+        "price": "Vanaf ≈USD 96,73",
+        "duration": "Oplevering 48-72u",
+        "cta": "Vragen via WhatsApp"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Ervaring",
+    "sectionTitle": "Veranderingen die je zelf kunt controleren.",
+    "sectionDescription": "Ik laat je zien wat er is veranderd, hoe het werkt en waar je daarna op moet letten, met vergelijkingen en een duidelijke uitleg.",
+    "stats": [
+      {
+        "description": "Winkels verbeterd in de afgelopen 12 maanden."
+      },
+      {
+        "description": "Opgeloste moeilijkheden per project, gemiddeld."
+      },
+      {
+        "description": "Tests voorbereid om verschillende verbeteringen te vergelijken."
+      },
+      {
+        "description": "Klanten die terugkomen of kiezen voor maandelijks onderhoud."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Zo beginnen we",
+    "sectionTitle": "Jij vertelt het probleem. Ik doe het werk.",
+    "sectionDescription": "Je praat rechtstreeks met mij, Edgar. Je hoeft niets te weten van ontwerpen of programmeren.",
+    "steps": [
+      {
+        "title": "Vertel me wat er speelt",
+        "description": "Stuur me de link naar je winkel en vertel waar je je zorgen over maakt. Dat kan in een bericht of spraakbericht."
+      },
+      {
+        "title": "We spreken het werk af",
+        "description": "Ik leg uit wat ik kan oplossen, wat het kost en wanneer het klaar is. Jij beslist voordat ik begin."
+      },
+      {
+        "title": "Ik voer de verbeteringen uit",
+        "description": "Ik werk aan de afgesproken wijzigingen en houd je op de hoogte. Kies je de controle, dan bereid ik de aanbevelingen voor."
+      },
+      {
+        "title": "We kijken er samen naar",
+        "description": "Ik laat je het geleverde werk zien en leg uit hoe je het gebruikt. Je krijgt een handleiding en de volgende stappen."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Beoordelingen",
+    "sectionTitle": "Wat onze klanten vertellen.",
+    "sectionDescription": "Na de oplevering volgen we het werk nog 7 dagen op.",
+    "quotes": [
+      {
+        "text": "“Binnen 48 uur transformeerde onze checkout van stroperige funnel naar gepolijste ervaring. De animaties bouwden vertrouwen en mobiele conversies stegen 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Het voor/na-rapport was doorslaggevend: snelheid, security, visuele storytelling. Edgar regelde alles via Notion en Slack zonder ruis. We komen ieder kwartaal terug.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Onderhoudstraject"
+      },
+      {
+        "text": "“De Flash Audit gaf meteen helderheid. We kregen geanimeerde mockups en kant-en-klare scripts; binnen één sprint live. Nu rollen we de flow uit over de hele site.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Futuristische FAQ",
+    "sectionTitle": "Wat je moet weten.",
+    "sectionDescription": "Heb je nog een vraag? Stuur me een bericht op WhatsApp.",
+    "items": [
+      {
+        "question": "Wat heb je nodig om te beginnen?",
+        "answer": "Eerst de link naar je winkel en een uitleg van wat er speelt. Als ik op je site moet inloggen, vertel ik welke tijdelijke toegang ik nodig heb en hoe je die kunt delen."
+      },
+      {
+        "question": "Voer je de wijzigingen uit of vertel je alleen wat er beter kan?",
+        "answer": "De diensten voor snelheid, WordPress en betalen bevatten de afgesproken wijzigingen. Bij de winkelcontrole krijg je aanbevelingen en een voorbeeldontwerp. Als je wilt dat ik die uitvoer, spreken we dat werk apart af."
+      },
+      {
+        "question": "Wat kost het en wanneer is het klaar?",
+        "answer": "Elke dienst vermeldt een vanafprijs en een geschatte levertijd. Voordat ik begin, bevestig ik de uiteindelijke prijs, wat inbegrepen is en de datum, afhankelijk van het probleem en mijn beschikbaarheid. Extra werk bespreek ik eerst met je."
+      },
+      {
+        "question": "Wat als ik niet weet wat mijn winkel nodig heeft?",
+        "answer": "Stuur me de link en vertel wat je wilt verbeteren. Je hoeft het technische probleem niet te kennen of te weten welk platform je winkel gebruikt: ik help je een beginpunt te vinden."
+      },
+      {
+        "question": "Hoe weet ik wat er is verbeterd?",
+        "answer": "We controleren samen wat we hebben afgesproken: bijvoorbeeld hoe lang het duurt om een pagina te openen of of een formulier goed werkt. Ik leg de wijzigingen uit en hoe je ze kunt controleren. Om het effect op de verkoop te kennen, moeten we echte aankopen over een langere tijd bekijken."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Laten we beginnen met wat je bezighoudt.",
+    "body": "Stuur me de link naar je winkel en vertel wat er speelt. Ik geef je gratis een eerste advies om te bepalen waar je kunt beginnen.",
+    "primary": "Praten via WhatsApp",
+    "secondary": "Ik stuur liever een e-mail"
+  },
+  "footer": {
+    "note": "IzignaMx SOS · Verbeteringen voor je webwinkel · Vanuit Mexico-Stad voor Latijns-Amerika en de VS · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Chat met Edgar"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Hulp%20met%20mijn%20webwinkel",
+    "navWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20heb%20hulp%20nodig%20met%20mijn%20webwinkel.",
+    "heroPrimary": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20wil%20je%20vertellen%20over%20een%20probleem%20met%20mijn%20webwinkel.",
+    "servicePerformance": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20mijn%20winkel%20opent%20langzaam%20en%20ik%20wil%20hem%20verbeteren.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20heb%20hulp%20nodig%20met%20mijn%20WordPress-site.",
+    "serviceAudit": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20wil%20weten%20wat%20ik%20het%20beste%20kan%20verbeteren%20aan%20mijn%20winkel.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20wil%20het%20makkelijker%20maken%20om%20een%20aankoop%20in%20mijn%20winkel%20af%20te%20ronden.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20wil%20graag%20een%20eerste%20advies%20over%20mijn%20webwinkel.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Hulp%20met%20mijn%20webwinkel",
+    "floatingWa": "https://wa.me/525533760889?text=Hallo%20Edgar%2C%20ik%20kom%20van%20SOS%20en%20heb%20hulp%20nodig%20met%20mijn%20webwinkel."
+  },
+  "editorial": {
+    "skip": "Ga naar inhoud",
+    "edition": "Design met een doel. Code met vakmanschap.",
+    "artLabel": "Studie van een reparatie / Nr. 002",
+    "artCaption": "Verbind opnieuw wat ertoe doet.",
+    "scroll": "Zo zorgen we voor je winkel",
+    "motionOn": "Animaties pauzeren",
+    "motionOff": "Animaties inschakelen",
+    "platforms": "We werken met",
+    "manifestoLabel": "Het idee achter SOS",
+    "manifestoTitle": "Ook haastwerk verdient aandacht.",
+    "manifestoBody": "Een winkel is een reis. Als er iets misgaat, herstel ik de doorstroming en besteed ik aandacht aan elk detail: wat je ziet, wat je voelt en wat alles laat werken.",
+    "labLabel": "Probeer het",
+    "labTitle": "Als het duidelijk is, wordt kopen makkelijker.",
+    "labBody": "Verschuif de knop en vergelijk hoe makkelijk je de koopknop vindt. Dit is een voorbeeld, geen echte winkel.",
+    "labControl": "Mate van helderheid",
+    "labBefore": "Onduidelijker",
+    "labAfter": "Duidelijker",
+    "labProduct": "Voorbeeldproduct",
+    "labAction": "In winkelmand",
+    "labNote": "Ontwerpvoorbeeld · Geen weergave van verkoopresultaten",
+    "footerTitle": "Laten we alles weer in beweging brengen."
+  },
+  "brandFlow": {
+    "family": "Een specialiteit van IzignaMx",
+    "flowLabel": "We letten op elke stap",
+    "flowTitle": "Het probleem vinden en oplossen.",
+    "flowIntro": "Zo werken we als je dienst wijzigingen aan de winkel omvat.",
+    "flowNote": "Een illustratie van ons werk, geen resultaten van klanten.",
+    "detect": "Bekijken",
+    "detectBody": "We zoeken wat de winkel vertraagt, wat er misgaat of wat kopen lastig maakt.",
+    "connect": "Verbeteren",
+    "connectBody": "We herstellen wat is afgesproken en controleren of de onderdelen samenwerken.",
+    "activate": "Controleren",
+    "activateBody": "We laten je de wijzigingen zien en leggen uit hoe je de winkel na de oplevering gebruikt.",
+    "chooseLabel": "Begin met wat je opvalt",
+    "chooseTitle": "Waar maak je je zorgen over?",
+    "chooseBody": "Kies een optie en ik stel een dienst voor. Je kunt ze hieronder ook allemaal bekijken.",
+    "slow": "Mijn winkel opent langzaam",
+    "security": "Mijn WordPress heeft problemen",
+    "checkout": "Een aankoop afronden is lastig",
+    "unsure": "Ik weet niet wat er nodig is",
+    "recommended": "Dit kan je helpen",
+    "viewService": "Deze dienst bekijken",
+    "reset": "Mijn keuze wissen",
+    "scopeNote": "We bevestigen de prijs, wat inbegrepen is en de datum voordat we beginnen.",
+    "reassurance": "De knop opent WhatsApp. Vertel in je eigen woorden wat er speelt."
+  },
+  "plainContent": {
+    "detailsLabel": "Wat is inbegrepen",
+    "timingNote": "De levertijden zijn schattingen. We bevestigen de datum zodra we het werk hebben afgesproken en de nodige toegang hebben.",
+    "experienceDetails": "Onze ervaring in cijfers bekijken",
+    "testimonialsDetails": "Beoordelingen van klanten lezen"
+  },
+  "hero3d": {
+    "loading": "De sculptuur wordt voorbereid…",
+    "error": "De 3D-weergave is niet beschikbaar. Je kunt de pagina verder bekijken.",
+    "label": "Interactieve sculptuur van IzignaMx",
+    "keyboard": "Gebruik de pijltjestoetsen om te draaien en de Home-toets om terug te keren naar de beginweergave.",
+    "ready": "De sculptuur is klaar om te draaien."
+  },
+  "pricing": {
+    "from": "Vanaf ≈{{amount}}",
+    "note": "Geschatte prijzen in USD. Ik bevestig de definitieve prijs voordat het werk begint."
+  }
+}

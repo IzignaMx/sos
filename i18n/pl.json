@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "lang": "pl",
+    "dir": "ltr",
+    "title": "Poprawki i ulepszenia dla Twojego sklepu internetowego | IzignaMx SOS",
+    "description": "Sklep wolno się otwiera, ma błędy lub trudno w nim kupować? Pomoc z Shopify, BigCommerce i WordPress. Sprawdź ceny i opowiedz, co się dzieje.",
+    "ogTitle": "Twój sklep internetowy może działać lepiej | IzignaMx SOS",
+    "ogDescription": "Pomoc z powolnym sklepem, problemami w WordPress i skomplikowaną płatnością. Wybierz usługę lub opisz problem przez WhatsApp."
+  },
+  "header": {
+    "badge": "72 h lub mniej",
+    "message": "Misje ekspresowe dla sklepów Shopify, BigCommerce i WordPress • Priorytet dla launchy i pilnych sprzedaży"
+  },
+  "nav": {
+    "services": "Rozwiązania",
+    "process": "Jak to działa",
+    "impact": "Doświadczenie",
+    "faq": "Pytania",
+    "contact": "Napisz e-mail",
+    "book": "Porozmawiajmy na WhatsApp",
+    "languageLabel": "Wybierz język"
+  },
+  "hero": {
+    "kicker": "Ekspresowe misje e-commerce",
+    "title": "Poprawki i ulepszenia dla Twojego sklepu internetowego.",
+    "lead": "Jeśli sklep wolno się otwiera, ma błędy lub trudno w nim kupować, pomogę to rozwiązać. Pracuję z Shopify, BigCommerce i WordPress.",
+    "bullets": [
+      "Immersyjny design z mikroanimacjami wzmacniającymi zaufanie i retencję.",
+      "W pakiecie audyt i wizualna roadmapa: metryki przed/po oraz plan utrzymaniowy.",
+      "Bezpośredni kontakt ze mną przez WhatsApp i live-board w Notion—bez pośredników."
+    ],
+    "primaryCta": "Opowiem o problemie",
+    "secondaryCta": "Zobacz rozwiązania i ceny",
+    "metrics": {
+      "delivery": "Zależnie od usługi",
+      "checkout": "Checkouty zoptymalizowane",
+      "satisfaction": "Satysfakcja klientów"
+    },
+    "panel": {
+      "title": "Mission control w działaniu",
+      "subtitle": "Przegląd nastawiony na ROI + rozwiązane punkty krytyczne:",
+      "items": [
+        {
+          "label": "Core Web Vitals",
+          "status": "+42%"
+        },
+        {
+          "label": "Tarcza checkoutu",
+          "status": "-65%"
+        },
+        {
+          "label": "Zaufanie wizualne",
+          "status": "Ocena A+"
+        }
+      ]
+    },
+    "chips": {
+      "launch": {
+        "title": "Tryb launch",
+        "body": "Gotowe do go-live w 36 h"
+      },
+      "ai": {
+        "title": "UX wspierany AI",
+        "body": "Gotowe insighty + copy"
+      }
+    }
+  },
+  "services": {
+    "sectionLabel": "W czym pomagam",
+    "sectionTitle": "Wybierz to, czego potrzebuje Twój sklep.",
+    "sectionDescription": "Zacznij od konkretnego problemu lub zamów przegląd, jeśli nie wiesz, co nie działa.",
+    "cards": {
+      "performance": {
+        "tag": "Shopify / BigCommerce",
+        "title": "Szybszy sklep",
+        "summary": "Dla sklepów, które wolno się otwierają lub są trudne w obsłudze. Poprawiam szybkość i wygląd uzgodnionych stron.",
+        "bullets": [
+          "Sprawdzenie szybkości z raportem i wyjaśnieniem.",
+          "Poprawki w najważniejszych częściach sklepu.",
+          "Czytelniejsze komunikaty i informacje budujące zaufanie."
+        ],
+        "price": "Od ≈64,49 USD",
+        "duration": "Dostawa 24-48 h",
+        "cta": "Zapytaj przez WhatsApp"
+      },
+      "wordpress": {
+        "tag": "WordPress",
+        "title": "Bezpieczniejszy WordPress",
+        "summary": "Dla stron z błędami lub problemami z bezpieczeństwem. Sprawdzam pliki, porządkuję dodatki i ulepszam jedną ważną stronę.",
+        "bullets": [
+          "Kopia zapasowa, wyszukiwanie szkodliwych plików i czyszczenie.",
+          "Ulepszenia strony głównej i uzgodnionych formularzy.",
+          "Prosty panel do zarządzania aktualizacjami."
+        ],
+        "price": "Od ≈80,61 USD",
+        "duration": "Dostawa 48-72 h",
+        "cta": "Zapytaj przez WhatsApp"
+      },
+      "audit": {
+        "tag": "Przegląd sklepu",
+        "title": "Dowiedz się, co poprawić",
+        "summary": "Sprawdzam jedną stronę i wyjaśniam, co zmienić najpierw. Otrzymujesz zalecenia i propozycję wyglądu. Wprowadzenie zmian ustalamy osobno.",
+        "bullets": [
+          "Lista ulepszeń według ich znaczenia i nakładu pracy.",
+          "Propozycja wyglądu pokazująca możliwy efekt.",
+          "Plan i materiały do wypróbowania różnych opcji."
+        ],
+        "price": "Od ≈64,49 USD",
+        "duration": "Dostawa 48 h",
+        "cta": "Zapytaj przez WhatsApp"
+      },
+      "checkout": {
+        "tag": "Koszyk i płatność",
+        "title": "Prostsza płatność",
+        "summary": "Dla zakupów, które komplikują się na końcu. Sprawdzam cały przebieg i wprowadzam do trzech ulepszeń w tekstach, formularzach lub komunikatach.",
+        "bullets": [
+          "Przegląd drogi od koszyka do płatności.",
+          "Jasne komunikaty podczas ładowania i w razie błędu.",
+          "Sprawdzenie na komputerze i telefonie."
+        ],
+        "price": "Od ≈96,73 USD",
+        "duration": "Dostawa 48-72 h",
+        "cta": "Zapytaj przez WhatsApp"
+      }
+    }
+  },
+  "impact": {
+    "sectionLabel": "Doświadczenie",
+    "sectionTitle": "Zmiany, które możesz sprawdzić.",
+    "sectionDescription": "Pokazuję, co się zmieniło, jak działa i o co warto zadbać później, za pomocą porównań i jasnego wyjaśnienia.",
+    "stats": [
+      {
+        "description": "Sklepy ulepszone w ostatnich 12 miesiącach."
+      },
+      {
+        "description": "Problemy rozwiązane średnio w jednym projekcie."
+      },
+      {
+        "description": "Przygotowane próby porównujące różne ulepszenia."
+      },
+      {
+        "description": "Klienci, którzy wracają lub wybierają miesięczną opiekę."
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": "Jak zaczynamy",
+    "sectionTitle": "Ty opisujesz problem. Ja zajmuję się pracą.",
+    "sectionDescription": "Rozmawiasz bezpośrednio ze mną, Edgarem. Nie musisz znać się na projektowaniu ani programowaniu.",
+    "steps": [
+      {
+        "title": "Opowiedz, co się dzieje",
+        "description": "Wyślij link do sklepu i opisz, co Cię martwi. Możesz napisać lub nagrać wiadomość głosową."
+      },
+      {
+        "title": "Ustalamy pracę",
+        "description": "Wyjaśniam, co mogę rozwiązać, ile to kosztuje i kiedy będzie gotowe. Decydujesz przed rozpoczęciem."
+      },
+      {
+        "title": "Wprowadzam ulepszenia",
+        "description": "Wykonuję uzgodnione zmiany i informuję Cię o postępach. Jeśli wybierzesz przegląd, przygotowuję zalecenia."
+      },
+      {
+        "title": "Sprawdzamy razem",
+        "description": "Pokazuję gotową pracę i sposób korzystania z niej. Otrzymujesz instrukcję i kolejne kroki."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Opinie",
+    "sectionTitle": "Co mówią nasi klienci.",
+    "sectionDescription": "Po przekazaniu pracy pozostajemy w kontakcie przez 7 dni.",
+    "quotes": [
+      {
+        "text": "“W 48 godzin nasz checkout przeszedł z korka do wypolerowanego doświadczenia. Animacje podniosły zaufanie, a mobilne konwersje wzrosły o 23%.”",
+        "author": "Daniela R. — CMO, Retail Boutique",
+        "role": "Shopify Plus · SOS performance"
+      },
+      {
+        "text": "“Raport przed/po był decydujący: prędkość, bezpieczeństwo, narracja wizualna. Edgar ogarnął wszystko przez Notion i Slack bez hałasu. Wracamy co kwartał.”",
+        "author": "Ángel G. — CTO, Escala B2B",
+        "role": "WordPress hardening · Ścieżka utrzymania"
+      },
+      {
+        "text": "“Flash Audit dał natychmiastową klarowność. Dostaliśmy animowane makiety i gotowe skrypty; wdrożenie w mniej niż sprint. Teraz powielamy flow na całą stronę.”",
+        "author": "María P. — Growth Lead, SaaS LatAm",
+        "role": "Flash Audit 360°"
+      }
+    ]
+  },
+  "faq": {
+    "sectionLabel": "Futurystyczne FAQ",
+    "sectionTitle": "To warto wiedzieć.",
+    "sectionDescription": "Masz inne pytanie? Napisz do mnie przez WhatsApp.",
+    "items": [
+      {
+        "question": "Czego potrzebujesz na początek?",
+        "answer": "Najpierw linku do sklepu i opisu tego, co się dzieje. Jeśli potrzebuję dostępu do strony, wyjaśnię, jaki tymczasowy dostęp jest potrzebny i jak go udostępnić."
+      },
+      {
+        "question": "Wprowadzisz zmiany czy tylko powiesz, co poprawić?",
+        "answer": "Usługi dotyczące szybkości, WordPress i płatności obejmują uzgodnione zmiany. Przegląd sklepu obejmuje zalecenia i propozycję wyglądu. Jeśli chcesz, żebym je wprowadził, ustalamy tę pracę osobno."
+      },
+      {
+        "question": "Ile to kosztuje i kiedy będzie gotowe?",
+        "answer": "Każda usługa ma cenę początkową i szacowany czas. Przed rozpoczęciem potwierdzam ostateczną cenę, zakres i termin, zależnie od problemu i mojej dostępności. Każdą dodatkową pracę uzgadniam z Tobą."
+      },
+      {
+        "question": "A jeśli nie wiem, czego potrzebuje mój sklep?",
+        "answer": "Wyślij link i powiedz, co chcesz ulepszyć. Nie musisz znać problemu technicznego ani platformy sklepu. Pomogę Ci znaleźć punkt wyjścia."
+      },
+      {
+        "question": "Skąd będę wiedzieć, co się poprawiło?",
+        "answer": "Wspólnie sprawdzamy uzgodnione rzeczy: na przykład szybkość otwierania strony lub działanie formularza. Wyjaśniam zmiany i sposób ich sprawdzenia. Aby poznać wpływ na sprzedaż, trzeba obserwować rzeczywiste zakupy przez pewien czas."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Zacznijmy od tego, co Cię martwi.",
+    "body": "Wyślij link do sklepu i opisz problem. Otrzymasz pierwszą bezpłatną wskazówkę, żeby wiedzieć, od czego zacząć.",
+    "primary": "Porozmawiaj przez WhatsApp",
+    "secondary": "Wolę napisać e-mail"
+  },
+  "footer": {
+    "note": "IzignaMx SOS · Ulepszenia dla Twojego sklepu internetowego · Z miasta Meksyk dla Ameryki Łacińskiej i USA · WhatsApp +52 55 3376 0889"
+  },
+  "wa": {
+    "button": "Porozmawiaj z Edgarem"
+  },
+  "links": {
+    "navMail": "mailto:edgar@izignamx.com?subject=Pomoc%20ze%20sklepem%20internetowym",
+    "navWhatsApp": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20potrzebuj%C4%99%20pomocy%20ze%20sklepem%20internetowym.",
+    "heroPrimary": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20chc%C4%99%20opowiedzie%C4%87%20o%20problemie%20z%20moim%20sklepem%20internetowym.",
+    "servicePerformance": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20m%C3%B3j%20sklep%20wolno%20si%C4%99%20otwiera%20i%20chc%C4%99%20go%20ulepszy%C4%87.",
+    "serviceWordpress": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20potrzebuj%C4%99%20pomocy%20ze%20stron%C4%85%20WordPress.",
+    "serviceAudit": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20chc%C4%99%20wiedzie%C4%87%2C%20co%20warto%20poprawi%C4%87%20w%20moim%20sklepie.",
+    "serviceCheckout": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20chc%C4%99%20u%C5%82atwi%C4%87%20ko%C5%84czenie%20zakup%C3%B3w%20w%20moim%20sklepie.",
+    "ctaWhatsApp": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20chc%C4%99%20uzyska%C4%87%20pierwsze%20wskaz%C3%B3wki%20dotycz%C4%85ce%20mojego%20sklepu%20internetowego.",
+    "ctaMail": "mailto:edgar@izignamx.com?subject=Pomoc%20ze%20sklepem%20internetowym",
+    "floatingWa": "https://wa.me/525533760889?text=Cze%C5%9B%C4%87%20Edgar%2C%20trafiam%20z%20SOS%20i%20potrzebuj%C4%99%20pomocy%20ze%20sklepem%20internetowym."
+  },
+  "editorial": {
+    "skip": "Przejdź do treści",
+    "edition": "Przemyślany projekt. Kod tworzony z kunsztem.",
+    "artLabel": "Studium naprawy / Nr 002",
+    "artCaption": "Połączyć na nowo to, co ważne.",
+    "scroll": "Jak dbamy o Twój sklep",
+    "motionOn": "Wstrzymaj animacje",
+    "motionOff": "Włącz animacje",
+    "platforms": "Pracujemy z",
+    "manifestoLabel": "Idea stojąca za SOS",
+    "manifestoTitle": "Pilna praca też może być dobrze wykonana.",
+    "manifestoBody": "Sklep to podróż. Gdy coś się psuje, przywracam jej płynność i dbam o każdy szczegół: to, co widać, to, co się czuje, i to, co sprawia, że wszystko działa.",
+    "labLabel": "Wypróbuj",
+    "labTitle": "Gdy wszystko jest jasne, łatwiej kupować.",
+    "labBody": "Przesuń suwak i porównaj, jak łatwo znaleźć przycisk zakupu. To przykład, a nie prawdziwy sklep.",
+    "labControl": "Poziom przejrzystości",
+    "labBefore": "Mniej czytelnie",
+    "labAfter": "Bardziej czytelnie",
+    "labProduct": "Przykładowy produkt",
+    "labAction": "Dodaj do koszyka",
+    "labNote": "Przykład projektu · Nie przedstawia wyników sprzedaży",
+    "footerTitle": "Wprawmy wszystko ponownie w ruch."
+  },
+  "brandFlow": {
+    "family": "Specjalność IzignaMx",
+    "flowLabel": "Dbamy o każdy krok",
+    "flowTitle": "Od znalezienia problemu do jego rozwiązania.",
+    "flowIntro": "Tak pracujemy, gdy usługa obejmuje zmiany w sklepie.",
+    "flowNote": "Ilustracja naszej pracy, a nie wyników klientów.",
+    "detect": "Sprawdzić",
+    "detectBody": "Szukamy przyczyn powolnego działania, błędów i trudności z zakupem.",
+    "connect": "Ulepszyć",
+    "connectBody": "Poprawiamy uzgodnione elementy i sprawdzamy, czy współpracują ze sobą.",
+    "activate": "Potwierdzić",
+    "activateBody": "Pokazujemy zmiany i sposób korzystania ze sklepu po zakończeniu pracy.",
+    "chooseLabel": "Zacznij od tego, co zauważasz",
+    "chooseTitle": "Co Cię martwi?",
+    "chooseBody": "Wybierz opcję, a zaproponuję usługę. Poniżej możesz też zobaczyć wszystkie.",
+    "slow": "Sklep wolno się otwiera",
+    "security": "Mam problemy z WordPress",
+    "checkout": "Trudno dokończyć zakup",
+    "unsure": "Nie wiem, czego potrzebuje",
+    "recommended": "To może pomóc",
+    "viewService": "Zobacz usługę",
+    "reset": "Usuń mój wybór",
+    "scopeNote": "Przed rozpoczęciem potwierdzamy cenę, zakres i termin.",
+    "reassurance": "Przycisk otwiera WhatsApp. Opisz problem bez technicznych słów."
+  },
+  "plainContent": {
+    "detailsLabel": "Co obejmuje",
+    "timingNote": "Terminy są szacunkowe. Potwierdzamy datę po uzgodnieniu pracy i uzyskaniu potrzebnego dostępu.",
+    "experienceDetails": "Zobacz doświadczenie w liczbach",
+    "testimonialsDetails": "Przeczytaj opinie klientów"
+  },
+  "hero3d": {
+    "loading": "Przygotowywanie rzeźby…",
+    "error": "Widok 3D jest niedostępny. Możesz dalej przeglądać stronę.",
+    "label": "Interaktywna rzeźba IzignaMx",
+    "keyboard": "Użyj klawiszy strzałek, aby obracać, i klawisza Home, aby wrócić do widoku początkowego.",
+    "ready": "Rzeźba jest gotowa do obracania."
+  },
+  "pricing": {
+    "from": "Od ≈{{amount}}",
+    "note": "Orientacyjne ceny w USD. Ostateczną cenę potwierdzam przed rozpoczęciem pracy."
+  }
+}

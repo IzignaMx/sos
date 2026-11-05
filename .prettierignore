@@ -1,0 +1,7 @@
+node_modules/
+whatsapp-bot/
+_internal_docs/
+.github/
+assets/js/hero3d-renderer.js
+assets/js/hero3d-worker.js
+assets/js/hero3d-scene.js
