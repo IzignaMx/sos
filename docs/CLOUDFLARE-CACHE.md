@@ -39,6 +39,8 @@ La acción exige una respuesta HTTP satisfactoria y `success: true`. Reintenta �
 
 Después compara `data-release` de la portada pública con `index.html` del commit publicado en `gh-pages`, hasta seis consultas. Un estado `HIT` puede ser válido si otra visita ya almacenó la versión nueva; se comprueba el contenido. Si sigue mostrando otra versión, la ejecución falla en vez de anunciar que el sitio está actualizado.
 
+La comprobación solicita `text/html`, se identifica como `IzignaMx-SOS-Deployment-Check/1.0` y admite atributos HTML minificados sin comillas. Si falla, informa el estado HTTP o el código de conexión de la última lectura, sin registrar el cuerpo de la página ni credenciales. Así se distingue una versión antigua de un rechazo de acceso.
+
 La caché del navegador y el service worker del visitante no se vacían mediante la API de Cloudflare. Se mantiene el versionado de recursos y del service worker. Los cambios de entrega deben seguir actualizando `data-release`, las URLs y `RELEASE` de forma coordinada.
 
 ## Mantenimiento y pruebas

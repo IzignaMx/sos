@@ -278,3 +278,50 @@ test("una respuesta JSON inválida de Cloudflare termina con error", async () =>
   await assert.rejects(escenario.ejecutar());
   assert.equal(alSitio(escenario).length, 0);
 });
+
+test("la verificación pública solicita HTML con una identidad descriptiva", async () => {
+  const escenario = preparar();
+  await escenario.ejecutar();
+  for (const peticion of alSitio(escenario)) {
+    assert.equal(peticion.cabeceras.get("accept"), "text/html");
+    assert.equal(
+      peticion.cabeceras.get("user-agent"),
+      "IzignaMx-SOS-Deployment-Check/1.0",
+    );
+    assert.equal(peticion.cabeceras.get("authorization"), null);
+  }
+  // La negociación de HTML corresponde al sitio, no a las API JSON.
+  for (const peticion of escenario.peticiones.filter(
+    (p) => p.url.origin !== "https://sos.izignamx.com",
+  )) {
+    assert.notEqual(peticion.cabeceras.get("accept"), "text/html");
+    assert.notEqual(
+      peticion.cabeceras.get("user-agent"),
+      "IzignaMx-SOS-Deployment-Check/1.0",
+    );
+  }
+});
+
+test("la verificación acepta data-release sin comillas en HTML minificado válido", async () => {
+  const escenario = preparar({
+    publico: () =>
+      new Response(
+        `<html lang=es-MX data-release=${version}><body>SOS</body></html>`,
+      ),
+  });
+  const resultado = await escenario.ejecutar();
+  assert.equal(resultado.version, version);
+  assert.equal(alSitio(escenario).length, 1);
+});
+
+test("un bloqueo HTTP 403 del sitio se distingue de una versión antigua", async () => {
+  const escenario = preparar({
+    publico: () => new Response("Acceso rechazado", { status: 403 }),
+  });
+  await assert.rejects(escenario.ejecutar(), /HTTP\s*403/);
+  assert.equal(aCloudflare(escenario).length, 1);
+  assert.ok(alSitio(escenario).length > 0);
+  const registros = escenario.mensajes.join("\n");
+  assert.ok(!registros.includes(entornoBase.CLOUDFLARE_API_TOKEN));
+  assert.ok(!registros.includes(entornoBase.GITHUB_TOKEN));
+});
