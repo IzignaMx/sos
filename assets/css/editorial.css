@@ -1,7 +1,7 @@
 /* Identidad IzignaMx: tokens públicos de marca y composición propia de SOS. */
 @font-face {
   font-family: "Aileron";
-  src: url("../fonts/Aileron-Regular.woff2?v=20261105-hero-3d-1")
+  src: url("../fonts/Aileron-Regular.woff2?v=20261105-hero-gestures-1")
     format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -9,7 +9,8 @@
 }
 @font-face {
   font-family: "Aileron";
-  src: url("../fonts/Aileron-Bold.woff2?v=20261105-hero-3d-1") format("woff2");
+  src: url("../fonts/Aileron-Bold.woff2?v=20261105-hero-gestures-1")
+    format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -477,18 +478,10 @@ h1 {
   cursor: progress;
   color: var(--muted);
 }
-.hero3d__controls {
-  display: flex;
-  gap: 8px;
-}
-.hero3d__controls button {
-  font-size: 20px;
-}
 .hero3d__toolbar button:hover {
   background: #163047;
   border-color: var(--iz-accent);
 }
-.hero3d__hint,
 .hero3d__status {
   position: absolute;
   inset-inline: 10px;
@@ -500,28 +493,10 @@ h1 {
   line-height: 1.5;
   pointer-events: none;
 }
-.hero3d__hint {
-  visibility: hidden;
-}
-.hero3d[data-state="ready"] .hero3d__hint {
-  visibility: visible;
-}
 .hero3d[data-state="error"] .hero3d__status {
   padding: 6px 10px;
   border-radius: 8px;
   background: #0f0f0fed;
-}
-@media (max-width: 760px) {
-  .hero3d {
-    margin-bottom: 52px;
-  }
-  .hero3d__toolbar {
-    bottom: -8px;
-  }
-  .hero3d__hint,
-  .hero3d__status {
-    bottom: -39px;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   .hero3d > img {

@@ -298,11 +298,7 @@
     "loading": "Preparante la skulptaĵon…",
     "error": "La tridimensia vido ne disponeblas. Vi povas plu esplori la paĝon.",
     "label": "Interaga skulptaĵo de IzignaMx",
-    "hint": "Trenu por turni. Glitu supren por plu legi.",
     "keyboard": "Uzu la sagoklavojn por turni kaj la klavon Home por reveni al la komenca vido.",
-    "left": "Turni maldekstren",
-    "right": "Turni dekstren",
-    "reset": "Reveni al la komenca vido",
     "ready": "La skulptaĵo estas preta por turniĝi."
   }
 }

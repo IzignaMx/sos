@@ -18,7 +18,8 @@ La reconstrucción a partir de una sola imagen interpreta las superficies que no
 
 - Mouse: botón principal y arrastre para girar; mover el cursor sin agarrar no altera el objeto.
 - Touch: arrastre horizontal para girar, gesto vertical para seguir leyendo. El zoom del navegador permanece disponible.
-- Teclado: flechas para girar y tecla Inicio para restablecer la vista. También hay botones con nombres accesibles y objetivos de 44 px.
+- Teclado: flechas para girar y tecla Inicio para restablecer la vista. Las instrucciones de teclado se conservan para lectores de pantalla.
+- El modelo se presenta sin botones de giro o reinicio ni leyenda visible de gestos. El cursor de agarre acompaña el descubrimiento de la interacción.
 - No hay rotación automática, inercia ni bucle de renderizado permanente. La preferencia de movimiento reducido conserva la interacción deliberada.
 - Carga fallida, dispositivo sin WebGL o pérdida de contexto: se recupera la imagen y se ofrece reintentar. Los estados e instrucciones están traducidos a los 20 idiomas del sitio.
 

@@ -5,7 +5,6 @@
 
   const superficie = pieza.querySelector("[data-hero3d-canvas]");
   const cargar = pieza.querySelector("[data-hero3d-load]");
-  const controles = pieza.querySelector("[data-hero3d-controls]");
   const cargando = pieza.querySelector("[data-hero3d-loading]");
   const error = pieza.querySelector("[data-hero3d-error]");
   const listo = pieza.querySelector("[data-hero3d-ready]");
@@ -23,7 +22,6 @@
     pieza.setAttribute("aria-busy", String(valor === "loading"));
     superficie.hidden = valor !== "ready";
     superficie.tabIndex = valor === "ready" ? 0 : -1;
-    if (controles) controles.hidden = valor !== "ready";
     cargar.hidden = valor === "ready";
     // aria-disabled conserva el foco mientras carga; iniciar() ignora nuevos intentos.
     cargar.setAttribute("aria-disabled", String(valor === "loading"));
@@ -33,14 +31,12 @@
   };
 
   const fallo = () => {
-    const devolverFoco =
-      superficie.contains(document.activeElement) ||
-      controles?.contains(document.activeElement);
+    const devolverFoco = superficie.contains(document.activeElement);
     solicitud?.abort();
     visor?.dispose();
     visor = null;
     estado("error");
-    // Devolver el foco si desaparecen los controles por una pérdida de contexto.
+    // Devolver el foco si desaparece el visor por una pérdida de contexto.
     if (devolverFoco) cargar.focus({ preventScroll: true });
   };
 
@@ -86,15 +82,6 @@
   };
 
   cargar.addEventListener("click", iniciar);
-  pieza
-    .querySelector("[data-hero3d-left]")
-    ?.addEventListener("click", () => visor?.rotate(-Math.PI / 8, 0));
-  pieza
-    .querySelector("[data-hero3d-right]")
-    ?.addEventListener("click", () => visor?.rotate(Math.PI / 8, 0));
-  pieza
-    .querySelector("[data-hero3d-reset]")
-    ?.addEventListener("click", () => visor?.reset());
   window.addEventListener("pagehide", (evento) => {
     // La caché de navegación conserva el visor; una salida definitiva libera la GPU.
     if (!evento.persisted) {

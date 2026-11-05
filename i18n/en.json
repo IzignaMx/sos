@@ -298,11 +298,7 @@
     "loading": "Preparing the sculpture…",
     "error": "The 3D view is unavailable. You can keep exploring the page.",
     "label": "Interactive sculpture by IzignaMx",
-    "hint": "Drag to rotate. Swipe up to keep reading.",
     "keyboard": "Use the arrow keys to rotate and the Home key to return to the starting view.",
-    "left": "Rotate left",
-    "right": "Rotate right",
-    "reset": "Return to the starting view",
     "ready": "Sculpture ready to rotate."
   }
 }

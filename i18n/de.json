@@ -298,11 +298,7 @@
     "loading": "Die Skulptur wird vorbereitet…",
     "error": "Die 3D-Ansicht ist nicht verfügbar. Du kannst die Seite weiter erkunden.",
     "label": "Interaktive Skulptur von IzignaMx",
-    "hint": "Zum Drehen ziehen. Zum Weiterlesen nach oben wischen.",
     "keyboard": "Mit den Pfeiltasten drehen und mit der Pos1-Taste zur Ausgangsansicht zurückkehren.",
-    "left": "Nach links drehen",
-    "right": "Nach rechts drehen",
-    "reset": "Zur Ausgangsansicht zurückkehren",
     "ready": "Die Skulptur lässt sich jetzt drehen."
   }
 }
