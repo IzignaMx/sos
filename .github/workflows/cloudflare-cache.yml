@@ -2,7 +2,8 @@ name: Invalidar caché de SOS en Cloudflare
 
 on:
   workflow_run:
-    workflows: [pages build and deployment]
+    # workflow.name de la API; el nombre visible de sus runs usa espacios.
+    workflows: [pages-build-deployment]
     types: [completed]
     branches: [gh-pages]
   workflow_dispatch:

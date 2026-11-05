@@ -1,6 +1,6 @@
 # Purga automática de Cloudflare
 
-El workflow `cloudflare-cache.yml` invalida el contenido de `sos.izignamx.com` cuando termina correctamente **pages build and deployment** en `gh-pages`. Espera a la publicación real de GitHub Pages; el push a `gh-pages` todavía no significa que el sitio esté servido.
+El workflow `cloudflare-cache.yml` invalida el contenido de `sos.izignamx.com` cuando termina correctamente el workflow interno **`pages-build-deployment`** en `gh-pages` (sus ejecuciones aparecen como «pages build and deployment»). Espera a la publicación real de GitHub Pages; el push a `gh-pages` todavía no significa que el sitio esté servido.
 
 ## Configuración del repositorio
 
