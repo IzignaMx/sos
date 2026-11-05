@@ -1,5 +1,8 @@
 const { test, expect } = require("@playwright/test");
 
+// CI prepara WebGL por software; un reintento puede consumir dos cargas de 20 s.
+test.setTimeout(45000);
+
 // Malla asimétrica diminuta: prueba el renderizado y los gestos sin depender del proveedor.
 function modeloDePrueba({ texturaFallida = false } = {}) {
   const posiciones = new Float32Array([
@@ -63,7 +66,7 @@ body { margin: 0; background: #0f0f0f; min-height: 2000px; }
 [data-hero3d-canvas] { touch-action: pan-y pinch-zoom; outline: 0; }
 [data-hero3d] canvas { width:100%; height:100%; }
 [data-state="ready"] [data-hero3d-poster] { opacity:0; }
-[data-hero3d-controls], [data-hero3d-load], [data-hero3d-status] { position:absolute; top:420px; z-index:2; }
+[data-hero3d-load], [data-hero3d-status] { position:absolute; top:420px; z-index:2; }
 [data-hero3d-status] { top:450px; }
 [hidden] { display:none !important; }
 </style></head><body>
@@ -72,7 +75,6 @@ body { margin: 0; background: #0f0f0f; min-height: 2000px; }
 <div data-hero3d-canvas tabindex="0" role="group" aria-label="Escultura interactiva"></div>
 <button data-hero3d-load hidden>Explorar en 3D</button>
 <p data-hero3d-status role="status"><span data-hero3d-loading hidden>Cargando</span><span data-hero3d-error hidden>Conservamos la imagen</span></p>
-<div data-hero3d-controls hidden><button data-hero3d-left>Girar a la izquierda</button><button data-hero3d-right>Girar a la derecha</button><button data-hero3d-reset>Restablecer</button></div>
 </div><a href="#final">Continuar leyendo</a><script src="/assets/js/hero3d.js?v=prueba" defer></script></body></html>`;
 
 async function abrir(
@@ -121,7 +123,7 @@ async function activar(page) {
   await expect(page.locator("[data-hero3d]")).toHaveAttribute(
     "data-state",
     "ready",
-    { timeout: 12000 },
+    { timeout: 20000 },
   );
   return page.locator("[data-hero3d-canvas] canvas");
 }
@@ -140,7 +142,8 @@ test("gira una malla real al agarrar y con teclado, nunca por hover; restablece 
   await page.mouse.move(caja.x + 200, caja.y + 220, { steps: 8 });
   await page.mouse.up();
   expect((await canvas.screenshot()).equals(inicial)).toBeFalsy();
-  await page.locator("[data-hero3d-reset]").click();
+  await page.locator("[data-hero3d-canvas]").focus();
+  await page.keyboard.press("Home");
   expect((await canvas.screenshot()).equals(inicial)).toBeTruthy();
   await page.locator("[data-hero3d-canvas]").focus();
   await page.keyboard.press("ArrowRight");
@@ -207,7 +210,7 @@ test("mantiene el foco durante la carga y respeta que se continúe leyendo", asy
   await expect(page.locator("[data-hero3d]")).toHaveAttribute(
     "data-state",
     "ready",
-    { timeout: 12000 },
+    { timeout: 20000 },
   );
   await expect(
     page.getByRole("link", { name: "Continuar leyendo" }),
@@ -242,7 +245,7 @@ test("conserva la imagen y permite reintentar cuando el modelo no responde", asy
     "error",
   );
   await expect(page.locator("[data-hero3d-error]")).toBeVisible();
-  await expect(page.locator("[data-hero3d-controls]")).toBeHidden();
+  await expect(page.locator("[data-hero3d-canvas]")).toBeHidden();
   await expect(page.locator("[data-hero3d-poster]")).toHaveCSS("opacity", "1");
   await page.unroute("**/modelo.glb?*");
   await page.route("**/modelo.glb?*", (route) =>
@@ -259,7 +262,7 @@ test("funciona como imagen sin WebGL y no atrapa el foco", async ({ page }) => {
     "error",
   );
   await expect(page.locator("[data-hero3d-poster]")).toHaveCSS("opacity", "1");
-  await expect(page.locator("[data-hero3d-controls]")).toBeHidden();
+  await expect(page.locator("[data-hero3d-canvas]")).toBeHidden();
   await expect(page.locator("[data-hero3d-canvas]")).toHaveAttribute(
     "tabindex",
     "-1",
@@ -273,7 +276,8 @@ test("la rueda desplaza la página y el movimiento reducido permite sólo gestos
   await abrir(page, { ahorro: true });
   const canvas = await activar(page);
   const inicial = await canvas.screenshot();
-  await page.locator("[data-hero3d-right]").click();
+  await page.locator("[data-hero3d-canvas]").focus();
+  await page.keyboard.press("ArrowRight");
   expect((await canvas.screenshot()).equals(inicial)).toBeFalsy();
   await canvas.hover();
   await page.mouse.wheel(0, 240);
@@ -297,7 +301,7 @@ test("conserva la fotografía si no se pueden cargar las texturas del modelo", a
   await expect(page.locator("[data-hero3d]")).toHaveAttribute(
     "data-state",
     "error",
-    { timeout: 12000 },
+    { timeout: 20000 },
   );
   await expect(page.locator("[data-hero3d-poster]")).toHaveCSS("opacity", "1");
 });
@@ -348,7 +352,8 @@ test("el arrastre táctil horizontal gira, el vertical conserva el scroll nativo
   for (let x = 290; x >= 180; x -= 10) await tacto("touchMove", x, 202);
   await tacto("touchEnd");
   expect((await canvas.screenshot()).equals(inicial)).toBeFalsy();
-  await page.locator("[data-hero3d-reset]").click();
+  await page.locator("[data-hero3d-canvas]").focus();
+  await page.keyboard.press("Home");
   await tacto("touchStart", 200, 320);
   for (let y = 310; y >= 140; y -= 10) await tacto("touchMove", 202, y);
   await tacto("touchEnd");

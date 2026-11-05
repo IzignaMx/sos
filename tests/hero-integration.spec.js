@@ -22,7 +22,12 @@ test("carga el GLB publicado con sus texturas bajo la política CSP del sitio", 
     { timeout: 20000 },
   );
   await expect(page.locator("[data-hero3d-canvas] canvas")).toBeVisible();
-  await expect(page.locator("[data-hero3d-controls]")).toBeVisible();
+  await expect(page.locator("[data-hero3d] button:visible")).toHaveCount(0);
+  await expect(page.locator("#hero3d-hint")).toHaveCount(0);
+  await expect(page.locator("[data-hero3d-canvas]")).toHaveAttribute(
+    "aria-describedby",
+    "hero3d-keyboard",
+  );
   expect(await page.evaluate(() => window.infraccionesModelo)).toEqual([]);
 });
 

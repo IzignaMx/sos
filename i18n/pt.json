@@ -298,11 +298,7 @@
     "loading": "Preparando a escultura…",
     "error": "A visualização em 3D não está disponível. Você pode continuar explorando a página.",
     "label": "Escultura interativa da IzignaMx",
-    "hint": "Arraste para girar. Deslize para cima para continuar lendo.",
     "keyboard": "Use as setas para girar e a tecla Home para voltar à vista inicial.",
-    "left": "Girar para a esquerda",
-    "right": "Girar para a direita",
-    "reset": "Voltar à vista inicial",
     "ready": "Escultura pronta para girar."
   }
 }

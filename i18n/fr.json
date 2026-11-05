@@ -298,11 +298,7 @@
     "loading": "Préparation de la sculpture…",
     "error": "La vue 3D est indisponible. Vous pouvez continuer à explorer la page.",
     "label": "Sculpture interactive d’IzignaMx",
-    "hint": "Faites glisser pour tourner. Balayez vers le haut pour continuer à lire.",
     "keyboard": "Utilisez les flèches pour tourner et la touche Début pour revenir à la vue initiale.",
-    "left": "Tourner à gauche",
-    "right": "Tourner à droite",
-    "reset": "Revenir à la vue initiale",
     "ready": "La sculpture est prête à tourner."
   }
 }

@@ -298,11 +298,7 @@
     "loading": "Đang chuẩn bị tác phẩm điêu khắc…",
     "error": "Chế độ xem 3D hiện không khả dụng. Bạn vẫn có thể tiếp tục khám phá trang.",
     "label": "Tác phẩm điêu khắc tương tác của IzignaMx",
-    "hint": "Kéo để xoay. Vuốt lên để đọc tiếp.",
     "keyboard": "Dùng các phím mũi tên để xoay và phím Home để trở về góc nhìn ban đầu.",
-    "left": "Xoay sang trái",
-    "right": "Xoay sang phải",
-    "reset": "Trở về góc nhìn ban đầu",
     "ready": "Tác phẩm đã sẵn sàng để xoay."
   }
 }

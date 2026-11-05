@@ -298,11 +298,7 @@
     "loading": "Przygotowywanie rzeźby…",
     "error": "Widok 3D jest niedostępny. Możesz dalej przeglądać stronę.",
     "label": "Interaktywna rzeźba IzignaMx",
-    "hint": "Przeciągnij, aby obrócić. Przesuń w górę, aby czytać dalej.",
     "keyboard": "Użyj klawiszy strzałek, aby obracać, i klawisza Home, aby wrócić do widoku początkowego.",
-    "left": "Obróć w lewo",
-    "right": "Obróć w prawo",
-    "reset": "Wróć do widoku początkowego",
     "ready": "Rzeźba jest gotowa do obracania."
   }
 }

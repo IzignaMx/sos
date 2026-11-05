@@ -1,5 +1,5 @@
 // Mantener esta versión sincronizada con data-release del HTML.
-const RELEASE = "20261105-hero-3d-1";
+const RELEASE = "20261105-hero-gestures-1";
 const PRECACHE = "sos-precache-" + RELEASE;
 const RUNTIME = "sos-runtime-" + RELEASE;
 const versionedUrl = (path) => path + "?v=" + RELEASE;
