@@ -3,6 +3,18 @@ const fs = require("node:fs");
 const HOST = "sos.izignamx.com";
 const RUTA_PAGES = "dynamic/pages/pages-build-deployment";
 
+// HTML permite valores de atributo sin comillas; un CDN puede minificarlos.
+const leerVersion = (html) => {
+  const coincidencia = html.match(
+    /\bdata-release\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s"'=<>`]+))/i,
+  );
+  return coincidencia?.[1] ?? coincidencia?.[2] ?? coincidencia?.[3];
+};
+const datoPublico = (valor) =>
+  String(valor || "desconocido")
+    .replace(/[^a-z0-9_.+/-]/gi, "")
+    .slice(0, 100);
+
 async function ejecutar({
   entorno = process.env,
   evento = {},
@@ -114,7 +126,7 @@ async function ejecutar({
   if (archivo.encoding !== "base64" || typeof archivo.content !== "string")
     throw new Error("No se pudo leer index.html del commit publicado.");
   const html = Buffer.from(archivo.content, "base64").toString("utf8");
-  const version = html.match(/\bdata-release\s*=\s*["']([^"']+)["']/i)?.[1];
+  const version = leerVersion(html);
   if (!/^[a-z0-9][a-z0-9._-]{0,100}$/i.test(version || ""))
     throw new Error("El HTML publicado no contiene un data-release válido.");
 
@@ -172,31 +184,44 @@ async function ejecutar({
     break;
   }
 
+  let ultimoEstado = "sin respuesta";
   for (let intento = 1; intento <= 6; intento++) {
     try {
       // No enviar credenciales de ninguna API al sitio público.
       const respuesta = await solicitar("https://" + HOST + "/", {
-        headers: { "Cache-Control": "no-cache" },
+        headers: {
+          "Cache-Control": "no-cache",
+          Accept: "text/html",
+          "User-Agent": "IzignaMx-SOS-Deployment-Check/1.0",
+        },
         signal: AbortSignal.timeout(15000),
       });
+      ultimoEstado =
+        "HTTP " +
+        respuesta.status +
+        ", tipo " +
+        datoPublico(respuesta.headers.get("content-type")?.split(";")[0]);
       if (respuesta.ok) {
-        const actual = (await respuesta.text()).match(
-          /\bdata-release\s*=\s*["']([^"']+)["']/i,
-        )?.[1];
+        const actual = leerVersion(await respuesta.text());
+        ultimoEstado += ", versión " + datoPublico(actual);
         if (actual === version) {
           registrar("Portada verificada: " + version + ".");
           return { omitido: false, host: HOST, version };
         }
       }
-    } catch {
-      /* Un fallo de red no se presenta como verificación satisfactoria. */
+    } catch (error) {
+      // Sólo el código: los mensajes de terceros pueden incluir datos sensibles.
+      ultimoEstado =
+        "Error de conexión " + datoPublico(error.cause?.code || error.name);
     }
     if (intento < 6) await esperar(4000);
   }
   throw new Error(
-    "Cloudflare aceptó la purga, pero la portada aún no devuelve la versión " +
+    "Cloudflare aceptó la purga, pero no se pudo verificar la versión " +
       version +
-      ". Revisa Pages y vuelve a ejecutar la acción.",
+      ". Última consulta: " +
+      ultimoEstado +
+      ". Revisa Pages o el acceso HTTP y vuelve a ejecutar la acción.",
   );
 }
 
