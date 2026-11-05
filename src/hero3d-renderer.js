@@ -228,7 +228,7 @@ export async function crearVisor({
       alto: Math.max(1, caja.height),
       pixelRatio: Math.min(
         window.devicePixelRatio || 1,
-        navigator.connection?.saveData ? 1 : 1.5,
+        navigator.connection?.saveData ? 1 : 2,
       ),
       orientacion: base,
     });

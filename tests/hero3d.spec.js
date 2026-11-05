@@ -279,15 +279,21 @@ test("el movimiento reducido conserva drag y teclado sin hover ni inercia", asyn
   await page.mouse.down();
   await page.mouse.move(200, 180, { steps: 8 });
   await page.mouse.up();
-  const manual = await canvas.screenshot();
-  expect(manual.equals(inicial)).toBeFalsy();
-  await page.waitForTimeout(250);
-  expect((await canvas.screenshot()).equals(manual)).toBeTruthy();
+  // Medir desde que se suelta: esperar a que se asiente ocultaría una inercia indebida.
+  await comprobarReposo(page);
+  // El Worker puede haber dibujado antes de que el compositor presente esa pose.
+  await expect
+    .poll(async () => (await canvas.screenshot()).equals(inicial))
+    .toBeFalsy();
   await page.locator("[data-hero3d-canvas]").focus();
   await page.keyboard.press("Home");
-  expect((await canvas.screenshot()).equals(inicial)).toBeTruthy();
+  await expect
+    .poll(async () => (await canvas.screenshot()).equals(inicial))
+    .toBeTruthy();
   await page.keyboard.press("ArrowRight");
-  expect((await canvas.screenshot()).equals(inicial)).toBeFalsy();
+  await expect
+    .poll(async () => (await canvas.screenshot()).equals(inicial))
+    .toBeFalsy();
   await comprobarReposo(page);
 });
 
@@ -342,7 +348,9 @@ test("Inicio restablece también la inclinación del mouse cuando el movimiento 
   );
   await page.locator("[data-hero3d-canvas]").focus();
   await page.keyboard.press("Home");
-  expect((await canvas.screenshot()).equals(inicial)).toBeTruthy();
+  await expect
+    .poll(async () => (await canvas.screenshot()).equals(inicial))
+    .toBeTruthy();
 });
 
 test("se carga automáticamente sin robar el foco, incluso con ahorro de datos", async ({
