@@ -292,5 +292,17 @@
     "timingNote": "De levertijden zijn schattingen. We bevestigen de datum zodra we het werk hebben afgesproken en de nodige toegang hebben.",
     "experienceDetails": "Onze ervaring in cijfers bekijken",
     "testimonialsDetails": "Beoordelingen van klanten lezen"
+  },
+  "hero3d": {
+    "load": "Ontdek in 3D",
+    "loading": "De sculptuur wordt voorbereid…",
+    "error": "De 3D-weergave is niet beschikbaar. Je kunt de pagina verder bekijken.",
+    "label": "Interactieve sculptuur van IzignaMx",
+    "hint": "Sleep om te draaien. Veeg omhoog om verder te lezen.",
+    "keyboard": "Gebruik de pijltjestoetsen om te draaien en de Home-toets om terug te keren naar de beginweergave.",
+    "left": "Naar links draaien",
+    "right": "Naar rechts draaien",
+    "reset": "Terug naar de beginweergave",
+    "ready": "De sculptuur is klaar om te draaien."
   }
 }

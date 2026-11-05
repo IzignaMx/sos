@@ -292,5 +292,17 @@
     "timingNote": "Tempora aestimata. Diem confirmamus cum de opere convenimus et aditus necessarios habemus.",
     "experienceDetails": "Experientiam numeris videre",
     "testimonialsDetails": "Sententias clientium legere"
+  },
+  "hero3d": {
+    "load": "Tribus dimensionibus explorare",
+    "loading": "Sculptura paratur…",
+    "error": "Aspectus trium dimensionum praesto non est. Paginam explorare pergere potes.",
+    "label": "Sculptura IzignaMx quam vertere potes",
+    "hint": "Trahe ut vertas. Digitum sursum trahe ut legere pergas.",
+    "keyboard": "Clavibus sagittarum utere ut vertas, et clave Home ut ad aspectum initialem redeas.",
+    "left": "In sinistram vertere",
+    "right": "In dextram vertere",
+    "reset": "Ad aspectum initialem redire",
+    "ready": "Sculptura ad vertendum parata est."
   }
 }

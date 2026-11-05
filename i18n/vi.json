@@ -292,5 +292,17 @@
     "timingNote": "Thời gian chỉ là dự kiến. Ngày bàn giao được xác nhận sau khi thống nhất công việc và có quyền truy cập cần thiết.",
     "experienceDetails": "Xem kinh nghiệm qua con số",
     "testimonialsDetails": "Đọc ý kiến khách hàng"
+  },
+  "hero3d": {
+    "load": "Khám phá ở chế độ 3D",
+    "loading": "Đang chuẩn bị tác phẩm điêu khắc…",
+    "error": "Chế độ xem 3D hiện không khả dụng. Bạn vẫn có thể tiếp tục khám phá trang.",
+    "label": "Tác phẩm điêu khắc tương tác của IzignaMx",
+    "hint": "Kéo để xoay. Vuốt lên để đọc tiếp.",
+    "keyboard": "Dùng các phím mũi tên để xoay và phím Home để trở về góc nhìn ban đầu.",
+    "left": "Xoay sang trái",
+    "right": "Xoay sang phải",
+    "reset": "Trở về góc nhìn ban đầu",
+    "ready": "Tác phẩm đã sẵn sàng để xoay."
   }
 }

@@ -292,5 +292,17 @@
     "timingNote": "Les délais sont estimatifs. Nous confirmons la date une fois le travail convenu et les accès nécessaires reçus.",
     "experienceDetails": "Voir notre expérience en chiffres",
     "testimonialsDetails": "Lire les avis des clients"
+  },
+  "hero3d": {
+    "load": "Explorer en 3D",
+    "loading": "Préparation de la sculpture…",
+    "error": "La vue 3D est indisponible. Vous pouvez continuer à explorer la page.",
+    "label": "Sculpture interactive d’IzignaMx",
+    "hint": "Faites glisser pour tourner. Balayez vers le haut pour continuer à lire.",
+    "keyboard": "Utilisez les flèches pour tourner et la touche Début pour revenir à la vue initiale.",
+    "left": "Tourner à gauche",
+    "right": "Tourner à droite",
+    "reset": "Revenir à la vue initiale",
+    "ready": "La sculpture est prête à tourner."
   }
 }

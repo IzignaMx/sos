@@ -292,5 +292,17 @@
     "timingNote": "Uppskattade tider. Vi bekräftar datumet när arbetet är avtalat och vi har den åtkomst som behövs.",
     "experienceDetails": "Se erfarenhet i siffror",
     "testimonialsDetails": "Läs kundomdömen"
+  },
+  "hero3d": {
+    "load": "Utforska i 3D",
+    "loading": "Förbereder skulpturen…",
+    "error": "3D-vyn är inte tillgänglig. Du kan fortsätta utforska sidan.",
+    "label": "Interaktiv skulptur av IzignaMx",
+    "hint": "Dra för att rotera. Svep uppåt för att läsa vidare.",
+    "keyboard": "Använd piltangenterna för att rotera och Home-tangenten för att återgå till ursprungsvyn.",
+    "left": "Rotera åt vänster",
+    "right": "Rotera åt höger",
+    "reset": "Återgå till ursprungsvyn",
+    "ready": "Skulpturen är redo att roteras."
   }
 }
