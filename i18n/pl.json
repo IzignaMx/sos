@@ -292,5 +292,17 @@
     "timingNote": "Terminy są szacunkowe. Potwierdzamy datę po uzgodnieniu pracy i uzyskaniu potrzebnego dostępu.",
     "experienceDetails": "Zobacz doświadczenie w liczbach",
     "testimonialsDetails": "Przeczytaj opinie klientów"
+  },
+  "hero3d": {
+    "load": "Odkryj w 3D",
+    "loading": "Przygotowywanie rzeźby…",
+    "error": "Widok 3D jest niedostępny. Możesz dalej przeglądać stronę.",
+    "label": "Interaktywna rzeźba IzignaMx",
+    "hint": "Przeciągnij, aby obrócić. Przesuń w górę, aby czytać dalej.",
+    "keyboard": "Użyj klawiszy strzałek, aby obracać, i klawisza Home, aby wrócić do widoku początkowego.",
+    "left": "Obróć w lewo",
+    "right": "Obróć w prawo",
+    "reset": "Wróć do widoku początkowego",
+    "ready": "Rzeźba jest gotowa do obracania."
   }
 }

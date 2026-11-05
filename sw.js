@@ -1,5 +1,5 @@
 // Mantener esta versión sincronizada con data-release del HTML.
-const RELEASE = "20261104-contenido-1";
+const RELEASE = "20261105-hero-3d-1";
 const PRECACHE = "sos-precache-" + RELEASE;
 const RUNTIME = "sos-runtime-" + RELEASE;
 const versionedUrl = (path) => path + "?v=" + RELEASE;
@@ -14,6 +14,7 @@ const PRECACHE_URLS = [
   "/assets/fonts/Aileron-Bold.woff2",
   "/assets/img/izignamx-mark.svg",
   "/assets/js/editorial.js",
+  "/assets/js/hero3d.js",
   "/assets/js/laboratory.js",
   "/assets/img/flow-sculpture-640.webp",
   "/assets/img/flow-sculpture-1024.webp",

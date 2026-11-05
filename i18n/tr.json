@@ -292,5 +292,17 @@
     "timingNote": "Süreler tahminidir. İşi kararlaştırıp gerekli erişimleri aldıktan sonra tarihi netleştiririz.",
     "experienceDetails": "Deneyimimizi rakamlarla gör",
     "testimonialsDetails": "Müşteri görüşlerini oku"
+  },
+  "hero3d": {
+    "load": "3D olarak keşfet",
+    "loading": "Heykel hazırlanıyor…",
+    "error": "3D görünüm kullanılamıyor. Sayfayı keşfetmeye devam edebilirsiniz.",
+    "label": "IzignaMx’in etkileşimli heykeli",
+    "hint": "Döndürmek için sürükleyin. Okumaya devam etmek için yukarı kaydırın.",
+    "keyboard": "Döndürmek için ok tuşlarını, başlangıç görünümüne dönmek için Home tuşunu kullanın.",
+    "left": "Sola döndür",
+    "right": "Sağa döndür",
+    "reset": "Başlangıç görünümüne dön",
+    "ready": "Heykel döndürülmeye hazır."
   }
 }

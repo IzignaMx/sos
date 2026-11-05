@@ -39,6 +39,11 @@ jobs:
       - name: Validar estructura HTML
         run: npx html-validate index.html
 
+      - name: Comprobar que el visor publicado coincide con su fuente
+        run: |
+          npm run build:hero3d
+          git diff --exit-code -- assets/js/hero3d-renderer.js assets/js/hero3d-renderer.js.LEGAL.txt
+
       - name: Comprobar formato de HTML y documentación
         run: npx prettier "**/*.html" "**/*.md" --check
 

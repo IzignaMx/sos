@@ -35,6 +35,7 @@ jobs:
                     --exclude='.github' \
                     --exclude='_internal_docs' \
                     --exclude='docs/' \
+                    --exclude='src/' \
                     --exclude='tests/' \
                     --exclude='test-results/' \
                     --exclude='playwright-report/' \

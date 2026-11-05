@@ -292,5 +292,17 @@
     "timingNote": "Tempi indicativi. Confermiamo la data quando concordiamo il lavoro e abbiamo gli accessi necessari.",
     "experienceDetails": "Vedi l'esperienza in numeri",
     "testimonialsDetails": "Leggi le opinioni dei clienti"
+  },
+  "hero3d": {
+    "load": "Esplora in 3D",
+    "loading": "Preparazione della scultura…",
+    "error": "La vista 3D non è disponibile. Puoi continuare a esplorare la pagina.",
+    "label": "Scultura interattiva di IzignaMx",
+    "hint": "Trascina per ruotare. Scorri verso l’alto per continuare a leggere.",
+    "keyboard": "Usa le frecce per ruotare e il tasto Home per tornare alla vista iniziale.",
+    "left": "Ruota a sinistra",
+    "right": "Ruota a destra",
+    "reset": "Torna alla vista iniziale",
+    "ready": "La scultura è pronta per essere ruotata."
   }
 }
