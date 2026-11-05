@@ -10,7 +10,7 @@ const { chromium } = require("playwright");
 
 async function generar() {
   const raiz = path.resolve(__dirname, "../..");
-  const lado = Number(process.argv[2] || 128);
+  const lado = Number(process.argv[2] || 256);
   if (![128, 256].includes(lado))
     throw new Error("Usa un lado de 128 o 256 píxeles");
   const destino = path.resolve(
@@ -21,10 +21,10 @@ async function generar() {
     stdin: {
       contents: `
 import { WebGLRenderer, PMREMGenerator } from "three";
-import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+import { crearEstudio } from "./.github/scripts/hero-studio.js";
 window.hornear = (lado) => {
   const motor = new WebGLRenderer({ antialias: false });
-  const estudio = new RoomEnvironment();
+  const estudio = crearEstudio();
   const generador = new PMREMGenerator(motor);
   const entorno = generador.fromScene(estudio, 0.04, 0.1, 100, { size: lado });
   const datos = new Uint16Array(entorno.width * entorno.height * 4);

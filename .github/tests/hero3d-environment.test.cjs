@@ -4,7 +4,7 @@ const fs = require("node:fs/promises");
 const os = require("node:os");
 const path = require("node:path");
 const { pathToFileURL } = require("node:url");
-const { gzipSync } = require("node:zlib");
+const { gzipSync, gunzipSync } = require("node:zlib");
 const { build } = require("esbuild");
 
 let cargarEntorno;
@@ -39,6 +39,25 @@ function atlas() {
   datos.writeUInt16LE(0x4000, 18); // 2.0: conserva luz HDR por encima de uno.
   return datos;
 }
+
+test("el estudio publicado conserva reflejos HDR a resolución de cara 256", async () => {
+  const archivo = await fs.readFile(
+    path.resolve(__dirname, "../../assets/models/studio-environment.bin.gz"),
+  );
+  const datos = gunzipSync(archivo);
+  assert.equal(datos.subarray(0, 4).toString(), "SOS1");
+  assert.equal(datos.readUInt32LE(4), 768);
+  assert.equal(datos.readUInt32LE(8), 1024);
+  assert.equal(datos.length, 16 + 768 * 1024 * 8);
+  let hdr = false;
+  for (let posicion = 16; posicion < datos.length; posicion += 8) {
+    if (datos.readUInt16LE(posicion) > 0x3c00) {
+      hdr = true;
+      break;
+    }
+  }
+  assert.ok(hdr, "El estudio conserva valores de luz superiores a uno");
+});
 
 test("carga el atlas comprimido conservando valores HDR y la señal de cancelación", async (t) => {
   const cancelacion = new AbortController();

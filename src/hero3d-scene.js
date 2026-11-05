@@ -43,7 +43,7 @@ export async function crearEscena({
     throw error;
   }
   motor.setClearColor(0x000000, 0);
-  motor.setPixelRatio(Math.max(1, Math.min(pixelRatio, 1.5)));
+  const densidadMaxima = Math.max(1, Math.min(pixelRatio, 2));
   motor.toneMapping = ACESFilmicToneMapping;
   motor.toneMappingExposure = 1.2;
   const escena = new Scene();
@@ -127,6 +127,9 @@ export async function crearEscena({
     if (destruido) return;
     const w = Math.max(1, nuevoAncho);
     const h = Math.max(1, nuevoAlto);
+    // Nitidez hasta 2× sin multiplicar sin límite el coste de un marco grande.
+    const densidad = Math.min(densidadMaxima, Math.sqrt(1600000 / (w * h)));
+    if (motor.getPixelRatio() !== densidad) motor.setPixelRatio(densidad);
     motor.setSize(w, h, false);
     camara.aspect = w / h;
     camara.position.set(0, 0, 4.3 / Math.min(1, camara.aspect));
@@ -176,6 +179,21 @@ export async function crearEscena({
     );
     if (texturaFallida) throw new Error("No se pudieron cargar los materiales");
     signal?.throwIfAborted();
+    const anisotropia = Math.min(8, motor.capabilities.getMaxAnisotropy());
+    const texturas = new Set();
+    modelo.traverse((objeto) => {
+      const materiales = Array.isArray(objeto.material)
+        ? objeto.material
+        : [objeto.material];
+      materiales.filter(Boolean).forEach((material) => {
+        Object.values(material).forEach((valor) => {
+          if (valor?.isTexture) texturas.add(valor);
+        });
+      });
+    });
+    texturas.forEach((textura) => {
+      textura.anisotropy = anisotropia;
+    });
     const limites = new Box3().setFromObject(modelo);
     const dimensiones = limites.getSize(new Vector3());
     const centro = limites.getCenter(new Vector3());
