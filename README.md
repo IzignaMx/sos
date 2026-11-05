@@ -57,3 +57,9 @@ Este repositorio sigue de forma estricta:
 - [Validación, capturas y límites de entrega](docs/VALIDACION-VISUAL.md).
 - [Procedencia del recurso Higgsfield](docs/RECURSOS-VISUALES.md).
 - `npm test`: pruebas de interacción, idiomas, movimiento y PWA en Chromium y WebKit. Instala navegadores con `npx playwright install --with-deps chromium webkit`.
+
+## Publicación y caché
+
+Después de una publicación exitosa de GitHub Pages, el workflow `cloudflare-cache.yml` purga únicamente `sos.izignamx.com` y comprueba la versión de la portada. También admite ejecución manual. Configuración: secret `CLOUDFLARE_API_TOKEN` y variable `CLOUDFLARE_ZONE_ID`. Consulta [configuración, permisos y reejecución](docs/CLOUDFLARE-CACHE.md).
+
+Las pruebas de esta automatización se ejecutan con `node --test .github/tests/*.test.cjs`, sin credenciales ni solicitudes reales.

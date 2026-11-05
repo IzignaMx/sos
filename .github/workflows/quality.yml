@@ -42,6 +42,9 @@ jobs:
       - name: Comprobar formato de HTML y documentación
         run: npx prettier "**/*.html" "**/*.md" --check
 
+      - name: Verificar automatización de caché sin credenciales
+        run: node --test .github/tests/*.test.cjs
+
       - name: Instalar Chromium, WebKit y dependencias del sistema
         run: npx playwright install --with-deps chromium webkit
 
