@@ -294,7 +294,6 @@
     "testimonialsDetails": "Läs kundomdömen"
   },
   "hero3d": {
-    "load": "Utforska i 3D",
     "loading": "Förbereder skulpturen…",
     "error": "3D-vyn är inte tillgänglig. Du kan fortsätta utforska sidan.",
     "label": "Interaktiv skulptur av IzignaMx",

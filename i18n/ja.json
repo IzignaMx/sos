@@ -294,7 +294,6 @@
     "testimonialsDetails": "お客様の声を読む"
   },
   "hero3d": {
-    "load": "3Dで見る",
     "loading": "立体作品を準備しています…",
     "error": "3D表示を利用できません。ページは引き続きご覧いただけます。",
     "label": "IzignaMxの回転できる立体作品",

@@ -1,3 +1,6 @@
 # El bundle contiene shaders de Three.js cuyo formato conserva esbuild.
 assets/js/hero3d-renderer.js linguist-generated=true -whitespace
-assets/js/hero3d-renderer.js.LEGAL.txt linguist-generated=true
+assets/js/hero3d-worker.js linguist-generated=true -whitespace
+assets/js/hero3d-scene.js linguist-generated=true -whitespace
+assets/js/hero3d-worker.js.LEGAL.txt linguist-generated=true
+assets/js/hero3d-scene.js.LEGAL.txt linguist-generated=true

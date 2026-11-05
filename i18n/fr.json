@@ -294,7 +294,6 @@
     "testimonialsDetails": "Lire les avis des clients"
   },
   "hero3d": {
-    "load": "Explorer en 3D",
     "loading": "Préparation de la sculpture…",
     "error": "La vue 3D est indisponible. Vous pouvez continuer à explorer la page.",
     "label": "Sculpture interactive d’IzignaMx",

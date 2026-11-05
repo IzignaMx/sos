@@ -8,7 +8,7 @@
     "lint": "npx html-validate index.html && npx prettier \"**/*.html\" \"**/*.md\" --check",
     "format": "npx prettier --write \"**/*.{html,md,css,js}\"",
     "pa11y": "npx pa11y http://localhost:3000",
-    "build:hero3d": "esbuild src/hero3d-renderer.js --bundle --format=esm --target=es2020 --minify --legal-comments=linked --outfile=assets/js/hero3d-renderer.js"
+    "build:hero3d": "esbuild src/hero3d-renderer.js src/hero3d-worker.js src/hero3d-scene.js --bundle --format=esm --target=es2020 --minify --legal-comments=linked --outdir=assets/js"
   },
   "keywords": [
     "pwa",

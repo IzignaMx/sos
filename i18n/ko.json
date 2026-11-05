@@ -294,7 +294,6 @@
     "testimonialsDetails": "고객 후기 읽기"
   },
   "hero3d": {
-    "load": "3D로 살펴보기",
     "loading": "조형물을 준비하고 있습니다…",
     "error": "3D 보기를 사용할 수 없습니다. 페이지는 계속 둘러보실 수 있습니다.",
     "label": "직접 회전할 수 있는 IzignaMx 조형물",
