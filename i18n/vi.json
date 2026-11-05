@@ -79,7 +79,7 @@
           "Điều chỉnh các phần chính của cửa hàng.",
           "Thông báo và thông tin giúp khách yên tâm mua hàng rõ ràng hơn."
         ],
-        "price": "Từ 1 200 MXN",
+        "price": "Từ ≈64,49 USD",
         "duration": "Giao 24-48h",
         "cta": "Hỏi qua WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Cải thiện trang đầu và các biểu mẫu đã thống nhất.",
           "Màn hình quản lý cập nhật đơn giản."
         ],
-        "price": "Từ 1 500 MXN",
+        "price": "Từ ≈80,61 USD",
         "duration": "Giao 48-72h",
         "cta": "Hỏi qua WhatsApp"
       },
@@ -105,7 +105,7 @@
           "Bản thiết kế để hình dung trang sau khi thay đổi.",
           "Kế hoạch và tài liệu để thử các phương án khác nhau."
         ],
-        "price": "Từ 1 200 MXN",
+        "price": "Từ ≈64,49 USD",
         "duration": "Giao 48h",
         "cta": "Hỏi qua WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Thông báo rõ ràng khi đang tải hoặc có lỗi.",
           "Kiểm tra trên máy tính và điện thoại."
         ],
-        "price": "Từ 1 800 MXN",
+        "price": "Từ ≈96,73 USD",
         "duration": "Giao 48-72h",
         "cta": "Hỏi qua WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Kinh nghiệm",
     "sectionTitle": "Những thay đổi bạn có thể kiểm tra.",
-    "sectionDescription": "Tôi dùng hình ảnh so sánh và video giải thích để bạn biết đã đổi gì, cách sử dụng và những gì cần chăm sóc về sau.",
+    "sectionDescription": "Tôi dùng hình ảnh so sánh và lời giải thích rõ ràng để bạn biết đã đổi gì, cách sử dụng và những gì cần chăm sóc về sau.",
     "stats": [
       {
         "description": "Cửa hàng được cải thiện trong 12 tháng qua."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Bắt đầu từ điều bạn đang lo.",
-    "body": "Gửi đường dẫn cửa hàng và kể vấn đề. Tôi gửi một video tư vấn ban đầu miễn phí để bạn biết nên bắt đầu từ đâu.",
+    "body": "Gửi đường dẫn cửa hàng và kể vấn đề. Tôi tư vấn ban đầu miễn phí để bạn biết nên bắt đầu từ đâu.",
     "primary": "Trao đổi qua WhatsApp",
     "secondary": "Tôi muốn gửi email"
   },
@@ -299,5 +299,9 @@
     "label": "Tác phẩm điêu khắc tương tác của IzignaMx",
     "keyboard": "Dùng các phím mũi tên để xoay và phím Home để trở về góc nhìn ban đầu.",
     "ready": "Tác phẩm đã sẵn sàng để xoay."
+  },
+  "pricing": {
+    "from": "Từ ≈{{amount}}",
+    "note": "Giá bằng USD là giá ước tính. Tôi xác nhận giá cuối cùng trước khi bắt đầu."
   }
 }

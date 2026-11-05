@@ -79,7 +79,7 @@
           "Anpassungen in den wichtigsten Bereichen deines Shops.",
           "Klarere Hinweise und Informationen, die Vertrauen schaffen."
         ],
-        "price": "Ab 1.200 $ MXN",
+        "price": "Ab ≈64,49 USD",
         "duration": "Lieferung 24-48h",
         "cta": "Auf WhatsApp anfragen"
       },
@@ -92,7 +92,7 @@
           "Verbesserungen an der Startseite und den vereinbarten Formularen.",
           "Eine einfache Übersicht zum Verwalten von Aktualisierungen."
         ],
-        "price": "Ab 1.500 $ MXN",
+        "price": "Ab ≈80,61 USD",
         "duration": "Lieferung 48-72h",
         "cta": "Auf WhatsApp anfragen"
       },
@@ -105,7 +105,7 @@
           "Ein Entwurf, der zeigt, wie die Seite aussehen könnte.",
           "Ein Plan und Materialien, um verschiedene Möglichkeiten zu testen."
         ],
-        "price": "Ab 1.200 $ MXN",
+        "price": "Ab ≈64,49 USD",
         "duration": "Lieferung 48h",
         "cta": "Auf WhatsApp anfragen"
       },
@@ -118,7 +118,7 @@
           "Klare Meldungen beim Laden oder bei einem Fehler.",
           "Eine Prüfung am Computer und am Handy."
         ],
-        "price": "Ab 1.800 $ MXN",
+        "price": "Ab ≈96,73 USD",
         "duration": "Lieferung 48-72h",
         "cta": "Auf WhatsApp anfragen"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Erfahrung",
     "sectionTitle": "Änderungen, die du überprüfen kannst.",
-    "sectionDescription": "Ich zeige dir, was sich geändert hat, wie es funktioniert und worauf du danach achten solltest – mit Vergleichen und einer Videoerklärung.",
+    "sectionDescription": "Ich zeige dir, was sich geändert hat, wie es funktioniert und worauf du danach achten solltest – mit Vergleichen und einer klaren Erklärung.",
     "stats": [
       {
         "description": "Verbesserte Shops in den letzten 12 Monaten."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Fangen wir mit dem an, was dich beschäftigt.",
-    "body": "Schick mir den Link zu deinem Shop und erzähle, was los ist. In einem kostenlosen Video gebe ich dir eine erste Orientierung, damit du weißt, wo du anfangen kannst.",
+    "body": "Schick mir den Link zu deinem Shop und erzähle, was los ist. Ich gebe dir eine kostenlose erste Orientierung, damit du weißt, wo du anfangen kannst.",
     "primary": "Auf WhatsApp sprechen",
     "secondary": "Lieber eine E-Mail schreiben"
   },
@@ -299,5 +299,9 @@
     "label": "Interaktive Skulptur von IzignaMx",
     "keyboard": "Mit den Pfeiltasten drehen und mit der Pos1-Taste zur Ausgangsansicht zurückkehren.",
     "ready": "Die Skulptur lässt sich jetzt drehen."
+  },
+  "pricing": {
+    "from": "Ab ≈{{amount}}",
+    "note": "Ungefähre Preise in USD. Den endgültigen Preis bestätige ich vor Arbeitsbeginn."
   }
 }

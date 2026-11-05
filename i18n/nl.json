@@ -79,7 +79,7 @@
           "Aanpassingen aan de belangrijkste onderdelen van je winkel.",
           "Duidelijkere meldingen en informatie die vertrouwen geeft."
         ],
-        "price": "Vanaf $1.200 MXN",
+        "price": "Vanaf ≈USD 64,49",
         "duration": "Oplevering 24-48u",
         "cta": "Vragen via WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Verbeteringen aan de startpagina en de afgesproken formulieren.",
           "Een eenvoudig overzicht om updates te beheren."
         ],
-        "price": "Vanaf $1.500 MXN",
+        "price": "Vanaf ≈USD 80,61",
         "duration": "Oplevering 48-72u",
         "cta": "Vragen via WhatsApp"
       },
@@ -105,7 +105,7 @@
           "Een voorbeeldontwerp dat laat zien hoe de pagina eruit kan zien.",
           "Een plan en materiaal om verschillende opties te proberen."
         ],
-        "price": "Vanaf $1.200 MXN",
+        "price": "Vanaf ≈USD 64,49",
         "duration": "Oplevering 48u",
         "cta": "Vragen via WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Duidelijke meldingen tijdens het laden of als er een fout optreedt.",
           "Een controle op computer en telefoon."
         ],
-        "price": "Vanaf $1.800 MXN",
+        "price": "Vanaf ≈USD 96,73",
         "duration": "Oplevering 48-72u",
         "cta": "Vragen via WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Ervaring",
     "sectionTitle": "Veranderingen die je zelf kunt controleren.",
-    "sectionDescription": "Ik laat je zien wat er is veranderd, hoe het werkt en waar je daarna op moet letten, met vergelijkingen en uitleg in een video.",
+    "sectionDescription": "Ik laat je zien wat er is veranderd, hoe het werkt en waar je daarna op moet letten, met vergelijkingen en een duidelijke uitleg.",
     "stats": [
       {
         "description": "Winkels verbeterd in de afgelopen 12 maanden."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Laten we beginnen met wat je bezighoudt.",
-    "body": "Stuur me de link naar je winkel en vertel wat er speelt. In een gratis video geef ik je een eerste advies om te bepalen waar je kunt beginnen.",
+    "body": "Stuur me de link naar je winkel en vertel wat er speelt. Ik geef je gratis een eerste advies om te bepalen waar je kunt beginnen.",
     "primary": "Praten via WhatsApp",
     "secondary": "Ik stuur liever een e-mail"
   },
@@ -299,5 +299,9 @@
     "label": "Interactieve sculptuur van IzignaMx",
     "keyboard": "Gebruik de pijltjestoetsen om te draaien en de Home-toets om terug te keren naar de beginweergave.",
     "ready": "De sculptuur is klaar om te draaien."
+  },
+  "pricing": {
+    "from": "Vanaf ≈{{amount}}",
+    "note": "Geschatte prijzen in USD. Ik bevestig de definitieve prijs voordat het werk begint."
   }
 }

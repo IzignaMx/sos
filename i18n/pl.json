@@ -79,7 +79,7 @@
           "Poprawki w najważniejszych częściach sklepu.",
           "Czytelniejsze komunikaty i informacje budujące zaufanie."
         ],
-        "price": "Od 1 200 MXN",
+        "price": "Od ≈64,49 USD",
         "duration": "Dostawa 24-48 h",
         "cta": "Zapytaj przez WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Ulepszenia strony głównej i uzgodnionych formularzy.",
           "Prosty panel do zarządzania aktualizacjami."
         ],
-        "price": "Od 1 500 MXN",
+        "price": "Od ≈80,61 USD",
         "duration": "Dostawa 48-72 h",
         "cta": "Zapytaj przez WhatsApp"
       },
@@ -105,7 +105,7 @@
           "Propozycja wyglądu pokazująca możliwy efekt.",
           "Plan i materiały do wypróbowania różnych opcji."
         ],
-        "price": "Od 1 200 MXN",
+        "price": "Od ≈64,49 USD",
         "duration": "Dostawa 48 h",
         "cta": "Zapytaj przez WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Jasne komunikaty podczas ładowania i w razie błędu.",
           "Sprawdzenie na komputerze i telefonie."
         ],
-        "price": "Od 1 800 MXN",
+        "price": "Od ≈96,73 USD",
         "duration": "Dostawa 48-72 h",
         "cta": "Zapytaj przez WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Doświadczenie",
     "sectionTitle": "Zmiany, które możesz sprawdzić.",
-    "sectionDescription": "Pokazuję, co się zmieniło, jak działa i o co warto zadbać później, za pomocą porównań i wyjaśnienia w filmie.",
+    "sectionDescription": "Pokazuję, co się zmieniło, jak działa i o co warto zadbać później, za pomocą porównań i jasnego wyjaśnienia.",
     "stats": [
       {
         "description": "Sklepy ulepszone w ostatnich 12 miesiącach."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Zacznijmy od tego, co Cię martwi.",
-    "body": "Wyślij link do sklepu i opisz problem. Otrzymasz pierwszą bezpłatną wskazówkę w formie filmu, żeby wiedzieć, od czego zacząć.",
+    "body": "Wyślij link do sklepu i opisz problem. Otrzymasz pierwszą bezpłatną wskazówkę, żeby wiedzieć, od czego zacząć.",
     "primary": "Porozmawiaj przez WhatsApp",
     "secondary": "Wolę napisać e-mail"
   },
@@ -299,5 +299,9 @@
     "label": "Interaktywna rzeźba IzignaMx",
     "keyboard": "Użyj klawiszy strzałek, aby obracać, i klawisza Home, aby wrócić do widoku początkowego.",
     "ready": "Rzeźba jest gotowa do obracania."
+  },
+  "pricing": {
+    "from": "Od ≈{{amount}}",
+    "note": "Orientacyjne ceny w USD. Ostateczną cenę potwierdzam przed rozpoczęciem pracy."
   }
 }

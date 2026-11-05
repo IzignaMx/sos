@@ -79,7 +79,7 @@
           "Mağazanızın ana bölümlerinde düzenlemeler.",
           "Daha anlaşılır bildirimler ve güven veren öğeler."
         ],
-        "price": "1.200 MXN'den itibaren",
+        "price": "Başlangıç fiyatı: ≈USD 64,49",
         "duration": "Teslim 24-48h",
         "cta": "WhatsApp'tan danışın"
       },
@@ -92,7 +92,7 @@
           "Ana sayfada ve anlaştığımız formlarda iyileştirmeler.",
           "Güncellemeleri yönetmek için basit bir panel."
         ],
-        "price": "1.500 MXN'den itibaren",
+        "price": "Başlangıç fiyatı: ≈USD 80,61",
         "duration": "Teslim 48-72h",
         "cta": "WhatsApp'tan danışın"
       },
@@ -105,7 +105,7 @@
           "Sayfanın nasıl görünebileceğini anlatan görsel bir taslak.",
           "Farklı seçenekleri denemek için plan ve materyaller."
         ],
-        "price": "1.200 MXN'den itibaren",
+        "price": "Başlangıç fiyatı: ≈USD 64,49",
         "duration": "Teslim 48h",
         "cta": "WhatsApp'tan danışın"
       },
@@ -118,7 +118,7 @@
           "Yükleme sırasında veya hata olduğunda anlaşılır mesajlar.",
           "Bilgisayar ve telefonda kontrol."
         ],
-        "price": "1.800 MXN'den itibaren",
+        "price": "Başlangıç fiyatı: ≈USD 96,73",
         "duration": "Teslim 48-72h",
         "cta": "WhatsApp'tan danışın"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Deneyimimiz",
     "sectionTitle": "Kontrol edebileceğiniz değişiklikler.",
-    "sectionDescription": "Karşılaştırmalar ve videolu anlatımla neyin değiştiğini, nasıl çalıştığını ve sonrasında nelere dikkat etmeniz gerektiğini gösteririm.",
+    "sectionDescription": "Karşılaştırmalar ve açık bir anlatımla neyin değiştiğini, nasıl çalıştığını ve sonrasında nelere dikkat etmeniz gerektiğini gösteririm.",
     "stats": [
       {
         "description": "Son 12 ayda iyileştirilen mağazalar."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Sizi endişelendiren konudan başlayalım.",
-    "body": "Mağazanızın bağlantısını gönderin ve neler olduğunu anlatın. Nereden başlayacağınızı anlamanız için ücretsiz bir ilk değerlendirme videosu sunarım.",
+    "body": "Mağazanızın bağlantısını gönderin ve neler olduğunu anlatın. Nereden başlayacağınızı anlamanız için ücretsiz bir ilk değerlendirme sunarım.",
     "primary": "WhatsApp'ta konuş",
     "secondary": "E-posta yazmayı tercih ederim"
   },
@@ -299,5 +299,9 @@
     "label": "IzignaMx’in etkileşimli heykeli",
     "keyboard": "Döndürmek için ok tuşlarını, başlangıç görünümüne dönmek için Home tuşunu kullanın.",
     "ready": "Heykel döndürülmeye hazır."
+  },
+  "pricing": {
+    "from": "Başlangıç fiyatı: ≈{{amount}}",
+    "note": "USD cinsinden yaklaşık fiyatlar. İşe başlamadan önce nihai fiyatı onaylarım."
   }
 }

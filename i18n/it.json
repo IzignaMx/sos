@@ -79,7 +79,7 @@
           "Interventi sulle sezioni principali del negozio.",
           "Avvisi ed elementi di fiducia più chiari."
         ],
-        "price": "Da $1.200 MXN",
+        "price": "Da ≈64,49 USD",
         "duration": "Consegna 24-48h",
         "cta": "Chiedi su WhatsApp"
       },
@@ -92,7 +92,7 @@
           "Migliorie alla pagina iniziale e ai moduli concordati.",
           "Un pannello semplice per gestire gli aggiornamenti."
         ],
-        "price": "Da $1.500 MXN",
+        "price": "Da ≈80,61 USD",
         "duration": "Consegna 48-72h",
         "cta": "Chiedi su WhatsApp"
       },
@@ -105,7 +105,7 @@
           "Una proposta visiva per capire come potrebbe diventare.",
           "Un piano e materiali per provare diverse opzioni."
         ],
-        "price": "Da $1.200 MXN",
+        "price": "Da ≈64,49 USD",
         "duration": "Consegna 48h",
         "cta": "Chiedi su WhatsApp"
       },
@@ -118,7 +118,7 @@
           "Messaggi chiari durante il caricamento o in caso di errore.",
           "Verifica su computer e cellulare."
         ],
-        "price": "Da $1.800 MXN",
+        "price": "Da ≈96,73 USD",
         "duration": "Consegna 48-72h",
         "cta": "Chiedi su WhatsApp"
       }
@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Esperienza",
     "sectionTitle": "Cambiamenti che puoi verificare.",
-    "sectionDescription": "Ti mostro cosa è cambiato, come funziona e cosa curare in seguito, con confronti e una spiegazione in video.",
+    "sectionDescription": "Ti mostro cosa è cambiato, come funziona e cosa curare in seguito, con confronti e una spiegazione chiara.",
     "stats": [
       {
         "description": "Negozi migliorati negli ultimi 12 mesi."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Partiamo da ciò che ti preoccupa.",
-    "body": "Mandami il link del negozio e raccontami cosa succede. Ti offro un primo orientamento gratuito in video per capire da dove iniziare.",
+    "body": "Mandami il link del negozio e raccontami cosa succede. Ti offro un primo orientamento gratuito per capire da dove iniziare.",
     "primary": "Parliamo su WhatsApp",
     "secondary": "Preferisco scrivere un'e-mail"
   },
@@ -299,5 +299,9 @@
     "label": "Scultura interattiva di IzignaMx",
     "keyboard": "Usa le frecce per ruotare e il tasto Home per tornare alla vista iniziale.",
     "ready": "La scultura è pronta per essere ruotata."
+  },
+  "pricing": {
+    "from": "Da ≈{{amount}}",
+    "note": "Prezzi indicativi in USD. Confermo il prezzo finale prima di iniziare."
   }
 }

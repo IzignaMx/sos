@@ -127,7 +127,7 @@
   "impact": {
     "sectionLabel": "Experiencia",
     "sectionTitle": "Cambios que puedes comprobar.",
-    "sectionDescription": "Te muestro qué cambió, cómo funciona y qué conviene cuidar después, con comparaciones y una explicación en video.",
+    "sectionDescription": "Te muestro qué cambió, cómo funciona y qué conviene cuidar después, con comparaciones y una explicación clara.",
     "stats": [
       {
         "description": "Tiendas mejoradas en los últimos 12 meses."
@@ -217,7 +217,7 @@
   },
   "ctaFinal": {
     "title": "Empecemos por lo que te preocupa.",
-    "body": "Mándame el enlace de tu tienda y cuéntame qué pasa. Te doy una primera orientación gratuita en video para saber por dónde empezar.",
+    "body": "Mándame el enlace de tu tienda y cuéntame qué pasa. Te doy una primera orientación gratuita para saber por dónde empezar.",
     "primary": "Hablar por WhatsApp",
     "secondary": "Prefiero escribir por correo"
   },
@@ -299,5 +299,9 @@
     "label": "Escultura interactiva de IzignaMx",
     "keyboard": "Usa las flechas para girar y la tecla Inicio para volver al inicio.",
     "ready": "Escultura lista para girar."
+  },
+  "pricing": {
+    "from": "Desde {{amount}}",
+    "note": "Precios aproximados en USD. Confirmo el precio final antes de empezar."
   }
 }

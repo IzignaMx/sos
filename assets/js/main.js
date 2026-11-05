@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const translationCache = {};
   const inlineCache = {};
   let currentLanguage = "es";
+  let languageRequest = 0;
   let menuOpen = false;
 
   const updateToastEl = document.querySelector("[data-update-toast]");
@@ -181,7 +182,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
     });
-    document.dispatchEvent(new CustomEvent("sos:languagechange"));
+    document.dispatchEvent(
+      new CustomEvent("sos:languagechange", {
+        detail: { language: document.documentElement.lang, catalog },
+      }),
+    );
   };
 
   const readInlineCatalog = (lang, url) => {
@@ -220,6 +225,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!supportedLangs.includes(lang)) {
       lang = "es";
     }
+    // Una respuesta lenta no debe deshacer la última elección de idioma.
+    const request = ++languageRequest;
     if (translationCache[lang]) {
       applyTranslations(translationCache[lang]);
       return Promise.resolve(translationCache[lang]);
@@ -234,10 +241,11 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .then((data) => {
         translationCache[lang] = data;
-        applyTranslations(data);
+        if (request === languageRequest) applyTranslations(data);
         return data;
       })
       .catch((error) => {
+        if (request !== languageRequest) return;
         console.warn("Fallo al cargar idioma", lang, error);
         const fallbackData = readInlineCatalog(lang, catalogUrl);
         if (fallbackData) {

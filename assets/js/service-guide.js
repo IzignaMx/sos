@@ -75,6 +75,8 @@
   });
   // La traducción del catálogo se completa antes de anunciar este evento.
   document.addEventListener("sos:languagechange", actualizar);
+  // La cotización puede llegar después de traducir las tarjetas.
+  document.addEventListener("sos:priceschange", actualizar);
 
   actualizar();
   guia.hidden = false;
